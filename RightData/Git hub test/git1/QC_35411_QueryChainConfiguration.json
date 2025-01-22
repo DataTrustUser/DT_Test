@@ -29,7 +29,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "vinay 1/22/2025 6:51:21 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"vinay 1/22/2025 6:51:21 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped.2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.SUPPLIER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 249.698px; top: 132.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 454.667px; top: 127.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,3-[2,2]\",\"dsstep\":\"2\",\"activestatus\":null},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 684.667px; top: 29.6354px;\",\"mapping\":\"88,5-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 742.667px; top: 181.635px;\",\"mapping\":\"20,6-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"vinay 1/22/2025 6:51:21 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped.2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.SUPPLIER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 249.698px; top: 132.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 454.667px; top: 127.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,3-[2,2]\",\"dsstep\":\"2\",\"activestatus\":null},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 684.667px; top: 29.6354px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[79,3]\",\"dsstep\":null,\"activestatus\":null}]",
         "TypeofQuery": "QueryChain",
         "UserName": "vinay",
         "FId": 3145,
@@ -38,10 +38,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 21640,
+        "Id": 21643,
         "Query_Id": 35411,
         "Profile_Id": 1158,
-        "DCStep_Id": 283939,
+        "DCStep_Id": 283954,
         "BlendStepId": null,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -50,7 +50,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-01-22T06:59:36.813",
+        "CreatedOn": "2025-01-22T07:02:45.963",
         "CreatedBy": 111,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -90,8 +90,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 169292,
-        "QueryDataSourceId": 21640,
+        "Id": 169519,
+        "QueryDataSourceId": 21643,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -109,8 +109,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 169293,
-        "QueryDataSourceId": 21640,
+        "Id": 169520,
+        "QueryDataSourceId": 21643,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -128,8 +128,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 169294,
-        "QueryDataSourceId": 21640,
+        "Id": 169521,
+        "QueryDataSourceId": 21643,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -147,8 +147,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 169295,
-        "QueryDataSourceId": 21640,
+        "Id": 169522,
+        "QueryDataSourceId": 21643,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -166,8 +166,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 169296,
-        "QueryDataSourceId": 21640,
+        "Id": 169523,
+        "QueryDataSourceId": 21643,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -185,8 +185,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 169297,
-        "QueryDataSourceId": 21640,
+        "Id": 169524,
+        "QueryDataSourceId": 21643,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -204,8 +204,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 169298,
-        "QueryDataSourceId": 21640,
+        "Id": 169525,
+        "QueryDataSourceId": 21643,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -226,7 +226,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 283938,
+        "Id": 283953,
         "ScenarioId": null,
         "QueryId": 35411,
         "Job_Id": null,
@@ -235,7 +235,7 @@
         "TransformationId": 0,
         "Description": "git test",
         "Position": null,
-        "CreatedOn": "2025-01-22T06:59:36.813",
+        "CreatedOn": "2025-01-22T07:02:46.04",
         "CreatedBy": 111,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -261,7 +261,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 283939,
+        "Id": 283954,
         "ScenarioId": null,
         "QueryId": 35411,
         "Job_Id": null,
@@ -270,7 +270,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.SUPPLIER\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 249.698px; top: 132.635px;",
-        "CreatedOn": "2025-01-22T06:59:36.813",
+        "CreatedOn": "2025-01-22T07:02:46.103",
         "CreatedBy": 111,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -296,7 +296,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 283940,
+        "Id": 283955,
         "ScenarioId": null,
         "QueryId": 35411,
         "Job_Id": null,
@@ -305,7 +305,7 @@
         "TransformationId": 79,
         "Description": "vinay#@1/22/2025 6:52:52 AM",
         "Position": null,
-        "CreatedOn": "2025-01-22T06:59:36.813",
+        "CreatedOn": "2025-01-22T07:02:46.167",
         "CreatedBy": 111,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -331,7 +331,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 283941,
+        "Id": 283956,
         "ScenarioId": null,
         "QueryId": 35411,
         "Job_Id": null,
@@ -340,42 +340,7 @@
         "TransformationId": 88,
         "Description": "Offload the File",
         "Position": "position: absolute; left: 672.667px; top: 93.6354px;",
-        "CreatedOn": "2025-01-22T06:59:36.813",
-        "CreatedBy": 111,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
-        "Status": true,
-        "ErrorCodes": null,
-        "SourceOrTarget": null,
-        "DataSourcePK_Id": null,
-        "Warning": false,
-        "JobletId": null,
-        "Decision": null,
-        "MaxPacketSize": null,
-        "MaxParallelism": null,
-        "IsLastStep": null,
-        "PreviousMetaStructure": null,
-        "LATEST_OUTPUT_VIEW_NAME": null,
-        "Overwritesnapshot": false,
-        "JsonValue": null,
-        "AppendToExistingData": null,
-        "IsActive": null,
-        "Comments": null,
-        "RunTimeJSON": null,
-        "IsMLRecommended": null,
-        "QueryTimeOut": null
-      },
-      {
-        "Id": 283942,
-        "ScenarioId": null,
-        "QueryId": 35411,
-        "Job_Id": null,
-        "Step": 6,
-        "StepMapping": "20,6-[79,3]",
-        "TransformationId": 20,
-        "Description": "Email",
-        "Position": "position: absolute; left: 742.667px; top: 181.635px;",
-        "CreatedOn": "2025-01-22T06:59:36.813",
+        "CreatedOn": "2025-01-22T07:02:46.29",
         "CreatedBy": 111,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -415,7 +380,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 184263,
+        "Id": 184269,
         "ScenarioId": null,
         "QueryId": 35411,
         "StepId": 2,
@@ -425,7 +390,7 @@
         "JobId": null
       },
       {
-        "Id": 184264,
+        "Id": 184270,
         "ScenarioId": null,
         "QueryId": 35411,
         "StepId": 6,
@@ -435,29 +400,7 @@
         "JobId": null
       }
     ],
-    "EmailAlerts": [
-      {
-        "Query_Id": 35411,
-        "Job_Id": null,
-        "FailRDjobWhenRecon_F": null,
-        "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
-        "ExportType": "",
-        "RaiseDefect": null,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
-        "Status": null,
-        "DependantStepId": 0,
-        "Scenario_Header_Id": null,
-        "WhenFaild": false,
-        "EmailWhen_F": "",
-        "WhenSuccess": true,
-        "EmailWhen_S": "ax7q7y4kr@example.com",
-        "CreatedBy": 111,
-        "CreatedOn": "2025-01-22T06:59:36.813",
-        "EmailTemplateId": null
-      }
-    ],
+    "EmailAlerts": [],
     "DataProfilings": [],
     "CSV": [],
     "ProfileDataTypes": [],
@@ -469,18 +412,18 @@
     "PivotFieldType": [],
     "FileOffload": [
       {
-        "Id": 2040,
+        "Id": 2043,
         "Type": null,
         "IsFileCreated": null,
         "FileName": "QC_35410_git test",
         "FilePath": null,
         "FileSize": null,
         "FileCreatedOn": "2025-01-22T06:54:05.607",
-        "FolderId": 0,
+        "FolderId": 1,
         "ScenarioId": null,
         "JobId": null,
         "QueryId": 35411,
-        "SessionId": null,
+        "SessionId": 1,
         "Row_Count": null,
         "Delimiter": ",",
         "TextQualifier": "\"",
