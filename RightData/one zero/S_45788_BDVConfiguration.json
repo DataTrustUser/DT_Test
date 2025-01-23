@@ -70,7 +70,7 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 51180,
+        "Id": 51181,
         "Scenario_Header_Id": 45788,
         "Profile_Id": 1579,
         "Query_Id": null,
@@ -172,10 +172,10 @@
         ],
         "SourceName_Id": 125,
         "ProfileName": "SNOWFLAKE_J",
-        "CreatedOnSC": null,
-        "CreatedBySC": null,
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "CreatedOnSC": "2025-01-23T09:53:40.93",
+        "CreatedBySC": 612,
+        "ModifiedOnSC": "2025-01-23T09:53:40.93",
+        "ModifiedBySC": 612
       }
     ],
     "QFTypes": null,
@@ -216,30 +216,7 @@
     "CSVFDR": [],
     "DCDependency": [],
     "ThirdPartyAPIParams": [],
-    "EmailAlerts": [
-      {
-        "Id": 17118,
-        "Scenario_Header_Id": 45788,
-        "Query_Id": null,
-        "Job_Id": null,
-        "WhenFaild": true,
-        "EmailWhen_F": "raju.kaki@getrightdata.com",
-        "WhenSuccess": null,
-        "EmailWhen_S": "",
-        "FailRDjobWhenRecon_F": null,
-        "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
-        "ExportType": null,
-        "RaiseDefect": null,
-        "CreatedOn": "2025-01-23T09:53:16.573",
-        "CreatedBy": 260,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
-        "Status": null,
-        "DependantStepId": null,
-        "EmailTemplateId": null
-      }
-    ],
+    "EmailAlerts": [],
     "FileOffload": [],
     "Pivotdetals": [],
     "UnPivotdetals": [],
