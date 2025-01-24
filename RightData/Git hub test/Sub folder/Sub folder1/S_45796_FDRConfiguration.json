@@ -12,7 +12,7 @@
         "DataQualityDimensionId": null,
         "Description": "FDR-Transforms and Additional Options",
         "Hierarchy_Row": null,
-        "ExtraColumn": null,
+        "ExtraColumn": "{\"processorId\":\"26\"}",
         "IgnoreKeyDuplicates": true,
         "IsAdhoc": null,
         "IsDeleted": null,
@@ -66,7 +66,7 @@
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
         "UserName": "vinay",
-        "DataBricksProcessor": ""
+        "DataBricksProcessor": "databricks_processor"
       }
     ],
     "ScenarioDataSource": [
