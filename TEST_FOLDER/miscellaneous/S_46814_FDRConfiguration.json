@@ -23,14 +23,14 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 1/26/2025 9:44:00 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 283.8px; top: 154.638px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 239.8px; top: 366.638px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped_3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"N_NATIONKEY > 3 \",\"position\":\"position: absolute; left: 476.8px; top: 158.638px;\",\"mapping\":\"66,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_4\",\"UniqueId\":\"15\",\"stepId\":\"4\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 648.8px; top: 272.638px;\",\"mapping\":\"15,4-[66,3-2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 1/26/2025 9:44:00 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 283.8px; top: 154.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 239.8px; top: 366.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsExistingQuery_3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"N_NATIONKEY > 4 \",\"position\":\"position: absolute; left: 476.8px; top: 158.638px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,3-[2,1]\",\"dsstep\":\"1\",\"activestatus\":null,\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_4\",\"UniqueId\":\"15\",\"stepId\":\"4\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 648.8px; top: 272.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"15,4-[66,3-2,2]\",\"dsstep\":null,\"activestatus\":null}]",
         "LevelOne_Id": null,
         "LevelTwo_Id": null,
         "LevelThree_Id": null,
         "Priority": null,
         "ModifiedBy": 108,
         "MigratedOn": null,
-        "ModifiedOn": "2025-01-26T10:01:20.34",
+        "ModifiedOn": "2025-01-26T11:16:42.613",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -71,11 +71,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 52225,
+        "Id": 52231,
         "Scenario_Header_Id": 46814,
         "Profile_Id": 1061,
         "Query_Id": null,
-        "DCStep_Id": 285305,
+        "DCStep_Id": 285320,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.NATION",
@@ -83,7 +83,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -173,17 +173,17 @@
         ],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_NJ",
-        "CreatedOnSC": "2025-01-26T09:44:57.74",
-        "CreatedBySC": 108,
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       },
       {
-        "Id": 52226,
+        "Id": 52232,
         "Scenario_Header_Id": 46814,
         "Profile_Id": 1061,
         "Query_Id": null,
-        "DCStep_Id": 285306,
+        "DCStep_Id": 285321,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.NATION",
@@ -191,7 +191,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -281,8 +281,8 @@
         ],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_NJ",
-        "CreatedOnSC": "2025-01-26T09:45:22.84",
-        "CreatedBySC": 108,
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       }
@@ -292,7 +292,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 285304,
+        "Id": 285319,
         "ScenarioId": 46814,
         "QueryId": null,
         "Job_Id": null,
@@ -301,7 +301,7 @@
         "TransformationId": 0,
         "Description": "RDAdmin 1/26/2025 9:44:00 AM",
         "Position": null,
-        "CreatedOn": "2025-01-26T09:44:27.763",
+        "CreatedOn": "2025-01-26T10:30:07.207",
         "CreatedBy": 108,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -329,7 +329,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285305,
+        "Id": 285320,
         "ScenarioId": 46814,
         "QueryId": null,
         "Job_Id": null,
@@ -338,7 +338,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.NATION\" for data source \"MSSQL_NJ\"",
         "Position": "position: absolute; left: 283.8px; top: 154.638px;",
-        "CreatedOn": "2025-01-26T09:44:57.663",
+        "CreatedOn": "2025-01-26T10:30:07.283",
         "CreatedBy": 108,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -366,7 +366,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285306,
+        "Id": 285321,
         "ScenarioId": 46814,
         "QueryId": null,
         "Job_Id": null,
@@ -375,7 +375,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.NATION\" for data source \"MSSQL_NJ\"",
         "Position": "position: absolute; left: 239.8px; top: 366.638px;",
-        "CreatedOn": "2025-01-26T09:45:22.793",
+        "CreatedOn": "2025-01-26T10:30:07.363",
         "CreatedBy": 108,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -403,18 +403,18 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285307,
+        "Id": 285322,
         "ScenarioId": 46814,
         "QueryId": null,
         "Job_Id": null,
         "Step": 3,
         "StepMapping": "66,3-[2,1]",
         "TransformationId": 66,
-        "Description": "N_NATIONKEY > 2 ",
-        "Position": "position: absolute; left: 476.8px; top: 158.638px;",
-        "CreatedOn": "2025-01-26T09:45:30.093",
+        "Description": "N_NATIONKEY > 3 ",
+        "Position": "position: absolute; left: 476.8px; top: 158.638px; ",
+        "CreatedOn": "2025-01-26T10:30:07.44",
         "CreatedBy": 108,
-        "ModifiedOn": "2025-01-26T10:01:19.557",
+        "ModifiedOn": "2025-01-26T11:16:41.783",
         "ModifiedBy": 108,
         "Status": true,
         "ErrorCodes": null,
@@ -440,7 +440,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285308,
+        "Id": 285323,
         "ScenarioId": 46814,
         "QueryId": null,
         "Job_Id": null,
@@ -449,10 +449,10 @@
         "TransformationId": 15,
         "Description": "Map source & target fields",
         "Position": "position: absolute; left: 648.8px; top: 272.638px;",
-        "CreatedOn": "2025-01-26T09:46:00.433",
+        "CreatedOn": "2025-01-26T10:30:07.487",
         "CreatedBy": 108,
-        "ModifiedOn": "2025-01-26T09:46:28.473",
-        "ModifiedBy": 108,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -495,7 +495,7 @@
     "DCStepsQC": [],
     "MapNRecon": [
       {
-        "Id": 273130,
+        "Id": 273142,
         "Scenario_Header_Id": 46814,
         "SourceColumnName": "N_NATIONKEY",
         "SourceAliasColumnName": null,
@@ -513,7 +513,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-26T09:46:28.177",
+        "CreatedOn": "2025-01-26T10:30:07.503",
         "CreatedBy": 108,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -523,7 +523,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273131,
+        "Id": 273143,
         "Scenario_Header_Id": 46814,
         "SourceColumnName": "N_NAME",
         "SourceAliasColumnName": null,
@@ -541,7 +541,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-26T09:46:28.177",
+        "CreatedOn": "2025-01-26T10:30:07.503",
         "CreatedBy": 108,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -551,7 +551,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273132,
+        "Id": 273144,
         "Scenario_Header_Id": 46814,
         "SourceColumnName": "N_REGIONKEY",
         "SourceAliasColumnName": null,
@@ -569,7 +569,7 @@
         "IncludeTarget": null,
         "VariantThreshold": 0.0,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-26T09:46:28.177",
+        "CreatedOn": "2025-01-26T10:30:07.503",
         "CreatedBy": 108,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -579,7 +579,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273133,
+        "Id": 273145,
         "Scenario_Header_Id": 46814,
         "SourceColumnName": "N_COMMENT",
         "SourceAliasColumnName": null,
@@ -597,7 +597,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-26T09:46:28.177",
+        "CreatedOn": "2025-01-26T10:30:07.52",
         "CreatedBy": 108,
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -610,8 +610,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 503729,
-        "ScenarioDataSourceId": 52225,
+        "Id": 503753,
+        "ScenarioDataSourceId": 52231,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -627,8 +627,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503730,
-        "ScenarioDataSourceId": 52225,
+        "Id": 503754,
+        "ScenarioDataSourceId": 52231,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -644,8 +644,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503731,
-        "ScenarioDataSourceId": 52225,
+        "Id": 503755,
+        "ScenarioDataSourceId": 52231,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -661,8 +661,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503732,
-        "ScenarioDataSourceId": 52225,
+        "Id": 503756,
+        "ScenarioDataSourceId": 52231,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -678,8 +678,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503733,
-        "ScenarioDataSourceId": 52226,
+        "Id": 503757,
+        "ScenarioDataSourceId": 52232,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -695,8 +695,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503734,
-        "ScenarioDataSourceId": 52226,
+        "Id": 503758,
+        "ScenarioDataSourceId": 52232,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -712,8 +712,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503735,
-        "ScenarioDataSourceId": 52226,
+        "Id": 503759,
+        "ScenarioDataSourceId": 52232,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -729,8 +729,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503736,
-        "ScenarioDataSourceId": 52226,
+        "Id": 503760,
+        "ScenarioDataSourceId": 52232,
         "DBlendId": null,
         "ProfileId": 1061,
         "TableName": "TPCH_1.dbo.NATION",
@@ -748,19 +748,19 @@
     ],
     "SimpleFilters": [
       {
-        "Id": 5664,
+        "Id": 5667,
         "ScenarioId": 46814,
         "CSV_Id": 0,
-        "DcStepId": 285307,
+        "DcStepId": 285322,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 52225,
-        "GlobalFilter": "N_NATIONKEY > 3 ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"N_NATIONKEY\" selected=\"selected\">N_NATIONKEY</option><option value=\"N_NAME\">N_NAME</option><option value=\"N_REGIONKEY\">N_REGIONKEY</option><option value=\"N_COMMENT\">N_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\" selected=\"selected\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        <option value=\"N_NATIONKEY\">N_NATIONKEY</option><option value=\"N_NAME\">N_NAME</option><option value=\"N_REGIONKEY\">N_REGIONKEY</option><option value=\"N_COMMENT\">N_COMMENT</option></select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"3\" size=\"2\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">1</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
+        "DataSourceId": 52231,
+        "GlobalFilter": "N_NATIONKEY > 4 ",
+        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"N_NATIONKEY\" selected=\"selected\">N_NATIONKEY</option><option value=\"N_NAME\">N_NAME</option><option value=\"N_REGIONKEY\">N_REGIONKEY</option><option value=\"N_COMMENT\">N_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\" selected=\"selected\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        <option value=\"N_NATIONKEY\">N_NATIONKEY</option><option value=\"N_NAME\">N_NAME</option><option value=\"N_REGIONKEY\">N_REGIONKEY</option><option value=\"N_COMMENT\">N_COMMENT</option></select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"4\" size=\"2\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">1</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": 108,
         "CreatedOn": "2025-01-26T09:45:54.62",
         "ModifiedBy": 108,
-        "ModifiedOn": "2025-01-26T10:01:19.423",
+        "ModifiedOn": "2025-01-26T11:16:41.69",
         "JSON": null,
         "Description": null,
         "QueryId": null
@@ -780,7 +780,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 185517,
+        "Id": 185532,
         "ScenarioId": 46814,
         "QueryId": null,
         "StepId": 0,
@@ -790,7 +790,7 @@
         "JobId": null
       },
       {
-        "Id": 185518,
+        "Id": 185533,
         "ScenarioId": 46814,
         "QueryId": null,
         "StepId": 1,
@@ -800,7 +800,7 @@
         "JobId": null
       },
       {
-        "Id": 185519,
+        "Id": 185534,
         "ScenarioId": 46814,
         "QueryId": null,
         "StepId": 2,
@@ -810,7 +810,7 @@
         "JobId": null
       },
       {
-        "Id": 185520,
+        "Id": 185535,
         "ScenarioId": 46814,
         "QueryId": null,
         "StepId": 3,
@@ -820,7 +820,7 @@
         "JobId": null
       },
       {
-        "Id": 185521,
+        "Id": 185536,
         "ScenarioId": 46814,
         "QueryId": null,
         "StepId": 4,
