@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": "{\"variance\":\"3\",\"variancePercentage\":\"3\"}",
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MSSQL_FDR_Compare\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.PART\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 329px; top: 107.641px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1M.dbo.PART\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 334px; top: 303.641px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 596px; top: 198.641px;\",\"mapping\":\"15,3-[2,1-2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcAddOptionItem_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 844px; top: 198.641px;\",\"mapping\":\"20,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MSSQL_FDR_Compare\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.PART\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 329px; top: 107.641px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1M.dbo.PART\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 334px; top: 303.641px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 596px; top: 198.641px;\",\"mapping\":\"15,3-[2,1-2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcAddOptionItem_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 844px; top: 198.641px;\",\"mapping\":\"20,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Slack_dropped_6\",\"UniqueId\":\"157\",\"stepId\":\"6\",\"description\":\"Slack\",\"position\":\"position: absolute; left: 728.667px; top: 68.6354px;\",\"mapping\":\"157,6-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "LevelOne_Id": null,
         "LevelTwo_Id": null,
         "LevelThree_Id": null,
@@ -39,7 +39,7 @@
         "Status": true,
         "Title": "_Copy Of_MSSQL_FDR_Compare",
         "Type": "FDR_Both",
-        "FId": 3094,
+        "FId": 3137,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{reportingCharacteristicsId:1,value:90},{reportingCharacteristicsId:2,value:101},{reportingCharacteristicsId:3,value:17},{reportingCharacteristicsId:50,value:0}]",
@@ -290,6 +290,43 @@
     "QuerySap": null,
     "Query": null,
     "DCSteps": [
+      {
+        "Id": 283968,
+        "ScenarioId": 37594,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 6,
+        "StepMapping": "157,6-[15,3]",
+        "TransformationId": 157,
+        "Description": "Slack",
+        "Position": null,
+        "CreatedOn": "2025-01-22T07:13:35.283",
+        "CreatedBy": 111,
+        "ModifiedOn": "2025-01-22T07:13:40.773",
+        "ModifiedBy": 111,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "Overwritesnapshot": null,
+        "IsPreBlend": null,
+        "BlendStepId": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
       {
         "Id": 267661,
         "ScenarioId": 37594,
@@ -1120,7 +1157,19 @@
         "JobId": null
       }
     ],
-    "ThirdPartyAPIParams": [],
+    "ThirdPartyAPIParams": [
+      {
+        "Id": 95358,
+        "APIInte_ID": 108,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"Slack_Demo\"]",
+        "ScenarioId": 37594,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null
+      }
+    ],
     "EmailAlerts": [
       {
         "Id": 14969,
