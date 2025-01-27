@@ -39,7 +39,7 @@
         "Status": true,
         "Title": "MSSQL_TPCH1_TDR",
         "Type": "TDR_Both",
-        "FId": 3094,
+        "FId": 3136,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": null,
