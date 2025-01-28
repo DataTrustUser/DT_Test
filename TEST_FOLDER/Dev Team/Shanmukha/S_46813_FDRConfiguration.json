@@ -23,20 +23,20 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"DiffTest\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 275.8px; top: 88.6375px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH1.CUSTOMER\\\" for data source \\\"Oracle_J\\\"\",\"position\":\"position: absolute; left: 275.8px; top: 262.638px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped_4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_CUSTKEY > 1000 \",\"position\":\"position: absolute; left: 465.8px; top: 88.6375px;\",\"mapping\":\"66,4-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped_5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"C_ACCTBAL > 200000\",\"position\":\"position: absolute; left: 691.8px; top: 92.6375px;\",\"mapping\":\"66,5-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped_6\",\"UniqueId\":\"66\",\"stepId\":\"6\",\"description\":\"C_CUSTKEY > 1000 \",\"position\":\"position: absolute; left: 494.8px; top: 277.638px;\",\"mapping\":\"66,6-[2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped_7\",\"UniqueId\":\"66\",\"stepId\":\"7\",\"description\":\"C_ACCTBAL > 200000\",\"position\":\"position: absolute; left: 707.8px; top: 271.638px;\",\"mapping\":\"66,7-[66,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_8\",\"UniqueId\":\"15\",\"stepId\":\"8\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 939.8px; top: 161.638px;\",\"mapping\":\"15,8-[66,5-66,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"DiffTest\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 275.8px; top: 88.6375px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH1.CUSTOMER\\\" for data source \\\"Oracle_J\\\"\",\"position\":\"position: absolute; left: 275.8px; top: 262.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":null,\"activestatus\":null},{\"widgetId\":\"dcSimpleFilters_dropped_4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_CUSTKEY > 1000 \",\"position\":\"position: absolute; left: 465.8px; top: 88.6375px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,4-[2,1]\",\"dsstep\":\"1\",\"activestatus\":null},{\"widgetId\":\"dsExistingQuery_5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"C_ACCTBAL > 300000\",\"position\":\"position: absolute; left: 691.8px; top: 92.6375px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,5-[66,4]\",\"dsstep\":\"1\",\"activestatus\":null,\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped_6\",\"UniqueId\":\"66\",\"stepId\":\"6\",\"description\":\"C_CUSTKEY > 1000 \",\"position\":\"position: absolute; left: 494.8px; top: 277.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,6-[2,2]\",\"dsstep\":\"2\",\"activestatus\":null},{\"widgetId\":\"dcSimpleFilters_dropped_7\",\"UniqueId\":\"66\",\"stepId\":\"7\",\"description\":\"C_ACCTBAL > 200000\",\"position\":\"position: absolute; left: 707.8px; top: 271.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,7-[66,6]\",\"dsstep\":\"2\",\"activestatus\":null},{\"widgetId\":\"dsRecon_8\",\"UniqueId\":\"15\",\"stepId\":\"8\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 939.8px; top: 161.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"15,8-[66,5-66,7]\",\"activestatus\":null,\"commented\":\"false\"}]",
         "LevelOne_Id": null,
         "LevelTwo_Id": null,
         "LevelThree_Id": null,
         "Priority": null,
-        "ModifiedBy": 108,
+        "ModifiedBy": 120,
         "MigratedOn": null,
-        "ModifiedOn": "2025-01-25T11:15:40.513",
+        "ModifiedOn": "2025-01-28T09:30:34.553",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
         "Id": 46813,
         "SendFullData": false,
-        "Status": false,
+        "Status": true,
         "Title": "DiffTest",
         "Type": "FDR_Both",
         "FId": 1113,
@@ -71,11 +71,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 52221,
+        "Id": 52281,
         "Scenario_Header_Id": 46813,
         "Profile_Id": 1158,
         "Query_Id": null,
-        "DCStep_Id": 285292,
+        "DCStep_Id": 285537,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.CUSTOMER",
@@ -83,7 +83,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -173,17 +173,17 @@
         ],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_J",
-        "CreatedOnSC": "2025-01-25T11:08:28.963",
-        "CreatedBySC": 108,
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       },
       {
-        "Id": 52222,
+        "Id": 52282,
         "Scenario_Header_Id": 46813,
         "Profile_Id": 1321,
         "Query_Id": null,
-        "DCStep_Id": 285293,
+        "DCStep_Id": 285538,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH1.CUSTOMER",
@@ -191,7 +191,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -281,8 +281,8 @@
         ],
         "SourceName_Id": 102,
         "ProfileName": "Oracle_J",
-        "CreatedOnSC": "2025-01-25T11:11:14.047",
-        "CreatedBySC": 108,
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       }
@@ -292,7 +292,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 285291,
+        "Id": 285536,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
@@ -301,8 +301,8 @@
         "TransformationId": 0,
         "Description": "DiffTest",
         "Position": null,
-        "CreatedOn": "2025-01-25T11:07:44.467",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:53.503",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -329,7 +329,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285292,
+        "Id": 285537,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
@@ -338,10 +338,10 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.CUSTOMER\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 275.8px; top: 88.6375px;",
-        "CreatedOn": "2025-01-25T11:07:54.997",
-        "CreatedBy": 108,
-        "ModifiedOn": "2025-01-25T11:08:28.883",
-        "ModifiedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:53.633",
+        "CreatedBy": 120,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": true,
@@ -366,7 +366,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285293,
+        "Id": 285538,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
@@ -375,10 +375,10 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH1.CUSTOMER\" for data source \"Oracle_J\"",
         "Position": "position: absolute; left: 275.8px; top: 262.638px;",
-        "CreatedOn": "2025-01-25T11:07:57.093",
-        "CreatedBy": 108,
-        "ModifiedOn": "2025-01-25T11:11:13.983",
-        "ModifiedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:53.76",
+        "CreatedBy": 120,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": false,
@@ -403,7 +403,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285295,
+        "Id": 285539,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
@@ -412,10 +412,10 @@
         "TransformationId": 66,
         "Description": "Filter data from TPCH_1.dbo.CUSTOMER",
         "Position": "position: absolute; left: 465.8px; top: 88.6375px;",
-        "CreatedOn": "2025-01-25T11:11:35.38",
-        "CreatedBy": 108,
-        "ModifiedOn": "2025-01-25T11:12:27.667",
-        "ModifiedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:53.887",
+        "CreatedBy": 120,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -440,19 +440,19 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285296,
+        "Id": 285540,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
         "Step": 5,
         "StepMapping": "66,5-[66,4]",
         "TransformationId": 66,
-        "Description": "C_ACCTBAL > 200000",
-        "Position": "position: absolute; left: 691.8px; top: 92.6375px;",
-        "CreatedOn": "2025-01-25T11:12:37.303",
-        "CreatedBy": 108,
-        "ModifiedOn": "2025-01-25T11:15:23.113",
-        "ModifiedBy": 108,
+        "Description": "C_ACCTBAL > 300000",
+        "Position": "position: absolute; left: 691.8px; top: 92.6375px; ",
+        "CreatedOn": "2025-01-28T09:28:53.98",
+        "CreatedBy": 120,
+        "ModifiedOn": "2025-01-28T09:30:33.69",
+        "ModifiedBy": 120,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -477,7 +477,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285297,
+        "Id": 285541,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
@@ -486,10 +486,10 @@
         "TransformationId": 66,
         "Description": "Filter data from TPCH1.CUSTOMER",
         "Position": "position: absolute; left: 494.8px; top: 277.638px;",
-        "CreatedOn": "2025-01-25T11:13:14.427",
-        "CreatedBy": 108,
-        "ModifiedOn": "2025-01-25T11:13:35.97",
-        "ModifiedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.073",
+        "CreatedBy": 120,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -514,7 +514,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285298,
+        "Id": 285542,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
@@ -523,10 +523,10 @@
         "TransformationId": 66,
         "Description": "C_ACCTBAL > 200000",
         "Position": "position: absolute; left: 707.8px; top: 271.638px;",
-        "CreatedOn": "2025-01-25T11:13:19.67",
-        "CreatedBy": 108,
-        "ModifiedOn": "2025-01-25T11:15:39.697",
-        "ModifiedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.153",
+        "CreatedBy": 120,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -551,7 +551,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 285299,
+        "Id": 285543,
         "ScenarioId": 46813,
         "QueryId": null,
         "Job_Id": null,
@@ -560,10 +560,10 @@
         "TransformationId": 15,
         "Description": "Map source & target fields",
         "Position": "position: absolute; left: 939.8px; top: 161.638px;",
-        "CreatedOn": "2025-01-25T11:14:01.78",
-        "CreatedBy": 108,
-        "ModifiedOn": "2025-01-25T11:14:27.807",
-        "ModifiedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.237",
+        "CreatedBy": 120,
+        "ModifiedOn": "2025-01-28T09:30:55.103",
+        "ModifiedBy": 120,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -606,7 +606,7 @@
     "DCStepsQC": [],
     "MapNRecon": [
       {
-        "Id": 273120,
+        "Id": 273361,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_CUSTKEY",
         "SourceAliasColumnName": null,
@@ -624,8 +624,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.243",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -634,7 +634,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273121,
+        "Id": 273362,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_NAME",
         "SourceAliasColumnName": null,
@@ -652,8 +652,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.26",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -662,7 +662,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273122,
+        "Id": 273363,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_ADDRESS",
         "SourceAliasColumnName": null,
@@ -680,8 +680,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.27",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -690,7 +690,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273123,
+        "Id": 273364,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_NATIONKEY",
         "SourceAliasColumnName": null,
@@ -708,8 +708,8 @@
         "IncludeTarget": null,
         "VariantThreshold": 0.0,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.273",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -718,7 +718,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273124,
+        "Id": 273365,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_PHONE",
         "SourceAliasColumnName": null,
@@ -736,8 +736,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.287",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -746,7 +746,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273125,
+        "Id": 273366,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_ACCTBAL",
         "SourceAliasColumnName": null,
@@ -764,8 +764,8 @@
         "IncludeTarget": null,
         "VariantThreshold": 0.0,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.293",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -774,7 +774,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273126,
+        "Id": 273367,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_MKTSEGMENT",
         "SourceAliasColumnName": null,
@@ -792,8 +792,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.3",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -802,7 +802,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 273127,
+        "Id": 273368,
         "Scenario_Header_Id": 46813,
         "SourceColumnName": "C_COMMENT",
         "SourceAliasColumnName": null,
@@ -820,8 +820,8 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-01-25T11:14:27.527",
-        "CreatedBy": 108,
+        "CreatedOn": "2025-01-28T09:28:54.307",
+        "CreatedBy": 120,
         "ModifiedOn": null,
         "ModifiedBy": null,
         "IsDerivedSource": null,
@@ -833,8 +833,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 503709,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504100,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -850,8 +850,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503710,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504101,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -867,8 +867,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503711,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504102,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -884,8 +884,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503712,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504103,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -901,8 +901,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503713,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504104,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -918,8 +918,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503714,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504105,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -935,8 +935,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503715,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504106,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -952,8 +952,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503716,
-        "ScenarioDataSourceId": 52221,
+        "Id": 504107,
+        "ScenarioDataSourceId": 52281,
         "DBlendId": null,
         "ProfileId": 1158,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -969,8 +969,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503717,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504108,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -986,8 +986,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503718,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504109,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -1003,8 +1003,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503719,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504110,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -1020,8 +1020,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503720,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504111,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -1037,8 +1037,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503721,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504112,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -1054,8 +1054,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503722,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504113,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -1071,8 +1071,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503723,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504114,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -1088,8 +1088,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 503724,
-        "ScenarioDataSourceId": 52222,
+        "Id": 504115,
+        "ScenarioDataSourceId": 52282,
         "DBlendId": null,
         "ProfileId": 1321,
         "TableName": "TPCH1.CUSTOMER",
@@ -1107,13 +1107,13 @@
     ],
     "SimpleFilters": [
       {
-        "Id": 5660,
+        "Id": 5701,
         "ScenarioId": 46813,
         "CSV_Id": 0,
-        "DcStepId": 285295,
+        "DcStepId": 285539,
         "DCTypeId": null,
         "StepId": 4,
-        "DataSourceId": 52221,
+        "DataSourceId": 52281,
         "GlobalFilter": "C_CUSTKEY > 1000 ",
         "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_CUSTKEY\" selected=\"selected\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\" selected=\"selected\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        </select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"1000\" size=\"5\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">1000</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": 108,
@@ -1125,31 +1125,31 @@
         "QueryId": null
       },
       {
-        "Id": 5661,
+        "Id": 5702,
         "ScenarioId": 46813,
         "CSV_Id": 0,
-        "DcStepId": 285296,
+        "DcStepId": 285540,
         "DCTypeId": null,
         "StepId": 5,
-        "DataSourceId": 52221,
-        "GlobalFilter": "C_ACCTBAL > 200000 ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\" selected=\"selected\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\" selected=\"selected\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        <option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"200000\" size=\"7\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">100000</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
+        "DataSourceId": 52281,
+        "GlobalFilter": "C_ACCTBAL > 300000 ",
+        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\" selected=\"selected\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\" selected=\"selected\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        <option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"300000\" size=\"7\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">100000</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": 108,
         "CreatedOn": "2025-01-25T11:13:11.03",
-        "ModifiedBy": 108,
-        "ModifiedOn": "2025-01-25T11:15:22.96",
+        "ModifiedBy": 120,
+        "ModifiedOn": "2025-01-28T09:30:33.527",
         "JSON": null,
         "Description": null,
         "QueryId": null
       },
       {
-        "Id": 5662,
+        "Id": 5703,
         "ScenarioId": 46813,
         "CSV_Id": 0,
-        "DcStepId": 285297,
+        "DcStepId": 285541,
         "DCTypeId": null,
         "StepId": 6,
-        "DataSourceId": 52222,
+        "DataSourceId": 52282,
         "GlobalFilter": "C_CUSTKEY > 1000 ",
         "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\" selected=\"selected\">C_CUSTKEY</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\" selected=\"selected\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        </select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"1000\" size=\"5\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">1000</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": 108,
@@ -1161,13 +1161,13 @@
         "QueryId": null
       },
       {
-        "Id": 5663,
+        "Id": 5704,
         "ScenarioId": 46813,
         "CSV_Id": 0,
-        "DcStepId": 285298,
+        "DcStepId": 285542,
         "DCTypeId": null,
         "StepId": 7,
-        "DataSourceId": 52222,
+        "DataSourceId": 52282,
         "GlobalFilter": "C_ACCTBAL > 200000 ",
         "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Rightdata/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_ACCTBAL\" selected=\"selected\">C_ACCTBAL</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                     <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                        <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                            <option value=\"Select\">Select</option>                            <option value=\"Equals to\">Equals to</option>                            <option value=\"Not equals to\">Not equals to</option>                            <option value=\"Greater than\" selected=\"selected\">Greater than</option>                            <option value=\"Greater than or equals to\">Greater than or equals to</option>                            <option value=\"Less than\">Less than</option>                            <option value=\"Less than or equals to\">Less than or equals to</option>                            <option value=\"Like\">Like</option>                            <option value=\"Between\">Between</option>                            <option value=\"Not between\">Not between</option>                            <option value=\"AND\">AND</option>                            <option value=\"OR\">OR</option>                            <option value=\"Is null\">Is null</option>                            <option value=\"Is not null\">Is not null</option>                    <option value=\"IN\">IN</option>                        <option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option></select>                        <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                    </span><span data-background-icon=\"?\" class=\"EveryElement\">                                            <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                            <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"200000\" size=\"7\">                                            <span class=\"InputTextboxSimpleF\" style=\"display: none;\">100000</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                        </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": 108,
@@ -1193,7 +1193,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 185504,
+        "Id": 185715,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 0,
@@ -1203,7 +1203,7 @@
         "JobId": null
       },
       {
-        "Id": 185505,
+        "Id": 185716,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 1,
@@ -1213,7 +1213,7 @@
         "JobId": null
       },
       {
-        "Id": 185506,
+        "Id": 185717,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 2,
@@ -1223,7 +1223,7 @@
         "JobId": null
       },
       {
-        "Id": 185507,
+        "Id": 185718,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 4,
@@ -1233,7 +1233,7 @@
         "JobId": null
       },
       {
-        "Id": 185508,
+        "Id": 185719,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 5,
@@ -1243,7 +1243,7 @@
         "JobId": null
       },
       {
-        "Id": 185509,
+        "Id": 185720,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 6,
@@ -1253,7 +1253,7 @@
         "JobId": null
       },
       {
-        "Id": 185510,
+        "Id": 185721,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 7,
@@ -1263,7 +1263,7 @@
         "JobId": null
       },
       {
-        "Id": 185511,
+        "Id": 185722,
         "ScenarioId": 46813,
         "QueryId": null,
         "StepId": 8,
