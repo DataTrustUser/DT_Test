@@ -936,7 +936,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -1479,7 +1479,7 @@
       {
         "Id": 320,
         "Scenario_Header_Id": 658,
-        "RuleText": "DEPARTMENT_ID|MM/dd/yy",
+        "RuleText": "DEPARTMENT_ID|yyyy-MM-dd",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "Date Format",
@@ -1487,7 +1487,7 @@
         "PredefinedRuleId": 12,
         "StepId": 21,
         "IgnoreNulls": false,
-        "BusinessRule": "The column 'DEPARTMENT_ID ' should be in MM/dd/yy Format",
+        "BusinessRule": "The column 'DEPARTMENT_ID ' should be in yyyy-MM-dd Format",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
