@@ -67,7 +67,7 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 1081,
+        "Id": 1085,
         "Scenario_Header_Id": 833,
         "Profile_Id": 108,
         "Query_Id": null,
@@ -115,10 +115,10 @@
         "QCDataSource": [],
         "SourceName_Id": 130,
         "ProfileName": "Google Big Query",
-        "CreatedOnSC": null,
-        "CreatedBySC": null,
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "CreatedOnSC": "2025-05-30T07:28:12.963",
+        "CreatedBySC": "ed157d5a-81a4-443f-9f89-58c37abd1338",
+        "ModifiedOnSC": "2025-05-30T07:28:12.963",
+        "ModifiedBySC": "ed157d5a-81a4-443f-9f89-58c37abd1338"
       }
     ],
     "QFTypes": null,
