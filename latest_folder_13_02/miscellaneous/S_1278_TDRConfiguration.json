@@ -194,7 +194,7 @@
         "Position": "position: absolute; left: 503.719px; top: 223.062px;",
         "CreatedOn": "2025-06-13T06:54:23.99",
         "CreatedBy": "32c2d7f1-a9a2-4c9d-b421-5b6eb41dd65b",
-        "ModifiedOn": "2025-06-13T10:42:14.7",
+        "ModifiedOn": "2025-06-13T10:43:31.767",
         "ModifiedBy": "108",
         "Status": true,
         "ErrorCodes": null,
@@ -254,7 +254,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 5616,
+        "Id": 5637,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -264,7 +264,7 @@
         "TargetTable": "customer",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -284,7 +284,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5617,
+        "Id": 5638,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -294,7 +294,7 @@
         "TargetTable": "is_categories",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -314,7 +314,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5618,
+        "Id": 5639,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -324,7 +324,7 @@
         "TargetTable": "is_customers",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -344,7 +344,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5619,
+        "Id": 5640,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -354,7 +354,7 @@
         "TargetTable": "is_employee_territories",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -374,7 +374,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5620,
+        "Id": 5641,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -384,7 +384,7 @@
         "TargetTable": "is_employees",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -398,13 +398,13 @@
         "SAPTypeSource": null,
         "SAPTypeTarget": null,
         "ExcludeColumns": null,
-        "ThresholdValue": null,
-        "ThresholdPercentage": "0",
+        "ThresholdValue": "10",
+        "ThresholdPercentage": null,
         "Src_BOBJ_Prompts": null,
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5621,
+        "Id": 5642,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -414,7 +414,7 @@
         "TargetTable": "is_loans",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -434,7 +434,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5622,
+        "Id": 5643,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -444,7 +444,7 @@
         "TargetTable": "is_orderdetails",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -464,7 +464,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5623,
+        "Id": 5644,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -474,7 +474,7 @@
         "TargetTable": "is_orders",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -494,7 +494,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5624,
+        "Id": 5645,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -504,7 +504,7 @@
         "TargetTable": "is_products",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -524,7 +524,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5625,
+        "Id": 5646,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -534,7 +534,7 @@
         "TargetTable": "is_region",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -554,7 +554,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5626,
+        "Id": 5647,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -564,7 +564,7 @@
         "TargetTable": "is_shippers",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -584,7 +584,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5627,
+        "Id": 5648,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -594,7 +594,7 @@
         "TargetTable": "is_states",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -614,7 +614,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5628,
+        "Id": 5649,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -624,7 +624,7 @@
         "TargetTable": "is_suppliers",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -644,7 +644,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5629,
+        "Id": 5650,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -654,7 +654,7 @@
         "TargetTable": "is_territories",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -674,7 +674,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5630,
+        "Id": 5651,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -684,7 +684,7 @@
         "TargetTable": "is_vehicles",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -704,7 +704,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5631,
+        "Id": 5652,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -714,7 +714,7 @@
         "TargetTable": "lineitem",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -734,7 +734,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5632,
+        "Id": 5653,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -744,7 +744,7 @@
         "TargetTable": "nation",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -764,7 +764,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5633,
+        "Id": 5654,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -774,7 +774,7 @@
         "TargetTable": "orders",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -794,7 +794,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5634,
+        "Id": 5655,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -804,7 +804,7 @@
         "TargetTable": "part",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -824,7 +824,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5635,
+        "Id": 5656,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -834,7 +834,7 @@
         "TargetTable": "partsupp",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -854,7 +854,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 5636,
+        "Id": 5657,
         "Scenario_Header_Id": 1278,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -864,7 +864,7 @@
         "TargetTable": "region",
         "TargetView": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -886,8 +886,8 @@
     ],
     "ScenarioTDRColumnsMapping": [
       {
-        "Id": 8451,
-        "TDRMappingId": 5616,
+        "Id": 8457,
+        "TDRMappingId": 5637,
         "ScenarioId": 1278,
         "SourceColumnName": "C_ADDRESS",
         "SourceAliasColumnName": "C_ADDRESS",
@@ -909,15 +909,15 @@
         "SourceHTMLTags": null,
         "TargetHTMLTags": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "ThresholdValue": null,
         "ThresholdPercentage": null
       },
       {
-        "Id": 8452,
-        "TDRMappingId": 5616,
+        "Id": 8458,
+        "TDRMappingId": 5637,
         "ScenarioId": 1278,
         "SourceColumnName": "C_NATIONKEY",
         "SourceAliasColumnName": "C_NATIONKEY",
@@ -939,15 +939,15 @@
         "SourceHTMLTags": null,
         "TargetHTMLTags": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "ThresholdValue": null,
         "ThresholdPercentage": null
       },
       {
-        "Id": 8453,
-        "TDRMappingId": 5616,
+        "Id": 8459,
+        "TDRMappingId": 5637,
         "ScenarioId": 1278,
         "SourceColumnName": "C_PHONE",
         "SourceAliasColumnName": "C_PHONE",
@@ -969,15 +969,15 @@
         "SourceHTMLTags": null,
         "TargetHTMLTags": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "ThresholdValue": null,
         "ThresholdPercentage": null
       },
       {
-        "Id": 8454,
-        "TDRMappingId": 5616,
+        "Id": 8460,
+        "TDRMappingId": 5637,
         "ScenarioId": 1278,
         "SourceColumnName": "C_ACCTBAL",
         "SourceAliasColumnName": "C_ACCTBAL",
@@ -999,15 +999,15 @@
         "SourceHTMLTags": null,
         "TargetHTMLTags": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "ThresholdValue": null,
         "ThresholdPercentage": null
       },
       {
-        "Id": 8455,
-        "TDRMappingId": 5616,
+        "Id": 8461,
+        "TDRMappingId": 5637,
         "ScenarioId": 1278,
         "SourceColumnName": "C_MKTSEGMENT",
         "SourceAliasColumnName": "C_MKTSEGMENT",
@@ -1029,15 +1029,15 @@
         "SourceHTMLTags": null,
         "TargetHTMLTags": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "ThresholdValue": null,
         "ThresholdPercentage": null
       },
       {
-        "Id": 8456,
-        "TDRMappingId": 5616,
+        "Id": 8462,
+        "TDRMappingId": 5637,
         "ScenarioId": 1278,
         "SourceColumnName": "C_COMMENT",
         "SourceAliasColumnName": "C_COMMENT",
@@ -1059,7 +1059,7 @@
         "SourceHTMLTags": null,
         "TargetHTMLTags": null,
         "CreatedBy": "108",
-        "CreatedOn": "2025-06-13T10:42:14.607",
+        "CreatedOn": "2025-06-13T10:43:31.677",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "ThresholdValue": null,
