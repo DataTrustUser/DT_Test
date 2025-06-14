@@ -23,7 +23,7 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Val-SAPECC\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsSAPTable_dropped.1\",\"UniqueId\":\"36\",\"stepId\":\"1\",\"description\":\"Read data from \\\"MAKT\\\" for data source \\\"SAPECC_LW\\\"\",\"position\":\"position: absolute; left: 270.667px; top: 203.635px;\",\"mapping\":\"36,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from MAKT\",\"position\":\"position: absolute; left: 411.667px; top: 203.635px;\",\"mapping\":\"65,3-[36,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Presence_dropped.4\",\"UniqueId\":\"17\",\"stepId\":\"4\",\"description\":\"null chk\",\"position\":\"position: absolute; left: 628.667px; top: 131.635px;\",\"mapping\":\"17,4-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Val-SAPECC\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsSAPTable_dropped.1\",\"UniqueId\":\"36\",\"stepId\":\"1\",\"description\":\"Read data from \\\"MAKT\\\" for data source \\\"SAPECC_LW\\\"\",\"position\":\"position: absolute; left: 270.667px; top: 203.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"36,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Presence_dropped.4\",\"UniqueId\":\"17\",\"stepId\":\"4\",\"description\":\"null chk\",\"position\":\"position: absolute; left: 628.667px; top: 131.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"17,4-[36,1]\",\"dsstep\":\"1\",\"activestatus\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "ed157d5a-81a4-443f-9f89-58c37abd1338",
         "MigratedOn": null,
@@ -67,11 +67,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 1510,
+        "Id": 1512,
         "Scenario_Header_Id": 1295,
         "Profile_Id": 106,
         "Query_Id": null,
-        "DCStep_Id": 7999,
+        "DCStep_Id": 8007,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "MAKT",
@@ -79,7 +79,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": "TABLE",
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -115,8 +115,8 @@
         "QCDataSource": [],
         "SourceName_Id": 106,
         "ProfileName": "SAPECC_LW",
-        "CreatedOnSC": "2025-06-13T23:58:21.297",
-        "CreatedBySC": "ed157d5a-81a4-443f-9f89-58c37abd1338",
+        "CreatedOnSC": null,
+        "CreatedBySC": null,
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       }
@@ -126,7 +126,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 7998,
+        "Id": 8006,
         "ScenarioId": 1295,
         "QueryId": null,
         "Job_Id": null,
@@ -135,7 +135,7 @@
         "TransformationId": 0,
         "Description": "Vinay 06/13/2025 23:57:11",
         "Position": null,
-        "CreatedOn": "2025-06-13T23:57:31.453",
+        "CreatedOn": "2025-06-14T00:21:21.96",
         "CreatedBy": "ed157d5a-81a4-443f-9f89-58c37abd1338",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -163,7 +163,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 7999,
+        "Id": 8007,
         "ScenarioId": 1295,
         "QueryId": null,
         "Job_Id": null,
@@ -172,7 +172,7 @@
         "TransformationId": 36,
         "Description": "Read data from \"MAKT\" for data source \"SAPECC_LW\"",
         "Position": null,
-        "CreatedOn": "2025-06-13T23:58:21.277",
+        "CreatedOn": "2025-06-14T00:21:21.993",
         "CreatedBy": "ed157d5a-81a4-443f-9f89-58c37abd1338",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -200,7 +200,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 8001,
+        "Id": 8008,
         "ScenarioId": 1295,
         "QueryId": null,
         "Job_Id": null,
@@ -209,10 +209,10 @@
         "TransformationId": 65,
         "Description": "Transform data from MAKT",
         "Position": "position: absolute; left: 411.667px; top: 203.635px;",
-        "CreatedOn": "2025-06-13T23:59:13.607",
+        "CreatedOn": "2025-06-14T00:21:22.063",
         "CreatedBy": "ed157d5a-81a4-443f-9f89-58c37abd1338",
-        "ModifiedOn": "2025-06-13T23:59:35.357",
-        "ModifiedBy": "ed157d5a-81a4-443f-9f89-58c37abd1338",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -237,7 +237,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 8002,
+        "Id": 8009,
         "ScenarioId": 1295,
         "QueryId": null,
         "Job_Id": null,
@@ -246,10 +246,10 @@
         "TransformationId": 17,
         "Description": "Presence Check",
         "Position": "position: absolute; left: 628.667px; top: 131.635px;",
-        "CreatedOn": "2025-06-13T23:59:49.747",
+        "CreatedOn": "2025-06-14T00:21:22.107",
         "CreatedBy": "ed157d5a-81a4-443f-9f89-58c37abd1338",
-        "ModifiedOn": "2025-06-14T00:00:03.757",
-        "ModifiedBy": "ed157d5a-81a4-443f-9f89-58c37abd1338",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -270,7 +270,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       }
     ],
@@ -294,8 +294,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 9401,
-        "ScenarioDataSourceId": 1510,
+        "Id": 9411,
+        "ScenarioDataSourceId": 1512,
         "DBlendId": null,
         "ProfileId": 106,
         "TableName": "MAKT",
@@ -311,8 +311,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 9402,
-        "ScenarioDataSourceId": 1510,
+        "Id": 9412,
+        "ScenarioDataSourceId": 1512,
         "DBlendId": null,
         "ProfileId": 106,
         "TableName": "MAKT",
@@ -328,8 +328,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 9403,
-        "ScenarioDataSourceId": 1510,
+        "Id": 9413,
+        "ScenarioDataSourceId": 1512,
         "DBlendId": null,
         "ProfileId": 106,
         "TableName": "MAKT",
@@ -345,8 +345,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 9404,
-        "ScenarioDataSourceId": 1510,
+        "Id": 9414,
+        "ScenarioDataSourceId": 1512,
         "DBlendId": null,
         "ProfileId": 106,
         "TableName": "MAKT",
@@ -362,8 +362,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 9405,
-        "ScenarioDataSourceId": 1510,
+        "Id": 9415,
+        "ScenarioDataSourceId": 1512,
         "DBlendId": null,
         "ProfileId": 106,
         "TableName": "MAKT",
@@ -385,13 +385,13 @@
     "SimpleAggregations": [],
     "SimpleProjections": [
       {
-        "Id": 3773,
+        "Id": 3778,
         "ScenarioId": 1295,
         "CSV_Id": 0,
-        "DcStepId": 8001,
+        "DcStepId": 8008,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 1510,
+        "DataSourceId": 1512,
         "ColumnName": "MANDT",
         "AliasColumnName": "MANDT",
         "SystemDefinedDataType": "C",
@@ -409,13 +409,13 @@
         "QueryId": null
       },
       {
-        "Id": 3774,
+        "Id": 3779,
         "ScenarioId": 1295,
         "CSV_Id": 0,
-        "DcStepId": 8001,
+        "DcStepId": 8008,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 1510,
+        "DataSourceId": 1512,
         "ColumnName": "MATNR",
         "AliasColumnName": "MATNR",
         "SystemDefinedDataType": "C",
@@ -433,13 +433,13 @@
         "QueryId": null
       },
       {
-        "Id": 3775,
+        "Id": 3780,
         "ScenarioId": 1295,
         "CSV_Id": 0,
-        "DcStepId": 8001,
+        "DcStepId": 8008,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 1510,
+        "DataSourceId": 1512,
         "ColumnName": "SPRAS",
         "AliasColumnName": "SPRAS",
         "SystemDefinedDataType": "C",
@@ -457,13 +457,13 @@
         "QueryId": null
       },
       {
-        "Id": 3776,
+        "Id": 3781,
         "ScenarioId": 1295,
         "CSV_Id": 0,
-        "DcStepId": 8001,
+        "DcStepId": 8008,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 1510,
+        "DataSourceId": 1512,
         "ColumnName": "MAKTX",
         "AliasColumnName": "MAKTX",
         "SystemDefinedDataType": "C",
@@ -481,13 +481,13 @@
         "QueryId": null
       },
       {
-        "Id": 3777,
+        "Id": 3782,
         "ScenarioId": 1295,
         "CSV_Id": 0,
-        "DcStepId": 8001,
+        "DcStepId": 8008,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 1510,
+        "DataSourceId": 1512,
         "ColumnName": "MAKTG",
         "AliasColumnName": "MAKTG",
         "SystemDefinedDataType": "C",
@@ -512,7 +512,7 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 542,
+        "Id": 544,
         "Scenario_Header_Id": 1295,
         "RuleText": "MANDT,SPRAS,MAKTX",
         "RuleHtml": null,
@@ -539,7 +539,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 5682,
+        "Id": 5690,
         "ScenarioId": 1295,
         "QueryId": null,
         "StepId": 0,
@@ -549,7 +549,7 @@
         "JobId": null
       },
       {
-        "Id": 5683,
+        "Id": 5691,
         "ScenarioId": 1295,
         "QueryId": null,
         "StepId": 1,
@@ -559,7 +559,7 @@
         "JobId": null
       },
       {
-        "Id": 5684,
+        "Id": 5692,
         "ScenarioId": 1295,
         "QueryId": null,
         "StepId": 2,
@@ -569,7 +569,7 @@
         "JobId": null
       },
       {
-        "Id": 5685,
+        "Id": 5693,
         "ScenarioId": 1295,
         "QueryId": null,
         "StepId": 3,
@@ -579,7 +579,7 @@
         "JobId": null
       },
       {
-        "Id": 5686,
+        "Id": 5694,
         "ScenarioId": 1295,
         "QueryId": null,
         "StepId": 4,
