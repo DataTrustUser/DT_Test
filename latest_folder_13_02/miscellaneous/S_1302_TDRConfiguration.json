@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 06/14/2025 16:39:16\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsSapTables_dropped.0\",\"UniqueId\":\"23\",\"stepId\":\"3\",\"description\":\"SAPECC_LW\",\"position\":\"position: absolute; left: 299.8px; top: 314.638px;\",\"mapping\":\"0,0-[23,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsApacheDrill_dropped.1\",\"UniqueId\":\"96\",\"stepId\":\"10\",\"description\":\"Amazon_S3\",\"position\":\"position: absolute; left: 327.8px; top: 117.638px;\",\"mapping\":\"0,0-[96,10]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"11\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 601.8px; top: 217.638px;\",\"mapping\":\"27,11-[96,10-23,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 06/14/2025 16:39:16\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsSapTables_dropped.0\",\"UniqueId\":\"23\",\"stepId\":\"3\",\"description\":\"SAPECC_LW\",\"position\":\"position: absolute; left: 299.8px; top: 314.638px;\",\"mapping\":\"0,0-[23,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsApacheDrill_dropped.1\",\"UniqueId\":\"96\",\"stepId\":\"10\",\"description\":\"Amazon_S3\",\"position\":\"position: absolute; left: 327.8px; top: 117.638px;\",\"mapping\":\"0,0-[96,10]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"11\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 601.8px; top: 217.638px;\",\"mapping\":\"27,11-[96,10-23,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"13\",\"description\":\"Email\",\"position\":\"position: absolute; left: 844.8px; top: 165.638px;\",\"mapping\":\"20,13-[27,11]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
@@ -50,7 +50,7 @@
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
         "EnableExternalLink": null,
-        "EmailTemplateJSON": null,
+        "EmailTemplateJSON": "{\"TemplateType\":\"Default\",\"TemplatedId\":\"\",\"IncludeQueryChain\":null,\"IncludeFDR\":null,\"IncludeValidation\":null,\"IncludeTDR\":null,\"IncludeBDV\":null,\"HTML\":null}",
         "UserAssignedDate": null,
         "TDRPullCheckSum": false,
         "TDRPullRecordConcat": false,
@@ -297,6 +297,35 @@
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
         "JsonValue": null
+      },
+      {
+        "Id": 8057,
+        "ScenarioId": 1302,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 13,
+        "StepMapping": "20,13-[27,11]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "position: absolute; left: 844.8px; top: 165.638px;",
+        "CreatedOn": "2025-06-14T16:50:19.09",
+        "CreatedBy": "108",
+        "ModifiedOn": "2025-06-14T16:50:24.71",
+        "ModifiedBy": "108",
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": null,
+        "JsonValue": null
       }
     ],
     "ScenarioTDRDataSource": [
@@ -386,6 +415,29 @@
       }
     ],
     "ThirdPartyAPIParams": [],
-    "EmailAlerts": []
+    "EmailAlerts": [
+      {
+        "Id": 387,
+        "Scenario_Header_Id": 1302,
+        "Query_Id": null,
+        "Job_Id": null,
+        "WhenFaild": true,
+        "EmailWhen_F": "support@getrightdata.com",
+        "WhenSuccess": true,
+        "EmailWhen_S": "support@getrightdata.com",
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "CreatedOn": "2025-06-14T16:50:24.68",
+        "CreatedBy": "108",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": null,
+        "EmailTemplateId": null
+      }
+    ]
   }
 ]
