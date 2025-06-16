@@ -706,7 +706,16 @@
         "ModifiedBy": null,
         "Status": null,
         "DependantStepId": null,
-        "EmailTemplateId": 2
+        "EmailTemplateId": 2,
+        "SendExtrenalLink": true,
+        "PdfAttachment": true,
+        "EmailSubject": "efefwefwef",
+        "EmailPriority": "Low",
+        "EnableHyperlinks": true,
+        "EmailFromName": "efefwafewafw",
+        "AttachCustomValidationReport": false,
+        "AttachCSV": false,
+        "AttachResultSummary": null
       }
     ]
   }
