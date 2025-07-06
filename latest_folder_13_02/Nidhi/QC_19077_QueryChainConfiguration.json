@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Srinidhi 06-07-2025 15:34:54",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 06-07-2025 15:34:54\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_13\",\"UniqueId\":\"2\",\"stepId\":\"13\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 212.837px; top: 197.638px;\",\"mapping\":\"2,13-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.14\",\"UniqueId\":\"65\",\"stepId\":\"14\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 371.8px; top: 144.638px;\",\"mapping\":\"65,14-[2,13]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcAggregation_dropped.15\",\"UniqueId\":\"67\",\"stepId\":\"15\",\"description\":\"Aggregate data from Data Source\",\"position\":\"position: absolute; left: 495.8px; top: 102.638px;\",\"mapping\":\"67,15-[65,14]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcSimpleFilters_dropped.16\",\"UniqueId\":\"66\",\"stepId\":\"16\",\"description\":\"Filter data from Data Source\",\"position\":\"position: absolute; left: 614.8px; top: 81.6375px;\",\"mapping\":\"66,16-[67,15]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcDeduplication_dropped.17\",\"UniqueId\":\"85\",\"stepId\":\"17\",\"description\":\"Remove duplicates from selected columns\",\"position\":\"pointer-events: auto; position: absolute; left: 746.8px; top: 50.2625px;\",\"mapping\":\"85,17-[66,16]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcPivot_dropped.18\",\"UniqueId\":\"82\",\"stepId\":\"18\",\"description\":\"pivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 872.8px; top: 73.2625px;\",\"mapping\":\"82,18-[85,17]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcUnPivot_dropped.19\",\"UniqueId\":\"83\",\"stepId\":\"19\",\"description\":\"Unpivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 1010.8px; top: 121.263px;\",\"mapping\":\"83,19-[82,18]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"qcEndItem_dropped.20\",\"UniqueId\":\"79\",\"stepId\":\"20\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 1173.8px; top: 181.638px;\",\"mapping\":\"79,20-[83,19]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"19\"},{\"widgetId\":\"DataProfiling_dropped.21\",\"UniqueId\":\"80\",\"stepId\":\"21\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 1294.8px; top: 162.638px;\",\"mapping\":\"80,21-[79,20]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 06-07-2025 15:34:54\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_13\",\"UniqueId\":\"2\",\"stepId\":\"13\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 212.837px; top: 197.638px;\",\"mapping\":\"2,13-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.14\",\"UniqueId\":\"65\",\"stepId\":\"14\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 371.8px; top: 144.638px;\",\"mapping\":\"65,14-[2,13]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcAggregation_dropped.15\",\"UniqueId\":\"67\",\"stepId\":\"15\",\"description\":\"Aggregate data from Data Source\",\"position\":\"position: absolute; left: 495.8px; top: 102.638px;\",\"mapping\":\"67,15-[65,14]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcSimpleFilters_dropped.16\",\"UniqueId\":\"66\",\"stepId\":\"16\",\"description\":\"Filter data from Data Source\",\"position\":\"position: absolute; left: 614.8px; top: 81.6375px;\",\"mapping\":\"66,16-[67,15]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcDeduplication_dropped.17\",\"UniqueId\":\"85\",\"stepId\":\"17\",\"description\":\"Remove duplicates from selected columns\",\"position\":\"pointer-events: auto; position: absolute; left: 746.8px; top: 50.2625px;\",\"mapping\":\"85,17-[66,16]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcPivot_dropped.18\",\"UniqueId\":\"82\",\"stepId\":\"18\",\"description\":\"pivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 872.8px; top: 73.2625px;\",\"mapping\":\"82,18-[85,17]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"dcUnPivot_dropped.19\",\"UniqueId\":\"83\",\"stepId\":\"19\",\"description\":\"Unpivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 1010.8px; top: 121.263px;\",\"mapping\":\"83,19-[82,18]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"13\"},{\"widgetId\":\"qcEndItem_dropped.20\",\"UniqueId\":\"79\",\"stepId\":\"20\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 1173.8px; top: 181.638px;\",\"mapping\":\"79,20-[83,19]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"19\"},{\"widgetId\":\"DataProfiling_dropped.21\",\"UniqueId\":\"80\",\"stepId\":\"21\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 1294.8px; top: 162.638px;\",\"mapping\":\"80,21-[79,20]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.22\",\"UniqueId\":\"88\",\"stepId\":\"22\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 1288.8px; top: 53.6375px;\",\"mapping\":\"88,22-[79,20]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Srinidhi",
         "FId": 123666,
@@ -632,6 +632,41 @@
         "CreatedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
         "ModifiedOn": "2025-07-06T22:35:57.36",
         "ModifiedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 375753,
+        "ScenarioId": null,
+        "QueryId": 19077,
+        "Job_Id": null,
+        "Step": 22,
+        "StepMapping": "88,22-[79,20]",
+        "TransformationId": 88,
+        "Description": "Offload the File",
+        "Position": "position: absolute; left: 1288.8px; top: 53.6375px;",
+        "CreatedOn": "2025-07-06T23:06:41.723",
+        "CreatedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -1368,6 +1403,26 @@
         "UnPivotId": 249
       }
     ],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 5933,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_19077_Srinidhi_06_07_2025_15_34_54",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2025-07-06T23:06:42.83",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 19077,
+        "SessionId": null,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true
+      }
+    ]
   }
 ]
