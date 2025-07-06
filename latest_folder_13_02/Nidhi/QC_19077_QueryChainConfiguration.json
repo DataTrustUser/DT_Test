@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 1,
-        "SnapshotOffset": null,
+        "SnapshotOffset": 2,
         "CreatedOn": "2025-07-06T15:44:31.053",
         "CreatedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
-        "ModifiedOn": "2025-07-06T16:15:43.333",
+        "ModifiedOn": "2025-07-06T16:29:27.89",
         "ModifiedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
         "Status": false,
         "SAPType": null,
@@ -87,7 +87,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 57781,
+        "Id": 57791,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -106,7 +106,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57782,
+        "Id": 57792,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -125,7 +125,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57783,
+        "Id": 57793,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -144,7 +144,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57784,
+        "Id": 57794,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -163,7 +163,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57785,
+        "Id": 57795,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -182,7 +182,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57786,
+        "Id": 57796,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -201,7 +201,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57787,
+        "Id": 57797,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -220,7 +220,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57788,
+        "Id": 57798,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -239,7 +239,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57789,
+        "Id": 57799,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
@@ -258,7 +258,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 57790,
+        "Id": 57800,
         "QueryDataSourceId": 15594,
         "DBlendId": null,
         "ProfileId": null,
