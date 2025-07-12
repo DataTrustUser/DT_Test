@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-12T11:42:39.173",
+        "ModifiedOn": "2025-07-12T11:47:32.923",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -491,7 +491,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -628,8 +628,8 @@
         "PredefinedRuleId": 13,
         "StepId": 8,
         "IgnoreNulls": false,
-        "BusinessRule": "The column 'N_COMMENT' should not contain any special characters ",
-        "RuleJson": "{\"acceptSpace\":true,\"acceptDigits\":true,\"acceptAlpha\":true}",
+        "BusinessRule": "The column 'N_COMMENT' should not contain any special characters",
+        "RuleJson": "{\"acceptSpace\":false,\"acceptDigits\":false,\"acceptAlpha\":false}",
         "RiskProfile": null,
         "QualityFacet": null,
         "DataQualityDimensionId": null,
