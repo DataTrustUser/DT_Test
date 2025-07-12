@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-12T15:14:27.753",
+        "ModifiedOn": "2025-07-12T15:19:40.103",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": null,
+        "OrderByValue": "N_NATIONKEY",
         "TableLevelAggrFunction": "[{\"ColumnName\":\"N_NATIONKEY\",\"AliasColumnName\":\"N_NATIONKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"N_NAME\",\"AliasColumnName\":\"N_NAME\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"N_REGIONKEY\",\"AliasColumnName\":\"N_REGIONKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"N_COMMENT\",\"AliasColumnName\":\"N_COMMENT\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null}]",
         "TableLevelFilterJson": null,
         "Delimeter": null,
@@ -119,7 +119,7 @@
         "CreatedBySC": "0dd1f9b5-7883-4bbc-9200-4e52ca4af6a9",
         "CreatedBy": "Afroze",
         "ModifiedBy": "Afroze",
-        "ModifiedOnSC": "2025-07-12T15:14:26.97",
+        "ModifiedOnSC": "2025-07-12T15:19:38.517",
         "ModifiedBySC": "0dd1f9b5-7883-4bbc-9200-4e52ca4af6a9"
       }
     ],
