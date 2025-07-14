@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-14T12:22:17.763",
+        "ModifiedOn": "2025-07-14T12:29:18.217",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -462,11 +462,11 @@
         "Step": 3,
         "StepMapping": "67,3-[78,2]",
         "TransformationId": 67,
-        "Description": "Aggregate data from JSON_Supplier_QC",
+        "Description": "Aggregate data by <b></b>",
         "Position": "position: absolute; left: 476.094px; top: 205.059px;",
         "CreatedOn": "2025-07-14T12:26:19.67",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-07-14T12:26:52.14",
+        "ModifiedOn": "2025-07-14T12:29:15.95",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -1576,7 +1576,7 @@
     "AdvancedObjectFilter": [],
     "SimpleAggregations": [
       {
-        "Id": 2763,
+        "Id": 2770,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1584,10 +1584,10 @@
         "StepId": 3,
         "DataSourceId": 4518,
         "ColumnName": "S_SUPPKEY",
-        "AggregationType": "Max",
+        "AggregationType": "Min",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:26:51.483",
+        "CreatedOn": "2025-07-14T12:29:14.173",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1598,7 +1598,7 @@
         "QueryId": null
       },
       {
-        "Id": 2764,
+        "Id": 2771,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1609,7 +1609,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:26:51.483",
+        "CreatedOn": "2025-07-14T12:29:14.173",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1620,7 +1620,7 @@
         "QueryId": null
       },
       {
-        "Id": 2765,
+        "Id": 2772,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1631,7 +1631,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:26:51.483",
+        "CreatedOn": "2025-07-14T12:29:14.173",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1642,7 +1642,7 @@
         "QueryId": null
       },
       {
-        "Id": 2766,
+        "Id": 2773,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1653,7 +1653,7 @@
         "AggregationType": "Min",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:26:51.483",
+        "CreatedOn": "2025-07-14T12:29:14.173",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1664,7 +1664,7 @@
         "QueryId": null
       },
       {
-        "Id": 2767,
+        "Id": 2774,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1675,7 +1675,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:26:51.483",
+        "CreatedOn": "2025-07-14T12:29:14.173",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1686,7 +1686,7 @@
         "QueryId": null
       },
       {
-        "Id": 2768,
+        "Id": 2775,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1697,7 +1697,7 @@
         "AggregationType": "Sum",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:26:51.483",
+        "CreatedOn": "2025-07-14T12:29:14.173",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1708,7 +1708,7 @@
         "QueryId": null
       },
       {
-        "Id": 2769,
+        "Id": 2776,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1719,7 +1719,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:26:51.483",
+        "CreatedOn": "2025-07-14T12:29:14.173",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
