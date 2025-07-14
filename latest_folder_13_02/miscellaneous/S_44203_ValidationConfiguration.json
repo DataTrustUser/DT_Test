@@ -99,13 +99,13 @@
         "DefaultPacketSize": 50000.0,
         "MaxParallelism": null,
         "MaxPacketSize": null,
-        "UseLatestSession": null,
-        "ResultScenario_Id": null,
+        "UseLatestSession": false,
+        "ResultScenario_Id": 0,
         "ScenarioType": null,
-        "Scenario_SessionId": null,
+        "Scenario_SessionId": 0,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": null,
+        "OrderByValue": "N_NATIONKEY",
         "TableLevelAggrFunction": "[{\"ColumnName\":\"N_NATIONKEY\",\"AliasColumnName\":\"N_NATIONKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"N_NAME\",\"AliasColumnName\":\"N_NAME\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"N_REGIONKEY\",\"AliasColumnName\":\"N_REGIONKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"N_COMMENT\",\"AliasColumnName\":\"N_COMMENT\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null}]",
         "TableLevelFilterJson": null,
         "Delimeter": null,
@@ -117,8 +117,8 @@
         "ProfileName": "MSSQL_NJ",
         "CreatedOnSC": "2025-07-14T06:08:38.777",
         "CreatedBySC": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2025-07-14T06:09:06.11",
+        "ModifiedBySC": "40c2e706-8c47-4840-a80e-3afb897ee895"
       }
     ],
     "QFTypes": null,
