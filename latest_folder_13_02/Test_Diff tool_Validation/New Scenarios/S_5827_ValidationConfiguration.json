@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_JSON_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.2\",\"UniqueId\":\"78\",\"stepId\":\"2\",\"description\":\"Read data from \\\"JSON_Supplier_QC\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 264.094px; top: 203.059px;\",\"mapping\":\"78,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcAggregation_dropped.3\",\"UniqueId\":\"67\",\"stepId\":\"3\",\"description\":\"Aggregate data by \",\"position\":\"position: absolute; left: 476.094px; top: 205.059px;\",\"mapping\":\"67,3-[78,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.4\",\"UniqueId\":\"12\",\"stepId\":\"4\",\"description\":\"DC\",\"position\":\"position: absolute; left: 711.083px; top: 187.059px;\",\"mapping\":\"12,4-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.5\",\"UniqueId\":\"17\",\"stepId\":\"5\",\"description\":\"NULL\",\"position\":\"position: absolute; left: 713.042px; top: 83.059px;\",\"mapping\":\"17,5-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Pattern_dropped.6\",\"UniqueId\":\"18\",\"stepId\":\"6\",\"description\":\"PATT\",\"position\":\"position: absolute; left: 718.031px; top: 302.059px;\",\"mapping\":\"18,6-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Lowercase_dropped.7\",\"UniqueId\":\"48\",\"stepId\":\"7\",\"description\":\"LOWER\",\"position\":\"position: absolute; left: 929.021px; top: 124.059px;\",\"mapping\":\"48,7-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_JSON_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.2\",\"UniqueId\":\"78\",\"stepId\":\"2\",\"description\":\"Read data from \\\"JSON_Supplier_QC\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 264.094px; top: 203.059px;\",\"mapping\":\"78,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcAggregation_dropped.3\",\"UniqueId\":\"67\",\"stepId\":\"3\",\"description\":\"Aggregate data by \",\"position\":\"position: absolute; left: 476.094px; top: 205.059px;\",\"mapping\":\"67,3-[78,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.4\",\"UniqueId\":\"12\",\"stepId\":\"4\",\"description\":\"DC\",\"position\":\"position: absolute; left: 711.083px; top: 187.059px;\",\"mapping\":\"12,4-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.5\",\"UniqueId\":\"17\",\"stepId\":\"5\",\"description\":\"NULL\",\"position\":\"position: absolute; left: 713.042px; top: 83.059px;\",\"mapping\":\"17,5-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Pattern_dropped.6\",\"UniqueId\":\"18\",\"stepId\":\"6\",\"description\":\"PATT\",\"position\":\"position: absolute; left: 718.031px; top: 302.059px;\",\"mapping\":\"18,6-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Lowercase_dropped.7\",\"UniqueId\":\"48\",\"stepId\":\"7\",\"description\":\"LOWER\",\"position\":\"position: absolute; left: 929.021px; top: 124.059px;\",\"mapping\":\"48,7-[67,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-14T12:35:55.793",
+        "ModifiedOn": "2025-07-14T12:38:13.537",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -599,7 +599,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -636,7 +636,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -1897,7 +1897,7 @@
       {
         "Id": 9219,
         "Scenario_Header_Id": 5827,
-        "RuleText": "S_SUPPKEY,Equal to,1",
+        "RuleText": "S_SUPPKEY,Begin with,1",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "PATT",
@@ -1905,7 +1905,7 @@
         "PredefinedRuleId": 6,
         "StepId": 6,
         "IgnoreNulls": false,
-        "BusinessRule": "The field 'S_SUPPKEY' should Equal to 1",
+        "BusinessRule": "The field 'S_SUPPKEY' should Begin with 1",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -1920,7 +1920,7 @@
       {
         "Id": 9220,
         "Scenario_Header_Id": 5827,
-        "RuleText": "S_NAME ",
+        "RuleText": "S_COMMENT ",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "LOWER",
@@ -1928,7 +1928,7 @@
         "PredefinedRuleId": 8,
         "StepId": 7,
         "IgnoreNulls": false,
-        "BusinessRule": "All the values in the column 'S_NAME' should be in lowercase ",
+        "BusinessRule": "All the values in the column 'S_COMMENT' should be in lowercase ",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
