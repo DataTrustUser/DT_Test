@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_Parquet_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsParquet_dropped.1\",\"UniqueId\":\"160\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\_2025_07_14_12_02_48_TPCH1_Part.parquet\\\"\",\"position\":\"position: absolute; left: 273.99px; top: 204.059px;\",\"mapping\":\"160,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform data from < Data Source >\",\"position\":\"position: absolute; left: 454.104px; top: 204.059px;\",\"mapping\":\"65,2-[160,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"Duplicate\",\"position\":\"position: absolute; left: 641.083px; top: 201.059px;\",\"mapping\":\"12,3-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.4\",\"UniqueId\":\"14\",\"stepId\":\"4\",\"description\":\"RC\",\"position\":\"position: absolute; left: 641.062px; top: 89.8437px;\",\"mapping\":\"14,4-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Length_dropped.5\",\"UniqueId\":\"16\",\"stepId\":\"5\",\"description\":\"LN\",\"position\":\"position: absolute; left: 661.052px; top: 324.844px;\",\"mapping\":\"16,5-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_Parquet_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsParquet_dropped.1\",\"UniqueId\":\"160\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\_2025_07_14_12_02_48_TPCH1_Part.parquet\\\"\",\"position\":\"position: absolute; left: 273.99px; top: 204.059px;\",\"mapping\":\"160,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform data from < Data Source >\",\"position\":\"position: absolute; left: 454.104px; top: 204.059px;\",\"mapping\":\"65,2-[160,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"Duplicate\",\"position\":\"position: absolute; left: 641.083px; top: 201.059px;\",\"mapping\":\"12,3-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.4\",\"UniqueId\":\"14\",\"stepId\":\"4\",\"description\":\"RC\",\"position\":\"position: absolute; left: 641.062px; top: 89.8437px;\",\"mapping\":\"14,4-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Length_dropped.5\",\"UniqueId\":\"16\",\"stepId\":\"5\",\"description\":\"LN\",\"position\":\"position: absolute; left: 661.052px; top: 324.844px;\",\"mapping\":\"16,5-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-14T12:04:20.973",
+        "ModifiedOn": "2025-07-14T12:08:49.84",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -252,7 +252,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -289,7 +289,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -731,7 +731,7 @@
       {
         "Id": 9206,
         "Scenario_Header_Id": 5826,
-        "RuleText": "P_PARTKEY,Between,1,200000",
+        "RuleText": "P_PARTKEY,Between,10,200000",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "RC",
@@ -739,7 +739,7 @@
         "PredefinedRuleId": 3,
         "StepId": 4,
         "IgnoreNulls": false,
-        "BusinessRule": "The field 'P_PARTKEY' should be Between 1 and 200000",
+        "BusinessRule": "The field 'P_PARTKEY' should be Between 10 and 200000",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -754,7 +754,7 @@
       {
         "Id": 9207,
         "Scenario_Header_Id": 5826,
-        "RuleText": "P_NAME,Equal to,7",
+        "RuleText": "P_NAME,Equal to,6",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "LN",
@@ -762,7 +762,7 @@
         "PredefinedRuleId": 4,
         "StepId": 5,
         "IgnoreNulls": false,
-        "BusinessRule": "The field 'P_NAME' should be Equal to 7",
+        "BusinessRule": "The field 'P_NAME' should be Equal to 6",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
