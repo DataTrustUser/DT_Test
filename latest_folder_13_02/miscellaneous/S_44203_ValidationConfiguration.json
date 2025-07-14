@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/14/2025 6:08:16 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 232.667px; top: 147.635px; \",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"n\",\"position\":\"position: absolute; left: 424.667px; top: 137.635px;\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/14/2025 6:08:16 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 232.667px; top: 147.635px;  \",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"n\",\"position\":\"position: absolute; left: 424.667px; top: 137.635px;\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-14T11:43:02.567",
+        "ModifiedOn": "2025-07-14T12:01:16.107",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -116,11 +116,9 @@
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_NJ",
         "CreatedOnSC": "2025-07-14T06:08:38.777",
-        "CreatedBySC": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedBy": "Afroze",
-        "ModifiedBy": "Afroze",
-        "ModifiedOnSC": "2025-07-14T11:43:01.963",
-        "ModifiedBySC": "40c2e706-8c47-4840-a80e-3afb897ee895"
+        "CreatedBySC": "Afroze",
+        "ModifiedOnSC": "2025-07-14T12:01:15.49",
+        "ModifiedBySC": "Afroze"
       }
     ],
     "QFTypes": null,
