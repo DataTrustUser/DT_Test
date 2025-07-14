@@ -7,7 +7,7 @@
         "CheckForExistInBoth": true,
         "CompareCount": null,
         "CreatedOn": "2025-06-13T18:52:25.06",
-        "CreatedBy": "116",
+        "CreatedBy": "Vinay",
         "DataDomainHierarchyId": 0,
         "DataQualityDimensionId": null,
         "Description": "Val-RDBMS with rules",
@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Val-RDBMS with rules\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 261.667px; top: 204.635px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.2\",\"UniqueId\":\"66\",\"stepId\":\"2\",\"description\":\"N_REGIONKEY < 3 \",\"position\":\"position: absolute; left: 428.667px; top: 204.635px;\",\"mapping\":\"66,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"dup\",\"position\":\"position: absolute; left: 620.667px; top: 114.635px;\",\"mapping\":\"12,3-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Positive_dropped.4\",\"UniqueId\":\"50\",\"stepId\":\"4\",\"description\":\"pstv\",\"position\":\"position: absolute; left: 616.667px; top: 248.635px;\",\"mapping\":\"50,4-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"MSTeams_dropped.5\",\"UniqueId\":\"156\",\"stepId\":\"5\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 831.667px; top: 70.6354px;\",\"mapping\":\"156,5-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Slack_dropped.6\",\"UniqueId\":\"157\",\"stepId\":\"6\",\"description\":\"Slack\",\"position\":\"position: absolute; left: 853.667px; top: 153.635px;\",\"mapping\":\"157,6-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsTFS_dropped.7\",\"UniqueId\":\"101\",\"stepId\":\"7\",\"description\":\"Azure DevOps\",\"position\":\"position: absolute; left: 853.667px; top: 263.635px;\",\"mapping\":\"101,7-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"File_dropped.8\",\"UniqueId\":\"88\",\"stepId\":\"8\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 941.667px; top: 10.6354px;\",\"mapping\":\"88,8-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.9\",\"UniqueId\":\"163\",\"stepId\":\"9\",\"description\":\"Sink Results\",\"position\":\"position: absolute; left: 971.667px; top: 113.635px;\",\"mapping\":\"163,9-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"ServiceNow_dropped.10\",\"UniqueId\":\"159\",\"stepId\":\"10\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 984.667px; top: 254.635px;\",\"mapping\":\"159,10-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Val-RDBMS with rules\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 261.667px; top: 204.635px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.2\",\"UniqueId\":\"66\",\"stepId\":\"2\",\"description\":\"N_REGIONKEY < 3 \",\"position\":\"position: absolute; left: 428.667px; top: 204.635px;\",\"mapping\":\"66,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"dup\",\"position\":\"position: absolute; left: 620.667px; top: 114.635px;\",\"mapping\":\"12,3-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Positive_dropped.4\",\"UniqueId\":\"50\",\"stepId\":\"4\",\"description\":\"pstv\",\"position\":\"position: absolute; left: 616.667px; top: 248.635px;\",\"mapping\":\"50,4-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"MSTeams_dropped.5\",\"UniqueId\":\"156\",\"stepId\":\"5\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 831.667px; top: 70.6354px;\",\"mapping\":\"156,5-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Slack_dropped.6\",\"UniqueId\":\"157\",\"stepId\":\"6\",\"description\":\"Slack\",\"position\":\"position: absolute; left: 853.667px; top: 153.635px;\",\"mapping\":\"157,6-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsTFS_dropped.7\",\"UniqueId\":\"101\",\"stepId\":\"7\",\"description\":\"Azure DevOps\",\"position\":\"position: absolute; left: 853.667px; top: 263.635px;\",\"mapping\":\"101,7-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"File_dropped.8\",\"UniqueId\":\"88\",\"stepId\":\"8\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 941.667px; top: 10.6354px;\",\"mapping\":\"88,8-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.9\",\"UniqueId\":\"163\",\"stepId\":\"9\",\"description\":\"Sink Results\",\"position\":\"position: absolute; left: 971.667px; top: 113.635px;\",\"mapping\":\"163,9-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"ServiceNow_dropped.10\",\"UniqueId\":\"159\",\"stepId\":\"10\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 984.667px; top: 254.635px;\",\"mapping\":\"159,10-[50,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
-        "ModifiedBy": "116",
+        "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-06-13T18:57:24.28",
+        "ModifiedOn": "2025-07-14T05:20:22.957",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -270,7 +270,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -655,7 +655,7 @@
         "Id": 8807,
         "Scenario_Header_Id": 5369,
         "RuleText": "N_REGIONKEY",
-        "RuleHtml": null,
+        "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncN_NATIONKEY\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"N_NATIONKEY\">N_NATIONKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncN_NAME\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"N_NAME\">N_NAME<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncN_REGIONKEY active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"N_REGIONKEY\">N_REGIONKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncN_COMMENT\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"N_COMMENT\">N_COMMENT<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following field <b>'N_REGIONKEY'</b> should not be duplicated</span>\n                    </div>\n                </div>\n            ",
         "Status": null,
         "RuleTitle": "dup",
         "IsPredefined": true,
@@ -669,7 +669,7 @@
         "DataQualityDimensionId": null,
         "RiskCategoryId": null,
         "SelectedColumnsJSON": null,
-        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]",
+        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]",
         "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
@@ -762,7 +762,8 @@
         "ScenarioId": 5369,
         "DependantStepId": null,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4647,
@@ -773,7 +774,8 @@
         "ScenarioId": 5369,
         "DependantStepId": null,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4648,
@@ -784,7 +786,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4649,
@@ -795,7 +798,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": "DataTrust"
       },
       {
         "Id": 4650,
@@ -806,7 +810,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4651,
@@ -817,7 +822,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4652,
@@ -828,7 +834,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4653,
@@ -839,7 +846,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4654,
@@ -850,7 +858,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4655,
@@ -861,7 +870,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4656,
@@ -872,7 +882,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4657,
@@ -883,7 +894,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 7,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4658,
@@ -894,7 +906,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4659,
@@ -905,7 +918,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4660,
@@ -916,7 +930,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4661,
@@ -927,7 +942,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4662,
@@ -938,7 +954,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4663,
@@ -949,7 +966,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4664,
@@ -960,7 +978,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       },
       {
         "Id": 4665,
@@ -971,7 +990,8 @@
         "ScenarioId": 5369,
         "DependantStepId": 10,
         "SessionId": null,
-        "RuleId": null
+        "RuleId": null,
+        "ProjectName": null
       }
     ],
     "EmailAlerts": [],
