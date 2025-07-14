@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-14T12:29:18.217",
+        "ModifiedOn": "2025-07-14T12:35:55.793",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -462,11 +462,11 @@
         "Step": 3,
         "StepMapping": "67,3-[78,2]",
         "TransformationId": 67,
-        "Description": "Aggregate data by <b></b>",
+        "Description": "Aggregate data by ",
         "Position": "position: absolute; left: 476.094px; top: 205.059px;",
         "CreatedOn": "2025-07-14T12:26:19.67",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-07-14T12:29:15.95",
+        "ModifiedOn": "2025-07-14T12:35:54.92",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -1576,7 +1576,7 @@
     "AdvancedObjectFilter": [],
     "SimpleAggregations": [
       {
-        "Id": 2770,
+        "Id": 2777,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1587,7 +1587,7 @@
         "AggregationType": "Min",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:29:14.173",
+        "CreatedOn": "2025-07-14T12:35:54.673",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1598,7 +1598,7 @@
         "QueryId": null
       },
       {
-        "Id": 2771,
+        "Id": 2778,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1609,7 +1609,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:29:14.173",
+        "CreatedOn": "2025-07-14T12:35:54.673",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1620,7 +1620,7 @@
         "QueryId": null
       },
       {
-        "Id": 2772,
+        "Id": 2779,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1631,7 +1631,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:29:14.173",
+        "CreatedOn": "2025-07-14T12:35:54.673",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1642,7 +1642,7 @@
         "QueryId": null
       },
       {
-        "Id": 2773,
+        "Id": 2780,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1650,10 +1650,10 @@
         "StepId": 3,
         "DataSourceId": 4518,
         "ColumnName": "S_NATIONKEY",
-        "AggregationType": "Min",
+        "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:29:14.173",
+        "CreatedOn": "2025-07-14T12:35:54.673",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1664,7 +1664,7 @@
         "QueryId": null
       },
       {
-        "Id": 2774,
+        "Id": 2781,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1675,7 +1675,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:29:14.173",
+        "CreatedOn": "2025-07-14T12:35:54.673",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1686,7 +1686,7 @@
         "QueryId": null
       },
       {
-        "Id": 2775,
+        "Id": 2782,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1697,7 +1697,7 @@
         "AggregationType": "Sum",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:29:14.173",
+        "CreatedOn": "2025-07-14T12:35:54.673",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1708,7 +1708,7 @@
         "QueryId": null
       },
       {
-        "Id": 2776,
+        "Id": 2783,
         "ScenarioId": 5827,
         "CSV_Id": 0,
         "DCStepId": 30327,
@@ -1719,7 +1719,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-14T12:29:14.173",
+        "CreatedOn": "2025-07-14T12:35:54.673",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
