@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/14/2025 11:03:44 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 259.667px; top: 164.635px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Length_dropped.2\",\"UniqueId\":\"16\",\"stepId\":\"2\",\"description\":\"n\",\"position\":\"position: absolute; left: 409.667px; top: 153.635px;\",\"mapping\":\"16,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-14T11:04:46.11",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -233,7 +233,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -339,7 +339,7 @@
       {
         "Id": 26118,
         "Scenario_Header_Id": 44209,
-        "RuleText": "N_NATIONKEY,Equal to,12",
+        "RuleText": "N_NATIONKEY,Equal to,13",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "n",
@@ -347,7 +347,7 @@
         "PredefinedRuleId": 4,
         "StepId": 2,
         "IgnoreNulls": false,
-        "BusinessRule": "The field 'N_NATIONKEY' should be Equal to 12",
+        "BusinessRule": "The field 'N_NATIONKEY' should be Equal to 13",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
