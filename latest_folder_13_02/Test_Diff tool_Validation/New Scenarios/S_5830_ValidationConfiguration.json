@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-14T12:50:56.193",
+        "ModifiedOn": "2025-07-14T12:52:35.013",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -726,7 +726,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -2080,7 +2080,7 @@
       {
         "Id": 9235,
         "Scenario_Header_Id": 5830,
-        "RuleText": "undefined|",
+        "RuleText": "undefined|,./",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "SPL",
@@ -2088,7 +2088,7 @@
         "PredefinedRuleId": 13,
         "StepId": 15,
         "IgnoreNulls": false,
-        "BusinessRule": "",
+        "BusinessRule": "The column 'undefined' should not contain any special characters",
         "RuleJson": "{\"acceptSpace\":true,\"acceptDigits\":true,\"acceptAlpha\":true}",
         "RiskProfile": null,
         "QualityFacet": null,
