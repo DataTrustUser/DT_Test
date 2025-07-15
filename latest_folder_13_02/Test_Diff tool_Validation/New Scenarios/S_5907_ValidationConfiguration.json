@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_Databricks_J_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsCustomSequel_dropped.1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Oracle DEMO\\\"\",\"position\":\"position: absolute; left: 254.069px; top: 202.056px;\",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Dupli\",\"position\":\"position: absolute; left: 435.083px; top: 204.059px;\",\"mapping\":\"12,2-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Reference_dropped.3\",\"UniqueId\":\"13\",\"stepId\":\"3\",\"description\":\"RI\",\"position\":\"position: absolute; left: 488.073px; top: 87.059px;\",\"mapping\":\"13,3-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.4\",\"UniqueId\":\"14\",\"stepId\":\"4\",\"description\":\"RC\",\"position\":\"position: absolute; left: 515.062px; top: 384.059px;\",\"mapping\":\"14,4-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Length_dropped.5\",\"UniqueId\":\"16\",\"stepId\":\"5\",\"description\":\"Len\",\"position\":\"position: absolute; left: 602.052px; top: 265.059px;\",\"mapping\":\"16,5-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.6\",\"UniqueId\":\"17\",\"stepId\":\"6\",\"description\":\"Null\",\"position\":\"position: absolute; left: 640.042px; top: 138.059px;\",\"mapping\":\"17,6-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"ServiceNow_dropped.7\",\"UniqueId\":\"159\",\"stepId\":\"7\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 998.031px; top: 210.059px;\",\"mapping\":\"159,7-[17,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_Databricks_J_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsCustomSequel_dropped.1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Oracle DEMO\\\"\",\"position\":\"position: absolute; left: 254.069px; top: 202.056px;\",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Dupli\",\"position\":\"position: absolute; left: 435.083px; top: 204.059px;\",\"mapping\":\"12,2-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Reference_dropped.3\",\"UniqueId\":\"13\",\"stepId\":\"3\",\"description\":\"RI\",\"position\":\"position: absolute; left: 488.073px; top: 87.059px;\",\"mapping\":\"13,3-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.4\",\"UniqueId\":\"14\",\"stepId\":\"4\",\"description\":\"RC\",\"position\":\"position: absolute; left: 515.062px; top: 384.059px;\",\"mapping\":\"14,4-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Length_dropped.5\",\"UniqueId\":\"16\",\"stepId\":\"5\",\"description\":\"Len\",\"position\":\"position: absolute; left: 602.052px; top: 265.059px;\",\"mapping\":\"16,5-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.6\",\"UniqueId\":\"17\",\"stepId\":\"6\",\"description\":\"Null\",\"position\":\"position: absolute; left: 640.042px; top: 138.059px;\",\"mapping\":\"17,6-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"ServiceNow_dropped.7\",\"UniqueId\":\"159\",\"stepId\":\"7\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 998.031px; top: 210.059px;\",\"mapping\":\"159,7-[17,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"MSTeams_dropped.8\",\"UniqueId\":\"156\",\"stepId\":\"8\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 1011.05px; top: 68.059px;\",\"mapping\":\"156,8-[17,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-15T12:50:34.547",
+        "ModifiedOn": "2025-07-15T12:54:24.193",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -396,7 +396,44 @@
         "Position": "position: absolute; left: 998.031px; top: 210.059px;",
         "CreatedOn": "2025-07-15T12:51:29.057",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-07-15T12:52:37.26",
+        "ModifiedOn": "2025-07-15T12:54:24.553",
+        "ModifiedBy": "Swami",
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "Overwritesnapshot": null,
+        "IsPreBlend": null,
+        "BlendStepId": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 30891,
+        "ScenarioId": 5907,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 8,
+        "StepMapping": "156,8-[17,6]",
+        "TransformationId": 156,
+        "Description": "MS Teams",
+        "Position": "position: absolute; left: 1011.05px; top: 68.059px;",
+        "CreatedOn": "2025-07-15T12:53:43.92",
+        "CreatedBy": "117",
+        "ModifiedOn": "2025-07-15T12:53:56.123",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -798,7 +835,19 @@
     ],
     "ThirdPartyAPIParams": [
       {
-        "Id": 5040,
+        "Id": 5048,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"Teams Integration\"]",
+        "ScenarioId": 5907,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 5049,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Instance Name",
@@ -810,7 +859,7 @@
         "ProjectName": null
       },
       {
-        "Id": 5041,
+        "Id": 5050,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Caller",
@@ -822,7 +871,7 @@
         "ProjectName": null
       },
       {
-        "Id": 5042,
+        "Id": 5051,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Category",
@@ -834,7 +883,7 @@
         "ProjectName": null
       },
       {
-        "Id": 5043,
+        "Id": 5052,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Impact",
@@ -846,7 +895,7 @@
         "ProjectName": null
       },
       {
-        "Id": 5044,
+        "Id": 5053,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Urgency",
@@ -858,7 +907,7 @@
         "ProjectName": null
       },
       {
-        "Id": 5045,
+        "Id": 5054,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assignment group",
@@ -870,7 +919,7 @@
         "ProjectName": null
       },
       {
-        "Id": 5046,
+        "Id": 5055,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assigned to",
@@ -882,11 +931,11 @@
         "ProjectName": null
       },
       {
-        "Id": 5047,
+        "Id": 5056,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Short description",
-        "ParamterValue": "RD",
+        "ParamterValue": "RDt",
         "ScenarioId": 5907,
         "DependantStepId": 7,
         "SessionId": null,
