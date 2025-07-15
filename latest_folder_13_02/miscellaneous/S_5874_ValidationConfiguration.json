@@ -23,7 +23,7 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 7/15/2025 9:07:46 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 252px; top: 202.641px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 427px; top: 201.641px;\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"true\",\"activestatus\":\"true\"},{\"widgetId\":\"Email_dropped.3\",\"UniqueId\":\"20\",\"stepId\":\"3\",\"description\":\"Email\",\"position\":\"position: absolute; left: 575px; top: 199.641px;\",\"mapping\":\"20,3-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 7/15/2025 9:07:46 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_NJ\\\"\",\"position\":\"position: absolute; left: 252px; top: 202.641px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 427px; top: 201.641px;\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"true\",\"activestatus\":\"true\"},{\"widgetId\":\"Email_dropped.3\",\"UniqueId\":\"20\",\"stepId\":\"3\",\"description\":\"Email\",\"position\":\"position: absolute; left: 575px; top: 199.641px;\",\"mapping\":\"20,3-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
@@ -157,7 +157,7 @@
         "JsonValue": null,
         "AppendToExistingData": null,
         "IsActive": true,
-        "Comments": null,
+        "Comments": "<p>sample&nbsp;</p>\n<p>&nbsp;</p>",
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
