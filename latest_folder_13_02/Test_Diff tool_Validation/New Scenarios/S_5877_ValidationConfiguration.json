@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_Redshift_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsCustomSequel_dropped.1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Amazon Redshift\\\"\",\"position\":\"position: absolute; left: 282.083px; top: 203.059px;\",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.2\",\"UniqueId\":\"66\",\"stepId\":\"2\",\"description\":\"p_partkey > 100 \",\"position\":\"position: absolute; left: 474.083px; top: 203.059px;\",\"mapping\":\"66,2-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"Duplicate\",\"position\":\"position: absolute; left: 699.083px; top: 205.059px;\",\"mapping\":\"12,3-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"false\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Reference_dropped.4\",\"UniqueId\":\"13\",\"stepId\":\"4\",\"description\":\"RI\",\"position\":\"position: absolute; left: 698.066px; top: 90.0451px;\",\"mapping\":\"13,4-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.5\",\"UniqueId\":\"14\",\"stepId\":\"5\",\"description\":\"RC\",\"position\":\"position: absolute; left: 716.062px; top: 324.059px;\",\"mapping\":\"14,5-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Length_dropped.6\",\"UniqueId\":\"16\",\"stepId\":\"6\",\"description\":\"LC\",\"position\":\"position: absolute; left: 726.052px; top: 452.059px;\",\"mapping\":\"16,6-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.7\",\"UniqueId\":\"17\",\"stepId\":\"7\",\"description\":\"NULL\",\"position\":\"position: absolute; left: 881.042px; top: 108.059px;\",\"mapping\":\"17,7-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Pattern_dropped.8\",\"UniqueId\":\"18\",\"stepId\":\"8\",\"description\":\"Pattern\",\"position\":\"position: absolute; left: 881.031px; top: 221.059px;\",\"mapping\":\"18,8-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Lowercase_dropped.9\",\"UniqueId\":\"48\",\"stepId\":\"9\",\"description\":\"Lower\",\"position\":\"position: absolute; left: 892.021px; top: 337.059px;\",\"mapping\":\"48,9-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Uppercase_dropped.10\",\"UniqueId\":\"49\",\"stepId\":\"10\",\"description\":\"Upper\",\"position\":\"position: absolute; left: 892.01px; top: 455.059px;\",\"mapping\":\"49,10-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dff-Tool_Redshift_Validation\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsCustomSequel_dropped.1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Amazon Redshift\\\"\",\"position\":\"position: absolute; left: 282.083px; top: 203.059px;\",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.2\",\"UniqueId\":\"66\",\"stepId\":\"2\",\"description\":\"p_partkey > 100 \",\"position\":\"position: absolute; left: 474.083px; top: 203.059px;\",\"mapping\":\"66,2-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"Duplicate\",\"position\":\"position: absolute; left: 699.083px; top: 205.059px;\",\"mapping\":\"12,3-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"false\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Reference_dropped.4\",\"UniqueId\":\"13\",\"stepId\":\"4\",\"description\":\"RI\",\"position\":\"position: absolute; left: 698.066px; top: 90.0451px;\",\"mapping\":\"13,4-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.5\",\"UniqueId\":\"14\",\"stepId\":\"5\",\"description\":\"RC\",\"position\":\"position: absolute; left: 716.062px; top: 324.059px;\",\"mapping\":\"14,5-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Length_dropped.6\",\"UniqueId\":\"16\",\"stepId\":\"6\",\"description\":\"LC\",\"position\":\"position: absolute; left: 726.052px; top: 452.059px;\",\"mapping\":\"16,6-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.7\",\"UniqueId\":\"17\",\"stepId\":\"7\",\"description\":\"NULL\",\"position\":\"position: absolute; left: 881.042px; top: 108.059px;\",\"mapping\":\"17,7-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Pattern_dropped.8\",\"UniqueId\":\"18\",\"stepId\":\"8\",\"description\":\"Pattern\",\"position\":\"position: absolute; left: 881.031px; top: 221.059px;\",\"mapping\":\"18,8-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Lowercase_dropped.9\",\"UniqueId\":\"48\",\"stepId\":\"9\",\"description\":\"Lower\",\"position\":\"position: absolute; left: 892.021px; top: 337.059px;\",\"mapping\":\"48,9-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Uppercase_dropped.10\",\"UniqueId\":\"49\",\"stepId\":\"10\",\"description\":\"Upper\",\"position\":\"position: absolute; left: 892.01px; top: 455.059px;\",\"mapping\":\"49,10-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-15T09:33:24.09",
+        "ModifiedOn": "2025-07-15T09:58:09.42",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -492,7 +492,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -529,7 +529,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -904,7 +904,7 @@
       {
         "Id": 9271,
         "Scenario_Header_Id": 5877,
-        "RuleText": "p_name ",
+        "RuleText": "p_comment ",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "Lower",
@@ -912,7 +912,7 @@
         "PredefinedRuleId": 8,
         "StepId": 9,
         "IgnoreNulls": false,
-        "BusinessRule": "All the values in the column 'p_name' should be in lowercase ",
+        "BusinessRule": "All the values in the column 'p_comment' should be in lowercase ",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -935,7 +935,7 @@
         "PredefinedRuleId": 9,
         "StepId": 10,
         "IgnoreNulls": true,
-        "BusinessRule": "All the values in the column 'p_name' should be in uppercase ",
+        "BusinessRule": "All the values in the column 'p_name' should be uppercase",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -943,7 +943,7 @@
         "RiskCategoryId": null,
         "SelectedColumnsJSON": null,
         "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]",
-        "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
+        "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":\"20\"}",
         "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":\"10\"}"
       }
