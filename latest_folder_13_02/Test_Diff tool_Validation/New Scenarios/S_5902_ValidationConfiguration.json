@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-15T12:33:41.42",
+        "ModifiedOn": "2025-07-15T12:36:04.943",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -714,7 +714,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -2017,7 +2017,7 @@
       {
         "Id": 9290,
         "Scenario_Header_Id": 5902,
-        "RuleText": "Equal to,200000",
+        "RuleText": "Equal to,20000",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "DC",
@@ -2025,7 +2025,7 @@
         "PredefinedRuleId": 15,
         "StepId": 11,
         "IgnoreNulls": false,
-        "BusinessRule": "Dataset count should be Equal to 200000",
+        "BusinessRule": "Dataset count should be Equal to 20000",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
