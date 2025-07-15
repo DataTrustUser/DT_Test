@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-15T12:36:04.943",
+        "ModifiedOn": "2025-07-15T12:37:58.577",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -751,7 +751,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -766,7 +766,7 @@
         "Position": "position: absolute; left: 1443.05px; top: 246.059px;",
         "CreatedOn": "2025-07-15T12:37:15.133",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-07-15T12:37:22.363",
+        "ModifiedOn": "2025-07-15T12:37:43.707",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -2114,7 +2114,7 @@
       {
         "Id": 9291,
         "Scenario_Header_Id": 5902,
-        "RuleText": "P_COMMENT|,./-=",
+        "RuleText": "P_SIZE|,./-=",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "SPL",
@@ -2122,7 +2122,7 @@
         "PredefinedRuleId": 13,
         "StepId": 12,
         "IgnoreNulls": false,
-        "BusinessRule": "The column 'P_COMMENT' should not contain any special characters ",
+        "BusinessRule": "The column 'P_SIZE' should not contain any special characters ",
         "RuleJson": "{\"acceptSpace\":true,\"acceptDigits\":false,\"acceptAlpha\":false}",
         "RiskProfile": null,
         "QualityFacet": null,
@@ -2271,11 +2271,11 @@
     ],
     "ThirdPartyAPIParams": [
       {
-        "Id": 5030,
+        "Id": 5031,
         "APIInte_ID": 107,
         "APIParamLookupTypeId": 2,
         "ParamName": "InstanceName",
-        "ParamterValue": "[\"Teams Integration\"]",
+        "ParamterValue": "[\"MS_Teams\"]",
         "ScenarioId": 5902,
         "DependantStepId": null,
         "SessionId": null,
