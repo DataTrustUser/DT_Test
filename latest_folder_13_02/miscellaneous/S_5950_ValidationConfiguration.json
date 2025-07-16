@@ -23,7 +23,7 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 7/16/2025 11:31:52 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 311.887px; top: 158.384px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"DC\",\"position\":\"position: absolute; left: 550.905px; top: 148.384px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"MSTeams_dropped.3\",\"UniqueId\":\"156\",\"stepId\":\"3\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 710.851px; top: 120.384px;\",\"mapping\":\"156,3-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 7/16/2025 11:31:52 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 311.887px; top: 158.384px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"DC\",\"position\":\"position: absolute; left: 550.905px; top: 148.384px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Length_dropped.3\",\"UniqueId\":\"16\",\"stepId\":\"3\",\"description\":\"LC\",\"position\":\"position: absolute; left: 655.851px; top: 236.384px;\",\"mapping\":\"16,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
@@ -39,7 +39,7 @@
         "FId": 1,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
-        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]",
+        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]",
         "DoCompareOnSource": null,
         "ThreSholdValue": null,
         "FailedThreshold": null,
@@ -71,7 +71,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 31191,
+        "Id": 31198,
         "ScenarioId": 5950,
         "QueryId": null,
         "Job_Id": null,
@@ -80,7 +80,7 @@
         "TransformationId": 0,
         "Description": "Saikiran 7/16/2025 11:31:52 AM",
         "Position": null,
-        "CreatedOn": "2025-07-16T11:34:05.003",
+        "CreatedOn": "2025-07-16T11:37:37.43",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -108,7 +108,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 31192,
+        "Id": 31199,
         "ScenarioId": 5950,
         "QueryId": null,
         "Job_Id": null,
@@ -117,7 +117,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.NATION\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 311.887px; top: 158.384px;",
-        "CreatedOn": "2025-07-16T11:34:05.037",
+        "CreatedOn": "2025-07-16T11:37:37.463",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -145,7 +145,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 31193,
+        "Id": 31200,
         "ScenarioId": 5950,
         "QueryId": null,
         "Job_Id": null,
@@ -154,7 +154,7 @@
         "TransformationId": 12,
         "Description": "Duplicate Check",
         "Position": "position: absolute; left: 550.905px; top: 148.384px;",
-        "CreatedOn": "2025-07-16T11:34:05.077",
+        "CreatedOn": "2025-07-16T11:37:37.5",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -182,18 +182,18 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 31196,
+        "Id": 31201,
         "ScenarioId": 5950,
         "QueryId": null,
         "Job_Id": null,
         "Step": 3,
-        "StepMapping": "156,3-[12,2]",
-        "TransformationId": 156,
-        "Description": "MS Teams",
-        "Position": "position: absolute; left: 710.851px; top: 120.384px;",
-        "CreatedOn": "2025-07-16T11:34:48.36",
+        "StepMapping": "16,3-[2,1]",
+        "TransformationId": 16,
+        "Description": "Length Check",
+        "Position": "position: absolute; left: 655.851px; top: 236.384px;",
+        "CreatedOn": "2025-07-16T11:38:15.713",
         "CreatedBy": "140",
-        "ModifiedOn": "2025-07-16T11:34:57.07",
+        "ModifiedOn": "2025-07-16T11:38:32.45",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
@@ -239,8 +239,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 44226,
-        "ScenarioDataSourceId": 4671,
+        "Id": 44239,
+        "ScenarioDataSourceId": 4673,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.NATION",
@@ -256,8 +256,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44227,
-        "ScenarioDataSourceId": 4671,
+        "Id": 44240,
+        "ScenarioDataSourceId": 4673,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.NATION",
@@ -273,8 +273,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44228,
-        "ScenarioDataSourceId": 4671,
+        "Id": 44241,
+        "ScenarioDataSourceId": 4673,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.NATION",
@@ -290,8 +290,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44229,
-        "ScenarioDataSourceId": 4671,
+        "Id": 44242,
+        "ScenarioDataSourceId": 4673,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.NATION",
@@ -319,7 +319,7 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 9358,
+        "Id": 9362,
         "Scenario_Header_Id": 5950,
         "RuleText": "N_NATIONKEY",
         "RuleHtml": null,
@@ -340,13 +340,36 @@
         "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
+      },
+      {
+        "Id": 9363,
+        "Scenario_Header_Id": 5950,
+        "RuleText": "N_NAME,Greater than,5",
+        "RuleHtml": null,
+        "Status": null,
+        "RuleTitle": "LC",
+        "IsPredefined": true,
+        "PredefinedRuleId": 4,
+        "StepId": 3,
+        "IgnoreNulls": false,
+        "BusinessRule": "The field 'N_NAME' should be Greater than 5",
+        "RuleJson": null,
+        "RiskProfile": null,
+        "QualityFacet": null,
+        "DataQualityDimensionId": null,
+        "RiskCategoryId": null,
+        "SelectedColumnsJSON": null,
+        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]",
+        "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
+        "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
+        "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       }
     ],
     "ScenarioValidationReference": [],
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 25736,
+        "Id": 25743,
         "ScenarioId": 5950,
         "QueryId": null,
         "StepId": 0,
@@ -356,7 +379,7 @@
         "JobId": null
       },
       {
-        "Id": 25737,
+        "Id": 25744,
         "ScenarioId": 5950,
         "QueryId": null,
         "StepId": 1,
@@ -366,11 +389,21 @@
         "JobId": null
       },
       {
-        "Id": 25738,
+        "Id": 25745,
         "ScenarioId": 5950,
         "QueryId": null,
         "StepId": 2,
         "Dependency": 12,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
+      },
+      {
+        "Id": 25746,
+        "ScenarioId": 5950,
+        "QueryId": null,
+        "StepId": 3,
+        "Dependency": 16,
         "JobletId": null,
         "Decision": null,
         "JobId": null
