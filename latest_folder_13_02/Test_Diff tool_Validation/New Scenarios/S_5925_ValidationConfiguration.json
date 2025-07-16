@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-16T12:38:26.283",
+        "ModifiedOn": "2025-07-16T12:43:12.267",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -1152,7 +1152,7 @@
       {
         "Id": 9395,
         "Scenario_Header_Id": 5925,
-        "RuleText": "UpdatedAt|,./'?",
+        "RuleText": "UpdatedAt|,./'?-+",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "spl",
