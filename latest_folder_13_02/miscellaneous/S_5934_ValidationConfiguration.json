@@ -107,7 +107,7 @@
         "OffsetDate": null,
         "OrderByValue": null,
         "TableLevelAggrFunction": "[{\"ColumnName\":\"P_PARTKEY\",\"AliasColumnName\":\"P_PARTKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"P_NAME\",\"AliasColumnName\":\"P_NAME\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"P_MFGR\",\"AliasColumnName\":\"P_MFGR\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"P_BRAND\",\"AliasColumnName\":\"P_BRAND\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"P_TYPE\",\"AliasColumnName\":\"P_TYPE\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"P_SIZE\",\"AliasColumnName\":\"P_SIZE\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"P_CONTAINER\",\"AliasColumnName\":\"P_CONTAINER\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"P_RETAILPRICE\",\"AliasColumnName\":\"P_RETAILPRICE\",\"DataType\":\"float\",\"UserDataType\":\"Float\",\"Aggregation\":null},{\"ColumnName\":\"P_COMMENT\",\"AliasColumnName\":\"P_COMMENT\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null}]",
-        "TableLevelFilterJson": "{\"GlobalSQL\":\"P_PARTKEY > 100\",\"fltrMode\":\"selection\",\"fltrStr\":\"COLUMN~P_PARTKEY|OPERATOR~Greater than|INPUT~100|\",\"tblName\":\"TPCH_1.dbo.PART\"}",
+        "TableLevelFilterJson": "{\"GlobalSQL\":\"P_PARTKEY > 100  AND P_SIZE > 20\",\"fltrMode\":\"selection\",\"fltrStr\":\"COLUMN~P_PARTKEY|OPERATOR~Greater than|INPUT~100|OPERATOR~AND|COLUMN~P_SIZE|OPERATOR~Greater than|INPUT~20|\",\"tblName\":\"TPCH_1.dbo.PART\"}",
         "Delimeter": null,
         "DSDataBaseName": null,
         "DSSchemaName": null,
@@ -117,7 +117,7 @@
         "ProfileName": "MSSQL_J",
         "CreatedOnSC": "2025-07-16T08:34:11.613",
         "CreatedBySC": "Swami",
-        "ModifiedOnSC": "2025-07-16T08:34:55.13",
+        "ModifiedOnSC": "2025-07-16T08:36:24.133",
         "ModifiedBySC": "Swami"
       }
     ],
