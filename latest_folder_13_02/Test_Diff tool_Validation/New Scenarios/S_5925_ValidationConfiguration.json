@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-16T12:22:10.88",
+        "ModifiedOn": "2025-07-16T12:25:14.323",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -418,7 +418,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -741,15 +741,15 @@
       {
         "Id": 9389,
         "Scenario_Header_Id": 5925,
-        "RuleText": "PolicyID,Equal to,2",
+        "RuleText": "PolicyID,Contain,23",
         "RuleHtml": null,
         "Status": null,
-        "RuleTitle": "patt",
+        "RuleTitle": "patte",
         "IsPredefined": true,
         "PredefinedRuleId": 6,
         "StepId": 7,
-        "IgnoreNulls": false,
-        "BusinessRule": "The field 'PolicyID' should Equal to 2",
+        "IgnoreNulls": true,
+        "BusinessRule": "The field 'PolicyID' should Contain 23",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -757,9 +757,9 @@
         "RiskCategoryId": null,
         "SelectedColumnsJSON": null,
         "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":95},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]",
-        "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
-        "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
-        "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
+        "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":\"20\"}",
+        "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":\"30\"}",
+        "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":\"10\"}"
       }
     ],
     "ScenarioValidationReference": [],
