@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/16/2025 11:31:13 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.part\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 266.073px; top: 203.059px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Dup\",\"position\":\"position: absolute; left: 454.083px; top: 202.059px;\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Reference_dropped.3\",\"UniqueId\":\"13\",\"stepId\":\"3\",\"description\":\"RI\",\"position\":\"position: absolute; left: 477.073px; top: 88.059px;\",\"mapping\":\"13,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.4\",\"UniqueId\":\"14\",\"stepId\":\"4\",\"description\":\"RC\",\"position\":\"position: absolute; left: 468.062px; top: 328.059px;\",\"mapping\":\"14,4-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Length_dropped.5\",\"UniqueId\":\"16\",\"stepId\":\"5\",\"description\":\"lc\",\"position\":\"position: absolute; left: 638.052px; top: 123.059px;\",\"mapping\":\"16,5-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.6\",\"UniqueId\":\"17\",\"stepId\":\"6\",\"description\":\"null\",\"position\":\"position: absolute; left: 629.042px; top: 222.059px;\",\"mapping\":\"17,6-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/16/2025 11:31:13 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.part\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 266.073px; top: 203.059px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Dup\",\"position\":\"position: absolute; left: 454.083px; top: 202.059px;\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Reference_dropped.3\",\"UniqueId\":\"13\",\"stepId\":\"3\",\"description\":\"RI\",\"position\":\"position: absolute; left: 477.073px; top: 88.059px;\",\"mapping\":\"13,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Range_dropped.4\",\"UniqueId\":\"14\",\"stepId\":\"4\",\"description\":\"RC\",\"position\":\"position: absolute; left: 468.062px; top: 328.059px;\",\"mapping\":\"14,4-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Length_dropped.5\",\"UniqueId\":\"16\",\"stepId\":\"5\",\"description\":\"lc\",\"position\":\"position: absolute; left: 638.052px; top: 123.059px;\",\"mapping\":\"16,5-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Presence_dropped.6\",\"UniqueId\":\"17\",\"stepId\":\"6\",\"description\":\"null\",\"position\":\"position: absolute; left: 629.042px; top: 222.059px;\",\"mapping\":\"17,6-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-16T11:35:53.897",
+        "ModifiedOn": "2025-07-16T12:04:31.947",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -344,7 +344,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -381,7 +381,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -641,7 +641,7 @@
       {
         "Id": 9374,
         "Scenario_Header_Id": 5951,
-        "RuleText": "p_size,Equal to,2",
+        "RuleText": "p_partkey,Equal to,2",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "lc",
@@ -649,7 +649,7 @@
         "PredefinedRuleId": 4,
         "StepId": 5,
         "IgnoreNulls": false,
-        "BusinessRule": "The field 'p_size' should be Equal to 2",
+        "BusinessRule": "The field 'p_partkey' should Equal to  '2' ",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -664,7 +664,7 @@
       {
         "Id": 9375,
         "Scenario_Header_Id": 5951,
-        "RuleText": "p_mfgr",
+        "RuleText": "p_mfgr,p_type",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "null",
@@ -672,7 +672,7 @@
         "PredefinedRuleId": 5,
         "StepId": 6,
         "IgnoreNulls": false,
-        "BusinessRule": "Following field 'p_mfgr' should not be null",
+        "BusinessRule": "Following fields should not be null: p_mfgr, p_type",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
