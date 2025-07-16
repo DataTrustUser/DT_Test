@@ -95,7 +95,7 @@
         "SQL_Text": " SELECT * FROM ~~USR_MySQL Part Table Name##",
         "TableVizName": null,
         "ExtraColumnSC": null,
-        "DefaultfParallelism": 1.0,
+        "DefaultfParallelism": 2.0,
         "DefaultPacketSize": 100000.0,
         "MaxParallelism": null,
         "MaxPacketSize": null,
