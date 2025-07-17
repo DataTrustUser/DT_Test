@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Valiadtion_Exiat QC_Validation rules_Transformations\",\"position\":\"position: absolute; left: 84.9861px; top: 209.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_3\",\"UniqueId\":\"78\",\"stepId\":\"3\",\"description\":\"Read data from \\\"Fixed width widget _Snapshot \\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 247.088px; top: 211.056px;\",\"mapping\":\"78,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"Email_dropped.10\",\"UniqueId\":\"20\",\"stepId\":\"10\",\"description\":\"Email\",\"position\":\"position: absolute; left: 1094.1px; top: 198.059px;\",\"mapping\":\"13,17-[20,10]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.12\",\"UniqueId\":\"163\",\"stepId\":\"12\",\"description\":\"Sink Results\",\"position\":\"position: absolute; left: 1203.01px; top: 295.059px;\",\"mapping\":\"13,17-[163,12]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"File_dropped.13\",\"UniqueId\":\"88\",\"stepId\":\"13\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 1159.02px; top: 427.059px;\",\"mapping\":\"13,17-[88,13]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.14\",\"UniqueId\":\"65\",\"stepId\":\"14\",\"description\":\"Transform data from < Data Source >\",\"position\":\"position: absolute; left: 379.722px; top: 212.076px;\",\"mapping\":\"65,14-[78,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"dcAggregation_dropped.15\",\"UniqueId\":\"67\",\"stepId\":\"15\",\"description\":\"Aggregate data by policy_number,customer_id,first_name,last_name,pol\",\"position\":\"position: absolute; left: 502.683px; top: 210.076px;\",\"mapping\":\"67,15-[65,14]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.16\",\"UniqueId\":\"12\",\"stepId\":\"16\",\"description\":\"Duplicate check\",\"position\":\"position: absolute; left: 680.644px; top: 159.076px;\",\"mapping\":\"12,16-[67,15]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Reference_dropped.17\",\"UniqueId\":\"13\",\"stepId\":\"17\",\"description\":\"RI_checks\",\"position\":\"position: absolute; left: 657.604px; top: 268.002px;\",\"mapping\":\"13,17-[67,15]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Valiadtion_Exiat QC_Validation rules_Transformations\",\"position\":\"position: absolute; left: 84.9861px; top: 209.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_3\",\"UniqueId\":\"78\",\"stepId\":\"3\",\"description\":\"Read data from \\\"Fixed width widget _Snapshot \\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 247.088px; top: 211.056px;\",\"mapping\":\"78,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"Email_dropped.10\",\"UniqueId\":\"20\",\"stepId\":\"10\",\"description\":\"Email\",\"position\":\"position: absolute; left: 1094.1px; top: 198.059px;\",\"mapping\":\"13,17-[20,10]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.12\",\"UniqueId\":\"163\",\"stepId\":\"12\",\"description\":\"Sink Results\",\"position\":\"position: absolute; left: 1203.01px; top: 295.059px;\",\"mapping\":\"13,17-[163,12]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"File_dropped.13\",\"UniqueId\":\"88\",\"stepId\":\"13\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 1159.02px; top: 427.059px;\",\"mapping\":\"13,17-[88,13]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.14\",\"UniqueId\":\"65\",\"stepId\":\"14\",\"description\":\"Transform data from < Data Source >\",\"position\":\"position: absolute; left: 379.722px; top: 212.076px;\",\"mapping\":\"65,14-[78,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"dcAggregation_dropped.15\",\"UniqueId\":\"67\",\"stepId\":\"15\",\"description\":\"Aggregate data by policy_number,customer_id,first_name,last_name,pol\",\"position\":\"position: absolute; left: 502.683px; top: 210.076px;\",\"mapping\":\"67,15-[65,14]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.16\",\"UniqueId\":\"12\",\"stepId\":\"16\",\"description\":\"Duplicate check\",\"position\":\"position: absolute; left: 681.637px; top: 159.074px;\",\"mapping\":\"12,16-[67,15]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Reference_dropped.17\",\"UniqueId\":\"13\",\"stepId\":\"17\",\"description\":\"RI_checks\",\"position\":\"position: absolute; left: 657.604px; top: 268.002px;\",\"mapping\":\"13,17-[67,15]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-17T11:21:53.68",
+        "ModifiedOn": "2025-07-17T11:25:37.927",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -371,7 +371,7 @@
         "Position": "position: absolute; left: 379.722px; top: 212.076px;",
         "CreatedOn": "2025-07-17T11:10:37.067",
         "CreatedBy": "134",
-        "ModifiedOn": "2025-07-17T11:20:35.133",
+        "ModifiedOn": "2025-07-17T11:25:15.533",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -404,11 +404,11 @@
         "Step": 15,
         "StepMapping": "67,15-[65,14]",
         "TransformationId": 67,
-        "Description": "Aggregate data from   ",
+        "Description": "Aggregate data by policy_number,customer_id,first_name,last_name,pol",
         "Position": "position: absolute; left: 502.683px; top: 210.076px;",
         "CreatedOn": "2025-07-17T11:20:42.44",
         "CreatedBy": "134",
-        "ModifiedOn": "2025-07-17T11:20:57.113",
+        "ModifiedOn": "2025-07-17T11:25:24.45",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -442,7 +442,7 @@
         "StepMapping": "12,16-[67,15]",
         "TransformationId": 12,
         "Description": "Duplicate Check",
-        "Position": "position: absolute; left: 680.644px; top: 159.076px;",
+        "Position": "position: absolute; left: 502.683px; top: 210.076px;",
         "CreatedOn": "2025-07-17T11:21:10.627",
         "CreatedBy": "134",
         "ModifiedOn": "2025-07-17T11:21:27.03",
@@ -467,7 +467,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -1813,7 +1813,7 @@
     "AdvancedObjectFilter": [],
     "SimpleAggregations": [
       {
-        "Id": 2848,
+        "Id": 2859,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1824,7 +1824,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1835,7 +1835,7 @@
         "QueryId": null
       },
       {
-        "Id": 2849,
+        "Id": 2860,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1846,7 +1846,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1857,7 +1857,7 @@
         "QueryId": null
       },
       {
-        "Id": 2850,
+        "Id": 2861,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1868,7 +1868,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1879,7 +1879,7 @@
         "QueryId": null
       },
       {
-        "Id": 2851,
+        "Id": 2862,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1890,7 +1890,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1901,7 +1901,7 @@
         "QueryId": null
       },
       {
-        "Id": 2852,
+        "Id": 2863,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1912,7 +1912,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1923,7 +1923,7 @@
         "QueryId": null
       },
       {
-        "Id": 2853,
+        "Id": 2864,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1934,7 +1934,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1945,7 +1945,7 @@
         "QueryId": null
       },
       {
-        "Id": 2854,
+        "Id": 2865,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1956,7 +1956,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1967,7 +1967,7 @@
         "QueryId": null
       },
       {
-        "Id": 2855,
+        "Id": 2866,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -1978,7 +1978,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1989,7 +1989,7 @@
         "QueryId": null
       },
       {
-        "Id": 2856,
+        "Id": 2867,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -2000,7 +2000,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2011,7 +2011,7 @@
         "QueryId": null
       },
       {
-        "Id": 2857,
+        "Id": 2868,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -2022,7 +2022,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2033,7 +2033,7 @@
         "QueryId": null
       },
       {
-        "Id": 2858,
+        "Id": 2869,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DCStepId": 31531,
@@ -2044,7 +2044,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:57",
+        "CreatedOn": "2025-07-17T11:25:24.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2053,11 +2053,33 @@
         "UserDefinedDataType": "String",
         "SystemDefinedDataType": "String",
         "QueryId": null
+      },
+      {
+        "Id": 2870,
+        "ScenarioId": 5980,
+        "CSV_Id": 0,
+        "DCStepId": 31531,
+        "DCTypeId": null,
+        "StepId": 15,
+        "DataSourceId": 4697,
+        "ColumnName": "last name length",
+        "AggregationType": "",
+        "IsPrimary": false,
+        "CreatedBy": "134",
+        "CreatedOn": "2025-07-17T11:25:24.337",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "JSON": null,
+        "AliasColumnName": "last name length",
+        "Description": null,
+        "UserDefinedDataType": "String",
+        "SystemDefinedDataType": "String",
+        "QueryId": null
       }
     ],
     "SimpleProjections": [
       {
-        "Id": 10638,
+        "Id": 10649,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2070,7 +2092,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2081,7 +2103,7 @@
         "QueryId": null
       },
       {
-        "Id": 10639,
+        "Id": 10650,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2094,7 +2116,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2105,7 +2127,7 @@
         "QueryId": null
       },
       {
-        "Id": 10640,
+        "Id": 10651,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2118,7 +2140,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2129,7 +2151,7 @@
         "QueryId": null
       },
       {
-        "Id": 10641,
+        "Id": 10652,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2142,7 +2164,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2153,7 +2175,7 @@
         "QueryId": null
       },
       {
-        "Id": 10642,
+        "Id": 10653,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2166,7 +2188,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2177,7 +2199,7 @@
         "QueryId": null
       },
       {
-        "Id": 10643,
+        "Id": 10654,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2190,7 +2212,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2201,7 +2223,7 @@
         "QueryId": null
       },
       {
-        "Id": 10644,
+        "Id": 10655,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2214,7 +2236,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2225,7 +2247,7 @@
         "QueryId": null
       },
       {
-        "Id": 10645,
+        "Id": 10656,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2238,7 +2260,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2249,7 +2271,7 @@
         "QueryId": null
       },
       {
-        "Id": 10646,
+        "Id": 10657,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2262,7 +2284,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2273,7 +2295,7 @@
         "QueryId": null
       },
       {
-        "Id": 10647,
+        "Id": 10658,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2286,7 +2308,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -2297,7 +2319,7 @@
         "QueryId": null
       },
       {
-        "Id": 10648,
+        "Id": 10659,
         "ScenarioId": 5980,
         "CSV_Id": 0,
         "DcStepId": 31530,
@@ -2310,13 +2332,37 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-17T11:20:35.053",
+        "CreatedOn": "2025-07-17T11:25:15.35",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
         "Description": null,
         "IsDerived": true,
         "DerivedFormula": " CONCAT(first_name,last_name)  ",
+        "HTMLDiv": null,
+        "QueryId": null
+      },
+      {
+        "Id": 10660,
+        "ScenarioId": 5980,
+        "CSV_Id": 0,
+        "DcStepId": 31530,
+        "DCTypeId": null,
+        "StepId": 14,
+        "DataSourceId": 4697,
+        "ColumnName": "last name length",
+        "AliasColumnName": "last name length",
+        "SystemDefinedDataType": null,
+        "UserDefinedDataType": "String",
+        "IsPrimary": false,
+        "CreatedBy": "134",
+        "CreatedOn": "2025-07-17T11:25:15.35",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "JSON": null,
+        "Description": null,
+        "IsDerived": true,
+        "DerivedFormula": " LENGTH( last_name  )  ",
         "HTMLDiv": null,
         "QueryId": null
       }
@@ -2331,7 +2377,7 @@
         "Id": 9530,
         "Scenario_Header_Id": 5980,
         "RuleText": "policy_type,policy_start_date,policy_end_date",
-        "RuleHtml": null,
+        "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncpolicy_number\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"policy_number\">policy_number<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList nccustomer_id\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"customer_id\">customer_id<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncfirst_name\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"first_name\">first_name<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList nclast_name\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"last_name\">last_name<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncpolicy_type active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"policy_type\">policy_type<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncpolicy_start_date active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"policy_start_date\">policy_start_date<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncpolicy_end_date active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"policy_end_date\">policy_end_date<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncpremium_amount\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"premium_amount\">premium_amount<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncclaim_status\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"claim_status\">claim_status<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncclaim_amount\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"claim_amount\">claim_amount<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncconcatenated fields\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"concatenated fields\">concatenated fields<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList nclast name length\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"last name length\">last name length<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following combination of fields should not be duplicated: <b>policy_type, policy_start_date, policy_end_date</b></span>\n                    </div>\n                </div>\n            ",
         "Status": null,
         "RuleTitle": "Duplicate check",
         "IsPredefined": true,
