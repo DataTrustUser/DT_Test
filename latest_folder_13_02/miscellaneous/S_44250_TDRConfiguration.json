@@ -2,9 +2,9 @@
   {
     "ScenarioHeader": [
       {
-        "CheckForMissingInSource": true,
-        "CheckForMissingInTarget": true,
-        "CheckForExistInBoth": true,
+        "CheckForMissingInSource": false,
+        "CheckForMissingInTarget": false,
+        "CheckForExistInBoth": false,
         "CompareCount": null,
         "CreatedOn": "2025-07-17T10:45:41.203",
         "CreatedBy": "Afroze",
@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/17/2025 10:45:25 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 276.667px; top: 131.5px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 278.667px; top: 272.5px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 498.667px; top: 210.5px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 698.667px; top: 203.896px;\",\"mapping\":\"20,4-[31,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-17T16:23:56.353",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -40,7 +40,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{\"sourceTable\":\"TPCH_1.dbo.NATION\",\"targetTable\":\"TPCH_1.dbo.NATION\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":132},{\"reportingCharacteristicsId\":2,\"value\":96},{\"reportingCharacteristicsId\":3,\"value\":114},{\"reportingCharacteristicsId\":4,\"value\":100},{\"reportingCharacteristicsId\":5,\"value\":101},{\"reportingCharacteristicsId\":6,\"value\":104},{\"reportingCharacteristicsId\":9,\"value\":0},{\"reportingCharacteristicsId\":10,\"value\":0},{\"reportingCharacteristicsId\":11,\"value\":177}]}]",
-        "DoCompareOnSource": null,
+        "DoCompareOnSource": true,
         "ThreSholdValue": "2|1",
         "FailedThreshold": null,
         "PassThreshold": null,
