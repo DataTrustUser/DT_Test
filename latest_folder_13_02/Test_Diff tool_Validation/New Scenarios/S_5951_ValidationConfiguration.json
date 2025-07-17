@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-17T05:26:41.277",
+        "ModifiedOn": "2025-07-17T05:28:41.677",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -566,7 +566,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -1001,7 +1001,7 @@
       {
         "Id": 9485,
         "Scenario_Header_Id": 5951,
-        "RuleText": "p_comment|,./;'-=",
+        "RuleText": "p_comment|,./;'-=,",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "spl",
@@ -1009,7 +1009,7 @@
         "PredefinedRuleId": 13,
         "StepId": 11,
         "IgnoreNulls": false,
-        "BusinessRule": "The column 'p_comment' should not contain any special characters ",
+        "BusinessRule": "The column 'p_comment' should not contain any special characters",
         "RuleJson": "{\"acceptSpace\":true,\"acceptDigits\":false,\"acceptAlpha\":false}",
         "RiskProfile": null,
         "QualityFacet": null,
