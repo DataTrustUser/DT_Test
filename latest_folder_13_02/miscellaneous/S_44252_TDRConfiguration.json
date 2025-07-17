@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-17T16:44:17.687",
+        "ModifiedOn": "2025-07-17T17:16:38.813",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -306,7 +306,7 @@
         "RaiseDefect": false,
         "CreatedOn": "2025-07-17T16:41:54.837",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-17T16:44:15.317",
+        "ModifiedOn": "2025-07-17T17:16:36.84",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": null,
         "DependantStepId": null,
@@ -319,7 +319,8 @@
         "EmailFromName": "afroze",
         "AttachCustomValidationReport": false,
         "AttachCSV": false,
-        "AttachResultSummary": true
+        "AttachResultSummary": true,
+        "AttachTableLevelExceptions": true
       }
     ]
   }
