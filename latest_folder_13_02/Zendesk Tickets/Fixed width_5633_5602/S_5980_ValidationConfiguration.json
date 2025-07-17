@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-17T12:07:18.18",
+        "ModifiedOn": "2025-07-17T12:08:43.417",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -61,7 +61,7 @@
         "TDRDynamicObjJSON": "policy_type,policy_end_date,premium_amount",
         "IterationJson": null,
         "ClientDetailsId": null,
-        "DataObservabilityJson": "{\"configJson\":{\"source_dataset_name\":false,\"exclude_scenario_id\":false,\"override_file\":false,\"filename_txt\":\"ExistQC data\",\"source_dataset_filename\":\"\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"instanceId\":\"9\",\"folderPath\":\"QA_Test\",\"fileName\":\"S_5978_ExistQC data \",\"sinkDataType\":\"bad\"},\"sinkJson\":{\"sinkDataType\":\"bad\",\"fileName\":\"S_5978_ExistQCdata_20250717100016\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"fileOverride\":false,\"adlsConnection\":{\"authScheme\":\"AccessKey\",\"account\":\"rdazurestorageaccount\",\"fileSystem\":\"rddata\",\"sharedAccessSignature\":null,\"accessKey\":\"VXKyG5N82eJqUnY6XvRcV2Ae3Qzl4G5t7/FXsjIgHhcdHJ3/miaoMVvjkyN0fG7sUI8zDorfTcY9Cf4vU6oqawITGXFZEkrhKBzS3CMf6H7okQ9EbGmMT3TUj0WOrCGE\"},\"adlsPath\":\"QA_Test\"}}",
+        "DataObservabilityJson": "{\"configJson\":{\"source_dataset_name\":false,\"exclude_scenario_id\":false,\"override_file\":false,\"filename_txt\":\"ExistQC data\",\"source_dataset_filename\":\"\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"instanceId\":\"9\",\"folderPath\":\"QA_Test\",\"fileName\":\"S_5980_ExistQC data\",\"sinkDataType\":\"both\"},\"sinkJson\":{\"sinkDataType\":\"both\",\"fileName\":\"S_5980_ExistQCdata_20250717120843\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"fileOverride\":false,\"adlsConnection\":{\"authScheme\":\"AccessKey\",\"account\":\"rdazurestorageaccount\",\"fileSystem\":\"rddata\",\"sharedAccessSignature\":null,\"accessKey\":\"VXKyG5N82eJqUnY6XvRcV2Ae3Qzl4G5t7/FXsjIgHhcdHJ3/miaoMVvjkyN0fG7sUI8zDorfTcY9Cf4vU6oqawITGXFZEkrhKBzS3CMf6H7okQ9EbGmMT3TUj0WOrCGE\"},\"adlsPath\":\"QA_Test\"}}",
         "UserName": "Sarada"
       }
     ],
