@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-17T05:25:29.19",
+        "ModifiedOn": "2025-07-17T05:26:41.277",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -418,7 +418,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -835,7 +835,7 @@
       {
         "Id": 9378,
         "Scenario_Header_Id": 5951,
-        "RuleText": "p_partkey,Begin with,3",
+        "RuleText": "p_partkey,End with,3",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "pattern",
@@ -843,7 +843,7 @@
         "PredefinedRuleId": 6,
         "StepId": 7,
         "IgnoreNulls": false,
-        "BusinessRule": "The field 'p_partkey' should Begin with 3",
+        "BusinessRule": "The field 'p_partkey' should End with 3",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
