@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-17T10:25:58.79",
+        "ModifiedOn": "2025-07-17T10:29:43.67",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -211,7 +211,7 @@
         "Position": "position: absolute; left: 420.104px; top: 207.059px;",
         "CreatedOn": "2025-07-17T07:39:06.037",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-07-17T10:25:57.547",
+        "ModifiedOn": "2025-07-17T10:29:43.95",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -453,7 +453,7 @@
     "SimpleAggregations": [],
     "SimpleProjections": [
       {
-        "Id": 10576,
+        "Id": 10597,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -466,7 +466,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -477,7 +477,7 @@
         "QueryId": null
       },
       {
-        "Id": 10577,
+        "Id": 10598,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -490,7 +490,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -501,7 +501,7 @@
         "QueryId": null
       },
       {
-        "Id": 10578,
+        "Id": 10599,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -514,7 +514,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -525,7 +525,7 @@
         "QueryId": null
       },
       {
-        "Id": 10579,
+        "Id": 10600,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -538,7 +538,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -549,7 +549,7 @@
         "QueryId": null
       },
       {
-        "Id": 10580,
+        "Id": 10601,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -562,7 +562,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -573,7 +573,7 @@
         "QueryId": null
       },
       {
-        "Id": 10581,
+        "Id": 10602,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -586,7 +586,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -597,7 +597,7 @@
         "QueryId": null
       },
       {
-        "Id": 10582,
+        "Id": 10603,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -610,7 +610,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -621,7 +621,7 @@
         "QueryId": null
       },
       {
-        "Id": 10583,
+        "Id": 10604,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -634,7 +634,7 @@
         "UserDefinedDataType": "Float",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -645,7 +645,7 @@
         "QueryId": null
       },
       {
-        "Id": 10584,
+        "Id": 10605,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -658,7 +658,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -669,7 +669,7 @@
         "QueryId": null
       },
       {
-        "Id": 10585,
+        "Id": 10606,
         "ScenarioId": 5973,
         "CSV_Id": 0,
         "DcStepId": 31445,
@@ -682,13 +682,37 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-17T10:25:57.41",
+        "CreatedOn": "2025-07-17T10:29:43.67",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
         "Description": null,
         "IsDerived": true,
         "DerivedFormula": " P_PARTKEY  +  1",
+        "HTMLDiv": null,
+        "QueryId": null
+      },
+      {
+        "Id": 10607,
+        "ScenarioId": 5973,
+        "CSV_Id": 0,
+        "DcStepId": 31445,
+        "DCTypeId": null,
+        "StepId": 4,
+        "DataSourceId": 4690,
+        "ColumnName": "nam",
+        "AliasColumnName": "nam",
+        "SystemDefinedDataType": null,
+        "UserDefinedDataType": "String",
+        "IsPrimary": false,
+        "CreatedBy": "117",
+        "CreatedOn": "2025-07-17T10:29:43.67",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "JSON": null,
+        "Description": null,
+        "IsDerived": true,
+        "DerivedFormula": " P_NAME  +   P_TYPE ",
         "HTMLDiv": null,
         "QueryId": null
       }
