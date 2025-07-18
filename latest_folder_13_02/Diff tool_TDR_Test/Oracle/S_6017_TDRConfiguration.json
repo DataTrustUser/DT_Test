@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-18T11:38:35.46",
+        "ModifiedOn": "2025-07-18T12:27:43.067",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -165,7 +165,7 @@
         "Position": "position: absolute; left: 466.699px; top: 183.058px;",
         "CreatedOn": "2025-07-18T10:03:16.893",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-18T12:10:39.687",
+        "ModifiedOn": "2025-07-18T12:28:02.327",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -225,7 +225,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 7905,
+        "Id": 7932,
         "Scenario_Header_Id": 6017,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -235,7 +235,7 @@
         "TargetTable": "CUSTOMER",
         "TargetView": "",
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-18T12:10:39.643",
+        "CreatedOn": "2025-07-18T12:28:02.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -249,8 +249,8 @@
         "SAPTypeSource": null,
         "SAPTypeTarget": null,
         "ExcludeColumns": null,
-        "ThresholdValue": null,
-        "ThresholdPercentage": "2",
+        "ThresholdValue": "2",
+        "ThresholdPercentage": null,
         "Src_BOBJ_Prompts": null,
         "Tgt_BOBJ_Prompts": null
       }
