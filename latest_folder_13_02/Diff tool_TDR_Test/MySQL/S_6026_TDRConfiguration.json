@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": true,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR using Diff for MySQL\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 232px; top: 107.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 233px; top: 272.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 578px; top: 180.898px;\",\"mapping\":\"20,4-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"false\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"7\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 405px; top: 183.898px;\",\"mapping\":\"27,7-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR using Diff for MySQL\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 232px; top: 107.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 233px; top: 272.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 635px; top: 180.898px;\",\"warning\":null,\"decision\":null,\"status\":\"false\",\"mapping\":\"20,4-[27,3]\",\"dsstep\":null},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"7\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 405px; top: 183.898px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,7-[33,1-33,2]\",\"dsstep\":null}]",
         "Priority": null,
-        "ModifiedBy": "Dhanusha",
+        "ModifiedBy": "RDAdmin",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-18T11:56:44.27",
+        "ModifiedOn": "2025-07-18T14:11:40.527",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -67,7 +67,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 31853,
+        "Id": 31909,
         "ScenarioId": 6026,
         "QueryId": null,
         "Job_Id": null,
@@ -76,7 +76,7 @@
         "TransformationId": 0,
         "Description": "TDR using Diff for MySQL",
         "Position": null,
-        "CreatedOn": "2025-07-18T11:34:51.403",
+        "CreatedOn": "2025-07-18T12:34:07.403",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -96,7 +96,7 @@
         "JsonValue": null
       },
       {
-        "Id": 31854,
+        "Id": 31910,
         "ScenarioId": 6026,
         "QueryId": null,
         "Job_Id": null,
@@ -105,7 +105,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 232px; top: 107.5px;",
-        "CreatedOn": "2025-07-18T11:34:51.427",
+        "CreatedOn": "2025-07-18T12:34:07.427",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -125,7 +125,7 @@
         "JsonValue": null
       },
       {
-        "Id": 31855,
+        "Id": 31911,
         "ScenarioId": 6026,
         "QueryId": null,
         "Job_Id": null,
@@ -134,7 +134,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 233px; top: 272.5px;",
-        "CreatedOn": "2025-07-18T11:34:51.457",
+        "CreatedOn": "2025-07-18T12:34:07.667",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -154,7 +154,7 @@
         "JsonValue": null
       },
       {
-        "Id": 31868,
+        "Id": 31912,
         "ScenarioId": 6026,
         "QueryId": null,
         "Job_Id": null,
@@ -162,11 +162,11 @@
         "StepMapping": "20,4-[27,3]",
         "TransformationId": 20,
         "Description": "Email",
-        "Position": "position: absolute; left: 578px; top: 180.898px;",
-        "CreatedOn": "2025-07-18T11:40:39.263",
-        "CreatedBy": "118",
-        "ModifiedOn": "2025-07-18T11:40:45.82",
-        "ModifiedBy": "Dhanusha",
+        "Position": "position: absolute; left: 635px; top: 180.898px;",
+        "CreatedOn": "2025-07-18T12:34:07.697",
+        "CreatedBy": "Dhanusha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -183,7 +183,7 @@
         "JsonValue": null
       },
       {
-        "Id": 31881,
+        "Id": 31913,
         "ScenarioId": 6026,
         "QueryId": null,
         "Job_Id": null,
@@ -192,7 +192,7 @@
         "TransformationId": 27,
         "Description": "Count Compare",
         "Position": "position: absolute; left: 405px; top: 183.898px;",
-        "CreatedOn": "2025-07-18T11:59:05.113",
+        "CreatedOn": "2025-07-18T12:34:08.117",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -200,7 +200,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -214,9 +214,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 1850,
+        "Id": 1863,
         "Scenario_Header_Id": 6026,
-        "DCStep_Id": 31854,
+        "DCStep_Id": 31910,
         "Profile_Id": 117,
         "SAPType": null,
         "FiltersJson": null,
@@ -233,9 +233,9 @@
         "Delimeter": null
       },
       {
-        "Id": 1851,
+        "Id": 1864,
         "Scenario_Header_Id": 6026,
-        "DCStep_Id": 31855,
+        "DCStep_Id": 31911,
         "Profile_Id": 117,
         "SAPType": null,
         "FiltersJson": null,
@@ -254,7 +254,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 7873,
+        "Id": 7934,
         "Scenario_Header_Id": 6026,
         "StepId": null,
         "SourceDatabase": "tpch1",
@@ -284,7 +284,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7874,
+        "Id": 7935,
         "Scenario_Header_Id": 6026,
         "StepId": null,
         "SourceDatabase": "tpch1",
@@ -320,7 +320,7 @@
     "ThirdPartyAPIParams": [],
     "EmailAlerts": [
       {
-        "Id": 1919,
+        "Id": 1925,
         "Scenario_Header_Id": 6026,
         "Query_Id": null,
         "Job_Id": null,
@@ -333,11 +333,11 @@
         "DelayedTargetCompare": null,
         "AttachResultsInEmail": false,
         "ExportType": null,
-        "RaiseDefect": null,
-        "CreatedOn": "2025-07-18T11:40:45.287",
+        "RaiseDefect": false,
+        "CreatedOn": "2025-07-18T12:34:07.703",
         "CreatedBy": "118",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-18T14:11:38.827",
+        "ModifiedBy": "108",
         "Status": null,
         "DependantStepId": null,
         "EmailTemplateId": null,
