@@ -21,7 +21,7 @@
         "IsRowBased": null,
         "IsSourceBased": null,
         "IsfromValidation": false,
-        "Iswait": null,
+        "Iswait": true,
         "JsonIMDB": null,
         "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff-Tool_TDR_CountCompare_MSSQJ_1\",\"position\":\"position: absolute; left: 83.996px; top: 220.496px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 275.623px; top: 102.437px; \",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 280.621px; top: 301.433px; \",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count \",\"position\":\"position: absolute; left: 512.617px; top: 195.437px;\",\"mapping\":\"27,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
