@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/18/2025 7:48:41 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_dropped.3\",\"UniqueId\":\"3\",\"stepId\":\"3\",\"description\":\"Read data from \\\"FW-Policy data\\\" for data source \\\"insurance_data|7/15/2025 1:09:15 PM\\\"\",\"position\":\"position: absolute; left: 279.667px; top: 199.635px;\",\"mapping\":\"3,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.4\",\"UniqueId\":\"65\",\"stepId\":\"4\",\"description\":\"Transform data from FW-Policy data\",\"position\":\"position: absolute; left: 468.667px; top: 184.635px;\",\"mapping\":\"65,4-[3,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"policy_type = 'Health' \",\"position\":\"position: absolute; left: 627.667px; top: 151.635px;\",\"mapping\":\"66,5-[65,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"Presence_dropped.6\",\"UniqueId\":\"17\",\"stepId\":\"6\",\"description\":\"p\",\"position\":\"position: absolute; left: 790.667px; top: 152.635px;\",\"mapping\":\"17,6-[66,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/18/2025 7:48:41 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_dropped.3\",\"UniqueId\":\"3\",\"stepId\":\"3\",\"description\":\"Read data from \\\"FW-Policy data\\\" for data source \\\"insurance_data|7/15/2025 1:09:15 PM\\\"\",\"position\":\"position: absolute; left: 279.667px; top: 199.635px;\",\"mapping\":\"3,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.4\",\"UniqueId\":\"65\",\"stepId\":\"4\",\"description\":\"Transform data from FW-Policy data\",\"position\":\"position: absolute; left: 468.667px; top: 184.635px;\",\"mapping\":\"65,4-[3,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"policy_type = 'Health' \",\"position\":\"position: absolute; left: 627.667px; top: 151.635px;\",\"mapping\":\"66,5-[65,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\"},{\"widgetId\":\"Presence_dropped.6\",\"UniqueId\":\"17\",\"stepId\":\"6\",\"description\":\"p\",\"position\":\"position: absolute; left: 790.667px; top: 152.635px;\",\"mapping\":\"17,6-[66,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-18T07:50:41.653",
+        "ModifiedOn": "2025-07-18T07:53:04.057",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -635,7 +635,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
