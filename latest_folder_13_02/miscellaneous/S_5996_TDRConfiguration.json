@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-18T06:32:44.463",
+        "ModifiedOn": "2025-07-18T06:33:58.393",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -103,12 +103,12 @@
         "Step": 1,
         "StepMapping": "0,0-[33,1]",
         "TransformationId": 33,
-        "Description": "RDBMS Tables",
+        "Description": "MSSQL_J",
         "Position": "position: absolute; left: 317.104px; top: 105.059px;",
         "CreatedOn": "2025-07-18T06:31:11.7",
         "CreatedBy": "Swami",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-18T06:33:15.253",
+        "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": true,
@@ -165,8 +165,8 @@
         "Position": "position: absolute; left: 544.104px; top: 183.059px;",
         "CreatedOn": "2025-07-18T06:32:43.99",
         "CreatedBy": "Swami",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-18T06:33:57.917",
+        "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -193,11 +193,11 @@
         "FiltersJson": null,
         "CreatedOn": "2025-07-18T06:31:11.683",
         "CreatedBy": "117",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-18T06:33:15.23",
+        "ModifiedBy": "117",
         "Status": true,
-        "DefaultfParallelism": 1.0,
-        "DefaultPacketSize": 50000.0,
+        "DefaultfParallelism": 2.0,
+        "DefaultPacketSize": 100000.0,
         "ExcludedColumns": null,
         "TableCriteria": "{\"ColumnFilter\":\"\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
         "OrderByValue": null,
@@ -225,7 +225,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 7475,
+        "Id": 7497,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -235,7 +235,7 @@
         "TargetTable": "dbo.CUSTOMER",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -255,7 +255,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7476,
+        "Id": 7498,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -265,7 +265,7 @@
         "TargetTable": "dbo.Data",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -285,7 +285,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7477,
+        "Id": 7499,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -295,7 +295,7 @@
         "TargetTable": "dbo.IS_Categories",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -315,7 +315,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7478,
+        "Id": 7500,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -325,7 +325,7 @@
         "TargetTable": "dbo.IS_Customers",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -345,7 +345,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7479,
+        "Id": 7501,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -355,7 +355,7 @@
         "TargetTable": "dbo.IS_Employees",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -375,7 +375,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7480,
+        "Id": 7502,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -385,7 +385,7 @@
         "TargetTable": "dbo.IS_Loans",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -405,7 +405,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7481,
+        "Id": 7503,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -415,7 +415,7 @@
         "TargetTable": "dbo.IS_Orderdetails",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -435,7 +435,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7482,
+        "Id": 7504,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -445,7 +445,7 @@
         "TargetTable": "dbo.IS_Orders",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -465,7 +465,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7483,
+        "Id": 7505,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -475,7 +475,7 @@
         "TargetTable": "dbo.IS_Products",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -495,7 +495,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7484,
+        "Id": 7506,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -505,7 +505,7 @@
         "TargetTable": "dbo.IS_Region",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -525,7 +525,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7485,
+        "Id": 7507,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -535,7 +535,7 @@
         "TargetTable": "dbo.IS_Shippers",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -555,7 +555,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7486,
+        "Id": 7508,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -565,7 +565,7 @@
         "TargetTable": "dbo.IS_States",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -585,7 +585,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7487,
+        "Id": 7509,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -595,7 +595,7 @@
         "TargetTable": "dbo.IS_Suppliers",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -615,7 +615,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7488,
+        "Id": 7510,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -625,7 +625,7 @@
         "TargetTable": "dbo.IS_Territories",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -645,7 +645,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7489,
+        "Id": 7511,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -655,7 +655,7 @@
         "TargetTable": "dbo.IS_Vehicles",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -675,7 +675,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7490,
+        "Id": 7512,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -685,7 +685,7 @@
         "TargetTable": "dbo.LINEITEM",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -705,7 +705,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7491,
+        "Id": 7513,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -715,7 +715,7 @@
         "TargetTable": "dbo.NATION",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -735,7 +735,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7492,
+        "Id": 7514,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -745,7 +745,7 @@
         "TargetTable": "dbo.ORDERS",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -765,7 +765,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7493,
+        "Id": 7515,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -775,7 +775,7 @@
         "TargetTable": "dbo.PART",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -795,7 +795,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7494,
+        "Id": 7516,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -805,7 +805,7 @@
         "TargetTable": "dbo.PARTSUPP",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -825,7 +825,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7495,
+        "Id": 7517,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -835,7 +835,7 @@
         "TargetTable": "dbo.REGION",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -855,7 +855,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 7496,
+        "Id": 7518,
         "Scenario_Header_Id": 5996,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -865,7 +865,7 @@
         "TargetTable": "dbo.SUPPLIER",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-18T06:32:43.903",
+        "CreatedOn": "2025-07-18T06:33:57.827",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
