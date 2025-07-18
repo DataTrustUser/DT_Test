@@ -3,7 +3,7 @@
     "ScenarioHeader": [
       {
         "CheckForMissingInSource": false,
-        "CheckForMissingInTarget": true,
+        "CheckForMissingInTarget": false,
         "CheckForExistInBoth": false,
         "CompareCount": null,
         "CreatedOn": "2025-07-18T06:19:52.8",
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-18T06:21:00.203",
+        "ModifiedOn": "2025-07-18T06:21:14.63",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -40,7 +40,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{\"sourceTable\":\"TPCH_1.dbo.NATION\",\"targetTable\":\"TPCH_1.dbo.NATION\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":0},{\"reportingCharacteristicsId\":8,\"value\":0}]}]",
-        "DoCompareOnSource": true,
+        "DoCompareOnSource": false,
         "ThreSholdValue": "0|1",
         "FailedThreshold": null,
         "PassThreshold": null,
