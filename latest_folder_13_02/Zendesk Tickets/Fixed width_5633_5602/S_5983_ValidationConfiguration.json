@@ -614,7 +614,27 @@
       }
     ],
     "EmailAlerts": [],
-    "FileOffload": [],
+    "FileOffload": [
+      {
+        "Id": 183,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "S_5983_ghtrhrth",
+        "FilePath": "{\"source_dataset_name\":false,\"exclude_scenario_id\":false,\"override_file\":false,\"filename_txt\":\"ghtrhrth\",\"source_dataset_filename\":\"\"}",
+        "FileSize": null,
+        "FileCreatedOn": "2025-07-18T14:59:12.523",
+        "FolderId": 0,
+        "ScenarioId": 5983,
+        "JobId": null,
+        "QueryId": null,
+        "SessionId": null,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true
+      }
+    ],
     "Pivotdetals": [],
     "UnPivotdetals": [],
     "PivotFieldType": []
