@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "RDAdmin",
         "MigratedOn": "2025-07-19T12:26:27.203",
-        "ModifiedOn": "2025-07-19T13:21:31.233",
+        "ModifiedOn": "2025-07-19T13:22:26.847",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -426,21 +426,21 @@
         "RaiseDefect": false,
         "CreatedOn": "2025-07-19T09:33:14.523",
         "CreatedBy": "108",
-        "ModifiedOn": "2025-07-19T13:21:31.227",
+        "ModifiedOn": "2025-07-19T13:22:26.46",
         "ModifiedBy": "108",
         "Status": null,
         "DependantStepId": null,
         "EmailTemplateId": 1,
         "SendExtrenalLink": true,
-        "PdfAttachment": false,
-        "EmailSubject": "{CHANGE_DATE_FORMAT( Date, Input format, Output format )}",
-        "EmailPriority": "Low",
+        "PdfAttachment": true,
+        "EmailSubject": "{ADD_DAYS_TO_DATE( Date, Value to be added, Input format, Output format )}",
+        "EmailPriority": "Normal",
         "EnableHyperlinks": true,
-        "EmailFromName": "NarendwertestNew",
+        "EmailFromName": "NarendwertestNew123",
         "AttachCustomValidationReport": false,
         "AttachCSV": false,
-        "AttachResultSummary": false,
-        "AttachTableLevelExceptions": false
+        "AttachResultSummary": true,
+        "AttachTableLevelExceptions": true
       }
     ]
   }
