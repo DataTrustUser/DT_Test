@@ -194,7 +194,7 @@
         "Position": "position: absolute; left: 519.603px; top: 217.427px;",
         "CreatedOn": "2025-07-19T06:10:02.42",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-19T13:10:43.627",
+        "ModifiedOn": "2025-07-19T13:13:32.043",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -228,7 +228,7 @@
         "DefaultfParallelism": 1.0,
         "DefaultPacketSize": 50000.0,
         "ExcludedColumns": "P_NAME, PBRAND",
-        "TableCriteria": "{\"ColumnFilter\":\"\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
+        "TableCriteria": "{\"ColumnFilter\":\"P_PARTKEY > 10\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"mm-dd-yyyy\"}",
         "OrderByValue": null,
         "Delimeter": null
       },
@@ -247,14 +247,14 @@
         "DefaultfParallelism": 1.0,
         "DefaultPacketSize": 50000.0,
         "ExcludedColumns": "P_SIZE",
-        "TableCriteria": "{\"ColumnFilter\":\"\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
+        "TableCriteria": "{\"ColumnFilter\":\"P_PARTKEY < 199990\",\"ConvertFrom\":\"Timestamp\",\"ConvertTo\":\"00:00:00\"}",
         "OrderByValue": null,
         "Delimeter": null
       }
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 8587,
+        "Id": 8588,
         "Scenario_Header_Id": 6040,
         "StepId": null,
         "SourceDatabase": "TPCH_1M",
@@ -264,7 +264,7 @@
         "TargetTable": "dbo.PART",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-19T13:10:43.56",
+        "CreatedOn": "2025-07-19T13:13:32.007",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
