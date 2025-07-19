@@ -3,8 +3,8 @@
     "ScenarioHeader": [
       {
         "CheckForMissingInSource": true,
-        "CheckForMissingInTarget": false,
-        "CheckForExistInBoth": false,
+        "CheckForMissingInTarget": true,
+        "CheckForExistInBoth": true,
         "CompareCount": null,
         "CreatedOn": "2025-07-19T13:15:41.61",
         "CreatedBy": "Swami",
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T13:50:30.9",
+        "ModifiedOn": "2025-07-19T14:00:56.677",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -40,7 +40,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{\"sourceTable\":\"TPCH_1.dbo.NATION\",\"targetTable\":\"TPCH_1M.dbo.NATION\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"sourceTable\":\"TPCH_1.dbo.SUPPLIER\",\"targetTable\":\"TPCH_1M.dbo.SUPPLIER\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"sourceTable\":\"TPCH_1.dbo.REGION\",\"targetTable\":\"TPCH_1M.dbo.REGION\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]",
-        "DoCompareOnSource": null,
+        "DoCompareOnSource": true,
         "ThreSholdValue": "0|1",
         "FailedThreshold": null,
         "PassThreshold": null,
@@ -49,7 +49,7 @@
         "ExceptionsLimit": null,
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
-        "EnableExternalLink": null,
+        "EnableExternalLink": true,
         "EmailTemplateJSON": "{\"TemplateType\":\"Default\",\"TemplatedId\":\"\",\"IncludeQueryChain\":null,\"IncludeFDR\":null,\"IncludeValidation\":null,\"IncludeTDR\":null,\"IncludeBDV\":null,\"HTML\":null}",
         "UserAssignedDate": null,
         "TDRPullCheckSum": false,
@@ -223,7 +223,7 @@
         "Position": "position: absolute; left: 714.472px; top: 102.437px;",
         "CreatedOn": "2025-07-19T13:51:21.14",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-07-19T13:52:41.033",
+        "ModifiedOn": "2025-07-19T14:00:47.307",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -799,7 +799,7 @@
     "TDRSAP": [],
     "ThirdPartyAPIParams": [
       {
-        "Id": 5357,
+        "Id": 5365,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Instance Name",
@@ -810,7 +810,7 @@
         "RuleId": null
       },
       {
-        "Id": 5358,
+        "Id": 5366,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Caller",
@@ -821,7 +821,7 @@
         "RuleId": null
       },
       {
-        "Id": 5359,
+        "Id": 5367,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Category",
@@ -832,7 +832,7 @@
         "RuleId": null
       },
       {
-        "Id": 5360,
+        "Id": 5368,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Impact",
@@ -843,7 +843,7 @@
         "RuleId": null
       },
       {
-        "Id": 5361,
+        "Id": 5369,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Urgency",
@@ -854,7 +854,7 @@
         "RuleId": null
       },
       {
-        "Id": 5362,
+        "Id": 5370,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assignment group",
@@ -865,18 +865,18 @@
         "RuleId": null
       },
       {
-        "Id": 5363,
+        "Id": 5371,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assigned to",
-        "ParamterValue": "Lucius Bagnoli",
+        "ParamterValue": "survey user",
         "ScenarioId": 6061,
         "DependantStepId": 6,
         "SessionId": null,
         "RuleId": null
       },
       {
-        "Id": 5364,
+        "Id": 5372,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Short description",
