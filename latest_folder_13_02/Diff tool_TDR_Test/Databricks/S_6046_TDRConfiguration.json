@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T09:30:00.553",
+        "ModifiedOn": "2025-07-19T09:33:56.597",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -45,7 +45,7 @@
         "FailedThreshold": null,
         "PassThreshold": null,
         "WarningThreshold": null,
-        "PacketSizeByPair": 6,
+        "PacketSizeByPair": 5,
         "ExceptionsLimit": 0,
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
@@ -165,7 +165,7 @@
         "Position": "position: absolute; left: 447.708px; top: 181.046px;",
         "CreatedOn": "2025-07-19T06:59:33.75",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-19T09:31:34.527",
+        "ModifiedOn": "2025-07-19T09:33:56.22",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -225,7 +225,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 8434,
+        "Id": 8438,
         "Scenario_Header_Id": 6046,
         "StepId": null,
         "SourceDatabase": "rightdata_datasets",
@@ -235,7 +235,7 @@
         "TargetTable": "tpch1m.lineitem",
         "TargetView": "",
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-19T09:31:34.45",
+        "CreatedOn": "2025-07-19T09:33:56.17",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -255,7 +255,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 8435,
+        "Id": 8439,
         "Scenario_Header_Id": 6046,
         "StepId": null,
         "SourceDatabase": "rightdata_datasets",
@@ -265,7 +265,7 @@
         "TargetTable": "tpch1m.nation",
         "TargetView": "",
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-19T09:31:34.45",
+        "CreatedOn": "2025-07-19T09:33:56.17",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -285,7 +285,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 8436,
+        "Id": 8440,
         "Scenario_Header_Id": 6046,
         "StepId": null,
         "SourceDatabase": "rightdata_datasets",
@@ -295,7 +295,7 @@
         "TargetTable": "tpch1m.part",
         "TargetView": "",
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-19T09:31:34.45",
+        "CreatedOn": "2025-07-19T09:33:56.17",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -315,7 +315,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 8437,
+        "Id": 8441,
         "Scenario_Header_Id": 6046,
         "StepId": null,
         "SourceDatabase": "rightdata_datasets",
@@ -325,7 +325,7 @@
         "TargetTable": "tpch1m.region",
         "TargetView": "",
         "CreatedBy": "134",
-        "CreatedOn": "2025-07-19T09:31:34.45",
+        "CreatedOn": "2025-07-19T09:33:56.17",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
