@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "RDAdmin",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T11:19:10.537",
+        "ModifiedOn": "2025-07-19T11:25:56.703",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -457,13 +457,13 @@
         "RaiseDefect": false,
         "CreatedOn": "2025-07-19T10:07:56.153",
         "CreatedBy": "116",
-        "ModifiedOn": "2025-07-19T11:19:09.78",
+        "ModifiedOn": "2025-07-19T11:25:56.3",
         "ModifiedBy": "108",
         "Status": null,
         "DependantStepId": null,
         "EmailTemplateId": 1,
         "SendExtrenalLink": true,
-        "PdfAttachment": false,
+        "PdfAttachment": true,
         "EmailSubject": "TDR-Postgres_NJ",
         "EmailPriority": "Low",
         "EnableHyperlinks": true,
@@ -471,7 +471,7 @@
         "AttachCustomValidationReport": false,
         "AttachCSV": false,
         "AttachResultSummary": false,
-        "AttachTableLevelExceptions": false
+        "AttachTableLevelExceptions": true
       }
     ]
   }
