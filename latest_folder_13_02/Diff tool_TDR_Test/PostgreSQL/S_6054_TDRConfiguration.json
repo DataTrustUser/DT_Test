@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "RDAdmin",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T11:15:27.157",
+        "ModifiedOn": "2025-07-19T11:17:14.327",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -452,12 +452,12 @@
         "EmailWhen_E": "vinay.pulugujja@getrightdata.com",
         "FailRDjobWhenRecon_F": null,
         "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
-        "ExportType": null,
+        "AttachResultsInEmail": true,
+        "ExportType": "Excel",
         "RaiseDefect": false,
         "CreatedOn": "2025-07-19T10:07:56.153",
         "CreatedBy": "116",
-        "ModifiedOn": "2025-07-19T11:15:26.733",
+        "ModifiedOn": "2025-07-19T11:17:13.93",
         "ModifiedBy": "108",
         "Status": null,
         "DependantStepId": null,
@@ -471,7 +471,7 @@
         "AttachCustomValidationReport": false,
         "AttachCSV": false,
         "AttachResultSummary": false,
-        "AttachTableLevelExceptions": true
+        "AttachTableLevelExceptions": false
       }
     ]
   }
