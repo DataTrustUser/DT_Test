@@ -2,7 +2,7 @@
   {
     "ScenarioHeader": [
       {
-        "CheckForMissingInSource": true,
+        "CheckForMissingInSource": false,
         "CheckForMissingInTarget": true,
         "CheckForExistInBoth": true,
         "CompareCount": null,
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": "2025-07-19T12:36:44.583",
-        "ModifiedOn": "2025-07-19T12:59:34.617",
+        "ModifiedOn": "2025-07-19T13:36:01.827",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -49,7 +49,7 @@
         "ExceptionsLimit": 0,
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
-        "EnableExternalLink": null,
+        "EnableExternalLink": true,
         "EmailTemplateJSON": null,
         "UserAssignedDate": null,
         "TDRPullCheckSum": false,
