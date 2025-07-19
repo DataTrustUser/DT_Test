@@ -3,7 +3,7 @@
     "ScenarioHeader": [
       {
         "CheckForMissingInSource": true,
-        "CheckForMissingInTarget": true,
+        "CheckForMissingInTarget": false,
         "CheckForExistInBoth": true,
         "CompareCount": null,
         "CreatedOn": "2025-07-19T06:52:37.16",
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T07:00:15.953",
+        "ModifiedOn": "2025-07-19T07:00:35.387",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
