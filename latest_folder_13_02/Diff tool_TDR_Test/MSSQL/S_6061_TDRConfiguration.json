@@ -4,7 +4,7 @@
       {
         "CheckForMissingInSource": true,
         "CheckForMissingInTarget": true,
-        "CheckForExistInBoth": true,
+        "CheckForExistInBoth": false,
         "CompareCount": null,
         "CreatedOn": "2025-07-19T13:15:41.61",
         "CreatedBy": "Swami",
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T13:35:35.803",
+        "ModifiedOn": "2025-07-19T13:46:02.143",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
