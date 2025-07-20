@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/20/2025 7:38:07 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 286.667px; top: 258.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 287.667px; top: 121.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 426.667px; top: 184.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,2-33,1]\",\"dsstep\":null},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 598.667px; top: 164.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,5-[31,3]\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/20/2025 7:38:07 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 286.667px; top: 258.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 287.667px; top: 121.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 426.667px; top: 184.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,2-33,1]\",\"dsstep\":null},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 598.667px; top: 164.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,5-[31,3]\",\"dsstep\":null}]",
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-20T07:56:51.457",
+        "ModifiedOn": "2025-07-20T13:30:44.553",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -67,7 +67,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 378218,
+        "Id": 378223,
         "ScenarioId": 45262,
         "QueryId": null,
         "Job_Id": null,
@@ -76,7 +76,7 @@
         "TransformationId": 0,
         "Description": "Afroze 7/20/2025 7:38:07 AM",
         "Position": null,
-        "CreatedOn": "2025-07-20T07:52:45.777",
+        "CreatedOn": "2025-07-20T07:58:02.933",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -96,7 +96,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378219,
+        "Id": 378224,
         "ScenarioId": 45262,
         "QueryId": null,
         "Job_Id": null,
@@ -105,7 +105,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 287.667px; top: 121.5px;",
-        "CreatedOn": "2025-07-20T07:52:45.853",
+        "CreatedOn": "2025-07-20T07:58:03.013",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -125,7 +125,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378220,
+        "Id": 378225,
         "ScenarioId": 45262,
         "QueryId": null,
         "Job_Id": null,
@@ -134,7 +134,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 286.667px; top: 258.5px;",
-        "CreatedOn": "2025-07-20T07:52:45.943",
+        "CreatedOn": "2025-07-20T07:58:03.103",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -154,7 +154,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378221,
+        "Id": 378226,
         "ScenarioId": 45262,
         "QueryId": null,
         "Job_Id": null,
@@ -163,7 +163,7 @@
         "TransformationId": 31,
         "Description": "Data Compare",
         "Position": "position: absolute; left: 426.667px; top: 184.5px;",
-        "CreatedOn": "2025-07-20T07:52:46.023",
+        "CreatedOn": "2025-07-20T07:58:03.187",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -183,7 +183,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378222,
+        "Id": 378227,
         "ScenarioId": 45262,
         "QueryId": null,
         "Job_Id": null,
@@ -192,7 +192,7 @@
         "TransformationId": 20,
         "Description": "Email",
         "Position": "position: absolute; left: 598.667px; top: 164.5px;",
-        "CreatedOn": "2025-07-20T07:52:46.103",
+        "CreatedOn": "2025-07-20T07:58:03.267",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -214,9 +214,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 7188,
+        "Id": 7190,
         "Scenario_Header_Id": 45262,
-        "DCStep_Id": 378219,
+        "DCStep_Id": 378224,
         "Profile_Id": 2078,
         "SAPType": null,
         "FiltersJson": null,
@@ -233,9 +233,9 @@
         "Delimeter": null
       },
       {
-        "Id": 7189,
+        "Id": 7191,
         "Scenario_Header_Id": 45262,
-        "DCStep_Id": 378220,
+        "DCStep_Id": 378225,
         "Profile_Id": 2078,
         "SAPType": null,
         "FiltersJson": null,
@@ -254,7 +254,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 18487,
+        "Id": 18488,
         "Scenario_Header_Id": 45262,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -290,7 +290,7 @@
     "ThirdPartyAPIParams": [],
     "EmailAlerts": [
       {
-        "Id": 28263,
+        "Id": 28264,
         "Scenario_Header_Id": 45262,
         "Query_Id": null,
         "Job_Id": null,
@@ -298,29 +298,29 @@
         "EmailWhen_F": "afroze.mohammad@getrightdata.com",
         "WhenSuccess": true,
         "EmailWhen_S": "afroze.mohammad@getrightdata.com",
-        "EmailWhen_E": "afroze.mohammad@getrightdata.com",
+        "EmailWhen_E": null,
         "FailRDjobWhenRecon_F": null,
         "DelayedTargetCompare": null,
-        "AttachResultsInEmail": true,
-        "ExportType": "Excel",
-        "RaiseDefect": false,
-        "CreatedOn": "2025-07-20T07:52:46.107",
+        "AttachResultsInEmail": null,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "CreatedOn": "2025-07-20T07:58:03.27",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-20T07:55:33.593",
-        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": null,
         "DependantStepId": null,
-        "EmailTemplateId": 6,
-        "SendExtrenalLink": true,
-        "PdfAttachment": true,
-        "EmailSubject": "asdsa",
-        "EmailPriority": "Low",
-        "EnableHyperlinks": true,
-        "EmailFromName": "asdasd",
-        "AttachCustomValidationReport": false,
-        "AttachCSV": false,
-        "AttachResultSummary": true,
-        "AttachTableLevelExceptions": true
+        "EmailTemplateId": null,
+        "SendExtrenalLink": null,
+        "PdfAttachment": null,
+        "EmailSubject": null,
+        "EmailPriority": null,
+        "EnableHyperlinks": null,
+        "EmailFromName": null,
+        "AttachCustomValidationReport": null,
+        "AttachCSV": null,
+        "AttachResultSummary": null,
+        "AttachTableLevelExceptions": null
       }
     ]
   }
