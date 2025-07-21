@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": true,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff-Tool_NANA_J_TDR\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"HANA DB\",\"position\":\"position: absolute; left: 302.09px; top: 101.045px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Hana_NJ\",\"position\":\"position: absolute; left: 303.087px; top: 311.042px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 571.104px; top: 193.059px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-33,2]\",\"dsstep\":null}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff-Tool_NANA_J_TDR\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"HANA DB\",\"position\":\"position: absolute; left: 302.09px; top: 101.045px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Hana_NJ\",\"position\":\"position: absolute; left: 303.087px; top: 311.042px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 571.104px; top: 193.059px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,3-[33,1-33,2]\",\"dsstep\":null}]",
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
@@ -67,7 +67,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 32317,
+        "Id": 32327,
         "ScenarioId": 6085,
         "QueryId": null,
         "Job_Id": null,
@@ -76,7 +76,7 @@
         "TransformationId": 0,
         "Description": "Diff-Tool_NANA_J_TDR",
         "Position": null,
-        "CreatedOn": "2025-07-21T10:58:25.27",
+        "CreatedOn": "2025-07-21T11:00:25.157",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -96,7 +96,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32318,
+        "Id": 32328,
         "ScenarioId": 6085,
         "QueryId": null,
         "Job_Id": null,
@@ -105,7 +105,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 302.09px; top: 101.045px;",
-        "CreatedOn": "2025-07-21T10:58:25.293",
+        "CreatedOn": "2025-07-21T11:00:25.18",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -125,7 +125,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32319,
+        "Id": 32329,
         "ScenarioId": 6085,
         "QueryId": null,
         "Job_Id": null,
@@ -134,7 +134,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 303.087px; top: 311.042px;",
-        "CreatedOn": "2025-07-21T10:58:25.327",
+        "CreatedOn": "2025-07-21T11:00:25.213",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -154,7 +154,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32320,
+        "Id": 32330,
         "ScenarioId": 6085,
         "QueryId": null,
         "Job_Id": null,
@@ -163,7 +163,7 @@
         "TransformationId": 27,
         "Description": null,
         "Position": null,
-        "CreatedOn": "2025-07-21T10:58:25.363",
+        "CreatedOn": "2025-07-21T11:00:25.253",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -183,16 +183,16 @@
         "JsonValue": null
       },
       {
-        "Id": 32321,
+        "Id": 32331,
         "ScenarioId": 6085,
         "QueryId": null,
         "Job_Id": null,
         "Step": 3,
-        "StepMapping": "31,3-[33,1-33,2]",
-        "TransformationId": 31,
-        "Description": "Data Compare",
+        "StepMapping": "27,3-[33,1-33,2]",
+        "TransformationId": 27,
+        "Description": "Count Compare",
         "Position": "position: absolute; left: 571.104px; top: 193.059px;",
-        "CreatedOn": "2025-07-21T10:58:25.387",
+        "CreatedOn": "2025-07-21T11:00:25.28",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -214,9 +214,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 1993,
+        "Id": 1997,
         "Scenario_Header_Id": 6085,
-        "DCStep_Id": 32318,
+        "DCStep_Id": 32328,
         "Profile_Id": 113,
         "SAPType": null,
         "FiltersJson": null,
@@ -233,9 +233,9 @@
         "Delimeter": null
       },
       {
-        "Id": 1994,
+        "Id": 1998,
         "Scenario_Header_Id": 6085,
-        "DCStep_Id": 32319,
+        "DCStep_Id": 32329,
         "Profile_Id": 1239,
         "SAPType": null,
         "FiltersJson": null,
@@ -254,7 +254,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 8744,
+        "Id": 8748,
         "Scenario_Header_Id": 6085,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -269,7 +269,7 @@
         "ModifiedOn": null,
         "Status": null,
         "IsRowCompare": true,
-        "IsRowLevelCompare": true,
+        "IsRowLevelCompare": false,
         "IsSelfCompare": null,
         "SourceCubeOrDso": null,
         "TargetCubeOrDso": null,
@@ -284,7 +284,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 8745,
+        "Id": 8749,
         "Scenario_Header_Id": 6085,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -299,7 +299,7 @@
         "ModifiedOn": null,
         "Status": null,
         "IsRowCompare": true,
-        "IsRowLevelCompare": true,
+        "IsRowLevelCompare": false,
         "IsSelfCompare": null,
         "SourceCubeOrDso": null,
         "TargetCubeOrDso": null,
