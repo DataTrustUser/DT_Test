@@ -2,9 +2,9 @@
   {
     "ScenarioHeader": [
       {
-        "CheckForMissingInSource": true,
+        "CheckForMissingInSource": false,
         "CheckForMissingInTarget": true,
-        "CheckForExistInBoth": true,
+        "CheckForExistInBoth": false,
         "CompareCount": null,
         "CreatedOn": "2025-07-21T06:01:41.457",
         "CreatedBy": "Afroze",
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-21T12:07:10.327",
+        "ModifiedOn": "2025-07-21T12:08:28.617",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
