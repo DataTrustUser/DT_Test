@@ -225,7 +225,7 @@
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
-        "DefaultfParallelism": 2.0,
+        "DefaultfParallelism": 1.0,
         "DefaultPacketSize": 50000.0,
         "ExcludedColumns": null,
         "TableCriteria": "{\"ColumnFilter\":\"\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
