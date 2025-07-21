@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "RDAdmin"
+        "UserName": "RDAdmin",
+        "DataBricksProcessor": "dbx processor"
       }
     ],
     "ScenarioDataSource": [
