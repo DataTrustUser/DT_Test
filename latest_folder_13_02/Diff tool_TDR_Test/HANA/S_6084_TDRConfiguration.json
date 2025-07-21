@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": true,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff-Tool_NANA_J_TDR\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"HANA DB\",\"position\":\"position: absolute; left: 302.09px; top: 101.045px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Hana_NJ\",\"position\":\"position: absolute; left: 303.087px; top: 311.042px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 571.104px; top: 193.059px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,3-[33,1-33,2]\",\"dsstep\":null},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 803.1px; top: 202.05px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,5-[27,3]\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff-Tool_NANA_J_TDR\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"HANA DB\",\"position\":\"position: absolute; left: 302.09px; top: 101.045px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Hana_NJ\",\"position\":\"position: absolute; left: 303.087px; top: 311.042px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 571.104px; top: 193.059px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,3-[33,1-33,2]\",\"dsstep\":null},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 800.101px; top: 328.052px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,5-[27,3]\"}]",
         "Priority": null,
         "ModifiedBy": "Pranisha",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-21T11:44:06.167",
+        "ModifiedOn": "2025-07-21T11:45:36.353",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -67,7 +67,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 32304,
+        "Id": 32354,
         "ScenarioId": 6084,
         "QueryId": null,
         "Job_Id": null,
@@ -76,8 +76,8 @@
         "TransformationId": 0,
         "Description": "Diff-Tool_NANA_J_TDR",
         "Position": null,
-        "CreatedOn": "2025-07-21T10:54:03.517",
-        "CreatedBy": "Swami",
+        "CreatedOn": "2025-07-21T11:45:17.903",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -96,7 +96,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32305,
+        "Id": 32355,
         "ScenarioId": 6084,
         "QueryId": null,
         "Job_Id": null,
@@ -105,8 +105,8 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 302.09px; top: 101.045px;",
-        "CreatedOn": "2025-07-21T10:54:03.57",
-        "CreatedBy": "Swami",
+        "CreatedOn": "2025-07-21T11:45:17.923",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -125,7 +125,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32306,
+        "Id": 32356,
         "ScenarioId": 6084,
         "QueryId": null,
         "Job_Id": null,
@@ -134,8 +134,8 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 303.087px; top: 311.042px;",
-        "CreatedOn": "2025-07-21T10:54:03.633",
-        "CreatedBy": "Swami",
+        "CreatedOn": "2025-07-21T11:45:17.957",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -154,7 +154,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32307,
+        "Id": 32357,
         "ScenarioId": 6084,
         "QueryId": null,
         "Job_Id": null,
@@ -163,8 +163,8 @@
         "TransformationId": 27,
         "Description": null,
         "Position": null,
-        "CreatedOn": "2025-07-21T10:54:03.697",
-        "CreatedBy": "Swami",
+        "CreatedOn": "2025-07-21T11:45:17.99",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -183,7 +183,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32308,
+        "Id": 32358,
         "ScenarioId": 6084,
         "QueryId": null,
         "Job_Id": null,
@@ -192,8 +192,8 @@
         "TransformationId": 27,
         "Description": "Count Compare",
         "Position": "position: absolute; left: 571.104px; top: 193.059px;",
-        "CreatedOn": "2025-07-21T10:54:03.75",
-        "CreatedBy": "Swami",
+        "CreatedOn": "2025-07-21T11:45:18.013",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -212,7 +212,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32309,
+        "Id": 32359,
         "ScenarioId": 6084,
         "QueryId": null,
         "Job_Id": null,
@@ -220,9 +220,9 @@
         "StepMapping": "20,5-[27,3]",
         "TransformationId": 20,
         "Description": "Email",
-        "Position": "position: absolute; left: 803.1px; top: 202.05px;",
-        "CreatedOn": "2025-07-21T10:54:03.82",
-        "CreatedBy": "Swami",
+        "Position": "position: absolute; left: 800.101px; top: 328.052px;",
+        "CreatedOn": "2025-07-21T11:45:18.147",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -243,9 +243,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 1989,
+        "Id": 2007,
         "Scenario_Header_Id": 6084,
-        "DCStep_Id": 32305,
+        "DCStep_Id": 32355,
         "Profile_Id": 113,
         "SAPType": null,
         "FiltersJson": null,
@@ -262,9 +262,9 @@
         "Delimeter": null
       },
       {
-        "Id": 1990,
+        "Id": 2008,
         "Scenario_Header_Id": 6084,
-        "DCStep_Id": 32306,
+        "DCStep_Id": 32356,
         "Profile_Id": 1239,
         "SAPType": null,
         "FiltersJson": null,
@@ -283,7 +283,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 8740,
+        "Id": 8760,
         "Scenario_Header_Id": 6084,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -313,7 +313,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 8741,
+        "Id": 8761,
         "Scenario_Header_Id": 6084,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -349,7 +349,7 @@
     "ThirdPartyAPIParams": [],
     "EmailAlerts": [
       {
-        "Id": 1964,
+        "Id": 1967,
         "Scenario_Header_Id": 6084,
         "Query_Id": null,
         "Job_Id": null,
@@ -363,9 +363,9 @@
         "AttachResultsInEmail": false,
         "ExportType": null,
         "RaiseDefect": false,
-        "CreatedOn": "2025-07-21T10:54:03.827",
-        "CreatedBy": "117",
-        "ModifiedOn": "2025-07-21T11:44:05.437",
+        "CreatedOn": "2025-07-21T11:45:18.15",
+        "CreatedBy": "38010db1-1f6e-42d0-bf8a-65343cfa8a0a",
+        "ModifiedOn": "2025-07-21T11:45:33.357",
         "ModifiedBy": "38010db1-1f6e-42d0-bf8a-65343cfa8a0a",
         "Status": null,
         "DependantStepId": null,
