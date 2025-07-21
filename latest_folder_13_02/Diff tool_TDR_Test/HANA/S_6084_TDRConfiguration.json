@@ -46,7 +46,7 @@
         "PassThreshold": null,
         "WarningThreshold": null,
         "PacketSizeByPair": 2,
-        "ExceptionsLimit": null,
+        "ExceptionsLimit": 0,
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
         "EnableExternalLink": true,
