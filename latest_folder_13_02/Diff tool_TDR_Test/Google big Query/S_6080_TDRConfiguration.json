@@ -23,9 +23,9 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"GBQ_Cont_cc\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Google Big Query\",\"position\":\"position: absolute; left: 264.722px; top: 108.076px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Google Big Query\",\"position\":\"position: absolute; left: 280.722px; top: 263.076px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 425.722px; top: 161.076px;\",\"mapping\":\"27,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"GBQ_Cont_cc\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Google Big Query\",\"position\":\"position: absolute; left: 264.722px; top: 108.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Google Big Query\",\"position\":\"position: absolute; left: 280.722px; top: 263.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 425.722px; top: 161.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,3-[33,1-33,2]\",\"dsstep\":null}]",
         "Priority": null,
-        "ModifiedBy": "Sarada",
+        "ModifiedBy": null,
         "MigratedOn": null,
         "ModifiedOn": "2025-07-21T09:02:05.717",
         "QualityDimension": null,
@@ -67,7 +67,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 32265,
+        "Id": 32271,
         "ScenarioId": 6080,
         "QueryId": null,
         "Job_Id": null,
@@ -76,7 +76,7 @@
         "TransformationId": 0,
         "Description": "Sarada 7/21/2025 9:00:57 AM",
         "Position": null,
-        "CreatedOn": "2025-07-21T09:01:12.937",
+        "CreatedOn": "2025-07-21T09:26:41.66",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -96,7 +96,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32266,
+        "Id": 32272,
         "ScenarioId": 6080,
         "QueryId": null,
         "Job_Id": null,
@@ -105,7 +105,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 264.722px; top: 108.076px;",
-        "CreatedOn": "2025-07-21T09:01:26.92",
+        "CreatedOn": "2025-07-21T09:26:41.687",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -125,7 +125,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32267,
+        "Id": 32273,
         "ScenarioId": 6080,
         "QueryId": null,
         "Job_Id": null,
@@ -134,7 +134,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 280.722px; top: 263.076px;",
-        "CreatedOn": "2025-07-21T09:01:42.71",
+        "CreatedOn": "2025-07-21T09:26:41.717",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -154,7 +154,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32269,
+        "Id": 32274,
         "ScenarioId": 6080,
         "QueryId": null,
         "Job_Id": null,
@@ -163,7 +163,7 @@
         "TransformationId": 27,
         "Description": "Count Compare",
         "Position": "position: absolute; left: 425.722px; top: 161.076px;",
-        "CreatedOn": "2025-07-21T09:02:52.743",
+        "CreatedOn": "2025-07-21T09:26:41.75",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -171,7 +171,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -185,9 +185,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 1977,
+        "Id": 1979,
         "Scenario_Header_Id": 6080,
-        "DCStep_Id": 32266,
+        "DCStep_Id": 32272,
         "Profile_Id": 126,
         "SAPType": null,
         "FiltersJson": null,
@@ -204,9 +204,9 @@
         "Delimeter": null
       },
       {
-        "Id": 1978,
+        "Id": 1980,
         "Scenario_Header_Id": 6080,
-        "DCStep_Id": 32267,
+        "DCStep_Id": 32273,
         "Profile_Id": 126,
         "SAPType": null,
         "FiltersJson": null,
@@ -225,7 +225,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 8726,
+        "Id": 8727,
         "Scenario_Header_Id": 6080,
         "StepId": null,
         "SourceDatabase": "tpch_1",
