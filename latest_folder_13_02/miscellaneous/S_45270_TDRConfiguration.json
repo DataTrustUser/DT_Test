@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/21/2025 8:02:14 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 283.667px; top: 180.5px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 281.667px; top: 296.5px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 447.667px; top: 242.5px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/21/2025 8:02:14 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 283.667px; top: 180.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 281.667px; top: 296.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 447.667px; top: 242.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-33,2]\",\"dsstep\":null}]",
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-21T13:35:36.88",
+        "ModifiedOn": "2025-07-21T14:59:47.853",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -67,7 +67,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 378332,
+        "Id": 378369,
         "ScenarioId": 45270,
         "QueryId": null,
         "Job_Id": null,
@@ -76,7 +76,7 @@
         "TransformationId": 0,
         "Description": "Afroze 7/21/2025 8:02:14 AM",
         "Position": null,
-        "CreatedOn": "2025-07-21T08:02:22.693",
+        "CreatedOn": "2025-07-21T14:58:58.837",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -96,7 +96,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378333,
+        "Id": 378370,
         "ScenarioId": 45270,
         "QueryId": null,
         "Job_Id": null,
@@ -105,7 +105,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 283.667px; top: 180.5px;",
-        "CreatedOn": "2025-07-21T08:02:31.81",
+        "CreatedOn": "2025-07-21T14:58:59.497",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -125,7 +125,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378334,
+        "Id": 378371,
         "ScenarioId": 45270,
         "QueryId": null,
         "Job_Id": null,
@@ -134,7 +134,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 281.667px; top: 296.5px;",
-        "CreatedOn": "2025-07-21T08:02:40.103",
+        "CreatedOn": "2025-07-21T14:59:01.033",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -154,7 +154,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378336,
+        "Id": 378372,
         "ScenarioId": 45270,
         "QueryId": null,
         "Job_Id": null,
@@ -163,7 +163,7 @@
         "TransformationId": 31,
         "Description": "Data Compare",
         "Position": "position: absolute; left: 447.667px; top: 242.5px;",
-        "CreatedOn": "2025-07-21T08:03:23.277",
+        "CreatedOn": "2025-07-21T14:59:02.563",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -171,7 +171,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -185,9 +185,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 7228,
+        "Id": 7246,
         "Scenario_Header_Id": 45270,
-        "DCStep_Id": 378333,
+        "DCStep_Id": 378370,
         "Profile_Id": 2078,
         "SAPType": null,
         "FiltersJson": null,
@@ -204,9 +204,9 @@
         "Delimeter": null
       },
       {
-        "Id": 7229,
+        "Id": 7247,
         "Scenario_Header_Id": 45270,
-        "DCStep_Id": 378334,
+        "DCStep_Id": 378371,
         "Profile_Id": 2078,
         "SAPType": null,
         "FiltersJson": null,
@@ -225,7 +225,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 18513,
+        "Id": 18522,
         "Scenario_Header_Id": 45270,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
