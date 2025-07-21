@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": true,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"DBX_cc\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Databricks_JDBC\",\"position\":\"position: absolute; left: 268.715px; top: 130.056px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"DATABRICKS_J_NEW\",\"position\":\"position: absolute; left: 277.722px; top: 258.076px; \",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 448.692px; top: 182.03px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"ServiceNow_dropped.0\",\"UniqueId\":\"159\",\"stepId\":\"5\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 581.565px; top: 180.076px;\",\"mapping\":\"159,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"DBX_cc\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Databricks_JDBC\",\"position\":\"position: absolute; left: 268.715px; top: 130.056px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"DATABRICKS_J_NEW\",\"position\":\"position: absolute; left: 277.722px; top: 258.076px; \",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 448.692px; top: 182.03px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"159\",\"stepId\":\"5\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 581.565px; top: 180.076px;\",\"mapping\":\"159,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": "Afroze",
+        "ModifiedBy": "Pranisha",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T14:03:45.083",
+        "ModifiedOn": "2025-07-21T06:58:55.85",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -194,8 +194,8 @@
         "Position": "position: absolute; left: 581.565px; top: 180.076px;",
         "CreatedOn": "2025-07-19T10:46:46.523",
         "CreatedBy": "134",
-        "ModifiedOn": "2025-07-19T11:14:50.197",
-        "ModifiedBy": "Sarada",
+        "ModifiedOn": "2025-07-21T06:58:55.87",
+        "ModifiedBy": "Pranisha",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -710,7 +710,7 @@
     "TDRSAP": [],
     "ThirdPartyAPIParams": [
       {
-        "Id": 5213,
+        "Id": 6229,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Instance Name",
@@ -721,7 +721,7 @@
         "RuleId": null
       },
       {
-        "Id": 5214,
+        "Id": 6230,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Caller",
@@ -732,7 +732,7 @@
         "RuleId": null
       },
       {
-        "Id": 5215,
+        "Id": 6231,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Category",
@@ -743,18 +743,18 @@
         "RuleId": null
       },
       {
-        "Id": 5216,
+        "Id": 6232,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Impact",
-        "ParamterValue": "2",
+        "ParamterValue": "1",
         "ScenarioId": 6046,
         "DependantStepId": 5,
         "SessionId": null,
         "RuleId": null
       },
       {
-        "Id": 5217,
+        "Id": 6233,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Urgency",
@@ -765,7 +765,7 @@
         "RuleId": null
       },
       {
-        "Id": 5218,
+        "Id": 6234,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assignment group",
@@ -776,7 +776,7 @@
         "RuleId": null
       },
       {
-        "Id": 5219,
+        "Id": 6235,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assigned to",
@@ -787,7 +787,7 @@
         "RuleId": null
       },
       {
-        "Id": 5220,
+        "Id": 6236,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Short description",
