@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Sarada"
+        "UserName": "Sarada",
+        "DataBricksProcessor": "dbx processor"
       }
     ],
     "DCSteps": [
