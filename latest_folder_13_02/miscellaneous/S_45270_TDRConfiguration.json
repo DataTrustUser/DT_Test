@@ -2,9 +2,9 @@
   {
     "ScenarioHeader": [
       {
-        "CheckForMissingInSource": true,
+        "CheckForMissingInSource": false,
         "CheckForMissingInTarget": true,
-        "CheckForExistInBoth": true,
+        "CheckForExistInBoth": false,
         "CompareCount": null,
         "CreatedOn": "2025-07-21T08:02:22.557",
         "CreatedBy": "Afroze",
@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/21/2025 8:02:14 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 283.667px; top: 180.5px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 281.667px; top: 296.5px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 447.667px; top: 242.5px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-21T13:35:36.88",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
