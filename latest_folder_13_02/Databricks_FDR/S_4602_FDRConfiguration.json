@@ -12,7 +12,7 @@
         "DataQualityDimensionId": null,
         "Description": "KeyBased Reconciliation_Sales Transactions",
         "Hierarchy_Row": null,
-        "ExtraColumn": null,
+        "ExtraColumn": "{\"processorId\":\"10\"}",
         "IgnoreKeyDuplicates": false,
         "IsAdhoc": null,
         "IsDeleted": null,
