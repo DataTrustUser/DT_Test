@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Saikiran",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-21T11:50:59.763",
+        "ModifiedOn": "2025-07-21T11:51:32.81",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -333,11 +333,11 @@
         "DelayedTargetCompare": null,
         "AttachResultsInEmail": false,
         "ExportType": null,
-        "RaiseDefect": null,
+        "RaiseDefect": false,
         "CreatedOn": "2025-07-21T11:51:11.983",
         "CreatedBy": "140",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-21T11:51:32.8",
+        "ModifiedBy": "140",
         "Status": null,
         "DependantStepId": null,
         "EmailTemplateId": null,
@@ -350,7 +350,7 @@
         "AttachCustomValidationReport": false,
         "AttachCSV": false,
         "AttachResultSummary": false,
-        "AttachTableLevelExceptions": false
+        "AttachTableLevelExceptions": true
       }
     ]
   }
