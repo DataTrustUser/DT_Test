@@ -3,8 +3,8 @@
     "ScenarioHeader": [
       {
         "CheckForMissingInSource": true,
-        "CheckForMissingInTarget": true,
-        "CheckForExistInBoth": true,
+        "CheckForMissingInTarget": false,
+        "CheckForExistInBoth": false,
         "CompareCount": null,
         "CreatedOn": "2025-07-21T09:52:50.86",
         "CreatedBy": "Swami",
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-21T10:10:28.057",
+        "ModifiedOn": "2025-07-21T10:15:45.99",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
