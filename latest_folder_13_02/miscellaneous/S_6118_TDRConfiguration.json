@@ -23,9 +23,9 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 7/22/2025 6:35:26 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySQL_NJ\",\"position\":\"position: absolute; left: 312px; top: 113.5px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySQL_NJ\",\"position\":\"position: absolute; left: 349px; top: 281.5px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 794px; top: 169.5px;\",\"mapping\":\"20,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"false\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"6\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 564px; top: 183.5px;\",\"mapping\":\"27,6-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 7/22/2025 6:35:26 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySQL_NJ\",\"position\":\"position: absolute; left: 312px; top: 113.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySQL_NJ\",\"position\":\"position: absolute; left: 349px; top: 281.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 796px; top: 169.5px;\",\"warning\":null,\"decision\":null,\"status\":\"false\",\"mapping\":\"20,5-[27,3]\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"6\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 564px; top: 183.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,6-[33,1-33,2]\",\"dsstep\":null}]",
         "Priority": null,
-        "ModifiedBy": "Dhanusha",
+        "ModifiedBy": null,
         "MigratedOn": null,
         "ModifiedOn": "2025-07-22T06:38:20.893",
         "QualityDimension": null,
@@ -68,7 +68,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 32535,
+        "Id": 32547,
         "ScenarioId": 6118,
         "QueryId": null,
         "Job_Id": null,
@@ -77,7 +77,7 @@
         "TransformationId": 0,
         "Description": "Dhanusha 7/22/2025 6:35:26 AM",
         "Position": null,
-        "CreatedOn": "2025-07-22T06:36:13.653",
+        "CreatedOn": "2025-07-22T06:40:35.87",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -97,7 +97,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32536,
+        "Id": 32548,
         "ScenarioId": 6118,
         "QueryId": null,
         "Job_Id": null,
@@ -106,7 +106,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 312px; top: 113.5px;",
-        "CreatedOn": "2025-07-22T06:36:38.773",
+        "CreatedOn": "2025-07-22T06:40:35.89",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -126,7 +126,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32541,
+        "Id": 32549,
         "ScenarioId": 6118,
         "QueryId": null,
         "Job_Id": null,
@@ -135,7 +135,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 349px; top: 281.5px;",
-        "CreatedOn": "2025-07-22T06:36:51.537",
+        "CreatedOn": "2025-07-22T06:40:35.92",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -155,7 +155,7 @@
         "JsonValue": null
       },
       {
-        "Id": 32546,
+        "Id": 32550,
         "ScenarioId": 6118,
         "QueryId": null,
         "Job_Id": null,
@@ -164,7 +164,7 @@
         "TransformationId": 27,
         "Description": "Count Compare",
         "Position": "position: absolute; left: 564px; top: 183.5px;",
-        "CreatedOn": "2025-07-22T06:38:20.307",
+        "CreatedOn": "2025-07-22T06:40:35.95",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -172,7 +172,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -186,9 +186,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 2065,
+        "Id": 2069,
         "Scenario_Header_Id": 6118,
-        "DCStep_Id": 32536,
+        "DCStep_Id": 32548,
         "Profile_Id": 174,
         "SAPType": null,
         "FiltersJson": null,
@@ -205,9 +205,9 @@
         "Delimeter": null
       },
       {
-        "Id": 2068,
+        "Id": 2070,
         "Scenario_Header_Id": 6118,
-        "DCStep_Id": 32541,
+        "DCStep_Id": 32549,
         "Profile_Id": 174,
         "SAPType": null,
         "FiltersJson": null,
@@ -226,7 +226,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 8955,
+        "Id": 8956,
         "Scenario_Header_Id": 6118,
         "StepId": null,
         "SourceDatabase": "tpch1",
