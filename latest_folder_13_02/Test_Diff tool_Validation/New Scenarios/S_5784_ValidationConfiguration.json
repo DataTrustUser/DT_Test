@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Swami"
+        "UserName": "Swami",
+        "DataBricksProcessor": ""
       }
     ],
     "ScenarioDataSource": [
@@ -141,9 +142,9 @@
         "IsforVariableBuilder": false,
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-12T10:04:10.08",
-        "CreatedBy": "117",
+        "CreatedBy": "Swami",
         "ModifiedOn": "2025-07-16T12:50:45.067",
-        "ModifiedBy": "38010db1-1f6e-42d0-bf8a-65343cfa8a0a",
+        "ModifiedBy": "Pranisha",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": false,
