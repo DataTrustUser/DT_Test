@@ -12,7 +12,7 @@
         "DataQualityDimensionId": null,
         "Description": "Swami 7/19/2025 5:53:52 AM",
         "Hierarchy_Row": null,
-        "ExtraColumn": null,
+        "ExtraColumn": "{\"processorId\":\"10\"}",
         "IgnoreKeyDuplicates": null,
         "IsAdhoc": null,
         "IsDeleted": null,
@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Swami"
+        "UserName": "Swami",
+        "DataBricksProcessor": "dbx processor"
       }
     ],
     "DCSteps": [
