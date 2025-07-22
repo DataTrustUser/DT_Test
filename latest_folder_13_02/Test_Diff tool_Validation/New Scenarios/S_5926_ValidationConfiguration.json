@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-16T09:52:57.893",
+        "ModifiedOn": "2025-07-22T07:16:50.49",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Swami"
+        "UserName": "Swami",
+        "DataBricksProcessor": ""
       }
     ],
     "ScenarioDataSource": [],
@@ -370,7 +371,7 @@
         "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":103},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]",
         "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
-        "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
+        "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":\"20\"}"
       }
     ],
     "ScenarioValidationReference": [],
