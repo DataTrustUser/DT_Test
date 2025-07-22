@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR using Diff for MySQL\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 301px; top: 117.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 300px; top: 346.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsTech_8\",\"UniqueId\":\"27\",\"stepId\":\"8\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 537px; top: 208.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,8-[33,1-33,2]\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"10\",\"description\":\"Email\",\"position\":\"position: absolute; left: 700.762px; top: 168.452px;\",\"mapping\":\"20,10-[27,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR using Diff for MySQL\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 301px; top: 117.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 300px; top: 346.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsTech_8\",\"UniqueId\":\"27\",\"stepId\":\"8\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 537px; top: 208.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,8-[33,1-33,2]\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"11\",\"description\":\"Email\",\"position\":\"position: absolute; left: 773.762px; top: 185.452px;\",\"mapping\":\"20,11-[27,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Saikiran",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-21T11:44:03.167",
+        "ModifiedOn": "2025-07-22T06:08:56.623",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Dhanusha"
+        "UserName": "Dhanusha",
+        "DataBricksProcessor": ""
       }
     ],
     "DCSteps": [
@@ -183,18 +184,18 @@
         "JsonValue": null
       },
       {
-        "Id": 32353,
+        "Id": 32479,
         "ScenarioId": 6026,
         "QueryId": null,
         "Job_Id": null,
-        "Step": 10,
-        "StepMapping": "20,10-[27,8]",
+        "Step": 11,
+        "StepMapping": "20,11-[27,8]",
         "TransformationId": 20,
         "Description": "Email",
-        "Position": "position: absolute; left: 700.762px; top: 168.452px;",
-        "CreatedOn": "2025-07-21T11:43:08.417",
+        "Position": "position: absolute; left: 773.762px; top: 185.452px;",
+        "CreatedOn": "2025-07-22T06:08:51.463",
         "CreatedBy": "140",
-        "ModifiedOn": "2025-07-21T11:44:03.203",
+        "ModifiedOn": "2025-07-22T06:08:56.657",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
@@ -290,7 +291,7 @@
     "ThirdPartyAPIParams": [],
     "EmailAlerts": [
       {
-        "Id": 1966,
+        "Id": 1984,
         "Scenario_Header_Id": 6026,
         "Query_Id": null,
         "Job_Id": null,
@@ -304,7 +305,7 @@
         "AttachResultsInEmail": false,
         "ExportType": null,
         "RaiseDefect": null,
-        "CreatedOn": "2025-07-21T11:44:03.157",
+        "CreatedOn": "2025-07-22T06:08:56.617",
         "CreatedBy": "140",
         "ModifiedOn": null,
         "ModifiedBy": null,
