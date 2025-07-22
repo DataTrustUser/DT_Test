@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-22T10:01:47.53",
+        "ModifiedOn": "2025-07-22T10:06:36.2",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -434,7 +434,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -517,15 +517,15 @@
       {
         "Id": 9568,
         "Scenario_Header_Id": 6132,
-        "RuleText": "LAND1|",
-        "RuleHtml": "\n                                <div class=\"SourceColumnDiv draggable ui-draggable ui-draggable-handle\">\n                                    <span id=\"SourcePoint\" class=\"SourcePoint\"></span>\n                                    <div class=\"SourceColumnInner\">\n                                        <div class=\"InformationFormSource\">\n                                            <select class=\"form-control sourceColumSelect\" id=\"ddlDataTypes\" onchange=\"SourceColumnChange(this)\" required=\"\"><option value=\"\">Select..</option><option class=\"tagList ncLAND1\" onclick=\"selectTag(this)\" value=\"LAND1\" selected=\"selected\">LAND1</option><option class=\"tagList ncORT01\" onclick=\"selectTag(this)\" value=\"ORT01\">ORT01</option><option class=\"tagList ncREGIO\" onclick=\"selectTag(this)\" value=\"REGIO\">REGIO</option><option class=\"tagList ncCOUNT( * )\" onclick=\"selectTag(this)\" value=\"COUNT( * )\">COUNT( * )</option></select>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"clearfix\"></div>\n                                </div>\n                                <div class=\"col-md-12 tagFieldsContainer\">\n                                    <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncLAND1 active\" onclick=\"selectTag(this)\">LAND1</li><li class=\"tagList ncORT01\" onclick=\"selectTag(this)\">ORT01</li><li class=\"tagList ncREGIO\" onclick=\"selectTag(this)\">REGIO</li><li class=\"tagList ncCOUNT( * )\" onclick=\"selectTag(this)\">COUNT( * )</li></ul>\n                                </div>\n                            ",
+        "RuleText": "LAND1|1",
+        "RuleHtml": "\n                                \n                                <div class=\"SourceColumnDiv draggable ui-draggable ui-draggable-handle\">\n                                    <span id=\"SourcePoint\" class=\"SourcePoint\"></span>\n                                    <div class=\"SourceColumnInner\">\n                                        <div class=\"InformationFormSource\">\n                                            <select class=\"form-control sourceColumSelect\" id=\"ddlDataTypes\" onchange=\"SourceColumnChange(this)\" required=\"\"><option value=\"\">Select..</option><option class=\"tagList ncLAND1\" onclick=\"selectTag(this)\" value=\"LAND1\" selected=\"selected\">LAND1</option><option class=\"tagList ncORT01\" onclick=\"selectTag(this)\" value=\"ORT01\">ORT01</option><option class=\"tagList ncREGIO\" onclick=\"selectTag(this)\" value=\"REGIO\">REGIO</option><option class=\"tagList ncCOUNT( * )\" onclick=\"selectTag(this)\" value=\"COUNT( * )\">COUNT( * )</option></select>\n                                        </div>\n                                    </div>\n\n                                    <div class=\"clearfix\"></div>\n                                </div>\n                                <div class=\"col-md-12 tagFieldsContainer\">\n                                    <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncLAND1 active\" onclick=\"selectTag(this)\">LAND1</li><li class=\"tagList ncORT01\" onclick=\"selectTag(this)\">ORT01</li><li class=\"tagList ncREGIO\" onclick=\"selectTag(this)\">REGIO</li><li class=\"tagList ncCOUNT( * )\" onclick=\"selectTag(this)\">COUNT( * )</li></ul>\n                                </div>\n                            \n\n                            ",
         "Status": null,
         "RuleTitle": "RI2",
         "IsPredefined": true,
         "PredefinedRuleId": 2,
         "StepId": 4,
         "IgnoreNulls": false,
-        "BusinessRule": "The value for the field \"LAND1\" should be in output of query: MANDT",
+        "BusinessRule": "The value for the field \"LAND1\" should be in: 1",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -538,23 +538,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       }
     ],
-    "ScenarioValidationReference": [
-      {
-        "Id": 916,
-        "Scenario_Id": 6132,
-        "Validation_Id": 9568,
-        "Profile_Id": 1184,
-        "Query_Id": 4915,
-        "ColumnName": "MANDT",
-        "TableName": null,
-        "ViewName": null,
-        "DerivedFormula": null,
-        "SAPType": null,
-        "IsDerived": false,
-        "DataType": "varchar",
-        "SelectedColumnsJSON": null
-      }
-    ],
+    "ScenarioValidationReference": [],
     "CSVFDR": [],
     "DCDependency": [
       {
