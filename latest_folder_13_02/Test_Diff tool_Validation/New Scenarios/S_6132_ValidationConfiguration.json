@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-22T10:55:20.767",
+        "ModifiedOn": "2025-07-22T11:48:59.773",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -582,7 +582,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -757,7 +757,7 @@
       {
         "Id": 9587,
         "Scenario_Header_Id": 6132,
-        "RuleText": "REGIO|MM-DD-YYYY",
+        "RuleText": "REGIO|MM-dd-yyyy",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "GR",
@@ -765,7 +765,7 @@
         "PredefinedRuleId": 12,
         "StepId": 8,
         "IgnoreNulls": false,
-        "BusinessRule": "The column 'REGIO ' should be in MM-DD-YYYY Format",
+        "BusinessRule": "The column 'REGIO ' should be in MM-dd-yyyy Format",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
