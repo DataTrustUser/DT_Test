@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-22T18:01:49.733",
+        "ModifiedOn": "2025-07-22T18:02:15.613",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -61,7 +61,7 @@
         "TDRDynamicObjJSON": "C_ACCTBAL,C_MKTSEGMENT",
         "IterationJson": null,
         "ClientDetailsId": null,
-        "DataObservabilityJson": "{\"configJson\":{\"source_dataset_name\":false,\"exclude_scenario_id\":false,\"override_file\":false,\"filename_txt\":\"good data\",\"source_dataset_filename\":\"tpch_1.Customer\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"instanceId\":\"9\",\"folderPath\":\"QA_Test\",\"fileName\":\"S_6156_good data\",\"sinkDataType\":\"good\"},\"sinkJson\":{\"sinkDataType\":\"good\",\"fileName\":\"S_6156_gooddata_20250722180149\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"fileOverride\":false,\"adlsConnection\":{\"authScheme\":\"AccessKey\",\"account\":\"rdazurestorageaccount\",\"fileSystem\":\"rddata\",\"sharedAccessSignature\":null,\"accessKey\":\"VXKyG5N82eJqUnY6XvRcV2Ae3Qzl4G5t7/FXsjIgHhcdHJ3/miaoMVvjkyN0fG7sUI8zDorfTcY9Cf4vU6oqawITGXFZEkrhKBzS3CMf6H7okQ9EbGmMT3TUj0WOrCGE\"},\"adlsPath\":\"QA_Test\"}}",
+        "DataObservabilityJson": "{\"configJson\":{\"source_dataset_name\":false,\"exclude_scenario_id\":false,\"override_file\":false,\"filename_txt\":\"good data\",\"source_dataset_filename\":\"tpch_1.Customer\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"instanceId\":\"9\",\"folderPath\":\"QA_Test\",\"fileName\":\"S_6156_good data\",\"sinkDataType\":\"bad\"},\"sinkJson\":{\"sinkDataType\":\"bad\",\"fileName\":\"S_6156_gooddata_20250722180215\",\"fileType\":\"CSV\",\"delimiter\":\",\",\"textQualifier\":\"\\\"\",\"fileOverride\":false,\"adlsConnection\":{\"authScheme\":\"AccessKey\",\"account\":\"rdazurestorageaccount\",\"fileSystem\":\"rddata\",\"sharedAccessSignature\":null,\"accessKey\":\"VXKyG5N82eJqUnY6XvRcV2Ae3Qzl4G5t7/FXsjIgHhcdHJ3/miaoMVvjkyN0fG7sUI8zDorfTcY9Cf4vU6oqawITGXFZEkrhKBzS3CMf6H7okQ9EbGmMT3TUj0WOrCGE\"},\"adlsPath\":\"QA_Test\"}}",
         "UserName": "Sarada",
         "DataBricksProcessor": ""
       }
