@@ -68,7 +68,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 378488,
+        "Id": 378498,
         "ScenarioId": 45286,
         "QueryId": null,
         "Job_Id": null,
@@ -77,7 +77,7 @@
         "TransformationId": 0,
         "Description": "Afroze 7/22/2025 9:33:02 AM",
         "Position": null,
-        "CreatedOn": "2025-07-22T09:49:11.993",
+        "CreatedOn": "2025-07-22T09:53:37.453",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -97,7 +97,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378489,
+        "Id": 378499,
         "ScenarioId": 45286,
         "QueryId": null,
         "Job_Id": null,
@@ -106,7 +106,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 304px; top: 126.641px;",
-        "CreatedOn": "2025-07-22T09:49:12.073",
+        "CreatedOn": "2025-07-22T09:53:37.533",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -126,7 +126,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378490,
+        "Id": 378500,
         "ScenarioId": 45286,
         "QueryId": null,
         "Job_Id": null,
@@ -135,7 +135,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 336px; top: 304.641px;",
-        "CreatedOn": "2025-07-22T09:49:12.17",
+        "CreatedOn": "2025-07-22T09:53:37.617",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -155,7 +155,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378491,
+        "Id": 378501,
         "ScenarioId": 45286,
         "QueryId": null,
         "Job_Id": null,
@@ -164,7 +164,7 @@
         "TransformationId": 31,
         "Description": "Data Compare",
         "Position": "position: absolute; left: 543px; top: 211.641px;",
-        "CreatedOn": "2025-07-22T09:49:12.257",
+        "CreatedOn": "2025-07-22T09:53:37.707",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -184,7 +184,7 @@
         "JsonValue": null
       },
       {
-        "Id": 378492,
+        "Id": 378502,
         "ScenarioId": 45286,
         "QueryId": null,
         "Job_Id": null,
@@ -193,7 +193,7 @@
         "TransformationId": 20,
         "Description": "Email",
         "Position": "position: absolute; left: 877px; top: 220.641px;",
-        "CreatedOn": "2025-07-22T09:49:12.437",
+        "CreatedOn": "2025-07-22T09:53:37.807",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -215,9 +215,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 7292,
+        "Id": 7296,
         "Scenario_Header_Id": 45286,
-        "DCStep_Id": 378489,
+        "DCStep_Id": 378499,
         "Profile_Id": 2078,
         "SAPType": null,
         "FiltersJson": null,
@@ -234,9 +234,9 @@
         "Delimeter": null
       },
       {
-        "Id": 7293,
+        "Id": 7297,
         "Scenario_Header_Id": 45286,
-        "DCStep_Id": 378490,
+        "DCStep_Id": 378500,
         "Profile_Id": 2078,
         "SAPType": null,
         "FiltersJson": null,
@@ -255,7 +255,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 18653,
+        "Id": 18659,
         "Scenario_Header_Id": 45286,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -285,7 +285,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 18654,
+        "Id": 18660,
         "Scenario_Header_Id": 45286,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -315,7 +315,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 18655,
+        "Id": 18661,
         "Scenario_Header_Id": 45286,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -347,8 +347,8 @@
     ],
     "ScenarioTDRColumnsMapping": [
       {
-        "Id": 27994,
-        "TDRMappingId": 18653,
+        "Id": 28042,
+        "TDRMappingId": 18659,
         "ScenarioId": 45286,
         "SourceColumnName": "N_NATIONKEY",
         "SourceAliasColumnName": "N_NATIONKEY",
@@ -377,8 +377,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 27995,
-        "TDRMappingId": 18653,
+        "Id": 28043,
+        "TDRMappingId": 18659,
         "ScenarioId": 45286,
         "SourceColumnName": "N_NAME",
         "SourceAliasColumnName": "N_NAME",
@@ -407,8 +407,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 27996,
-        "TDRMappingId": 18653,
+        "Id": 28044,
+        "TDRMappingId": 18659,
         "ScenarioId": 45286,
         "SourceColumnName": "N_REGIONKEY",
         "SourceAliasColumnName": "N_REGIONKEY",
@@ -437,8 +437,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 27997,
-        "TDRMappingId": 18653,
+        "Id": 28045,
+        "TDRMappingId": 18659,
         "ScenarioId": 45286,
         "SourceColumnName": "N_COMMENT",
         "SourceAliasColumnName": "N_COMMENT",
@@ -467,8 +467,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 27998,
-        "TDRMappingId": 18654,
+        "Id": 28046,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_ORDERKEY",
         "SourceAliasColumnName": "O_ORDERKEY",
@@ -497,8 +497,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 27999,
-        "TDRMappingId": 18654,
+        "Id": 28047,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_CUSTKEY",
         "SourceAliasColumnName": "O_CUSTKEY",
@@ -527,8 +527,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28000,
-        "TDRMappingId": 18654,
+        "Id": 28048,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_ORDERSTATUS",
         "SourceAliasColumnName": "O_ORDERSTATUS",
@@ -557,8 +557,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28001,
-        "TDRMappingId": 18654,
+        "Id": 28049,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_TOTALPRICE",
         "SourceAliasColumnName": "O_TOTALPRICE",
@@ -587,8 +587,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28002,
-        "TDRMappingId": 18654,
+        "Id": 28050,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_ORDERDATE",
         "SourceAliasColumnName": "O_ORDERDATE",
@@ -617,8 +617,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28003,
-        "TDRMappingId": 18654,
+        "Id": 28051,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_ORDERPRIORITY",
         "SourceAliasColumnName": "O_ORDERPRIORITY",
@@ -647,8 +647,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28004,
-        "TDRMappingId": 18654,
+        "Id": 28052,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_CLERK",
         "SourceAliasColumnName": "O_CLERK",
@@ -677,8 +677,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28005,
-        "TDRMappingId": 18654,
+        "Id": 28053,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_SHIPPRIORITY",
         "SourceAliasColumnName": "O_SHIPPRIORITY",
@@ -707,8 +707,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28006,
-        "TDRMappingId": 18654,
+        "Id": 28054,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "O_COMMENT",
         "SourceAliasColumnName": "O_COMMENT",
@@ -737,8 +737,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28007,
-        "TDRMappingId": 18654,
+        "Id": 28055,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "NewColumn",
         "SourceAliasColumnName": "NewColumn",
@@ -767,8 +767,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28008,
-        "TDRMappingId": 18654,
+        "Id": 28056,
+        "TDRMappingId": 18660,
         "ScenarioId": 45286,
         "SourceColumnName": "OneMoreColumn",
         "SourceAliasColumnName": "OneMoreColumn",
@@ -797,8 +797,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28009,
-        "TDRMappingId": 18655,
+        "Id": 28057,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_PARTKEY",
         "SourceAliasColumnName": "P_PARTKEY",
@@ -827,8 +827,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28010,
-        "TDRMappingId": 18655,
+        "Id": 28058,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_NAME",
         "SourceAliasColumnName": "P_NAME",
@@ -857,8 +857,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28011,
-        "TDRMappingId": 18655,
+        "Id": 28059,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_MFGR",
         "SourceAliasColumnName": "P_MFGR",
@@ -887,8 +887,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28012,
-        "TDRMappingId": 18655,
+        "Id": 28060,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_BRAND",
         "SourceAliasColumnName": "P_BRAND",
@@ -917,8 +917,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28013,
-        "TDRMappingId": 18655,
+        "Id": 28061,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_TYPE",
         "SourceAliasColumnName": "P_TYPE",
@@ -947,8 +947,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28014,
-        "TDRMappingId": 18655,
+        "Id": 28062,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_SIZE",
         "SourceAliasColumnName": "P_SIZE",
@@ -977,8 +977,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28015,
-        "TDRMappingId": 18655,
+        "Id": 28063,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_CONTAINER",
         "SourceAliasColumnName": "P_CONTAINER",
@@ -1007,8 +1007,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28016,
-        "TDRMappingId": 18655,
+        "Id": 28064,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_RETAILPRICE",
         "SourceAliasColumnName": "P_RETAILPRICE",
@@ -1037,8 +1037,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 28017,
-        "TDRMappingId": 18655,
+        "Id": 28065,
+        "TDRMappingId": 18661,
         "ScenarioId": 45286,
         "SourceColumnName": "P_COMMENT",
         "SourceAliasColumnName": "P_COMMENT",
@@ -1072,7 +1072,7 @@
     "ThirdPartyAPIParams": [],
     "EmailAlerts": [
       {
-        "Id": 28283,
+        "Id": 28285,
         "Scenario_Header_Id": 45286,
         "Query_Id": null,
         "Job_Id": null,
@@ -1086,7 +1086,7 @@
         "AttachResultsInEmail": true,
         "ExportType": "Excel",
         "RaiseDefect": null,
-        "CreatedOn": "2025-07-22T09:49:12.443",
+        "CreatedOn": "2025-07-22T09:53:37.813",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "ModifiedOn": null,
         "ModifiedBy": null,
