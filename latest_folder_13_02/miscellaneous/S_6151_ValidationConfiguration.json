@@ -249,7 +249,7 @@
         "Position": "position: absolute; left: 578.525px; top: 176.076px;",
         "CreatedOn": "2025-07-22T16:30:31.913",
         "CreatedBy": "134",
-        "ModifiedOn": "2025-07-22T16:32:47.603",
+        "ModifiedOn": "2025-07-22T16:33:22.293",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -502,11 +502,11 @@
     ],
     "ThirdPartyAPIParams": [
       {
-        "Id": 6441,
+        "Id": 6442,
         "APIInte_ID": 107,
         "APIParamLookupTypeId": 2,
         "ParamName": "InstanceName",
-        "ParamterValue": "[\"MS_Teams\",\"Teams Integration\"]",
+        "ParamterValue": "[\"Teams Integration\"]",
         "ScenarioId": 6151,
         "DependantStepId": null,
         "SessionId": null,
