@@ -12,7 +12,7 @@
         "DataQualityDimensionId": null,
         "Description": "Sarada 7/19/2025 6:52:03 AM",
         "Hierarchy_Row": null,
-        "ExtraColumn": "{\"processorId\":\"0\"}",
+        "ExtraColumn": "{\"processorId\":\"10\"}",
         "IgnoreKeyDuplicates": null,
         "IsAdhoc": null,
         "IsDeleted": null,
@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"DBX_cc\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Databricks_JDBC\",\"position\":\"position: absolute; left: 268.715px; top: 130.056px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"DATABRICKS_J_NEW\",\"position\":\"position: absolute; left: 277.722px; top: 258.076px; \",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 448.692px; top: 182.03px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"159\",\"stepId\":\"5\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 581.565px; top: 180.076px;\",\"mapping\":\"159,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": "Pranisha",
+        "ModifiedBy": "Saikiran",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-21T06:58:55.85",
+        "ModifiedOn": "2025-07-22T06:12:08.553",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Sarada"
+        "UserName": "Sarada",
+        "DataBricksProcessor": "dbx processor"
       }
     ],
     "DCSteps": [
