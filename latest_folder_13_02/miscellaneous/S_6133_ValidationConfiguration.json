@@ -96,7 +96,7 @@
         "SQL_Text": null,
         "TableVizName": null,
         "ExtraColumnSC": null,
-        "DefaultfParallelism": 1.0,
+        "DefaultfParallelism": 2.0,
         "DefaultPacketSize": 50000.0,
         "MaxParallelism": null,
         "MaxPacketSize": null,
