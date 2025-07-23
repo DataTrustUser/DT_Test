@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 6:04:57 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 336.8px; top: 106.638px; \",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\",\"commented\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Oracle_J\",\"position\":\"position: absolute; left: 360.8px; top: 313.638px; \",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\",\"commented\":\"true\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 617.8px; top: 204.638px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 848.8px; top: 199.638px;\",\"mapping\":\"20,5-[31,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 6:04:57 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 336.8px; top: 106.638px; \",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\",\"commented\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Oracle_J\",\"position\":\"position: absolute; left: 360.8px; top: 313.638px; \",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\",\"commented\":\"true\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 617.8px; top: 204.638px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 848.8px; top: 199.638px;\",\"mapping\":\"20,5-[31,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"ServiceNow_dropped.0\",\"UniqueId\":\"159\",\"stepId\":\"6\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 774.8px; top: 354.638px;\",\"mapping\":\"159,6-[31,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Pranisha",
         "MigratedOn": null,
@@ -211,6 +211,35 @@
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
         "JsonValue": null
+      },
+      {
+        "Id": 378838,
+        "ScenarioId": 45340,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 6,
+        "StepMapping": "159,6-[31,3]",
+        "TransformationId": 159,
+        "Description": "ServiceNow",
+        "Position": "position: absolute; left: 774.8px; top: 354.638px;",
+        "CreatedOn": "2025-07-23T18:56:27.807",
+        "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
+        "ModifiedOn": "2025-07-23T18:57:05.203",
+        "ModifiedBy": "Pranisha",
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": null,
+        "JsonValue": null
       }
     ],
     "ScenarioTDRDataSource": [
@@ -348,7 +377,96 @@
     "ScenarioTDRColumnsMapping": [],
     "TDRAdvancedObjectMapping": [],
     "TDRSAP": [],
-    "ThirdPartyAPIParams": [],
+    "ThirdPartyAPIParams": [
+      {
+        "Id": 29188,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Instance Name",
+        "ParamterValue": "Service Now",
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 29189,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Caller",
+        "ParamterValue": "abc",
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 29190,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Category",
+        "ParamterValue": "software",
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 29191,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Impact",
+        "ParamterValue": "1",
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 29192,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Urgency",
+        "ParamterValue": "3",
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 29193,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Assignment group",
+        "ParamterValue": null,
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 29194,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Assigned to",
+        "ParamterValue": null,
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 29195,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Short description",
+        "ParamterValue": null,
+        "ScenarioId": 45340,
+        "DependantStepId": 6,
+        "SessionId": null,
+        "RuleId": null
+      }
+    ],
     "EmailAlerts": [
       {
         "Id": 28291,
