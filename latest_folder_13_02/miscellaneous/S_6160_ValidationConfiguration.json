@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 7/23/2025 5:55:14 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"MSSQL_TPCH_FILTER\\\" for data source \\\"MSSQL TPCH\\\"\",\"position\":\"position: absolute; left: 256px; top: 204.641px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 424px; top: 211.641px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Email_dropped.3\",\"UniqueId\":\"20\",\"stepId\":\"3\",\"description\":\"Email\",\"position\":\"position: absolute; left: 608px; top: 207.641px;\",\"mapping\":\"20,3-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 7/23/2025 5:55:14 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"MSSQL_TPCH_FILTER\\\" for data source \\\"MSSQL TPCH\\\"\",\"position\":\"position: absolute; left: 256px; top: 204.641px; \",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 424px; top: 211.641px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Email_dropped.3\",\"UniqueId\":\"20\",\"stepId\":\"3\",\"description\":\"Email\",\"position\":\"position: absolute; left: 608px; top: 207.641px;\",\"mapping\":\"20,3-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "RDAdmin",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-23T06:21:48.237",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -79,7 +79,7 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 0,
-        "SnapshotOffset": 2,
+        "SnapshotOffset": null,
         "StatusSc": false,
         "SAPType": null,
         "DataSourceType": "DS",
@@ -101,11 +101,11 @@
         "MaxParallelism": null,
         "MaxPacketSize": null,
         "UseLatestSession": false,
-        "ResultScenario_Id": null,
+        "ResultScenario_Id": 0,
         "ScenarioType": null,
-        "Scenario_SessionId": null,
+        "Scenario_SessionId": 0,
         "RemoveDuplicates": false,
-        "OffsetDate": null,
+        "OffsetDate": "5",
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
@@ -172,8 +172,8 @@
         "ProfileName": null,
         "CreatedOnSC": "2025-07-23T06:02:30.07",
         "CreatedBySC": "RDAdmin",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2025-07-23T06:21:47.433",
+        "ModifiedBySC": "RDAdmin"
       }
     ],
     "CSVSource": false,
@@ -1053,7 +1053,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 4363,
+            "Id": 4371,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1067,13 +1067,13 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 4364,
+            "Id": 4372,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1087,13 +1087,13 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 4365,
+            "Id": 4373,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1107,13 +1107,13 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 4366,
+            "Id": 4374,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1127,13 +1127,13 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 4367,
+            "Id": 4375,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1147,13 +1147,13 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 4368,
+            "Id": 4376,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1167,13 +1167,13 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 4369,
+            "Id": 4377,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1187,13 +1187,13 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 4370,
+            "Id": 4378,
             "ScenarioDataSourceId": 4818,
             "DBlendId": null,
             "ProfileId": null,
@@ -1207,8 +1207,8 @@
             "Description": null,
             "QueryId": 4964,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           }
@@ -1404,7 +1404,7 @@
     "MapNRecon": [],
     "ScenarioQCFieldTypes": [
       {
-        "Id": 4363,
+        "Id": 4371,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
@@ -1420,7 +1420,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 4364,
+        "Id": 4372,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
@@ -1436,7 +1436,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 4365,
+        "Id": 4373,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
@@ -1452,7 +1452,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 4366,
+        "Id": 4374,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
@@ -1468,7 +1468,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 4367,
+        "Id": 4375,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
@@ -1484,7 +1484,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 4368,
+        "Id": 4376,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
@@ -1500,7 +1500,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 4369,
+        "Id": 4377,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
@@ -1516,7 +1516,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 4370,
+        "Id": 4378,
         "ScenarioDataSourceId": 4818,
         "DBlendId": null,
         "ProfileId": null,
