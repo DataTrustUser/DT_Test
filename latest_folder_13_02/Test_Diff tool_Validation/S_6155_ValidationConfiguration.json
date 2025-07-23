@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-23T14:35:38.617",
+        "ModifiedOn": "2025-07-23T15:11:05.54",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -231,7 +231,7 @@
         "Position": "position: absolute; left: 682.407px; top: 121.076px;",
         "CreatedOn": "2025-07-23T12:03:34.783",
         "CreatedBy": "Pranisha",
-        "ModifiedOn": "2025-07-23T14:35:38.637",
+        "ModifiedOn": "2025-07-23T15:11:05.563",
         "ModifiedBy": "Afroze",
         "Status": true,
         "ErrorCodes": null,
@@ -589,8 +589,8 @@
         "Id": 185,
         "Type": null,
         "IsFileCreated": null,
-        "FileName": "S_6155_<Source Dataset Name>",
-        "FilePath": "{\"source_dataset_name\":true,\"exclude_scenario_id\":false,\"override_file\":false,\"filename_txt\":\"<Source Dataset Name>\",\"source_dataset_filename\":\"tpch_1.Customer\"}",
+        "FileName": "S_6155_offload file",
+        "FilePath": "{\"source_dataset_name\":false,\"exclude_scenario_id\":false,\"override_file\":false,\"filename_txt\":\"offload file\",\"source_dataset_filename\":\"tpch_1.Customer\"}",
         "FileSize": null,
         "FileCreatedOn": "2025-07-22T17:35:35.867",
         "FolderId": 0,
@@ -602,8 +602,7 @@
         "Delimiter": "|",
         "TextQualifier": "'",
         "OverrideFile": false,
-        "Header": false,
-        "ManipulatedFileName": "_tpch_1.Customer_20250723202656"
+        "Header": false
       }
     ],
     "Pivotdetals": [],
