@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 07/23/2025 23:27:50\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"RDAdmin 22-07-2025 16:18:53\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 275.8px; top: 190.638px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 448.8px; top: 193.638px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 07/23/2025 23:27:50\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"RDAdmin 22-07-2025 16:18:53\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 275.8px; top: 190.638px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 448.8px; top: 193.638px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Srinidhi",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-23T23:32:38.28",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -78,7 +78,7 @@
         "TableOrViewName": null,
         "DataSnapShotId": null,
         "ObjectCode": null,
-        "SessionId": 0,
+        "SessionId": 6,
         "SnapshotOffset": null,
         "StatusSc": false,
         "SAPType": null,
@@ -100,10 +100,10 @@
         "DefaultPacketSize": 5000.0,
         "MaxParallelism": null,
         "MaxPacketSize": null,
-        "UseLatestSession": true,
-        "ResultScenario_Id": null,
+        "UseLatestSession": false,
+        "ResultScenario_Id": 0,
         "ScenarioType": null,
-        "Scenario_SessionId": null,
+        "Scenario_SessionId": 0,
         "RemoveDuplicates": false,
         "OffsetDate": null,
         "OrderByValue": null,
@@ -225,8 +225,8 @@
         "ProfileName": null,
         "CreatedOnSC": "2025-07-23T23:28:34.27",
         "CreatedBySC": "Srinidhi",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2025-07-23T23:32:26.28",
+        "ModifiedBySC": "Srinidhi"
       }
     ],
     "CSVSource": false,
@@ -498,7 +498,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -1448,7 +1448,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30585,
+            "Id": 30589,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
@@ -1461,14 +1461,14 @@
             "Scenario_Header_Id": 45338,
             "Description": null,
             "QueryId": 21093,
-            "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "QuerySessionId": 6,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 30586,
+            "Id": 30590,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
@@ -1481,14 +1481,14 @@
             "Scenario_Header_Id": 45338,
             "Description": null,
             "QueryId": 21093,
-            "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "QuerySessionId": 6,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 30587,
+            "Id": 30591,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
@@ -1501,14 +1501,14 @@
             "Scenario_Header_Id": 45338,
             "Description": null,
             "QueryId": 21093,
-            "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "QuerySessionId": 6,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 30588,
+            "Id": 30592,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
@@ -1521,9 +1521,9 @@
             "Scenario_Header_Id": 45338,
             "Description": null,
             "QueryId": 21093,
-            "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "QuerySessionId": 6,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           }
@@ -1916,7 +1916,7 @@
     "MapNRecon": [],
     "ScenarioQCFieldTypes": [
       {
-        "Id": 30585,
+        "Id": 30589,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
@@ -1929,10 +1929,10 @@
         "Scenario_Header_Id": 45338,
         "Description": null,
         "QueryId": 21093,
-        "QuerySessionId": 0
+        "QuerySessionId": 6
       },
       {
-        "Id": 30586,
+        "Id": 30590,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
@@ -1945,10 +1945,10 @@
         "Scenario_Header_Id": 45338,
         "Description": null,
         "QueryId": 21093,
-        "QuerySessionId": 0
+        "QuerySessionId": 6
       },
       {
-        "Id": 30587,
+        "Id": 30591,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
@@ -1961,10 +1961,10 @@
         "Scenario_Header_Id": 45338,
         "Description": null,
         "QueryId": 21093,
-        "QuerySessionId": 0
+        "QuerySessionId": 6
       },
       {
-        "Id": 30588,
+        "Id": 30592,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
@@ -1977,7 +1977,7 @@
         "Scenario_Header_Id": 45338,
         "Description": null,
         "QueryId": 21093,
-        "QuerySessionId": 0
+        "QuerySessionId": 6
       }
     ],
     "ScenarioTableFieldTypes": [],
@@ -1996,7 +1996,7 @@
         "Id": 27188,
         "Scenario_Header_Id": 45338,
         "RuleText": "C_CUSTKEY",
-        "RuleHtml": null,
+        "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncC_CUSTKEY active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_CUSTKEY\">C_CUSTKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_NAME\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_NAME\">C_NAME<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_CUSTKEY_2\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_CUSTKEY_2\">C_CUSTKEY_2<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_NAME_2\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_NAME_2\">C_NAME_2<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following field <b>'C_CUSTKEY'</b> should not be duplicated</span>\n                    </div>\n                </div>\n            ",
         "Status": null,
         "RuleTitle": "dc",
         "IsPredefined": true,
