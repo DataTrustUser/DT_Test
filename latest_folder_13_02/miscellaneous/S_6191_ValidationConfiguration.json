@@ -23,7 +23,7 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/23/2025 9:43:40 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.2\",\"UniqueId\":\"78\",\"stepId\":\"2\",\"description\":\"Read data from \\\"MSSQL_Nation_QC\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 254.585px; top: 200.437px;\",\"mapping\":\"78,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"dup\",\"position\":\"position: absolute; left: 436.558px; top: 199.437px;\",\"mapping\":\"12,3-[78,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/23/2025 9:43:40 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.2\",\"UniqueId\":\"78\",\"stepId\":\"2\",\"description\":\"Read data from \\\"MSSQL_Nation_QC\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 255.583px; top: 201.437px;\",\"mapping\":\"78,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"dup\",\"position\":\"position: absolute; left: 436.558px; top: 199.437px;\",\"mapping\":\"12,3-[78,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
@@ -79,7 +79,7 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 2,
-        "SnapshotOffset": null,
+        "SnapshotOffset": 1,
         "StatusSc": false,
         "SAPType": null,
         "DataSourceType": "DS",
@@ -172,7 +172,7 @@
         "ProfileName": null,
         "CreatedOnSC": "2025-07-23T09:56:46.573",
         "CreatedBySC": "Swami",
-        "ModifiedOnSC": "2025-07-23T09:57:25.66",
+        "ModifiedOnSC": "2025-07-23T09:57:49.88",
         "ModifiedBySC": "Swami"
       }
     ],
@@ -320,7 +320,7 @@
         "StepMapping": "78,2-[0,0]",
         "TransformationId": 78,
         "Description": "Read data from \"MSSQL_Nation_QC\" for data source \"MSSQL_J\"",
-        "Position": "position: absolute; left: 254.585px; top: 200.437px;",
+        "Position": "position: absolute; left: 255.583px; top: 201.437px;",
         "CreatedOn": "2025-07-23T09:44:22.063",
         "CreatedBy": "117",
         "ModifiedOn": "2025-07-23T09:56:46.55",
@@ -781,7 +781,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 4387,
+            "Id": 4391,
             "ScenarioDataSourceId": 4851,
             "DBlendId": null,
             "ProfileId": null,
@@ -801,7 +801,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 4388,
+            "Id": 4392,
             "ScenarioDataSourceId": 4851,
             "DBlendId": null,
             "ProfileId": null,
@@ -821,7 +821,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 4389,
+            "Id": 4393,
             "ScenarioDataSourceId": 4851,
             "DBlendId": null,
             "ProfileId": null,
@@ -841,7 +841,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 4390,
+            "Id": 4394,
             "ScenarioDataSourceId": 4851,
             "DBlendId": null,
             "ProfileId": null,
@@ -1010,7 +1010,7 @@
     "MapNRecon": [],
     "ScenarioQCFieldTypes": [
       {
-        "Id": 4387,
+        "Id": 4391,
         "ScenarioDataSourceId": 4851,
         "DBlendId": null,
         "ProfileId": null,
@@ -1026,7 +1026,7 @@
         "QuerySessionId": 2
       },
       {
-        "Id": 4388,
+        "Id": 4392,
         "ScenarioDataSourceId": 4851,
         "DBlendId": null,
         "ProfileId": null,
@@ -1042,7 +1042,7 @@
         "QuerySessionId": 2
       },
       {
-        "Id": 4389,
+        "Id": 4393,
         "ScenarioDataSourceId": 4851,
         "DBlendId": null,
         "ProfileId": null,
@@ -1058,7 +1058,7 @@
         "QuerySessionId": 2
       },
       {
-        "Id": 4390,
+        "Id": 4394,
         "ScenarioDataSourceId": 4851,
         "DBlendId": null,
         "ProfileId": null,
