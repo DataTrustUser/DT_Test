@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Sarada 7/23/2025 8:33:36 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Google Big Query\",\"position\":\"position: absolute; left: 272.718px; top: 128.065px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"Google Big Query\",\"position\":\"position: absolute; left: 278.72px; top: 260.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 451.701px; top: 182.065px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-33,2]\",\"dsstep\":null}]",
         "Priority": null,
-        "ModifiedBy": "Sarada",
+        "ModifiedBy": null,
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-23T08:43:32.463",
+        "ModifiedOn": null,
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -40,7 +40,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{\"sourceTable\":\"tpch_1.Customer\",\"targetTable\":\"tpch_1m.Customer\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"sourceTable\":\"tpch_1.Nation\",\"targetTable\":\"tpch_1m.Nation\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]",
-        "DoCompareOnSource": false,
+        "DoCompareOnSource": null,
         "ThreSholdValue": "0|1",
         "FailedThreshold": null,
         "PassThreshold": null,
@@ -68,7 +68,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 33461,
+        "Id": 33465,
         "ScenarioId": 6183,
         "QueryId": null,
         "Job_Id": null,
@@ -77,7 +77,7 @@
         "TransformationId": 0,
         "Description": "Sarada 7/23/2025 8:33:36 AM",
         "Position": null,
-        "CreatedOn": "2025-07-23T08:43:04.723",
+        "CreatedOn": "2025-07-23T08:44:54.723",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -97,7 +97,7 @@
         "JsonValue": null
       },
       {
-        "Id": 33462,
+        "Id": 33466,
         "ScenarioId": 6183,
         "QueryId": null,
         "Job_Id": null,
@@ -106,7 +106,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 272.718px; top: 128.065px;",
-        "CreatedOn": "2025-07-23T08:43:04.747",
+        "CreatedOn": "2025-07-23T08:44:54.743",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -126,7 +126,7 @@
         "JsonValue": null
       },
       {
-        "Id": 33463,
+        "Id": 33467,
         "ScenarioId": 6183,
         "QueryId": null,
         "Job_Id": null,
@@ -135,7 +135,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 278.72px; top: 260.069px;",
-        "CreatedOn": "2025-07-23T08:43:04.89",
+        "CreatedOn": "2025-07-23T08:44:54.77",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -155,7 +155,7 @@
         "JsonValue": null
       },
       {
-        "Id": 33464,
+        "Id": 33468,
         "ScenarioId": 6183,
         "QueryId": null,
         "Job_Id": null,
@@ -164,7 +164,7 @@
         "TransformationId": 31,
         "Description": "Data Compare",
         "Position": "position: absolute; left: 451.701px; top: 182.065px;",
-        "CreatedOn": "2025-07-23T08:43:04.917",
+        "CreatedOn": "2025-07-23T08:44:54.8",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -186,9 +186,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 2197,
+        "Id": 2199,
         "Scenario_Header_Id": 6183,
-        "DCStep_Id": 33462,
+        "DCStep_Id": 33466,
         "Profile_Id": 126,
         "SAPType": null,
         "FiltersJson": null,
@@ -197,7 +197,7 @@
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
-        "DefaultfParallelism": 1.0,
+        "DefaultfParallelism": 5.0,
         "DefaultPacketSize": 50000.0,
         "ExcludedColumns": null,
         "TableCriteria": "{\"ColumnFilter\":\"\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
@@ -205,9 +205,9 @@
         "Delimeter": null
       },
       {
-        "Id": 2198,
+        "Id": 2200,
         "Scenario_Header_Id": 6183,
-        "DCStep_Id": 33463,
+        "DCStep_Id": 33467,
         "Profile_Id": 126,
         "SAPType": null,
         "FiltersJson": null,
@@ -226,7 +226,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 9161,
+        "Id": 9163,
         "Scenario_Header_Id": 6183,
         "StepId": null,
         "SourceDatabase": "tpch_1",
@@ -256,7 +256,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9162,
+        "Id": 9164,
         "Scenario_Header_Id": 6183,
         "StepId": null,
         "SourceDatabase": "tpch_1",
