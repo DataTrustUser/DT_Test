@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/23/2025 6:27:56 AM\",\"position\":\"position: absolute; left: 45px; top: 153.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 185px; top: 153.5px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.2\",\"UniqueId\":\"66\",\"stepId\":\"2\",\"description\":\"C_MKTSEGMENT != 'HOUSEHOLD' \",\"position\":\"position: absolute; left: 325px; top: 153.5px;\",\"mapping\":\"66,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from TPCH_1.dbo.CUSTOMER\",\"position\":\"position: absolute; left: 465px; top: 153.5px;\",\"mapping\":\"65,3-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dcAggregation_dropped.4\",\"UniqueId\":\"67\",\"stepId\":\"4\",\"description\":\"Aggregate data by C_CUSTKEY,C_NAME,C_ADDRESS,C_NATIONKEY,C_PHONE,C_A\",\"position\":\"position: absolute; left: 605px; top: 153.5px;\",\"mapping\":\"67,4-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.5\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"c\",\"position\":\"position: absolute; left: 855px; top: 46.75px;\",\"mapping\":\"12,5-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Uppercase_dropped.6\",\"UniqueId\":\"49\",\"stepId\":\"6\",\"description\":\"c\",\"position\":\"position: absolute; left: 855px; top: 153.5px;\",\"mapping\":\"49,6-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Negative_dropped.7\",\"UniqueId\":\"51\",\"stepId\":\"7\",\"description\":\"c\",\"position\":\"position: absolute; left: 855px; top: 260.25px;\",\"mapping\":\"51,7-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"File_dropped.8\",\"UniqueId\":\"88\",\"stepId\":\"8\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 1055px; top: 153.5px;\",\"mapping\":\"88,8-[51,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.9\",\"UniqueId\":\"163\",\"stepId\":\"9\",\"description\":\"Sink Results\",\"position\":\"position: absolute; left: 1056.67px; top: 322.635px;\",\"mapping\":\"163,9-[51,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/23/2025 6:27:56 AM\",\"position\":\"position: absolute; left: 45px; top: 153.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 185px; top: 153.5px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.2\",\"UniqueId\":\"66\",\"stepId\":\"2\",\"description\":\"C_MKTSEGMENT != 'HOUSEHOLD' \",\"position\":\"position: absolute; left: 325px; top: 153.5px;\",\"mapping\":\"66,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from TPCH_1.dbo.CUSTOMER\",\"position\":\"position: absolute; left: 465px; top: 153.5px;\",\"mapping\":\"65,3-[66,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dcAggregation_dropped.4\",\"UniqueId\":\"67\",\"stepId\":\"4\",\"description\":\"Aggregate data by C_CUSTKEY,C_NAME,C_ADDRESS,C_NATIONKEY,C_PHONE,C_A\",\"position\":\"position: absolute; left: 605px; top: 153.5px;\",\"mapping\":\"67,4-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.5\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"c\",\"position\":\"position: absolute; left: 855px; top: 46.75px;\",\"mapping\":\"12,5-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Uppercase_dropped.6\",\"UniqueId\":\"49\",\"stepId\":\"6\",\"description\":\"c\",\"position\":\"position: absolute; left: 855px; top: 153.5px;\",\"mapping\":\"49,6-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Negative_dropped.7\",\"UniqueId\":\"51\",\"stepId\":\"7\",\"description\":\"c\",\"position\":\"position: absolute; left: 855px; top: 260.25px;\",\"mapping\":\"51,7-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"File_dropped.8\",\"UniqueId\":\"88\",\"stepId\":\"8\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 1055px; top: 153.5px;\",\"mapping\":\"88,8-[51,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.9\",\"UniqueId\":\"163\",\"stepId\":\"9\",\"description\":\"Sink Results\",\"position\":\"position: absolute; left: 1056.67px; top: 322.635px;\",\"mapping\":\"163,9-[51,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-23T06:34:35.593",
+        "ModifiedOn": "2025-07-23T06:36:08.9",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -208,11 +208,11 @@
         "Step": 2,
         "StepMapping": "66,2-[2,1]",
         "TransformationId": 66,
-        "Description": "Filter data from TPCH_1.dbo.CUSTOMER",
-        "Position": "position: absolute; left: 526.667px; top: 201.635px;",
+        "Description": "C_MKTSEGMENT != 'HOUSEHOLD' ",
+        "Position": "position: absolute; left: 325px; top: 153.5px;",
         "CreatedOn": "2025-07-23T06:29:17.62",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-23T06:29:42.277",
+        "ModifiedOn": "2025-07-23T06:35:14.457",
         "ModifiedBy": "Afroze",
         "Status": true,
         "ErrorCodes": null,
@@ -246,10 +246,10 @@
         "StepMapping": "65,3-[66,2]",
         "TransformationId": 65,
         "Description": "Transform data from TPCH_1.dbo.CUSTOMER",
-        "Position": "position: absolute; left: 695.667px; top: 206.635px;",
+        "Position": "position: absolute; left: 465px; top: 153.5px;",
         "CreatedOn": "2025-07-23T06:29:52.797",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-23T06:30:23.523",
+        "ModifiedOn": "2025-07-23T06:35:22.88",
         "ModifiedBy": "Afroze",
         "Status": true,
         "ErrorCodes": null,
@@ -282,11 +282,11 @@
         "Step": 4,
         "StepMapping": "67,4-[65,3]",
         "TransformationId": 67,
-        "Description": "Aggregate data from TPCH_1.dbo.CUSTOMER",
-        "Position": "position: absolute; left: 860.667px; top: 208.635px;",
+        "Description": "Aggregate data by <b>C_CUSTKEY,C_NAME,C_ADDRESS,C_NATIONKEY,C_PHONE,C_A</b>",
+        "Position": "position: absolute; left: 605px; top: 153.5px;",
         "CreatedOn": "2025-07-23T06:30:36.617",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-23T06:31:12.07",
+        "ModifiedOn": "2025-07-23T06:35:30.547",
         "ModifiedBy": "Afroze",
         "Status": true,
         "ErrorCodes": null,
@@ -345,7 +345,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -382,7 +382,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -419,7 +419,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -663,11 +663,11 @@
         "StepId": 2,
         "DataSourceId": 57910,
         "GlobalFilter": "C_MKTSEGMENT != 'HOUSEHOLD' ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\" selected=\"selected\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\" selected=\"selected\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"HOUSEHOLD\" size=\"10\">                                                <span class=\"InputTextboxSimpleF\" style=\"display:none\"></span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
+        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\" selected=\"selected\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\" selected=\"selected\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"HOUSEHOLD\" size=\"10\">                                                <span class=\"InputTextboxSimpleF\" style=\"display:none\"></span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "CreatedOn": "2025-07-23T06:29:41.893",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
+        "ModifiedOn": "2025-07-23T06:35:14.27",
         "JSON": null,
         "Description": null,
         "QueryId": null
@@ -677,7 +677,7 @@
     "AdvancedObjectFilter": [],
     "SimpleAggregations": [
       {
-        "Id": 9583,
+        "Id": 9591,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -688,7 +688,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -699,7 +699,7 @@
         "QueryId": null
       },
       {
-        "Id": 9584,
+        "Id": 9592,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -710,7 +710,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -721,7 +721,7 @@
         "QueryId": null
       },
       {
-        "Id": 9585,
+        "Id": 9593,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -732,7 +732,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -743,7 +743,7 @@
         "QueryId": null
       },
       {
-        "Id": 9586,
+        "Id": 9594,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -754,7 +754,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -765,7 +765,7 @@
         "QueryId": null
       },
       {
-        "Id": 9587,
+        "Id": 9595,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -776,7 +776,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -787,7 +787,7 @@
         "QueryId": null
       },
       {
-        "Id": 9588,
+        "Id": 9596,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -798,7 +798,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -809,7 +809,7 @@
         "QueryId": null
       },
       {
-        "Id": 9589,
+        "Id": 9597,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -820,7 +820,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -831,7 +831,7 @@
         "QueryId": null
       },
       {
-        "Id": 9590,
+        "Id": 9598,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DCStepId": 378593,
@@ -842,7 +842,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:31:11.69",
+        "CreatedOn": "2025-07-23T06:35:30.103",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -855,7 +855,7 @@
     ],
     "SimpleProjections": [
       {
-        "Id": 49298,
+        "Id": 49306,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -868,7 +868,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -879,7 +879,7 @@
         "QueryId": null
       },
       {
-        "Id": 49299,
+        "Id": 49307,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -892,7 +892,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -903,7 +903,7 @@
         "QueryId": null
       },
       {
-        "Id": 49300,
+        "Id": 49308,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -916,7 +916,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -927,7 +927,7 @@
         "QueryId": null
       },
       {
-        "Id": 49301,
+        "Id": 49309,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -940,7 +940,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -951,7 +951,7 @@
         "QueryId": null
       },
       {
-        "Id": 49302,
+        "Id": 49310,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -964,7 +964,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -975,7 +975,7 @@
         "QueryId": null
       },
       {
-        "Id": 49303,
+        "Id": 49311,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -988,7 +988,7 @@
         "UserDefinedDataType": "Decimal",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -999,7 +999,7 @@
         "QueryId": null
       },
       {
-        "Id": 49304,
+        "Id": 49312,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -1012,7 +1012,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1023,7 +1023,7 @@
         "QueryId": null
       },
       {
-        "Id": 49305,
+        "Id": 49313,
         "ScenarioId": 45304,
         "CSV_Id": 0,
         "DcStepId": 378592,
@@ -1036,7 +1036,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-23T06:30:23.137",
+        "CreatedOn": "2025-07-23T06:35:22.223",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1057,7 +1057,7 @@
         "Id": 27143,
         "Scenario_Header_Id": 45304,
         "RuleText": "C_MKTSEGMENT",
-        "RuleHtml": null,
+        "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncC_CUSTKEY\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_CUSTKEY\">C_CUSTKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_NAME\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_NAME\">C_NAME<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_ADDRESS\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_ADDRESS\">C_ADDRESS<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_NATIONKEY\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_NATIONKEY\">C_NATIONKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_PHONE\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_PHONE\">C_PHONE<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_ACCTBAL\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_ACCTBAL\">C_ACCTBAL<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_MKTSEGMENT active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_MKTSEGMENT\">C_MKTSEGMENT<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_COMMENT\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_COMMENT\">C_COMMENT<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following field <b>'C_MKTSEGMENT'</b> should not be duplicated</span>\n                    </div>\n                </div>\n            ",
         "Status": null,
         "RuleTitle": "c",
         "IsPredefined": true,
@@ -1087,7 +1087,7 @@
         "PredefinedRuleId": 9,
         "StepId": 6,
         "IgnoreNulls": false,
-        "BusinessRule": "All the values in the column 'C_MKTSEGMENT' should be in uppercase",
+        "BusinessRule": "All the values in the column 'C_MKTSEGMENT' should be uppercase",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
