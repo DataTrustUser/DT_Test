@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 5:27:00 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Unpivot\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 321.8px; top: 164.638px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dup\",\"position\":\"position: absolute; left: 528.8px; top: 144.638px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Email_dropped.3\",\"UniqueId\":\"20\",\"stepId\":\"3\",\"description\":\"Email\",\"position\":\"position: absolute; left: 671.8px; top: 132.638px;\",\"mapping\":\"20,3-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 5:27:00 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Unpivot\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 321.8px; top: 164.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"78,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dup\",\"position\":\"position: absolute; left: 528.8px; top: 144.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,2-[78,1]\",\"dsstep\":\"1\",\"activestatus\":\"true\",\"mlrecommended\":\"false\",\"commented\":\"false\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Pranisha",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-23T17:29:33.183",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -50,7 +50,7 @@
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
         "EnableExternalLink": null,
-        "EmailTemplateJSON": "{\"TemplateType\":\"Default\",\"TemplatedId\":\"\",\"IncludeQueryChain\":null,\"IncludeFDR\":null,\"IncludeValidation\":null,\"IncludeTDR\":null,\"IncludeBDV\":null,\"HTML\":null}",
+        "EmailTemplateJSON": null,
         "UserAssignedDate": null,
         "TDRPullCheckSum": null,
         "TDRPullRecordConcat": null,
@@ -68,11 +68,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 57940,
+        "Id": 57941,
         "Scenario_Header_Id": 45334,
         "Profile_Id": null,
         "Query_Id": 18069,
-        "DCStep_Id": 378766,
+        "DCStep_Id": 378770,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": null,
@@ -80,7 +80,7 @@
         "ObjectCode": null,
         "SessionId": 0,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -170,7 +170,7 @@
         ],
         "SourceName_Id": null,
         "ProfileName": null,
-        "CreatedOnSC": "2025-07-23T17:28:03.42",
+        "CreatedOnSC": "2025-07-23T17:29:22.893",
         "CreatedBySC": "Pranisha",
         "ModifiedOnSC": null,
         "ModifiedBySC": null
@@ -210,7 +210,7 @@
         "QueryDecription": "Nihaarika 7/1/2025 11:50:08 AM",
         "JSON": "[{\"UniqueId\":\"0\",\"decision\":null,\"description\":\"Unpivot\",\"position\":\"position: absolute; left: 263px; top: 234.5px;\",\"status\":\"true\",\"stepId\":\"0\",\"warning\":null,\"widgetId\":\"dsStart_dropped\",\"mapping\":null},{\"UniqueId\":\"2\",\"decision\":null,\"description\":\"Read data from \\\"Temp.dbo.Pivot_Dedup\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 428.638px; top: 234.638px;\",\"status\":\"true\",\"stepId\":\"1\",\"warning\":null,\"widgetId\":\"dsRelTable_dropped.1\",\"mapping\":\"2,1-[0,0]\"},{\"UniqueId\":\"83\",\"decision\":null,\"description\":\"Unpivot Data\",\"position\":\"position: absolute; left: 611.8px; top: 232.638px;\",\"status\":\"true\",\"stepId\":\"2\",\"warning\":null,\"widgetId\":\"dcUnPivot_dropped.2\",\"mapping\":\"83,2-[2,1]\"},{\"UniqueId\":\"79\",\"decision\":null,\"description\":\"RD Output\",\"position\":\"position: absolute; left: 831.8px; top: 229.638px;\",\"status\":\"true\",\"stepId\":\"3\",\"warning\":null,\"widgetId\":\"qcEndItem_dropped.3\",\"mapping\":\"79,3-[83,2]\"}]",
         "TypeofQuery": "QueryChain",
-        "StepId": 378766,
+        "StepId": 378770,
         "Fid": 124677,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}"
       }
@@ -338,7 +338,7 @@
     "QuerySap": null,
     "DCSteps": [
       {
-        "Id": 378765,
+        "Id": 378769,
         "ScenarioId": 45334,
         "QueryId": null,
         "Job_Id": null,
@@ -347,7 +347,7 @@
         "TransformationId": 0,
         "Description": "Pranisha 7/23/2025 5:27:00 PM",
         "Position": null,
-        "CreatedOn": "2025-07-23T17:27:41.497",
+        "CreatedOn": "2025-07-23T17:29:22.8",
         "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -375,7 +375,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 378766,
+        "Id": 378770,
         "ScenarioId": 45334,
         "QueryId": null,
         "Job_Id": null,
@@ -384,7 +384,7 @@
         "TransformationId": 78,
         "Description": "Read data from \"Unpivot\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 321.8px; top: 164.638px;",
-        "CreatedOn": "2025-07-23T17:28:03.323",
+        "CreatedOn": "2025-07-23T17:29:22.887",
         "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -412,7 +412,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 378767,
+        "Id": 378771,
         "ScenarioId": 45334,
         "QueryId": null,
         "Job_Id": null,
@@ -421,10 +421,10 @@
         "TransformationId": 12,
         "Description": "Duplicate Check",
         "Position": "position: absolute; left: 528.8px; top: 144.638px;",
-        "CreatedOn": "2025-07-23T17:28:06.587",
-        "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": "2025-07-23T17:28:16.26",
-        "ModifiedBy": "Pranisha",
+        "CreatedOn": "2025-07-23T17:29:22.983",
+        "CreatedBy": "Pranisha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -445,44 +445,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
-        "QueryTimeOut": null
-      },
-      {
-        "Id": 378768,
-        "ScenarioId": 45334,
-        "QueryId": null,
-        "Job_Id": null,
-        "Step": 3,
-        "StepMapping": "20,3-[12,2]",
-        "TransformationId": 20,
-        "Description": "Email",
-        "Position": "position: absolute; left: 671.8px; top: 132.638px;",
-        "CreatedOn": "2025-07-23T17:28:33.897",
-        "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": "2025-07-23T17:28:39.85",
-        "ModifiedBy": "Pranisha",
-        "Status": true,
-        "ErrorCodes": null,
-        "SourceOrTarget": null,
-        "DataSourcePK_Id": null,
-        "Warning": false,
-        "JobletId": null,
-        "Decision": null,
-        "MaxPacketSize": null,
-        "MaxParallelism": null,
-        "IsLastStep": null,
-        "PreviousMetaStructure": null,
-        "Overwritesnapshot": null,
-        "IsPreBlend": null,
-        "BlendStepId": null,
-        "LATEST_OUTPUT_VIEW_NAME": null,
-        "JsonValue": null,
-        "AppendToExistingData": null,
-        "IsActive": true,
-        "Comments": null,
-        "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -841,8 +804,8 @@
         "DataBlends": [],
         "ScenarioQCFieldTypes": [
           {
-            "Id": 30577,
-            "ScenarioDataSourceId": 57940,
+            "Id": 30581,
+            "ScenarioDataSourceId": 57941,
             "DBlendId": null,
             "ProfileId": null,
             "TableName": null,
@@ -861,8 +824,8 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30578,
-            "ScenarioDataSourceId": 57940,
+            "Id": 30582,
+            "ScenarioDataSourceId": 57941,
             "DBlendId": null,
             "ProfileId": null,
             "TableName": null,
@@ -881,8 +844,8 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30579,
-            "ScenarioDataSourceId": 57940,
+            "Id": 30583,
+            "ScenarioDataSourceId": 57941,
             "DBlendId": null,
             "ProfileId": null,
             "TableName": null,
@@ -901,8 +864,8 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30580,
-            "ScenarioDataSourceId": 57940,
+            "Id": 30584,
+            "ScenarioDataSourceId": 57941,
             "DBlendId": null,
             "ProfileId": null,
             "TableName": null,
@@ -1165,8 +1128,8 @@
     "MapNRecon": [],
     "ScenarioQCFieldTypes": [
       {
-        "Id": 30577,
-        "ScenarioDataSourceId": 57940,
+        "Id": 30581,
+        "ScenarioDataSourceId": 57941,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -1181,8 +1144,8 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 30578,
-        "ScenarioDataSourceId": 57940,
+        "Id": 30582,
+        "ScenarioDataSourceId": 57941,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -1197,8 +1160,8 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 30579,
-        "ScenarioDataSourceId": 57940,
+        "Id": 30583,
+        "ScenarioDataSourceId": 57941,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -1213,8 +1176,8 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 30580,
-        "ScenarioDataSourceId": 57940,
+        "Id": 30584,
+        "ScenarioDataSourceId": 57941,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -1242,17 +1205,17 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 27182,
+        "Id": 27183,
         "Scenario_Header_Id": 45334,
-        "RuleText": "Salary",
-        "RuleHtml": null,
+        "RuleText": "Salary,Emp",
+        "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncEmployee_Name\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"Employee_Name\">Employee_Name<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncSalary active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"Salary\">Salary<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncEmp active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"Emp\">Emp<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncDept\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"Dept\">Dept<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"><li class=\"tagList ncEmp active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"Emp\">Emp<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following combination of fields should not be duplicated: <b>Salary, Emp</b></span>\n                    </div>\n                </div>\n            ",
         "Status": null,
         "RuleTitle": "dup",
         "IsPredefined": true,
         "PredefinedRuleId": 1,
         "StepId": 2,
         "IgnoreNulls": false,
-        "BusinessRule": "Following field 'Salary' should not be duplicated",
+        "BusinessRule": "Following combination of fields should not be duplicated: Salary, Emp",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -1269,7 +1232,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 273158,
+        "Id": 273162,
         "ScenarioId": 45334,
         "QueryId": null,
         "StepId": 0,
@@ -1279,7 +1242,7 @@
         "JobId": null
       },
       {
-        "Id": 273159,
+        "Id": 273163,
         "ScenarioId": 45334,
         "QueryId": null,
         "StepId": 1,
@@ -1289,7 +1252,7 @@
         "JobId": null
       },
       {
-        "Id": 273160,
+        "Id": 273164,
         "ScenarioId": 45334,
         "QueryId": null,
         "StepId": 2,
@@ -1297,53 +1260,10 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
-      },
-      {
-        "Id": 273161,
-        "ScenarioId": 45334,
-        "QueryId": null,
-        "StepId": 3,
-        "Dependency": 20,
-        "JobletId": null,
-        "Decision": null,
-        "JobId": null
       }
     ],
     "ThirdPartyAPIParams": [],
-    "EmailAlerts": [
-      {
-        "Id": 28289,
-        "Scenario_Header_Id": 45334,
-        "Query_Id": null,
-        "Job_Id": null,
-        "WhenFaild": true,
-        "EmailWhen_F": "pranisha.odela@getrightdata.com",
-        "WhenSuccess": true,
-        "EmailWhen_S": "pranisha.odela@getrightdata.com",
-        "EmailWhen_E": null,
-        "FailRDjobWhenRecon_F": null,
-        "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
-        "ExportType": null,
-        "RaiseDefect": null,
-        "CreatedOn": "2025-07-23T17:28:39.713",
-        "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
-        "Status": null,
-        "DependantStepId": null,
-        "EmailTemplateId": null,
-        "SendExtrenalLink": false,
-        "PdfAttachment": false,
-        "EmailSubject": null,
-        "EmailPriority": "Normal",
-        "EnableHyperlinks": true,
-        "EmailFromName": null,
-        "AttachCustomValidationReport": false,
-        "AttachCSV": false,
-        "AttachResultSummary": false
-      }
-    ],
+    "EmailAlerts": [],
     "FileOffload": [],
     "Pivotdetals": [],
     "UnPivotdetals": [],
