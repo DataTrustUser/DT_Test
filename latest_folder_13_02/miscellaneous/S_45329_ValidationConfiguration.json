@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 5:01:13 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.PART\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 301.8px; top: 178.638px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dup\",\"position\":\"position: absolute; left: 507.8px; top: 217.638px;\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"MSTeams_dropped.3\",\"UniqueId\":\"156\",\"stepId\":\"3\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 747.8px; top: 212.638px;\",\"mapping\":\"156,3-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 5:01:13 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.PART\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 301.8px; top: 178.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dup\",\"position\":\"position: absolute; left: 573.8px; top: 147.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Slack_dropped.4\",\"UniqueId\":\"157\",\"stepId\":\"4\",\"description\":\"Slack\",\"position\":\"position: absolute; left: 735.8px; top: 175.638px;\",\"mapping\":\"157,4-[12,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Pranisha",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-23T17:03:37.583",
+        "ModifiedOn": "2025-07-23T17:04:45.54",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -68,11 +68,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 57928,
+        "Id": 57931,
         "Scenario_Header_Id": 45329,
         "Profile_Id": 2078,
         "Query_Id": null,
-        "DCStep_Id": 378716,
+        "DCStep_Id": 378725,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.PART",
@@ -80,7 +80,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -116,7 +116,7 @@
         "QCDataSource": [],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_J",
-        "CreatedOnSC": "2025-07-23T17:01:51.88",
+        "CreatedOnSC": "2025-07-23T17:04:30.327",
         "CreatedBySC": "Pranisha",
         "ModifiedOnSC": null,
         "ModifiedBySC": null
@@ -127,7 +127,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 378714,
+        "Id": 378724,
         "ScenarioId": 45329,
         "QueryId": null,
         "Job_Id": null,
@@ -136,7 +136,7 @@
         "TransformationId": 0,
         "Description": "Pranisha 7/23/2025 5:01:13 PM",
         "Position": null,
-        "CreatedOn": "2025-07-23T17:01:23.787",
+        "CreatedOn": "2025-07-23T17:04:30.237",
         "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -164,7 +164,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 378716,
+        "Id": 378725,
         "ScenarioId": 45329,
         "QueryId": null,
         "Job_Id": null,
@@ -173,7 +173,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.PART\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 301.8px; top: 178.638px;",
-        "CreatedOn": "2025-07-23T17:01:51.793",
+        "CreatedOn": "2025-07-23T17:04:30.323",
         "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -201,7 +201,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 378719,
+        "Id": 378726,
         "ScenarioId": 45329,
         "QueryId": null,
         "Job_Id": null,
@@ -209,11 +209,11 @@
         "StepMapping": "12,2-[2,1]",
         "TransformationId": 12,
         "Description": "Duplicate Check",
-        "Position": "position: absolute; left: 507.8px; top: 217.638px;",
-        "CreatedOn": "2025-07-23T17:02:43.507",
-        "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": "2025-07-23T17:03:01.097",
-        "ModifiedBy": "Pranisha",
+        "Position": "position: absolute; left: 573.8px; top: 147.638px;",
+        "CreatedOn": "2025-07-23T17:04:30.427",
+        "CreatedBy": "Pranisha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -238,18 +238,18 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 378723,
+        "Id": 378727,
         "ScenarioId": 45329,
         "QueryId": null,
         "Job_Id": null,
-        "Step": 3,
-        "StepMapping": "156,3-[12,2]",
-        "TransformationId": 156,
-        "Description": "MS Teams",
-        "Position": "position: absolute; left: 747.8px; top: 212.638px;",
-        "CreatedOn": "2025-07-23T17:03:25.967",
+        "Step": 4,
+        "StepMapping": "157,4-[12,2]",
+        "TransformationId": 157,
+        "Description": "Slack",
+        "Position": null,
+        "CreatedOn": "2025-07-23T17:04:39.387",
         "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": "2025-07-23T17:03:37.673",
+        "ModifiedOn": "2025-07-23T17:04:45.71",
         "ModifiedBy": "Pranisha",
         "Status": true,
         "ErrorCodes": null,
@@ -295,8 +295,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 528538,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528551,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -312,8 +312,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528539,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528552,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -329,8 +329,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528540,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528553,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -346,8 +346,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528541,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528554,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -363,8 +363,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528542,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528555,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -380,8 +380,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528543,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528556,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -397,8 +397,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528544,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528557,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -414,8 +414,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528545,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528558,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -431,8 +431,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 528546,
-        "ScenarioDataSourceId": 57928,
+        "Id": 528559,
+        "ScenarioDataSourceId": 57931,
         "DBlendId": null,
         "ProfileId": 2078,
         "TableName": "TPCH_1.dbo.PART",
@@ -460,7 +460,7 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 27173,
+        "Id": 27174,
         "Scenario_Header_Id": 45329,
         "RuleText": "P_CONTAINER",
         "RuleHtml": null,
@@ -487,7 +487,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 273117,
+        "Id": 273126,
         "ScenarioId": 45329,
         "QueryId": null,
         "StepId": 0,
@@ -497,7 +497,7 @@
         "JobId": null
       },
       {
-        "Id": 273119,
+        "Id": 273127,
         "ScenarioId": 45329,
         "QueryId": null,
         "StepId": 1,
@@ -507,7 +507,7 @@
         "JobId": null
       },
       {
-        "Id": 273125,
+        "Id": 273128,
         "ScenarioId": 45329,
         "QueryId": null,
         "StepId": 2,
@@ -524,6 +524,18 @@
         "APIParamLookupTypeId": 2,
         "ParamName": "InstanceName",
         "ParamterValue": "[\"Donot_Delete_Teams\"]",
+        "ScenarioId": 45329,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 29135,
+        "APIInte_ID": 108,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"Test_Slack\"]",
         "ScenarioId": 45329,
         "DependantStepId": null,
         "SessionId": null,
