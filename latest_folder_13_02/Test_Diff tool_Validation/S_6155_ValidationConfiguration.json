@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDBMS_GBQ_Versioning_Offload cahnges\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch_1.Customer\\\" for data source \\\"Google Big Query\\\"\",\"position\":\"position: absolute; left: 253.604px; top: 196.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Duplicate chcek\",\"position\":\"position: absolute; left: 459.634px; top: 128.065px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Length_dropped.3\",\"UniqueId\":\"16\",\"stepId\":\"3\",\"description\":\"Length check\",\"position\":\"position: absolute; left: 565.523px; top: 220.063px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"16,3-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 688.396px; top: 121.06px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[16,3]\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDBMS_GBQ_Versioning_Offload cahnges\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch_1.Customer\\\" for data source \\\"Google Big Query\\\"\",\"position\":\"position: absolute; left: 253.604px; top: 196.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Duplicate chcek\",\"position\":\"position: absolute; left: 459.634px; top: 128.065px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Length_dropped.3\",\"UniqueId\":\"16\",\"stepId\":\"3\",\"description\":\"Length check\",\"position\":\"position: absolute; left: 565.523px; top: 220.063px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"16,3-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload consolidated exceptions\",\"position\":\"position: absolute; left: 682.407px; top: 121.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[16,3]\",\"commented\":\"false\"}]",
         "Priority": null,
-        "ModifiedBy": "Sarada",
+        "ModifiedBy": "Pranisha",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-22T17:54:09.043",
+        "ModifiedOn": "2025-07-23T12:13:24.4",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -66,68 +66,13 @@
         "DataBricksProcessor": ""
       }
     ],
-    "ScenarioDataSource": [
-      {
-        "Id": 4808,
-        "Scenario_Header_Id": 6155,
-        "Profile_Id": 126,
-        "Query_Id": null,
-        "DCStep_Id": 32994,
-        "BlendStepId": null,
-        "ResultTableName": null,
-        "TableOrViewName": "tpch_1.Customer",
-        "DataSnapShotId": null,
-        "ObjectCode": null,
-        "SessionId": null,
-        "SnapshotOffset": null,
-        "StatusSc": null,
-        "SAPType": null,
-        "DataSourceType": "DS",
-        "REST_Api_JSON_UI": null,
-        "BucketName": null,
-        "AccessKey": null,
-        "SecretKey": null,
-        "Key_S3File": null,
-        "SF_GrantType": null,
-        "SF_ClientId": null,
-        "SF_Client_Secrect": null,
-        "SF_Username": null,
-        "SF_Password": null,
-        "SQL_Text": null,
-        "TableVizName": "rightdata-1376||tpch_1||Customer",
-        "ExtraColumnSC": null,
-        "DefaultfParallelism": 1.0,
-        "DefaultPacketSize": 50000.0,
-        "MaxParallelism": null,
-        "MaxPacketSize": null,
-        "UseLatestSession": null,
-        "ResultScenario_Id": null,
-        "ScenarioType": null,
-        "Scenario_SessionId": null,
-        "RemoveDuplicates": false,
-        "OffsetDate": null,
-        "OrderByValue": null,
-        "TableLevelAggrFunction": "[{\"ColumnName\":\"C_CUSTKEY\",\"AliasColumnName\":\"C_CUSTKEY\",\"DataType\":\"INT64\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"C_NAME\",\"AliasColumnName\":\"C_NAME\",\"DataType\":\"STRING\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_ADDRESS\",\"AliasColumnName\":\"C_ADDRESS\",\"DataType\":\"STRING\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_NATIONKEY\",\"AliasColumnName\":\"C_NATIONKEY\",\"DataType\":\"INT64\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"C_PHONE\",\"AliasColumnName\":\"C_PHONE\",\"DataType\":\"STRING\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_ACCTBAL\",\"AliasColumnName\":\"C_ACCTBAL\",\"DataType\":\"FLOAT64\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_MKTSEGMENT\",\"AliasColumnName\":\"C_MKTSEGMENT\",\"DataType\":\"STRING\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_COMMENT\",\"AliasColumnName\":\"C_COMMENT\",\"DataType\":\"STRING\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"etl_ts1\",\"AliasColumnName\":\"etl_ts1\",\"DataType\":\"TIMESTAMP\",\"UserDataType\":\"String\",\"Aggregation\":null}]",
-        "TableLevelFilterJson": null,
-        "Delimeter": null,
-        "DSDataBaseName": null,
-        "DSSchemaName": null,
-        "DSTableName": null,
-        "QCDataSource": [],
-        "SourceName_Id": 130,
-        "ProfileName": "Google Big Query",
-        "CreatedOnSC": "2025-07-22T17:35:35.67",
-        "CreatedBySC": "Sarada",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
-      }
-    ],
+    "ScenarioDataSource": [],
     "QFTypes": null,
     "QuerySap": null,
     "Query": null,
     "DCSteps": [
       {
-        "Id": 32993,
+        "Id": 33719,
         "ScenarioId": 6155,
         "QueryId": null,
         "Job_Id": null,
@@ -136,8 +81,8 @@
         "TransformationId": 0,
         "Description": "Sarada 7/22/2025 4:32:41 PM",
         "Position": null,
-        "CreatedOn": "2025-07-22T17:35:35.603",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-07-23T12:03:34.64",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -164,7 +109,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 32994,
+        "Id": 33720,
         "ScenarioId": 6155,
         "QueryId": null,
         "Job_Id": null,
@@ -173,8 +118,8 @@
         "TransformationId": 2,
         "Description": "Read data from \"tpch_1.Customer\" for data source \"Google Big Query\"",
         "Position": "position: absolute; left: 253.604px; top: 196.076px;",
-        "CreatedOn": "2025-07-22T17:35:35.63",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-07-23T12:03:34.673",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -201,7 +146,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 32995,
+        "Id": 33721,
         "ScenarioId": 6155,
         "QueryId": null,
         "Job_Id": null,
@@ -210,8 +155,8 @@
         "TransformationId": 12,
         "Description": "Duplicate Check",
         "Position": "position: absolute; left: 612.523px; top: 219.065px;",
-        "CreatedOn": "2025-07-22T17:35:35.803",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-07-23T12:03:34.733",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -238,7 +183,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 32996,
+        "Id": 33722,
         "ScenarioId": 6155,
         "QueryId": null,
         "Job_Id": null,
@@ -247,8 +192,8 @@
         "TransformationId": 16,
         "Description": "Length Check",
         "Position": "position: absolute; left: 565.523px; top: 220.063px;",
-        "CreatedOn": "2025-07-22T17:35:35.827",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-07-23T12:03:34.757",
+        "CreatedBy": "Pranisha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -275,7 +220,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 32997,
+        "Id": 33723,
         "ScenarioId": 6155,
         "QueryId": null,
         "Job_Id": null,
@@ -283,11 +228,11 @@
         "StepMapping": "88,5-[16,3]",
         "TransformationId": 88,
         "Description": "Write  data To File",
-        "Position": "position: absolute; left: 688.396px; top: 121.06px;",
-        "CreatedOn": "2025-07-22T17:35:35.853",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-22T17:54:09.073",
-        "ModifiedBy": "Sarada",
+        "Position": "position: absolute; left: 682.407px; top: 121.076px;",
+        "CreatedOn": "2025-07-23T12:03:34.783",
+        "CreatedBy": "Pranisha",
+        "ModifiedOn": "2025-07-23T12:13:24.417",
+        "ModifiedBy": "Pranisha",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -332,8 +277,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 44654,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44966,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -349,8 +294,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44655,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44967,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -366,8 +311,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44656,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44968,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -383,8 +328,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44657,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44969,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -400,8 +345,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44658,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44970,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -417,8 +362,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44659,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44971,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -434,8 +379,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44660,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44972,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -451,8 +396,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44661,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44973,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -468,8 +413,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44662,
-        "ScenarioDataSourceId": 4808,
+        "Id": 44974,
+        "ScenarioDataSourceId": 4867,
         "DBlendId": null,
         "ProfileId": 126,
         "TableName": "tpch_1.Customer",
@@ -497,7 +442,7 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 9653,
+        "Id": 9946,
         "Scenario_Header_Id": 6155,
         "RuleText": "C_MKTSEGMENT",
         "RuleHtml": null,
@@ -520,7 +465,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9654,
+        "Id": 9947,
         "Scenario_Header_Id": 6155,
         "RuleText": "C_MKTSEGMENT,Equal to,3",
         "RuleHtml": null,
@@ -547,7 +492,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 26763,
+        "Id": 27251,
         "ScenarioId": 6155,
         "QueryId": null,
         "StepId": 0,
@@ -557,7 +502,7 @@
         "JobId": null
       },
       {
-        "Id": 26764,
+        "Id": 27252,
         "ScenarioId": 6155,
         "QueryId": null,
         "StepId": 1,
@@ -567,7 +512,7 @@
         "JobId": null
       },
       {
-        "Id": 26765,
+        "Id": 27253,
         "ScenarioId": 6155,
         "QueryId": null,
         "StepId": 2,
@@ -577,7 +522,7 @@
         "JobId": null
       },
       {
-        "Id": 26766,
+        "Id": 27254,
         "ScenarioId": 6155,
         "QueryId": null,
         "StepId": 3,
