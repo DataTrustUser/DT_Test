@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-23T16:58:57.817",
+        "ModifiedOn": "2025-07-23T16:59:20.713",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -249,7 +249,7 @@
         "Position": "position: absolute; left: 581.667px; top: 144.635px;",
         "CreatedOn": "2025-07-23T16:58:35.993",
         "CreatedBy": "Afroze",
-        "ModifiedOn": "2025-07-23T16:58:57.903",
+        "ModifiedOn": "2025-07-23T16:59:20.793",
         "ModifiedBy": "Afroze",
         "Status": true,
         "ErrorCodes": null,
@@ -439,8 +439,8 @@
         "Id": 6936,
         "Type": null,
         "IsFileCreated": null,
-        "FileName": "S_45328_offload file",
-        "FilePath": "{\"source_dataset_name\":false,\"exclude_scenario_id\":false,\"override_file\":true,\"filename_txt\":\"offload file\",\"source_dataset_filename\":\"TPCH_1.dbo.NATION\"}",
+        "FileName": "offload file",
+        "FilePath": "{\"source_dataset_name\":false,\"exclude_scenario_id\":true,\"override_file\":true,\"filename_txt\":\"offload file\",\"source_dataset_filename\":\"TPCH_1.dbo.NATION\"}",
         "FileSize": null,
         "FileCreatedOn": "2025-07-23T16:58:36",
         "FolderId": 0,
@@ -453,7 +453,7 @@
         "TextQualifier": "\"",
         "OverrideFile": true,
         "Header": true,
-        "ManipulatedFileName": "S_45328_offloadfile"
+        "ManipulatedFileName": "offloadfile"
       }
     ],
     "Pivotdetals": [],
