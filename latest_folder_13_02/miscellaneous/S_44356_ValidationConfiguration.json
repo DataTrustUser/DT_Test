@@ -10,7 +10,7 @@
         "CreatedBy": "Srinidhi",
         "DataDomainHierarchyId": 0,
         "DataQualityDimensionId": null,
-        "Description": "version compare description ",
+        "Description": "version compare descriptionsss ",
         "Hierarchy_Row": null,
         "ExtraColumn": null,
         "IgnoreKeyDuplicates": null,
@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Srinidhi",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-19T14:20:22.627",
+        "ModifiedOn": "2025-07-23T23:12:58.97",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Srinidhi"
+        "UserName": "Srinidhi",
+        "DataBricksProcessor": ""
       }
     ],
     "ScenarioDataSource": [
