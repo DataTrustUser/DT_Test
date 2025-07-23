@@ -23,7 +23,7 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 5:58:18 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"AwsDataCatalog.rdt.tpch1_nation\\\" for data source \\\"Athena_JDBC\\\"\",\"position\":\"position: absolute; left: 313.8px; top: 214.638px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"true\"},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from AwsDataCatalog.rdt.tpch1_nation\",\"position\":\"position: absolute; left: 538.8px; top: 201.638px;\",\"mapping\":\"65,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Positive_dropped.4\",\"UniqueId\":\"50\",\"stepId\":\"4\",\"description\":\"pos check\",\"position\":\"position: absolute; left: 724.8px; top: 177.638px;\",\"mapping\":\"50,4-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"false\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Lowercase_dropped.5\",\"UniqueId\":\"48\",\"stepId\":\"5\",\"description\":\"lower\",\"position\":\"position: absolute; left: 734.8px; top: 342.638px;\",\"mapping\":\"48,5-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/23/2025 5:58:18 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"AwsDataCatalog.rdt.tpch1_nation\\\" for data source \\\"Athena_JDBC\\\"\",\"position\":\"position: absolute; left: 313.8px; top: 214.638px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"true\"},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from AwsDataCatalog.rdt.tpch1_nation\",\"position\":\"position: absolute; left: 538.8px; top: 201.638px;\",\"mapping\":\"65,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"true\"},{\"widgetId\":\"Positive_dropped.4\",\"UniqueId\":\"50\",\"stepId\":\"4\",\"description\":\"pos check\",\"position\":\"position: absolute; left: 724.8px; top: 177.638px;\",\"mapping\":\"50,4-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"true\",\"activestatus\":\"false\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Lowercase_dropped.5\",\"UniqueId\":\"48\",\"stepId\":\"5\",\"description\":\"lower\",\"position\":\"position: absolute; left: 734.8px; top: 342.638px;\",\"mapping\":\"48,5-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"true\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Pranisha",
         "MigratedOn": null,
@@ -269,7 +269,7 @@
         "JsonValue": null,
         "AppendToExistingData": null,
         "IsActive": true,
-        "Comments": null,
+        "Comments": "<p>projection</p>",
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
@@ -306,7 +306,7 @@
         "JsonValue": null,
         "AppendToExistingData": null,
         "IsActive": false,
-        "Comments": null,
+        "Comments": "<p>disabled</p>",
         "RunTimeJSON": null,
         "IsMLRecommended": false,
         "QueryTimeOut": null
@@ -343,7 +343,7 @@
         "JsonValue": null,
         "AppendToExistingData": null,
         "IsActive": true,
-        "Comments": null,
+        "Comments": "<p>lower</p>",
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
