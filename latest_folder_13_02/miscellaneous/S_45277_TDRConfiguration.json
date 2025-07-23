@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/22/2025 4:56:36 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 330.8px; top: 133.638px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_NJ\",\"position\":\"position: absolute; left: 322.8px; top: 379.638px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 567.8px; top: 258.638px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 815.8px; top: 247.638px;\",\"mapping\":\"20,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/22/2025 4:56:36 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 330.8px; top: 133.638px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_NJ\",\"position\":\"position: absolute; left: 322.8px; top: 379.638px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 567.8px; top: 258.638px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 815.8px; top: 247.638px;\",\"mapping\":\"20,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Pranisha",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-22T04:58:31.46",
+        "ModifiedOn": "2025-07-23T19:54:58.913",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -62,7 +62,8 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Pranisha"
+        "UserName": "Pranisha",
+        "DataBricksProcessor": ""
       }
     ],
     "DCSteps": [
@@ -93,7 +94,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 378432,
@@ -122,7 +124,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": "<p>mssql</p>"
       },
       {
         "Id": 378433,
@@ -151,7 +154,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 378435,
@@ -180,7 +184,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 378436,
@@ -209,7 +214,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       }
     ],
     "ScenarioTDRDataSource": [
