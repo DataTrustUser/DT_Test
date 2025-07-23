@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 07/23/2025 23:27:50\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"RDAdmin 22-07-2025 16:18:53\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 275.8px; top: 190.638px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 448.8px; top: 193.638px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 07/23/2025 23:27:50\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"RDAdmin 22-07-2025 16:18:53\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 275.8px; top: 190.638px; \",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\",\"dsstep\":\"undefined\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 448.8px; top: 193.638px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Srinidhi",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-23T23:32:38.28",
+        "ModifiedOn": "2025-07-23T23:36:00.517",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -79,7 +79,7 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 6,
-        "SnapshotOffset": null,
+        "SnapshotOffset": 3,
         "StatusSc": false,
         "SAPType": null,
         "DataSourceType": "DS",
@@ -225,7 +225,7 @@
         "ProfileName": null,
         "CreatedOnSC": "2025-07-23T23:28:34.27",
         "CreatedBySC": "Srinidhi",
-        "ModifiedOnSC": "2025-07-23T23:32:26.28",
+        "ModifiedOnSC": "2025-07-23T23:35:57.917",
         "ModifiedBySC": "Srinidhi"
       }
     ],
@@ -1448,7 +1448,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30589,
+            "Id": 30593,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
@@ -1468,7 +1468,7 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30590,
+            "Id": 30594,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
@@ -1488,12 +1488,12 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30591,
+            "Id": 30595,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
             "TableName": null,
-            "ColumnName": "C_CUSTKEY_2",
+            "ColumnName": "SCHEMA_NAME",
             "AliasColumnName": null,
             "DataType": "varchar",
             "IsPrimaryKey": false,
@@ -1508,12 +1508,12 @@
             "Scenario_Header": null
           },
           {
-            "Id": 30592,
+            "Id": 30596,
             "ScenarioDataSourceId": 57946,
             "DBlendId": null,
             "ProfileId": null,
             "TableName": null,
-            "ColumnName": "C_NAME_2",
+            "ColumnName": "OBJECT_TYPE",
             "AliasColumnName": null,
             "DataType": "varchar",
             "IsPrimaryKey": false,
@@ -1916,7 +1916,7 @@
     "MapNRecon": [],
     "ScenarioQCFieldTypes": [
       {
-        "Id": 30589,
+        "Id": 30593,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
@@ -1932,7 +1932,7 @@
         "QuerySessionId": 6
       },
       {
-        "Id": 30590,
+        "Id": 30594,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
@@ -1948,12 +1948,12 @@
         "QuerySessionId": 6
       },
       {
-        "Id": 30591,
+        "Id": 30595,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
-        "ColumnName": "C_CUSTKEY_2",
+        "ColumnName": "SCHEMA_NAME",
         "AliasColumnName": null,
         "DataType": "varchar",
         "IsPrimaryKey": false,
@@ -1964,12 +1964,12 @@
         "QuerySessionId": 6
       },
       {
-        "Id": 30592,
+        "Id": 30596,
         "ScenarioDataSourceId": 57946,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
-        "ColumnName": "C_NAME_2",
+        "ColumnName": "OBJECT_TYPE",
         "AliasColumnName": null,
         "DataType": "varchar",
         "IsPrimaryKey": false,
