@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 7/23/2025 5:01:05 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"RDAdmin 22-07-2025 16:18:53\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 253.8px; top: 198.638px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 421.8px; top: 199.638px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Email_dropped.3\",\"UniqueId\":\"20\",\"stepId\":\"3\",\"description\":\"Email exception\",\"position\":\"position: absolute; left: 567.8px; top: 150.638px;\",\"mapping\":\"52,10-[20,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload consolidated \",\"position\":\"position: absolute; left: 600.8px; top: 295.638px;\",\"mapping\":\"52,10-[88,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.5\",\"UniqueId\":\"163\",\"stepId\":\"5\",\"description\":\"Sink Results_widget\",\"position\":\"position: absolute; left: 767.8px; top: 191.638px;\",\"mapping\":\"52,10-[163,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"MSTeams_dropped.6\",\"UniqueId\":\"156\",\"stepId\":\"6\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 820.8px; top: 78.6375px;\",\"mapping\":\"52,10-[156,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"ServiceNow_dropped.7\",\"UniqueId\":\"159\",\"stepId\":\"7\",\"description\":\"ServiceNow_widget\",\"position\":\"position: absolute; left: 788.8px; top: 365.638px;\",\"mapping\":\"52,10-[159,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Uppercase_dropped.9\",\"UniqueId\":\"49\",\"stepId\":\"9\",\"description\":\"UC\",\"position\":\"position: absolute; left: 470.8px; top: 362.638px;\",\"mapping\":\"49,9-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"DateFormat_dropped.10\",\"UniqueId\":\"52\",\"stepId\":\"10\",\"description\":\"DFC\",\"position\":\"position: absolute; left: 595.8px; top: 455.638px;\",\"mapping\":\"52,10-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 7/23/2025 5:01:05 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"RDAdmin 22-07-2025 16:18:53\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 253.8px; top: 198.638px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"dc\",\"position\":\"position: absolute; left: 421.8px; top: 199.638px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Email_dropped.3\",\"UniqueId\":\"20\",\"stepId\":\"3\",\"description\":\"Email exception\",\"position\":\"position: absolute; left: 567.8px; top: 150.638px;\",\"mapping\":\"52,10-[20,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload consolidated \",\"position\":\"position: absolute; left: 600.8px; top: 295.638px;\",\"mapping\":\"52,10-[88,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"DataSink_dropped.5\",\"UniqueId\":\"163\",\"stepId\":\"5\",\"description\":\"Sink Results_widget\",\"position\":\"position: absolute; left: 767.8px; top: 191.638px;\",\"mapping\":\"52,10-[163,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"MSTeams_dropped.6\",\"UniqueId\":\"156\",\"stepId\":\"6\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 820.8px; top: 78.6375px;\",\"mapping\":\"52,10-[156,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"ServiceNow_dropped.7\",\"UniqueId\":\"159\",\"stepId\":\"7\",\"description\":\"ServiceNow_widget\",\"position\":\"position: absolute; left: 788.8px; top: 365.638px;\",\"mapping\":\"52,10-[159,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Uppercase_dropped.9\",\"UniqueId\":\"49\",\"stepId\":\"9\",\"description\":\"UC\",\"position\":\"position: absolute; left: 470.8px; top: 362.638px;\",\"mapping\":\"49,9-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"DateFormat_dropped.10\",\"UniqueId\":\"52\",\"stepId\":\"10\",\"description\":\"DFC\",\"position\":\"position: absolute; left: 595.8px; top: 455.638px;\",\"mapping\":\"52,10-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": "Srinidhi",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-23T17:16:21.477",
+        "ModifiedOn": "2025-07-23T17:48:08.717",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -720,7 +720,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       },
       {
@@ -757,7 +757,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -2228,7 +2228,7 @@
         "PredefinedRuleId": 12,
         "StepId": 10,
         "IgnoreNulls": false,
-        "BusinessRule": "The column 'C_CUSTKEY ' should be in M/d/yyyy Format",
+        "BusinessRule": "The column 'C_CUSTKEY' should be in M/d/yyyy Format",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -2468,7 +2468,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "S_45330_dsfgbn_20250723174753"
+        "ManipulatedFileName": "S_45330_dsfgbn_20250723174816"
       }
     ],
     "Pivotdetals": [],
