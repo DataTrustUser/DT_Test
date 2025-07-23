@@ -552,7 +552,8 @@
         "Delimiter": "|",
         "TextQualifier": "'",
         "OverrideFile": false,
-        "Header": false
+        "Header": false,
+        "ManipulatedFileName": ""
       }
     ],
     "Pivotdetals": [],
