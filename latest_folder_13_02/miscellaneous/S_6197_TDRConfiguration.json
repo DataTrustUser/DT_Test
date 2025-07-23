@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/23/2025 11:01:01 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Snowflake_JDBC\",\"position\":\"position: absolute; left: 288.667px; top: 156.5px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"96\",\"stepId\":\"2\",\"description\":\"Apache Drill\\n\",\"position\":\"position: absolute; left: 310.667px; top: 294.5px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[96,2]\",\"dsstep\":\"null\"},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 451.667px; top: 209.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-96,2]\",\"dsstep\":null}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"sn\",\"position\":\"position: absolute; left: 288.667px; top: 156.5px;  \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"96\",\"stepId\":\"2\",\"description\":\"Apache\\n\",\"position\":\"position: absolute; left: 310.667px; top: 294.5px;  \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[96,2]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Dc\",\"position\":\"position: absolute; left: 451.667px; top: 209.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-96,2]\"}]",
         "Priority": null,
         "ModifiedBy": "Afroze",
         "MigratedOn": null,
@@ -68,16 +68,16 @@
     ],
     "DCSteps": [
       {
-        "Id": 33662,
+        "Id": 33670,
         "ScenarioId": 6197,
         "QueryId": null,
         "Job_Id": null,
         "Step": 0,
         "StepMapping": "",
         "TransformationId": 0,
-        "Description": "Afroze 7/23/2025 11:01:01 AM",
+        "Description": "Afroze",
         "Position": null,
-        "CreatedOn": "2025-07-23T11:05:53.987",
+        "CreatedOn": "2025-07-23T11:13:01.957",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -97,16 +97,16 @@
         "JsonValue": null
       },
       {
-        "Id": 33663,
+        "Id": 33671,
         "ScenarioId": 6197,
         "QueryId": null,
         "Job_Id": null,
         "Step": 1,
         "StepMapping": "0,0-[33,1]",
         "TransformationId": 33,
-        "Description": "Snowflake_JDBC",
+        "Description": "sn",
         "Position": null,
-        "CreatedOn": "2025-07-23T11:05:54",
+        "CreatedOn": "2025-07-23T11:13:01.973",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -126,16 +126,16 @@
         "JsonValue": null
       },
       {
-        "Id": 33664,
+        "Id": 33672,
         "ScenarioId": 6197,
         "QueryId": null,
         "Job_Id": null,
         "Step": 2,
         "StepMapping": "0,0-[96,2]",
         "TransformationId": 96,
-        "Description": "Apache Drill\n",
+        "Description": "Apache\n",
         "Position": null,
-        "CreatedOn": "2025-07-23T11:05:54.023",
+        "CreatedOn": "2025-07-23T11:13:02",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -155,16 +155,16 @@
         "JsonValue": null
       },
       {
-        "Id": 33665,
+        "Id": 33673,
         "ScenarioId": 6197,
         "QueryId": null,
         "Job_Id": null,
         "Step": 3,
         "StepMapping": "31,3-[33,1-96,2]",
         "TransformationId": 31,
-        "Description": "Data Compare",
-        "Position": "position: absolute; left: 451.667px; top: 209.5px;",
-        "CreatedOn": "2025-07-23T11:05:54.047",
+        "Description": "Dc",
+        "Position": null,
+        "CreatedOn": "2025-07-23T11:13:02.023",
         "CreatedBy": "Afroze",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -186,9 +186,9 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 2245,
+        "Id": 2249,
         "Scenario_Header_Id": 6197,
-        "DCStep_Id": 33663,
+        "DCStep_Id": 33671,
         "Profile_Id": 155,
         "SAPType": null,
         "FiltersJson": null,
@@ -205,9 +205,9 @@
         "Delimeter": null
       },
       {
-        "Id": 2246,
+        "Id": 2250,
         "Scenario_Header_Id": 6197,
-        "DCStep_Id": 33664,
+        "DCStep_Id": 33672,
         "Profile_Id": 121,
         "SAPType": null,
         "FiltersJson": null,
@@ -226,7 +226,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 9222,
+        "Id": 9229,
         "Scenario_Header_Id": 6197,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -256,7 +256,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9223,
+        "Id": 9230,
         "Scenario_Header_Id": 6197,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -286,7 +286,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9224,
+        "Id": 9231,
         "Scenario_Header_Id": 6197,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -316,7 +316,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9225,
+        "Id": 9232,
         "Scenario_Header_Id": 6197,
         "StepId": null,
         "SourceDatabase": "TPCH1",
