@@ -23,7 +23,7 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Sarada 7/23/2025 6:49:55 AM\",\"position\":\"position: absolute; left: 45px; top: 181.702px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL TPCH\\\"\",\"position\":\"position: absolute; left: 185px; top: 181.702px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Duplicate check - C_CUSTKEY\",\"position\":\"position:absolute;top:15px;left:435px\",\"mapping\":\"12,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"Duplicate check - C_NAME\",\"position\":\"position:absolute;top:120px;left:435px\",\"mapping\":\"12,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"4\",\"description\":\"Duplicate check - C_ADDRESS\",\"position\":\"position:absolute;top:225px;left:435px\",\"mapping\":\"12,4-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"Duplicate check - C_PHONE\",\"position\":\"position:absolute;top:330px;left:435px\",\"mapping\":\"12,5-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"6\",\"description\":\"Duplicate check - C_COMMENT\",\"position\":\"position:absolute;top:15px;left:575px\",\"mapping\":\"12,6-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"PresenceCheck_dropped.19\",\"UniqueId\":\"17\",\"stepId\":\"7\",\"description\":\"Presence Check - 8 Columns\",\"position\":\"position:absolute;top:120px;left:575px\",\"mapping\":\"17,7-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"Uppercase_dropped.19\",\"UniqueId\":\"49\",\"stepId\":\"8\",\"description\":\"Uppercase - C_MKTSEGMENT\",\"position\":\"position:absolute;top:225px;left:575px\",\"mapping\":\"49,8-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"Positive_dropped.19\",\"UniqueId\":\"50\",\"stepId\":\"9\",\"description\":\"Positive - C_CUSTKEY\",\"position\":\"position:absolute;top:330px;left:575px\",\"mapping\":\"50,9-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"Positive_dropped.19\",\"UniqueId\":\"50\",\"stepId\":\"10\",\"description\":\"Positive - C_NATIONKEY\",\"position\":\"position:absolute;top:15px;left:715px\",\"mapping\":\"50,10-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"11\",\"description\":\"Domain Check - C_CUSTKEY\",\"position\":\"position:absolute;top:120px;left:715px\",\"mapping\":\"153,11-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"12\",\"description\":\"Domain Check - C_NAME\",\"position\":\"position:absolute;top:225px;left:715px\",\"mapping\":\"153,12-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"13\",\"description\":\"Domain Check - C_ADDRESS\",\"position\":\"position:absolute;top:330px;left:715px\",\"mapping\":\"153,13-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"14\",\"description\":\"Domain Check - C_NATIONKEY\",\"position\":\"position:absolute;top:15px;left:855px\",\"mapping\":\"153,14-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"15\",\"description\":\"Domain Check - C_PHONE\",\"position\":\"position:absolute;top:120px;left:855px\",\"mapping\":\"153,15-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"16\",\"description\":\"Domain Check - C_ACCTBAL\",\"position\":\"position:absolute;top:225px;left:855px\",\"mapping\":\"153,16-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"17\",\"description\":\"Domain Check - C_MKTSEGMENT\",\"position\":\"position:absolute;top:330px;left:855px\",\"mapping\":\"153,17-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"18\",\"description\":\"Domain Check - C_COMMENT\",\"position\":\"position:absolute;top:15px;left:995px\",\"mapping\":\"153,18-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Sarada 7/23/2025 6:49:55 AM\",\"position\":\"position: absolute; left: 45px; top: 181.702px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL TPCH\\\"\",\"position\":\"position: absolute; left: 185px; top: 181.702px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"Duplicate check - C_CUSTKEY\",\"position\":\"position:absolute;top:15px;left:435px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"Duplicate check - C_NAME\",\"position\":\"position:absolute;top:120px;left:435px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,3-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"4\",\"description\":\"Duplicate check - C_ADDRESS\",\"position\":\"position:absolute;top:225px;left:435px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,4-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"Duplicate check - C_PHONE\",\"position\":\"position:absolute;top:330px;left:435px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,5-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Duplicatecheck_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"6\",\"description\":\"Duplicate check - C_COMMENT\",\"position\":\"position:absolute;top:15px;left:575px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,6-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"PresenceCheck_dropped.19\",\"UniqueId\":\"17\",\"stepId\":\"7\",\"description\":\"Presence Check - 8 Columns\",\"position\":\"position:absolute;top:120px;left:575px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"17,7-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Uppercase_dropped.19\",\"UniqueId\":\"49\",\"stepId\":\"8\",\"description\":\"Uppercase - C_MKTSEGMENT\",\"position\":\"position:absolute;top:225px;left:575px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"49,8-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Positive_dropped.19\",\"UniqueId\":\"50\",\"stepId\":\"9\",\"description\":\"Positive - C_CUSTKEY\",\"position\":\"position:absolute;top:330px;left:575px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"50,9-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Positive_dropped.19\",\"UniqueId\":\"50\",\"stepId\":\"10\",\"description\":\"Positive - C_NATIONKEY\",\"position\":\"position:absolute;top:15px;left:715px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"50,10-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"11\",\"description\":\"Domain Check - C_CUSTKEY\",\"position\":\"position:absolute;top:120px;left:715px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,11-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"12\",\"description\":\"Domain Check - C_NAME\",\"position\":\"position:absolute;top:225px;left:715px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,12-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"13\",\"description\":\"Domain Check - C_ADDRESS\",\"position\":\"position:absolute;top:330px;left:715px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,13-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"14\",\"description\":\"Domain Check - C_NATIONKEY\",\"position\":\"position:absolute;top:15px;left:855px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,14-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"15\",\"description\":\"Domain Check - C_PHONE\",\"position\":\"position:absolute;top:120px;left:855px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,15-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"16\",\"description\":\"Domain Check - C_ACCTBAL\",\"position\":\"position:absolute;top:225px;left:855px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,16-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"17\",\"description\":\"Domain Check - C_MKTSEGMENT\",\"position\":\"position:absolute;top:330px;left:855px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,17-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DomainCheck_dropped.19\",\"UniqueId\":\"153\",\"stepId\":\"18\",\"description\":\"Domain Check - C_COMMENT\",\"position\":\"position:absolute;top:15px;left:995px\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"153,18-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"Duplicates_dropped.19\",\"UniqueId\":\"12\",\"stepId\":\"19\",\"description\":\"dc\",\"position\":\"position: absolute; left: 982.644px; top: 149.076px;\",\"mapping\":\"12,19-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
@@ -66,68 +66,13 @@
         "DataBricksProcessor": ""
       }
     ],
-    "ScenarioDataSource": [
-      {
-        "Id": 4829,
-        "Scenario_Header_Id": 6168,
-        "Profile_Id": 145,
-        "Query_Id": null,
-        "DCStep_Id": 33225,
-        "BlendStepId": null,
-        "ResultTableName": null,
-        "TableOrViewName": "TPCH_1.dbo.CUSTOMER",
-        "DataSnapShotId": null,
-        "ObjectCode": null,
-        "SessionId": null,
-        "SnapshotOffset": null,
-        "StatusSc": false,
-        "SAPType": null,
-        "DataSourceType": "DS",
-        "REST_Api_JSON_UI": null,
-        "BucketName": null,
-        "AccessKey": null,
-        "SecretKey": null,
-        "Key_S3File": null,
-        "SF_GrantType": null,
-        "SF_ClientId": null,
-        "SF_Client_Secrect": null,
-        "SF_Username": null,
-        "SF_Password": null,
-        "SQL_Text": null,
-        "TableVizName": null,
-        "ExtraColumnSC": null,
-        "DefaultfParallelism": 1.0,
-        "DefaultPacketSize": 50000.0,
-        "MaxParallelism": null,
-        "MaxPacketSize": null,
-        "UseLatestSession": null,
-        "ResultScenario_Id": null,
-        "ScenarioType": null,
-        "Scenario_SessionId": null,
-        "RemoveDuplicates": false,
-        "OffsetDate": null,
-        "OrderByValue": null,
-        "TableLevelAggrFunction": "[{\"ColumnName\":\"C_CUSTKEY\",\"AliasColumnName\":\"C_CUSTKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"C_NAME\",\"AliasColumnName\":\"C_NAME\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_ADDRESS\",\"AliasColumnName\":\"C_ADDRESS\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_NATIONKEY\",\"AliasColumnName\":\"C_NATIONKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"C_PHONE\",\"AliasColumnName\":\"C_PHONE\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_ACCTBAL\",\"AliasColumnName\":\"C_ACCTBAL\",\"DataType\":\"decimal\",\"UserDataType\":\"Decimal\",\"Aggregation\":null},{\"ColumnName\":\"C_MKTSEGMENT\",\"AliasColumnName\":\"C_MKTSEGMENT\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_COMMENT\",\"AliasColumnName\":\"C_COMMENT\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null}]",
-        "TableLevelFilterJson": null,
-        "Delimeter": null,
-        "DSDataBaseName": null,
-        "DSSchemaName": null,
-        "DSTableName": null,
-        "QCDataSource": [],
-        "SourceName_Id": 100,
-        "ProfileName": "MSSQL TPCH",
-        "CreatedOnSC": "2025-07-23T06:50:28.077",
-        "CreatedBySC": "Sarada",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
-      }
-    ],
+    "ScenarioDataSource": [],
     "QFTypes": null,
     "QuerySap": null,
     "Query": null,
     "DCSteps": [
       {
-        "Id": 33223,
+        "Id": 33246,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -136,7 +81,7 @@
         "TransformationId": 0,
         "Description": "Sarada 7/23/2025 6:49:55 AM",
         "Position": null,
-        "CreatedOn": "2025-07-23T06:50:04.713",
+        "CreatedOn": "2025-07-23T06:51:47.887",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -164,7 +109,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 33225,
+        "Id": 33247,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -173,7 +118,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.CUSTOMER\" for data source \"MSSQL TPCH\"",
         "Position": "position: absolute; left: 249.604px; top: 198.076px;",
-        "CreatedOn": "2025-07-23T06:50:28.053",
+        "CreatedOn": "2025-07-23T06:51:47.947",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -201,7 +146,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 33228,
+        "Id": 33248,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -210,8 +155,8 @@
         "TransformationId": 12,
         "Description": "Duplicate check - C_CUSTKEY",
         "Position": "position:absolute;top:15px;left:435px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:47.987",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -234,11 +179,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33229,
+        "Id": 33249,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -247,8 +192,8 @@
         "TransformationId": 12,
         "Description": "Duplicate check - C_NAME",
         "Position": "position:absolute;top:120px;left:435px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.007",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -271,11 +216,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33230,
+        "Id": 33250,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -284,8 +229,8 @@
         "TransformationId": 12,
         "Description": "Duplicate check - C_ADDRESS",
         "Position": "position:absolute;top:225px;left:435px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.023",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -308,11 +253,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33231,
+        "Id": 33251,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -321,8 +266,8 @@
         "TransformationId": 12,
         "Description": "Duplicate check - C_PHONE",
         "Position": "position:absolute;top:330px;left:435px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.047",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -345,11 +290,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33232,
+        "Id": 33252,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -358,8 +303,8 @@
         "TransformationId": 12,
         "Description": "Duplicate check - C_COMMENT",
         "Position": "position:absolute;top:15px;left:575px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.07",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -382,11 +327,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33233,
+        "Id": 33253,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -395,8 +340,8 @@
         "TransformationId": 17,
         "Description": "Presence Check - 8 Columns",
         "Position": "position:absolute;top:120px;left:575px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.09",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -419,11 +364,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33234,
+        "Id": 33254,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -432,8 +377,8 @@
         "TransformationId": 49,
         "Description": "Uppercase - C_MKTSEGMENT",
         "Position": "position:absolute;top:225px;left:575px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.11",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -456,11 +401,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33235,
+        "Id": 33255,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -469,8 +414,8 @@
         "TransformationId": 50,
         "Description": "Positive - C_CUSTKEY",
         "Position": "position:absolute;top:330px;left:575px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.127",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -493,11 +438,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33236,
+        "Id": 33256,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -506,8 +451,8 @@
         "TransformationId": 50,
         "Description": "Positive - C_NATIONKEY",
         "Position": "position:absolute;top:15px;left:715px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.153",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -530,11 +475,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33237,
+        "Id": 33257,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -543,8 +488,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_CUSTKEY",
         "Position": "position:absolute;top:120px;left:715px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.173",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -567,11 +512,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33238,
+        "Id": 33258,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -580,8 +525,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_NAME",
         "Position": "position:absolute;top:225px;left:715px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.193",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -604,11 +549,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33239,
+        "Id": 33259,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -617,8 +562,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_ADDRESS",
         "Position": "position:absolute;top:330px;left:715px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.217",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -641,11 +586,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33240,
+        "Id": 33260,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -654,8 +599,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_NATIONKEY",
         "Position": "position:absolute;top:15px;left:855px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.237",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -678,11 +623,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33241,
+        "Id": 33261,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -691,8 +636,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_PHONE",
         "Position": "position:absolute;top:120px;left:855px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.257",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -715,11 +660,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33242,
+        "Id": 33262,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -728,8 +673,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_ACCTBAL",
         "Position": "position:absolute;top:225px;left:855px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.28",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -752,11 +697,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33243,
+        "Id": 33263,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -765,8 +710,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_MKTSEGMENT",
         "Position": "position:absolute;top:330px;left:855px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.303",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -789,11 +734,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 33244,
+        "Id": 33264,
         "ScenarioId": 6168,
         "QueryId": null,
         "Job_Id": null,
@@ -802,8 +747,8 @@
         "TransformationId": 153,
         "Description": "Domain Check - C_COMMENT",
         "Position": "position:absolute;top:15px;left:995px",
-        "CreatedOn": "2025-07-23T06:51:26.017",
-        "CreatedBy": "134",
+        "CreatedOn": "2025-07-23T06:51:48.32",
+        "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -826,7 +771,44 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": true,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 33269,
+        "ScenarioId": 6168,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 19,
+        "StepMapping": "12,19-[2,1]",
+        "TransformationId": 12,
+        "Description": "Duplicate Check",
+        "Position": "position: absolute; left: 982.644px; top: 149.076px;",
+        "CreatedOn": "2025-07-23T06:53:27.93",
+        "CreatedBy": "134",
+        "ModifiedOn": "2025-07-23T06:53:33.957",
+        "ModifiedBy": "Sarada",
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "Overwritesnapshot": null,
+        "IsPreBlend": null,
+        "BlendStepId": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       }
     ],
@@ -850,8 +832,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 44739,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44754,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -867,8 +849,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44740,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44755,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -884,8 +866,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44741,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44756,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -901,8 +883,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44742,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44757,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -918,8 +900,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44743,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44758,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -935,8 +917,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44744,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44759,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -952,8 +934,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44745,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44760,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -969,8 +951,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 44746,
-        "ScenarioDataSourceId": 4829,
+        "Id": 44761,
+        "ScenarioDataSourceId": 4831,
         "DBlendId": null,
         "ProfileId": 145,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -998,7 +980,7 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 9806,
+        "Id": 9824,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_CUSTKEY",
         "RuleHtml": "",
@@ -1021,7 +1003,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9807,
+        "Id": 9825,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_NAME",
         "RuleHtml": "",
@@ -1044,7 +1026,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9808,
+        "Id": 9826,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_ADDRESS",
         "RuleHtml": "",
@@ -1067,7 +1049,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9809,
+        "Id": 9827,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_PHONE",
         "RuleHtml": "",
@@ -1090,7 +1072,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9810,
+        "Id": 9828,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_COMMENT",
         "RuleHtml": "",
@@ -1113,7 +1095,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9811,
+        "Id": 9829,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_CUSTKEY,C_NAME,C_ADDRESS,C_NATIONKEY,C_PHONE,C_ACCTBAL,C_MKTSEGMENT,C_COMMENT",
         "RuleHtml": "",
@@ -1136,7 +1118,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9812,
+        "Id": 9830,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_MKTSEGMENT",
         "RuleHtml": "",
@@ -1159,7 +1141,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9813,
+        "Id": 9831,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_CUSTKEY",
         "RuleHtml": "",
@@ -1182,7 +1164,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9814,
+        "Id": 9832,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_NATIONKEY",
         "RuleHtml": "",
@@ -1205,7 +1187,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9815,
+        "Id": 9833,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_CUSTKEY",
         "RuleHtml": "",
@@ -1228,7 +1210,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9816,
+        "Id": 9834,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_NAME",
         "RuleHtml": "",
@@ -1251,7 +1233,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9817,
+        "Id": 9835,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_ADDRESS",
         "RuleHtml": "",
@@ -1274,7 +1256,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9818,
+        "Id": 9836,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_NATIONKEY",
         "RuleHtml": "",
@@ -1297,7 +1279,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9819,
+        "Id": 9837,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_PHONE",
         "RuleHtml": "",
@@ -1320,7 +1302,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9820,
+        "Id": 9838,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_ACCTBAL",
         "RuleHtml": "",
@@ -1343,7 +1325,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9821,
+        "Id": 9839,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_MKTSEGMENT",
         "RuleHtml": "",
@@ -1366,7 +1348,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 9822,
+        "Id": 9840,
         "Scenario_Header_Id": 6168,
         "RuleText": "C_COMMENT",
         "RuleHtml": "",
@@ -1387,13 +1369,36 @@
         "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
+      },
+      {
+        "Id": 9842,
+        "Scenario_Header_Id": 6168,
+        "RuleText": "C_MKTSEGMENT",
+        "RuleHtml": null,
+        "Status": null,
+        "RuleTitle": "dc",
+        "IsPredefined": true,
+        "PredefinedRuleId": 1,
+        "StepId": 19,
+        "IgnoreNulls": false,
+        "BusinessRule": "Following field 'C_MKTSEGMENT' should not be duplicated",
+        "RuleJson": null,
+        "RiskProfile": null,
+        "QualityFacet": null,
+        "DataQualityDimensionId": null,
+        "RiskCategoryId": null,
+        "SelectedColumnsJSON": null,
+        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]",
+        "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
+        "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
+        "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       }
     ],
     "ScenarioValidationReference": [],
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 26977,
+        "Id": 27000,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 0,
@@ -1403,7 +1408,7 @@
         "JobId": null
       },
       {
-        "Id": 26978,
+        "Id": 27001,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 1,
@@ -1413,7 +1418,7 @@
         "JobId": null
       },
       {
-        "Id": 26982,
+        "Id": 27002,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 2,
@@ -1423,7 +1428,7 @@
         "JobId": null
       },
       {
-        "Id": 26983,
+        "Id": 27003,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 3,
@@ -1433,7 +1438,7 @@
         "JobId": null
       },
       {
-        "Id": 26984,
+        "Id": 27004,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 4,
@@ -1443,7 +1448,7 @@
         "JobId": null
       },
       {
-        "Id": 26985,
+        "Id": 27005,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 5,
@@ -1453,7 +1458,7 @@
         "JobId": null
       },
       {
-        "Id": 26986,
+        "Id": 27006,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 6,
@@ -1463,7 +1468,7 @@
         "JobId": null
       },
       {
-        "Id": 26987,
+        "Id": 27007,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 7,
@@ -1473,7 +1478,7 @@
         "JobId": null
       },
       {
-        "Id": 26988,
+        "Id": 27008,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 8,
@@ -1483,7 +1488,7 @@
         "JobId": null
       },
       {
-        "Id": 26989,
+        "Id": 27009,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 9,
@@ -1493,7 +1498,7 @@
         "JobId": null
       },
       {
-        "Id": 26990,
+        "Id": 27010,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 10,
@@ -1503,7 +1508,7 @@
         "JobId": null
       },
       {
-        "Id": 26991,
+        "Id": 27011,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 11,
@@ -1513,7 +1518,7 @@
         "JobId": null
       },
       {
-        "Id": 26992,
+        "Id": 27012,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 12,
@@ -1523,7 +1528,7 @@
         "JobId": null
       },
       {
-        "Id": 26993,
+        "Id": 27013,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 13,
@@ -1533,7 +1538,7 @@
         "JobId": null
       },
       {
-        "Id": 26994,
+        "Id": 27014,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 14,
@@ -1543,7 +1548,7 @@
         "JobId": null
       },
       {
-        "Id": 26995,
+        "Id": 27015,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 15,
@@ -1553,7 +1558,7 @@
         "JobId": null
       },
       {
-        "Id": 26996,
+        "Id": 27016,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 16,
@@ -1563,7 +1568,7 @@
         "JobId": null
       },
       {
-        "Id": 26997,
+        "Id": 27017,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 17,
@@ -1573,11 +1578,21 @@
         "JobId": null
       },
       {
-        "Id": 26998,
+        "Id": 27018,
         "ScenarioId": 6168,
         "QueryId": null,
         "StepId": 18,
         "Dependency": 153,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
+      },
+      {
+        "Id": 27023,
+        "ScenarioId": 6168,
+        "QueryId": null,
+        "StepId": 19,
+        "Dependency": 12,
         "JobletId": null,
         "Decision": null,
         "JobId": null
