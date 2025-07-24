@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": true,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/24/2025 4:26:30 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 336.615px; top: 110.429px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 338.621px; top: 284.431px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 566.615px; top: 183.427px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-33,2]\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/24/2025 4:26:30 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 336.615px; top: 110.429px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 338.621px; top: 284.431px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 566.615px; top: 183.427px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-33,2]\",\"dsstep\":null},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 769.104px; top: 190.059px;\",\"mapping\":\"20,4-[31,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
@@ -50,7 +50,7 @@
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
         "EnableExternalLink": true,
-        "EmailTemplateJSON": null,
+        "EmailTemplateJSON": "{\"TemplateType\":\"Default\",\"TemplatedId\":\"\",\"IncludeQueryChain\":null,\"IncludeFDR\":null,\"IncludeValidation\":null,\"IncludeTDR\":null,\"IncludeBDV\":null,\"HTML\":null}",
         "UserAssignedDate": null,
         "TDRPullCheckSum": false,
         "TDRPullRecordConcat": false,
@@ -68,7 +68,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 34302,
+        "Id": 34350,
         "ScenarioId": 6243,
         "QueryId": null,
         "Job_Id": null,
@@ -77,7 +77,7 @@
         "TransformationId": 0,
         "Description": "Swami 7/24/2025 4:26:30 AM",
         "Position": null,
-        "CreatedOn": "2025-07-24T08:16:24.687",
+        "CreatedOn": "2025-07-24T08:42:09.473",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -98,7 +98,7 @@
         "Comments": null
       },
       {
-        "Id": 34303,
+        "Id": 34351,
         "ScenarioId": 6243,
         "QueryId": null,
         "Job_Id": null,
@@ -107,7 +107,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 336.615px; top: 110.429px;",
-        "CreatedOn": "2025-07-24T08:16:24.703",
+        "CreatedOn": "2025-07-24T08:42:09.577",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -128,7 +128,7 @@
         "Comments": null
       },
       {
-        "Id": 34304,
+        "Id": 34352,
         "ScenarioId": 6243,
         "QueryId": null,
         "Job_Id": null,
@@ -137,7 +137,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 338.621px; top: 284.431px;",
-        "CreatedOn": "2025-07-24T08:16:24.84",
+        "CreatedOn": "2025-07-24T08:42:09.91",
         "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -158,7 +158,7 @@
         "Comments": null
       },
       {
-        "Id": 34305,
+        "Id": 34353,
         "ScenarioId": 6243,
         "QueryId": null,
         "Job_Id": null,
@@ -167,15 +167,45 @@
         "TransformationId": 31,
         "Description": "Data Compare",
         "Position": "position: absolute; left: 566.615px; top: 183.427px;",
-        "CreatedOn": "2025-07-24T08:16:24.91",
+        "CreatedOn": "2025-07-24T08:42:10.283",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-24T08:28:38.56",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": null,
+        "JsonValue": null,
+        "Comments": null
+      },
+      {
+        "Id": 34355,
+        "ScenarioId": 6243,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 4,
+        "StepMapping": "20,4-[31,3]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "position: absolute; left: 769.104px; top: 190.059px;",
+        "CreatedOn": "2025-07-24T08:42:17.487",
+        "CreatedBy": "117",
+        "ModifiedOn": "2025-07-24T08:42:28.083",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -190,13 +220,13 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 2332,
+        "Id": 2344,
         "Scenario_Header_Id": 6243,
-        "DCStep_Id": 34303,
+        "DCStep_Id": 34351,
         "Profile_Id": 1184,
         "SAPType": null,
         "FiltersJson": null,
-        "CreatedOn": "2025-07-24T08:16:24.713",
+        "CreatedOn": "2025-07-24T08:42:09.583",
         "CreatedBy": "117",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -209,13 +239,13 @@
         "Delimeter": null
       },
       {
-        "Id": 2333,
+        "Id": 2345,
         "Scenario_Header_Id": 6243,
-        "DCStep_Id": 34304,
+        "DCStep_Id": 34352,
         "Profile_Id": 1184,
         "SAPType": null,
         "FiltersJson": null,
-        "CreatedOn": "2025-07-24T08:16:24.853",
+        "CreatedOn": "2025-07-24T08:42:09.913",
         "CreatedBy": "117",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -230,7 +260,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 9353,
+        "Id": 9365,
         "Scenario_Header_Id": 6243,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -260,7 +290,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9354,
+        "Id": 9366,
         "Scenario_Header_Id": 6243,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -290,7 +320,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9355,
+        "Id": 9367,
         "Scenario_Header_Id": 6243,
         "StepId": null,
         "SourceDatabase": "TPCH_1M",
@@ -322,8 +352,8 @@
     ],
     "ScenarioTDRColumnsMapping": [
       {
-        "Id": 18907,
-        "TDRMappingId": 9353,
+        "Id": 18966,
+        "TDRMappingId": 9365,
         "ScenarioId": 6243,
         "SourceColumnName": "S_SUPPKEY",
         "SourceAliasColumnName": "S_SUPPKEY",
@@ -352,8 +382,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18908,
-        "TDRMappingId": 9353,
+        "Id": 18967,
+        "TDRMappingId": 9365,
         "ScenarioId": 6243,
         "SourceColumnName": "S_NAME",
         "SourceAliasColumnName": "S_NAME",
@@ -382,8 +412,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18909,
-        "TDRMappingId": 9353,
+        "Id": 18968,
+        "TDRMappingId": 9365,
         "ScenarioId": 6243,
         "SourceColumnName": "S_ADDRESS",
         "SourceAliasColumnName": "S_ADDRESS",
@@ -412,8 +442,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18910,
-        "TDRMappingId": 9353,
+        "Id": 18969,
+        "TDRMappingId": 9365,
         "ScenarioId": 6243,
         "SourceColumnName": "S_NATIONKEY",
         "SourceAliasColumnName": "S_NATIONKEY",
@@ -442,8 +472,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18911,
-        "TDRMappingId": 9353,
+        "Id": 18970,
+        "TDRMappingId": 9365,
         "ScenarioId": 6243,
         "SourceColumnName": "S_PHONE",
         "SourceAliasColumnName": "S_PHONE",
@@ -472,8 +502,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18912,
-        "TDRMappingId": 9353,
+        "Id": 18971,
+        "TDRMappingId": 9365,
         "ScenarioId": 6243,
         "SourceColumnName": "S_ACCTBAL",
         "SourceAliasColumnName": "S_ACCTBAL",
@@ -502,8 +532,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18913,
-        "TDRMappingId": 9353,
+        "Id": 18972,
+        "TDRMappingId": 9365,
         "ScenarioId": 6243,
         "SourceColumnName": "S_COMMENT",
         "SourceAliasColumnName": "S_COMMENT",
@@ -532,8 +562,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18914,
-        "TDRMappingId": 9354,
+        "Id": 18973,
+        "TDRMappingId": 9366,
         "ScenarioId": 6243,
         "SourceColumnName": "R_REGIONKEY",
         "SourceAliasColumnName": "R_REGIONKEY",
@@ -562,8 +592,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18915,
-        "TDRMappingId": 9354,
+        "Id": 18974,
+        "TDRMappingId": 9366,
         "ScenarioId": 6243,
         "SourceColumnName": "R_NAME",
         "SourceAliasColumnName": "R_NAME",
@@ -592,8 +622,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18916,
-        "TDRMappingId": 9354,
+        "Id": 18975,
+        "TDRMappingId": 9366,
         "ScenarioId": 6243,
         "SourceColumnName": "R_COMMENT",
         "SourceAliasColumnName": "R_COMMENT",
@@ -622,8 +652,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18917,
-        "TDRMappingId": 9355,
+        "Id": 18976,
+        "TDRMappingId": 9367,
         "ScenarioId": 6243,
         "SourceColumnName": "N_NATIONKEY",
         "SourceAliasColumnName": "N_NATIONKEY",
@@ -652,8 +682,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18918,
-        "TDRMappingId": 9355,
+        "Id": 18977,
+        "TDRMappingId": 9367,
         "ScenarioId": 6243,
         "SourceColumnName": "N_NAME",
         "SourceAliasColumnName": "N_NAME",
@@ -682,8 +712,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18919,
-        "TDRMappingId": 9355,
+        "Id": 18978,
+        "TDRMappingId": 9367,
         "ScenarioId": 6243,
         "SourceColumnName": "N_REGIONKEY",
         "SourceAliasColumnName": "N_REGIONKEY",
@@ -712,8 +742,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18920,
-        "TDRMappingId": 9355,
+        "Id": 18979,
+        "TDRMappingId": 9367,
         "ScenarioId": 6243,
         "SourceColumnName": "N_COMMENT",
         "SourceAliasColumnName": "N_COMMENT",
@@ -742,8 +772,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18921,
-        "TDRMappingId": 9355,
+        "Id": 18980,
+        "TDRMappingId": 9367,
         "ScenarioId": 6243,
         "SourceColumnName": "KEY",
         "SourceAliasColumnName": "KEY",
@@ -775,6 +805,40 @@
     "TDRAdvancedObjectMapping": [],
     "TDRSAP": [],
     "ThirdPartyAPIParams": [],
-    "EmailAlerts": []
+    "EmailAlerts": [
+      {
+        "Id": 2070,
+        "Scenario_Header_Id": 6243,
+        "Query_Id": null,
+        "Job_Id": null,
+        "WhenFaild": true,
+        "EmailWhen_F": "annepu.appalaswami@getrightdata.com",
+        "WhenSuccess": true,
+        "EmailWhen_S": "annepu.appalaswami@getrightdata.com",
+        "EmailWhen_E": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "CreatedOn": "2025-07-24T08:42:28.027",
+        "CreatedBy": "117",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": null,
+        "EmailTemplateId": null,
+        "SendExtrenalLink": false,
+        "PdfAttachment": false,
+        "EmailSubject": null,
+        "EmailPriority": "Normal",
+        "EnableHyperlinks": true,
+        "EmailFromName": null,
+        "AttachCustomValidationReport": false,
+        "AttachCSV": false,
+        "AttachResultSummary": false,
+        "AttachTableLevelExceptions": false
+      }
+    ]
   }
 ]
