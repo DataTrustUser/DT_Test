@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-24T09:38:41.27",
+        "ModifiedOn": "2025-07-24T09:44:33.153",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -271,7 +271,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -468,7 +468,7 @@
       {
         "Id": 10145,
         "Scenario_Header_Id": 6249,
-        "RuleText": "C_ADDRESS|25/07/2025",
+        "RuleText": "C_ADDRESS|yyyy/MM/dd",
         "RuleHtml": null,
         "Status": null,
         "RuleTitle": "Date format check",
@@ -476,7 +476,7 @@
         "PredefinedRuleId": 12,
         "StepId": 4,
         "IgnoreNulls": false,
-        "BusinessRule": "The column 'C_ADDRESS' should be in 25/07/2025 Format",
+        "BusinessRule": "The column 'C_ADDRESS' should be in yyyy/MM/dd Format",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
