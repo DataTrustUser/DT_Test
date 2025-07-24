@@ -39,7 +39,7 @@
         "FId": 1,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
-        "ReportingCharacteristicsJson": "[{\"sourceTable\":\"TPCH_1.dbo.SUPPLIER\",\"targetTable\":\"TPCH_1M.dbo.SUPPLIER\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"sourceTable\":\"TPCH_1.dbo.REGION\",\"targetTable\":\"TPCH_1M.dbo.REGION\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]",
+        "ReportingCharacteristicsJson": "[{\"sourceTable\":\"TPCH_1.dbo.SUPPLIER\",\"targetTable\":\"TPCH_1M.dbo.SUPPLIER\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":\"1\",\"value\":\"90\"},{\"reportingCharacteristicsId\":\"2\",\"value\":\"10\"},{\"reportingCharacteristicsId\":\"3\",\"value\":\"13\"},{\"reportingCharacteristicsId\":\"5\",\"value\":\"98\"},{\"reportingCharacteristicsId\":\"6\",\"value\":\"103\"},{\"reportingCharacteristicsId\":\"7\",\"value\":\"105\"},{\"reportingCharacteristicsId\":\"8\",\"value\":\"107\"}]},{\"sourceTable\":\"TPCH_1.dbo.REGION\",\"targetTable\":\"TPCH_1M.dbo.REGION\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":\"1\",\"value\":\"1\"},{\"reportingCharacteristicsId\":\"2\",\"value\":\"9\"},{\"reportingCharacteristicsId\":\"3\",\"value\":\"16\"},{\"reportingCharacteristicsId\":\"5\",\"value\":\"99\"},{\"reportingCharacteristicsId\":\"6\",\"value\":\"101\"},{\"reportingCharacteristicsId\":\"7\",\"value\":\"104\"},{\"reportingCharacteristicsId\":\"8\",\"value\":\"107\"}]}]",
         "DoCompareOnSource": false,
         "ThreSholdValue": "0|2",
         "FailedThreshold": null,
@@ -169,7 +169,7 @@
         "Position": "position: absolute; left: 566.623px; top: 184.437px;",
         "CreatedOn": "2025-07-24T04:34:11.163",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-24T04:45:17.447",
+        "ModifiedOn": "2025-07-24T04:49:51.127",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -230,7 +230,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 9259,
+        "Id": 9263,
         "Scenario_Header_Id": 6217,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -240,7 +240,7 @@
         "TargetTable": "dbo.SUPPLIER",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-24T04:45:17.4",
+        "CreatedOn": "2025-07-24T04:49:51.08",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -260,7 +260,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9260,
+        "Id": 9264,
         "Scenario_Header_Id": 6217,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -270,7 +270,7 @@
         "TargetTable": "dbo.REGION",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-24T04:45:17.4",
+        "CreatedOn": "2025-07-24T04:49:51.08",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
