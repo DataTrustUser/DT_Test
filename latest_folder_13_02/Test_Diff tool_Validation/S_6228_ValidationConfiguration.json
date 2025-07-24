@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Snowflake_Tranformations_Validation rules\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH1.PUBLIC.CUSTOMER\\\" for data source \\\"Snowflake_J\\\"\",\"position\":\"position: absolute; left: 246.604px; top: 201.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from TPCH1.PUBLIC.CUSTOMER\",\"position\":\"position: absolute; left: 406.722px; top: 198.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,3-[2,1]\",\"dsstep\":\"1\",\"commented\":\"true\"},{\"widgetId\":\"dcSimpleFilters_dropped.4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_MKTSEGMENT != 'HOUSEHOLD' \",\"position\":\"position: absolute; left: 577.639px; top: 197.072px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,4-[65,3]\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.5\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"Duplicate hceck\",\"position\":\"position: absolute; left: 733.91px; top: 193.706px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,5-[66,4]\",\"dsstep\":\"1\",\"activestatus\":\"true\",\"mlrecommended\":\"false\",\"commented\":\"false\"},{\"widgetId\":\"Email_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 1226.71px; top: 146.074px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"154,22-[20,6]\",\"commented\":\"false\"},{\"widgetId\":\"MSTeams_dropped.8\",\"UniqueId\":\"156\",\"stepId\":\"8\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 1210.51px; top: 55.0694px;\",\"mapping\":\"156,8-[12,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Presence_dropped.9\",\"UniqueId\":\"17\",\"stepId\":\"9\",\"description\":\"Presence check\",\"position\":\"position: absolute; left: 728.319px; top: 91.7106px;\",\"mapping\":\"17,9-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Positive_dropped.10\",\"UniqueId\":\"50\",\"stepId\":\"10\",\"description\":\"Positive check\",\"position\":\"position: absolute; left: 762.718px; top: 303.711px;\",\"mapping\":\"50,10-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"false\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Uppercase_dropped.11\",\"UniqueId\":\"49\",\"stepId\":\"11\",\"description\":\"Uppercase chcek\",\"position\":\"position: absolute; left: 916.118px; top: 306.711px;\",\"mapping\":\"49,11-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Lowercase_dropped.13\",\"UniqueId\":\"48\",\"stepId\":\"13\",\"description\":\"Lowercase check\",\"position\":\"position: absolute; left: 1028.51px; top: 271.708px;\",\"mapping\":\"48,13-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"Uppercase_dropped.14\",\"UniqueId\":\"49\",\"stepId\":\"14\",\"description\":\"Uppercase check\",\"position\":\"position: absolute; left: 939.118px; top: 119.711px;\",\"mapping\":\"49,14-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Negative_dropped.15\",\"UniqueId\":\"51\",\"stepId\":\"15\",\"description\":\"Negative check\",\"position\":\"position: absolute; left: 1155.32px; top: 321.711px;\",\"mapping\":\"51,15-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"dsDatasetCount_dropped.16\",\"UniqueId\":\"70\",\"stepId\":\"16\",\"description\":\"Dc chcek\",\"position\":\"position: absolute; left: 873.715px; top: 379.711px;\",\"mapping\":\"70,16-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"ConditionalBusiness_dropped.17\",\"UniqueId\":\"54\",\"stepId\":\"17\",\"description\":\"Custom Business Rule \",\"position\":\"position: absolute; left: 1050.52px; top: 382.711px;\",\"mapping\":\"54,17-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Pattern_dropped.18\",\"UniqueId\":\"18\",\"stepId\":\"18\",\"description\":\"Pattern check\",\"position\":\"position: absolute; left: 926.919px; top: 47.7106px;\",\"mapping\":\"18,18-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Negative_dropped.19\",\"UniqueId\":\"51\",\"stepId\":\"19\",\"description\":\"Neagtive hccek\",\"position\":\"position: absolute; left: 818.317px; top: 60.7106px;\",\"mapping\":\"51,19-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"},{\"widgetId\":\"DateFormat_dropped.20\",\"UniqueId\":\"52\",\"stepId\":\"20\",\"description\":\"date format chcek\",\"position\":\"position: absolute; left: 1072.12px; top: 45.7106px;\",\"mapping\":\"52,20-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"SpecialCharacter_dropped.21\",\"UniqueId\":\"53\",\"stepId\":\"21\",\"description\":\"Special character check\",\"position\":\"position: absolute; left: 675.917px; top: 376.711px;\",\"mapping\":\"53,21-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"dsAnomalyCheck_dropped.22\",\"UniqueId\":\"154\",\"stepId\":\"22\",\"description\":\"Anomaly Detection for 3 Columns\",\"position\":\"position: absolute; left: 1251.91px; top: 247.711px;\",\"mapping\":\"154,22-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\",\"mlrecommended\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Snowflake_Tranformations_Validation rules\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH1.PUBLIC.CUSTOMER\\\" for data source \\\"Snowflake_J\\\"\",\"position\":\"position: absolute; left: 246.604px; top: 201.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from TPCH1.PUBLIC.CUSTOMER\",\"position\":\"position: absolute; left: 406.722px; top: 198.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,3-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"dcSimpleFilters_dropped.4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_MKTSEGMENT != 'HOUSEHOLD' \",\"position\":\"position: absolute; left: 577.639px; top: 197.072px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,4-[65,3]\",\"dsstep\":\"1\"},{\"widgetId\":\"Duplicates_dropped.5\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"Duplicate hceck\",\"position\":\"position: absolute; left: 733.91px; top: 193.706px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,5-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Email_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 1226.71px; top: 146.074px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"154,22-[20,6]\",\"dsstep\":null},{\"widgetId\":\"MSTeams_dropped.8\",\"UniqueId\":\"156\",\"stepId\":\"8\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 1210.51px; top: 55.0694px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"156,8-[12,5]\",\"dsstep\":null},{\"widgetId\":\"Presence_dropped.9\",\"UniqueId\":\"17\",\"stepId\":\"9\",\"description\":\"Presence check\",\"position\":\"position: absolute; left: 728.319px; top: 91.7106px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"17,9-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Positive_dropped.10\",\"UniqueId\":\"50\",\"stepId\":\"10\",\"description\":\"Positive check\",\"position\":\"position: absolute; left: 762.718px; top: 303.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"50,10-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Uppercase_dropped.11\",\"UniqueId\":\"49\",\"stepId\":\"11\",\"description\":\"Uppercase chcek\",\"position\":\"position: absolute; left: 916.118px; top: 306.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"49,11-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Lowercase_dropped.13\",\"UniqueId\":\"48\",\"stepId\":\"13\",\"description\":\"Lowercase check\",\"position\":\"position: absolute; left: 1028.51px; top: 271.708px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"48,13-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Uppercase_dropped.14\",\"UniqueId\":\"49\",\"stepId\":\"14\",\"description\":\"Uppercase check\",\"position\":\"position: absolute; left: 939.118px; top: 119.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"49,14-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Negative_dropped.15\",\"UniqueId\":\"51\",\"stepId\":\"15\",\"description\":\"Negative check\",\"position\":\"position: absolute; left: 1155.32px; top: 321.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"51,15-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"dsDatasetCount_dropped.16\",\"UniqueId\":\"70\",\"stepId\":\"16\",\"description\":\"Dc chcek\",\"position\":\"position: absolute; left: 873.715px; top: 379.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"70,16-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"ConditionalBusiness_dropped.17\",\"UniqueId\":\"54\",\"stepId\":\"17\",\"description\":\"Custom Business Rule \",\"position\":\"position: absolute; left: 1050.52px; top: 382.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"54,17-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Pattern_dropped.18\",\"UniqueId\":\"18\",\"stepId\":\"18\",\"description\":\"Pattern check\",\"position\":\"position: absolute; left: 926.919px; top: 47.7106px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"18,18-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Negative_dropped.19\",\"UniqueId\":\"51\",\"stepId\":\"19\",\"description\":\"Neagtive hccek\",\"position\":\"position: absolute; left: 818.317px; top: 60.7106px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"51,19-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"DateFormat_dropped.20\",\"UniqueId\":\"52\",\"stepId\":\"20\",\"description\":\"date format chcek\",\"position\":\"position: absolute; left: 1072.12px; top: 45.7106px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"52,20-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"SpecialCharacter_dropped.21\",\"UniqueId\":\"53\",\"stepId\":\"21\",\"description\":\"Special character check\",\"position\":\"position: absolute; left: 675.917px; top: 376.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"53,21-[66,4]\",\"dsstep\":\"1\",\"activestatus\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsAnomalyCheck_dropped.22\",\"UniqueId\":\"154\",\"stepId\":\"22\",\"description\":\"Anomaly Detection for 4 Columns\",\"position\":\"position: absolute; left: 1251.91px; top: 247.711px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"154,22-[66,4]\",\"dsstep\":\"1\",\"activestatus\":\"true\",\"mlrecommended\":\"false\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-24T08:45:27.993",
+        "ModifiedOn": "2025-07-24T08:55:22.563",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -68,11 +68,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 4905,
+        "Id": 4925,
         "Scenario_Header_Id": 6228,
         "Profile_Id": 155,
         "Query_Id": null,
-        "DCStep_Id": 34051,
+        "DCStep_Id": 34378,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH1.PUBLIC.CUSTOMER",
@@ -116,7 +116,7 @@
         "QCDataSource": [],
         "SourceName_Id": 125,
         "ProfileName": "Snowflake_J",
-        "CreatedOnSC": "2025-07-24T06:24:10.54",
+        "CreatedOnSC": "2025-07-24T08:52:54.99",
         "CreatedBySC": "Sarada",
         "ModifiedOnSC": null,
         "ModifiedBySC": null
@@ -127,7 +127,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 34050,
+        "Id": 34377,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -136,7 +136,7 @@
         "TransformationId": 0,
         "Description": "Sarada 7/24/2025 5:40:57 AM",
         "Position": null,
-        "CreatedOn": "2025-07-24T06:24:10.497",
+        "CreatedOn": "2025-07-24T08:52:54.227",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -164,7 +164,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34051,
+        "Id": 34378,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -173,7 +173,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH1.PUBLIC.CUSTOMER\" for data source \"Snowflake_J\"",
         "Position": "position: absolute; left: 246.604px; top: 201.076px;",
-        "CreatedOn": "2025-07-24T06:24:10.537",
+        "CreatedOn": "2025-07-24T08:52:54.987",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -201,7 +201,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34052,
+        "Id": 34379,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -210,7 +210,7 @@
         "TransformationId": 65,
         "Description": "Transform data from TPCH1.PUBLIC.CUSTOMER",
         "Position": "position: absolute; left: 406.722px; top: 198.076px;",
-        "CreatedOn": "2025-07-24T06:24:10.603",
+        "CreatedOn": "2025-07-24T08:52:55.597",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -232,13 +232,13 @@
         "JsonValue": null,
         "AppendToExistingData": null,
         "IsActive": true,
-        "Comments": "<p>tffytghv</p>",
+        "Comments": null,
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34053,
+        "Id": 34380,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -247,10 +247,10 @@
         "TransformationId": 66,
         "Description": "C_MKTSEGMENT != 'HOUSEHOLD' ",
         "Position": "position: absolute; left: 577.639px; top: 197.072px;",
-        "CreatedOn": "2025-07-24T06:24:10.647",
+        "CreatedOn": "2025-07-24T08:52:56.123",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-24T07:40:52.473",
-        "ModifiedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -275,7 +275,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34054,
+        "Id": 34381,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -284,7 +284,7 @@
         "TransformationId": 12,
         "Description": "Duplicate Check",
         "Position": "position: absolute; left: 83px; top: 202.5px;",
-        "CreatedOn": "2025-07-24T06:24:10.67",
+        "CreatedOn": "2025-07-24T08:52:56.317",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -308,11 +308,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34055,
+        "Id": 34382,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -321,7 +321,7 @@
         "TransformationId": 20,
         "Description": "Email",
         "Position": "position: absolute; left: 1028.51px; top: 271.708px;",
-        "CreatedOn": "2025-07-24T06:24:10.69",
+        "CreatedOn": "2025-07-24T08:52:56.46",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -349,7 +349,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34057,
+        "Id": 34383,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -358,10 +358,10 @@
         "TransformationId": 156,
         "Description": "MS Teams",
         "Position": "position: absolute; left: 1002.52px; top: 132.711px;",
-        "CreatedOn": "2025-07-24T06:24:36.803",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T06:24:41.15",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:56.607",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -386,7 +386,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34143,
+        "Id": 34384,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -395,10 +395,10 @@
         "TransformationId": 17,
         "Description": "Presence Check",
         "Position": "position: absolute; left: 728.319px; top: 91.7106px;",
-        "CreatedOn": "2025-07-24T06:59:39.087",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T06:59:48.723",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:57.17",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -419,11 +419,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34144,
+        "Id": 34385,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -432,10 +432,10 @@
         "TransformationId": 50,
         "Description": "Positive",
         "Position": "position: absolute; left: 762.718px; top: 303.711px;",
-        "CreatedOn": "2025-07-24T06:59:51.047",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:00:01.93",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:57.873",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -453,14 +453,14 @@
         "LATEST_OUTPUT_VIEW_NAME": null,
         "JsonValue": null,
         "AppendToExistingData": null,
-        "IsActive": false,
+        "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34145,
+        "Id": 34386,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -469,10 +469,10 @@
         "TransformationId": 49,
         "Description": "Uppercase",
         "Position": "position: absolute; left: 916.118px; top: 306.711px;",
-        "CreatedOn": "2025-07-24T07:00:06.96",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:06:04.093",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:58.107",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -497,7 +497,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34153,
+        "Id": 34387,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -506,10 +506,10 @@
         "TransformationId": 48,
         "Description": "Lowercase",
         "Position": "position: absolute; left: 1028.51px; top: 271.708px;",
-        "CreatedOn": "2025-07-24T07:06:14.693",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:06:22.157",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:58.47",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -530,11 +530,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34155,
+        "Id": 34388,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -543,10 +543,10 @@
         "TransformationId": 49,
         "Description": "Uppercase",
         "Position": "position: absolute; left: 939.118px; top: 119.711px;",
-        "CreatedOn": "2025-07-24T07:06:37.457",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:06:45.347",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:58.71",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -571,7 +571,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34157,
+        "Id": 34389,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -580,10 +580,10 @@
         "TransformationId": 51,
         "Description": "Negative",
         "Position": "position: absolute; left: 1155.32px; top: 321.711px;",
-        "CreatedOn": "2025-07-24T07:06:53.187",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:07:11.037",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:58.937",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -608,7 +608,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34161,
+        "Id": 34390,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -617,10 +617,10 @@
         "TransformationId": 70,
         "Description": "Dataset Count",
         "Position": "position: absolute; left: 873.715px; top: 379.711px;",
-        "CreatedOn": "2025-07-24T07:07:18.813",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:07:29.05",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:59.277",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -641,11 +641,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34162,
+        "Id": 34391,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -654,10 +654,10 @@
         "TransformationId": 54,
         "Description": "Custom Business",
         "Position": "position: absolute; left: 1050.52px; top: 382.711px;",
-        "CreatedOn": "2025-07-24T07:07:34.527",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:10:48.937",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:59.637",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -682,7 +682,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34228,
+        "Id": 34392,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -691,10 +691,10 @@
         "TransformationId": 18,
         "Description": "Pattern Check",
         "Position": "position: absolute; left: 926.919px; top: 47.7106px;",
-        "CreatedOn": "2025-07-24T07:18:52.45",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:19:47.677",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:52:59.99",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -715,11 +715,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34229,
+        "Id": 34393,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -728,10 +728,10 @@
         "TransformationId": 51,
         "Description": "Negative",
         "Position": "position: absolute; left: 818.317px; top: 60.7106px;",
-        "CreatedOn": "2025-07-24T07:20:05.017",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:30:34.587",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:53:00.35",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -752,11 +752,11 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": false,
+        "IsMLRecommended": null,
         "QueryTimeOut": null
       },
       {
-        "Id": 34241,
+        "Id": 34394,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -765,10 +765,10 @@
         "TransformationId": 52,
         "Description": "Date Format Check",
         "Position": "position: absolute; left: 1072.12px; top: 45.7106px;",
-        "CreatedOn": "2025-07-24T07:36:14.327",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:39:51.157",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:53:00.827",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -793,7 +793,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34268,
+        "Id": 34395,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -802,10 +802,10 @@
         "TransformationId": 53,
         "Description": "Special Character",
         "Position": "position: absolute; left: 675.917px; top: 376.711px;",
-        "CreatedOn": "2025-07-24T07:42:07.33",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T07:42:34.25",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:53:01.19",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -830,7 +830,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34325,
+        "Id": 34396,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -839,10 +839,10 @@
         "TransformationId": 154,
         "Description": "Anomaly Check",
         "Position": "position: absolute; left: 1251.91px; top: 247.711px;",
-        "CreatedOn": "2025-07-24T08:24:43.713",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T08:25:03.077",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T08:53:01.55",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -887,8 +887,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 45148,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45205,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -904,8 +904,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45149,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45206,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -921,8 +921,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45150,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45207,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -938,8 +938,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45151,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45208,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -955,8 +955,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45152,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45209,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -972,8 +972,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45153,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45210,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -989,8 +989,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45154,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45211,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -1006,8 +1006,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45155,
-        "ScenarioDataSourceId": 4905,
+        "Id": 45212,
+        "ScenarioDataSourceId": 4925,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -1025,13 +1025,13 @@
     ],
     "SimpleFilters": [
       {
-        "Id": 512,
+        "Id": 515,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34053,
+        "DcStepId": 34380,
         "DCTypeId": null,
         "StepId": 4,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "GlobalFilter": "C_MKTSEGMENT != 'HOUSEHOLD' ",
         "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\" selected=\"selected\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\" selected=\"selected\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"HOUSEHOLD\" size=\"10\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">HOUSEHOLD</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": "134",
@@ -1048,13 +1048,13 @@
     "SimpleAggregations": [],
     "SimpleProjections": [
       {
-        "Id": 10924,
+        "Id": 10956,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_NAME",
         "AliasColumnName": "C_NAME",
         "SystemDefinedDataType": "VARCHAR",
@@ -1072,13 +1072,13 @@
         "QueryId": null
       },
       {
-        "Id": 10925,
+        "Id": 10957,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_ADDRESS",
         "AliasColumnName": "C_ADDRESS",
         "SystemDefinedDataType": "VARCHAR",
@@ -1096,13 +1096,13 @@
         "QueryId": null
       },
       {
-        "Id": 10926,
+        "Id": 10958,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_PHONE",
         "AliasColumnName": "C_PHONE",
         "SystemDefinedDataType": "VARCHAR",
@@ -1120,13 +1120,13 @@
         "QueryId": null
       },
       {
-        "Id": 10927,
+        "Id": 10959,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_MKTSEGMENT",
         "AliasColumnName": "C_MKTSEGMENT",
         "SystemDefinedDataType": "VARCHAR",
@@ -1144,13 +1144,13 @@
         "QueryId": null
       },
       {
-        "Id": 10928,
+        "Id": 10960,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_COMMENT",
         "AliasColumnName": "C_COMMENT",
         "SystemDefinedDataType": "VARCHAR",
@@ -1168,13 +1168,13 @@
         "QueryId": null
       },
       {
-        "Id": 10929,
+        "Id": 10961,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_CUSTKEY",
         "AliasColumnName": "C_CUSTKEY",
         "SystemDefinedDataType": "DOUBLE",
@@ -1192,13 +1192,13 @@
         "QueryId": null
       },
       {
-        "Id": 10930,
+        "Id": 10962,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_NATIONKEY",
         "AliasColumnName": "C_NATIONKEY",
         "SystemDefinedDataType": "DOUBLE",
@@ -1216,13 +1216,13 @@
         "QueryId": null
       },
       {
-        "Id": 10931,
+        "Id": 10963,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "C_ACCTBAL",
         "AliasColumnName": "C_ACCTBAL",
         "SystemDefinedDataType": "DOUBLE",
@@ -1240,13 +1240,13 @@
         "QueryId": null
       },
       {
-        "Id": 10932,
+        "Id": 10964,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34052,
+        "DcStepId": 34379,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4905,
+        "DataSourceId": 4925,
         "ColumnName": "Uppercase check",
         "AliasColumnName": "Uppercase check",
         "SystemDefinedDataType": null,
@@ -1271,7 +1271,7 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 10072,
+        "Id": 10122,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_NATIONKEY",
         "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncC_NAME\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_NAME\">C_NAME<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_ADDRESS\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_ADDRESS\">C_ADDRESS<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_PHONE\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_PHONE\">C_PHONE<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_MKTSEGMENT\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_MKTSEGMENT\">C_MKTSEGMENT<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_COMMENT\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_COMMENT\">C_COMMENT<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_CUSTKEY\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_CUSTKEY\">C_CUSTKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_NATIONKEY active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_NATIONKEY\">C_NATIONKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncC_ACCTBAL\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"C_ACCTBAL\">C_ACCTBAL<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncUppercase check\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"Uppercase check\">Uppercase check<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following field <b>'C_NATIONKEY'</b> should not be duplicated</span>\n                    </div>\n                </div>\n            ",
@@ -1294,7 +1294,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10088,
+        "Id": 10123,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_ACCTBAL",
         "RuleHtml": null,
@@ -1317,7 +1317,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10089,
+        "Id": 10124,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_NATIONKEY ",
         "RuleHtml": null,
@@ -1340,7 +1340,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10092,
+        "Id": 10125,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_MKTSEGMENT ",
         "RuleHtml": null,
@@ -1363,7 +1363,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10093,
+        "Id": 10126,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_MKTSEGMENT ",
         "RuleHtml": null,
@@ -1386,7 +1386,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10094,
+        "Id": 10127,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_MKTSEGMENT ",
         "RuleHtml": null,
@@ -1409,7 +1409,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10095,
+        "Id": 10128,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_NATIONKEY ",
         "RuleHtml": null,
@@ -1432,7 +1432,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10096,
+        "Id": 10129,
         "Scenario_Header_Id": 6228,
         "RuleText": "Equal to,3456",
         "RuleHtml": null,
@@ -1455,7 +1455,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10099,
+        "Id": 10130,
         "Scenario_Header_Id": 6228,
         "RuleText": "|  (  [C_MKTSEGMENT] = 'HOUSEHOLD') AND ([C_ACCTBAL] > '1000')~C_MKTSEGMENT,C_ACCTBAL",
         "RuleHtml": "\n                <div class=\"col-md-12 no-padding\" style=\"height: 40px;border: 1px solid #79b3dc;\">\n                    <div class=\"form-group\" style=\"padding:7px 10px\">\n                        <label style=\"float:left\">Scope Criteria</label>\n                        <div class=\"SwitchCoreEngn\" style=\"float:left\">\n                            <label class=\"ScopeEnable control-label\" id=\"lblScopeEnable\" style=\"display:none;padding:1px\">Enabled</label>\n                            <div class=\"switchBtnPart\">\n                                <input class=\"tgl tgl-ios\" id=\"chbkScope\" name=\"chbkSchedule\" type=\"checkbox\">\n                                <label class=\"tgl-btn\" for=\"chbkScope\"></label>\n                            </div>\n                            <label class=\"ScopeDisable control-label\" id=\"lblScopeDisable\" style=\"padding:1px\">Disabled</label>\n                        </div>\n                    </div>\n                </div>\n                <div class=\"col-md-12 no-padding\" style=\"height: calc(76% - 40px);overflow:auto\">\n                    <div class=\"wnClause col-md-12 no-padding\">\n                        <div class=\"wnHeader col-md-12\">\n                            Scope Criteria\n                        </div>\n                        <div id=\"divWhenRuleContainer\" class=\"col-md-12 no-padding complexRuleBody\">\n                            <div class=\"col-md-12\" id=\"CustomWidthWh\" style=\"margin-top:10px;\">\n                                <div class=\"col-md-11 no-padding\">\n                                    <div class=\"DetailsBoxInner divValidationRule\" id=\"divWhenRule\">\n                                        <div class=\"form-group\" style=\"margin-bottom:5px;\">\n                                            <div class=\"col-md-1 no-padding\"></div>\n                                            <div class=\"col-md-3 col-md-3c\" style=\"width:22%\">\n                                                <select class=\"form-control ddlvalidationelement1\" onchange=\"generateBizRule()\" required=\"\"><option value=\"Select\">Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option></select>\n                                            </div>\n                                            <div class=\"col-md-2 no-padding\" style=\"width: 14%;\">\n                                                <select class=\"form-control ddloperator\" onchange=\"operatorChange(this)\" required=\"\"><option value=\"Select\">Select</option><option value=\"=\">=</option><option value=\"LIKE\">LIKE</option><option value=\"!=\">!=</option><option value=\"&gt;\">&gt;</option><option value=\"&gt;=\">&gt;=</option><option value=\"&lt;\">&lt;</option><option value=\"&lt;=\">&lt;=</option><option value=\"IS NULL\">IS NULL</option><option value=\"IS NOT NULL\">IS NOT NULL</option><option value=\"NOT LIKE\">NOT LIKE</option></select>\n                                            </div>\n                                            <div class=\"col-md-3 col-md-3c constantorruleelement\" style=\"width: 20%;\">\n                                                <select class=\"form-control ddlselectrule\" onchange=\"generateBizRule()\" required=\"\"><option value=\"Select\">Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option></select>\n                                                <input type=\"text\" class=\"form-control txtinputrule\" onkeyup=\"generateBizRule()\" onblur=\"$(this).val(this.value)\" style=\"display:none\" required=\"\" value=\"\">\n                                            </div>\n                                            <div class=\"col-md-3 no-padding\" style=\"width: 35%\">\n                                                <div role=\"toolbar\" class=\"btn-toolbar\">\n                                                    <div class=\"btn-group mbm\">\n                                                        <button type=\"button\" class=\"btn btn-default ruletypes ruleelement2 active\" onclick=\"GetDataElements(this)\">Data Element</button>\n                                                        <button type=\"button\" class=\"btn btn-default ruletypes datavariable\" onclick=\"GetVariableElements(this)\">Variable</button>\n                                                        <button type=\"button\" class=\"btn btn-default ruletypes constant\" onclick=\"GetConstant(this)\">Constant</button>\n                                                    </div>\n                                                    <button type=\"button\" class=\"btn btn-default\" onclick=\"addTdRow(this)\">\n                                                        <i class=\"fa fa-plus\"></i>\n                                                    </button>\n                                                </div>\n                                            </div>\n                                            <div class=\"clearfix\"></div>\n                                        </div>\n                                    </div>\n\n                                </div>\n                                <div class=\"col-md-1 text-center no-padding DetailsBoxInnerButtons\">\n                                    <button type=\"button\" class=\"btn btn-default\" onclick=\"AddRule(this)\">\n                                        <i class=\"fa fa-plus\"></i>\n                                    </button>\n                                </div>\n\n                            </div>\n                        </div>\n                    </div>\n                    <div class=\"tnClause col-md-12 no-padding\">\n                        <div class=\"tnHeader col-md-12\">\n                            Validation Rule\n                        </div>\n                        <div id=\"divThenRuleContainer\" class=\"col-md-12 no-padding complexRuleBody\">\n                            <div class=\"col-md-12\" id=\"CustomWidthTh\" style=\"margin-top:10px;\">\n                                <div class=\"col-md-11 no-padding\">\n                                    <div class=\"DetailsBoxInner divValidationRule\" id=\"divThenRule\">\n                                        <div class=\"form-group\" style=\"margin-bottom:5px;\">\n                                            <div class=\"col-md-1 no-padding\"></div>\n                                            <div class=\"col-md-3 col-md-3c\" style=\"width:22%\">\n                                                <select class=\"form-control ddlvalidationelement1\" onchange=\"generateBizRule()\" required=\"\"><option value=\"Select\">Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\" selected=\"selected\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option></select>\n                                            </div>\n                                            <div class=\"col-md-2 no-padding\" style=\"width: 14%;\">\n                                                <select class=\"form-control ddloperator\" onchange=\"operatorChange(this)\" required=\"\"><option value=\"Select\">Select</option><option value=\"=\" selected=\"selected\">=</option><option value=\"LIKE\">LIKE</option><option value=\"!=\">!=</option><option value=\"&gt;\">&gt;</option><option value=\"&gt;=\">&gt;=</option><option value=\"&lt;\">&lt;</option><option value=\"&lt;=\">&lt;=</option><option value=\"IS NULL\">IS NULL</option><option value=\"IS NOT NULL\">IS NOT NULL</option><option value=\"NOT LIKE\">NOT LIKE</option></select>\n                                            </div>\n                                            <div class=\"col-md-3 col-md-3c constantorruleelement\" style=\"width: 20%;\">\n                                                <select class=\"form-control ddlselectrule\" onchange=\"generateBizRule()\" required=\"\" style=\"display: none;\"><option value=\"Select\">Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option></select>\n                                                <input type=\"text\" class=\"form-control txtinputrule\" onkeyup=\"generateBizRule()\" onblur=\"$(this).val(this.value)\" style=\"\" required=\"\" value=\"HOUSEHOLD\">\n                                            </div>\n                                            <div class=\"col-md-3 no-padding\" style=\"width:35%\">\n                                                <div role=\"toolbar\" class=\"btn-toolbar\">\n                                                    <div class=\"btn-group mbm\">\n                                                        <button type=\"button\" class=\"btn btn-default ruletypes ruleelement2\" onclick=\"GetDataElements(this)\">Data Element</button>\n                                                        <button type=\"button\" class=\"btn btn-default ruletypes datavariable\" onclick=\"GetVariableElements(this)\">Variable</button>\n                                                        <button type=\"button\" class=\"btn btn-default ruletypes constant active\" onclick=\"GetConstant(this)\">Constant</button>\n                                                    </div>\n                                                    <button type=\"button\" class=\"btn btn-default\" onclick=\"addTdRow(this)\">\n                                                        <i class=\"fa fa-plus\"></i>\n                                                    </button>\n                                                </div>\n                                            </div>\n                                            <div class=\"clearfix\"></div>\n                                        </div>\n                                    </div>\n\n                                </div>\n                                <div class=\"col-md-1 text-center no-padding DetailsBoxInnerButtons\">\n                                    <button type=\"button\" class=\"btn btn-default\" onclick=\"AddRule(this)\">\n                                        <i class=\"fa fa-plus\"></i>\n                                    </button>\n                                </div>\n\n                            </div>\n                        <div class=\"col-md-12\" id=\"CustomWidths_0\" style=\"margin-top:10px;\">                                            <div class=\"col-md-11 no-padding\">                                                <div class=\"DetailsBoxInner divValidationRule\" id=\"divValidationRule_0\">                                                    <div class=\"form-group\" style=\"margin-bottom:5px;\">                                                        <div class=\"col-md-1 no-padding-right\">                                                            <select class=\"form-control ddlAndOroperator\" onchange=\"generateBizRule()\">                                                                <option value=\"\">Select</option><option value=\"AND\">AND</option><option value=\"OR\">OR</option></select>                                                                                                                    </div>                                                        <div class=\"col-md-2\" style=\"width:22%\">                                                            <select class=\"form-control ddlvalidationelement1\" onchange=\"generateBizRule()\">                                                                <option value=\"Select\">Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option>                                                            </select>                                                        </div>                                                        <div class=\"col-md-2 no-padding\" style=\"width: 14%;\">                                                            <select class=\"form-control ddloperator\" onchange=\"operatorChange(this)\">                                                                <option value=\"Select\">Select</option><option value=\"=\">=</option><option value=\"LIKE\">LIKE</option><option value=\"!=\">!=</option><option value=\"&gt;\">&gt;</option><option value=\"&gt;=\">&gt;=</option><option value=\"&lt;\">&lt;</option><option value=\"&lt;=\">&lt;=</option><option value=\"IS NULL\">IS NULL</option><option value=\"IS NOT NULL\">IS NOT NULL</option><option value=\"NOT LIKE\">NOT LIKE</option>                                                            </select>                                                        </div>                                                        <div class=\"col-md-3\" style=\"width:20%\">                                                            <select class=\"form-control ddlselectrule\" onchange=\"generateBizRule()\" style=\"display: none;\">                                                                <option value=\"Select\">Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option>                                                            </select>                                                            <input type=\"text\" autocomplete=\"off\" class=\"form-control txtinputrule\" onkeyup=\"generateBizRule()\" onblur=\"$(this).val(this.value)\" style=\"\" value=\"1000\">                                                        </div>                                                        <div class=\"col-md-3 no-padding\" style=\"width:35%;\">                                                            <div role=\"toolbar\" class=\"btn-toolbar\">                                                                <div class=\"btn-group mbm\">                                                                    <button type=\"button\" class=\"btn btn-default ruletypes ruleelement2\" onclick=\"GetDataElements(this)\">Data Element</button>                                                                    <button type=\"button\" class=\"btn btn-default ruletypes datavariable\" onclick=\"GetVariableElements(this)\">Variable</button>                                                                    <button type=\"button\" class=\"btn btn-default ruletypes constant active\" onclick=\"GetConstant(this)\">Constant</button>                                                                </div>                                                                <button type=\"button\" class=\"btn btn-default\" onclick=\"addTdRow(this)\">                                                                    <i class=\"fa fa-plus\"></i>                                                                </button>                                                            </div>                                                        </div>                                                        <div class=\"clearfix\"></div>                                                    </div>                                                </div>                                            </div>                                            <div class=\"col-md-1 text-center no-padding DetailsBoxInnerButtons\">                                                <button type=\"button\" class=\"btn btn-default\" onclick=\"AddRule(this)\">                                                    <i class=\"fa fa-plus\"></i>                                                </button>                                                <button type=\"button\" class=\"btn btn-default\" onclick=\"delRule(this)\">                                                    <i class=\"fa fa-trash-o\"></i>                                                </button>                                            </div>                                        </div></div>\n                    </div>\n                </div>\n                <div class=\"col-md-12 businessBlock OparatorsBlock no-padding\" style=\"height: 22%;overflow:auto; margin-bottom:0px; border: 1px solid #79b3dc;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom businessRuleText no-padding-left\" style=\"background: #79b3dc;line-height: 1em;\">\n                        <div class=\"tnHeader col-md-12\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12 businessRuleText\" style=\"padding:10px;\">\n                        <span id=\"businessRuleText\">C_MKTSEGMENT EQUALS TO \"HOUSEHOLD\"  AND C_ACCTBAL GREATER THAN \"1000\"</span>\n                    </div>\n                </div>\n            ",
@@ -1478,7 +1478,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10102,
+        "Id": 10131,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_PHONE,Equal to,C_%",
         "RuleHtml": null,
@@ -1501,7 +1501,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10103,
+        "Id": 10132,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_NATIONKEY ",
         "RuleHtml": null,
@@ -1524,7 +1524,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":\"2\"}"
       },
       {
-        "Id": 10105,
+        "Id": 10133,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_ADDRESS|MM/dd/yy",
         "RuleHtml": null,
@@ -1547,7 +1547,7 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10107,
+        "Id": 10134,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_PHONE|@",
         "RuleHtml": null,
@@ -1570,18 +1570,18 @@
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
       },
       {
-        "Id": 10115,
+        "Id": 10135,
         "Scenario_Header_Id": 6228,
-        "RuleText": "C_CUSTKEY,C_NATIONKEY,C_ACCTBAL",
+        "RuleText": "C_PHONE,C_MKTSEGMENT,C_COMMENT,C_CUSTKEY",
         "RuleHtml": null,
         "Status": null,
-        "RuleTitle": "Anomaly Detection for 3 Columns",
+        "RuleTitle": "Anomaly Detection for 4 Columns",
         "IsPredefined": true,
         "PredefinedRuleId": 18,
         "StepId": 22,
         "IgnoreNulls": false,
-        "BusinessRule": "Detect Anomalies for 'C_CUSTKEY, C_NATIONKEY, C_ACCTBAL' using 'K Nearest Neighbour' with '40%' Confidence Threshold",
-        "RuleJson": "{\"MakeColumnsIndependent\":true,\"ModelType\":\"knn\",\"ThresholdValue\":\"40\",\"ModelPath\":\"\",\"ModelName\":\"\",\"IsCustomModel\":false}",
+        "BusinessRule": "Detect Anomalies for 'C_PHONE, C_MKTSEGMENT, C_COMMENT, C_CUSTKEY' using 'Local Outlier Factor' with '60%' Confidence Threshold",
+        "RuleJson": "{\"MakeColumnsIndependent\":true,\"ModelType\":\"lof\",\"ThresholdValue\":\"60\",\"ModelPath\":\"\",\"ModelName\":\"\",\"IsCustomModel\":false}",
         "RiskProfile": null,
         "QualityFacet": null,
         "DataQualityDimensionId": null,
@@ -1597,7 +1597,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 27520,
+        "Id": 27660,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 0,
@@ -1607,7 +1607,7 @@
         "JobId": null
       },
       {
-        "Id": 27521,
+        "Id": 27661,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 1,
@@ -1617,7 +1617,7 @@
         "JobId": null
       },
       {
-        "Id": 27522,
+        "Id": 27662,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 3,
@@ -1627,7 +1627,7 @@
         "JobId": null
       },
       {
-        "Id": 27523,
+        "Id": 27663,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 4,
@@ -1637,7 +1637,7 @@
         "JobId": null
       },
       {
-        "Id": 27524,
+        "Id": 27664,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 5,
@@ -1647,7 +1647,7 @@
         "JobId": null
       },
       {
-        "Id": 27525,
+        "Id": 27665,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 6,
@@ -1657,7 +1657,7 @@
         "JobId": null
       },
       {
-        "Id": 27567,
+        "Id": 27666,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 9,
@@ -1667,7 +1667,7 @@
         "JobId": null
       },
       {
-        "Id": 27568,
+        "Id": 27667,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 10,
@@ -1677,7 +1677,7 @@
         "JobId": null
       },
       {
-        "Id": 27573,
+        "Id": 27668,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 11,
@@ -1687,7 +1687,7 @@
         "JobId": null
       },
       {
-        "Id": 27574,
+        "Id": 27669,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 13,
@@ -1697,7 +1697,7 @@
         "JobId": null
       },
       {
-        "Id": 27576,
+        "Id": 27670,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 14,
@@ -1707,7 +1707,7 @@
         "JobId": null
       },
       {
-        "Id": 27577,
+        "Id": 27671,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 15,
@@ -1717,7 +1717,7 @@
         "JobId": null
       },
       {
-        "Id": 27579,
+        "Id": 27672,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 16,
@@ -1727,7 +1727,7 @@
         "JobId": null
       },
       {
-        "Id": 27589,
+        "Id": 27673,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 17,
@@ -1737,7 +1737,7 @@
         "JobId": null
       },
       {
-        "Id": 27596,
+        "Id": 27674,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 18,
@@ -1747,7 +1747,7 @@
         "JobId": null
       },
       {
-        "Id": 27598,
+        "Id": 27675,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 19,
@@ -1757,7 +1757,7 @@
         "JobId": null
       },
       {
-        "Id": 27605,
+        "Id": 27676,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 20,
@@ -1767,7 +1767,7 @@
         "JobId": null
       },
       {
-        "Id": 27610,
+        "Id": 27677,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 21,
@@ -1777,7 +1777,7 @@
         "JobId": null
       },
       {
-        "Id": 27639,
+        "Id": 27678,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 22,
@@ -1799,11 +1799,251 @@
         "SessionId": null,
         "RuleId": null,
         "ProjectName": null
+      },
+      {
+        "Id": 7643,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7644,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7645,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7646,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7647,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7648,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7649,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7650,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7651,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7652,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7653,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7654,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7655,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7656,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7657,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7658,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7659,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7660,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7661,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 7662,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
       }
     ],
     "EmailAlerts": [
       {
-        "Id": 2052,
+        "Id": 2072,
         "Scenario_Header_Id": 6228,
         "Query_Id": null,
         "Job_Id": null,
@@ -1817,7 +2057,7 @@
         "AttachResultsInEmail": true,
         "ExportType": "Excel",
         "RaiseDefect": null,
-        "CreatedOn": "2025-07-24T06:24:10.693",
+        "CreatedOn": "2025-07-24T08:52:56.467",
         "CreatedBy": "134",
         "ModifiedOn": null,
         "ModifiedBy": null,
