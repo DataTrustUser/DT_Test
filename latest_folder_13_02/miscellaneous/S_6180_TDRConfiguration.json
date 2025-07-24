@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": true,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR-SF vs ADLS\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Snowflake_JDBC\",\"position\":\"position: absolute; left: 289.722px; top: 63.0764px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Comparing\",\"position\":\"position: absolute; left: 479.683px; top: 145.076px;\",\"mapping\":\"31,3-[33,1-96,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsApacheDrill_dropped.1\",\"UniqueId\":\"96\",\"stepId\":\"5\",\"description\":\"Apache Drill\",\"position\":\"position: absolute; left: 275.403px; top: 276.074px;\",\"mapping\":\"0,0-[96,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR-SF vs Apache Drill\",\"position\":\"position: absolute; left: 83px; top: 220.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"Snowflake_JDBC\",\"position\":\"position: absolute; left: 289.722px; top: 63.0764px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"DATACOMPARE_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Comparing\",\"position\":\"position: absolute; left: 479.683px; top: 145.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"31,3-[33,1-96,5]\",\"dsstep\":null},{\"widgetId\":\"dsApacheDrill_dropped.1\",\"UniqueId\":\"96\",\"stepId\":\"5\",\"description\":\"Apache Drill\",\"position\":\"position: absolute; left: 275.403px; top: 276.074px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[96,5]\",\"dsstep\":null}]",
         "Priority": null,
         "ModifiedBy": "Vinay",
         "MigratedOn": null,
@@ -68,16 +68,16 @@
     ],
     "DCSteps": [
       {
-        "Id": 33431,
+        "Id": 34601,
         "ScenarioId": 6180,
         "QueryId": null,
         "Job_Id": null,
         "Step": 0,
         "StepMapping": "",
         "TransformationId": 0,
-        "Description": "Vinay 7/23/2025 8:20:35 AM",
+        "Description": "TDR-SF vs Apache Drill",
         "Position": null,
-        "CreatedOn": "2025-07-23T08:20:52.763",
+        "CreatedOn": "2025-07-24T12:46:27.47",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -94,10 +94,11 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
-        "Id": 33432,
+        "Id": 34602,
         "ScenarioId": 6180,
         "QueryId": null,
         "Job_Id": null,
@@ -106,7 +107,7 @@
         "TransformationId": 33,
         "Description": "Snowflake_JDBC",
         "Position": null,
-        "CreatedOn": "2025-07-23T08:21:02.69",
+        "CreatedOn": "2025-07-24T12:46:27.49",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -123,10 +124,11 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
-        "Id": 33435,
+        "Id": 34603,
         "ScenarioId": 6180,
         "QueryId": null,
         "Job_Id": null,
@@ -135,10 +137,10 @@
         "TransformationId": 96,
         "Description": "Apache Drill",
         "Position": null,
-        "CreatedOn": "2025-07-23T08:22:07.07",
-        "CreatedBy": "116",
-        "ModifiedOn": "2025-07-23T08:24:04.853",
-        "ModifiedBy": "Vinay",
+        "CreatedOn": "2025-07-24T12:46:27.523",
+        "CreatedBy": "Vinay",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": false,
@@ -152,10 +154,11 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
-        "Id": 33436,
+        "Id": 34604,
         "ScenarioId": 6180,
         "QueryId": null,
         "Job_Id": null,
@@ -164,15 +167,15 @@
         "TransformationId": 31,
         "Description": "Data Comparing",
         "Position": "position: absolute; left: 479.683px; top: 145.076px;",
-        "CreatedOn": "2025-07-23T08:25:45.623",
+        "CreatedOn": "2025-07-24T12:46:27.557",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-23T08:29:47.58",
-        "ModifiedBy": "Vinay",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -181,18 +184,19 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       }
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 2184,
+        "Id": 2396,
         "Scenario_Header_Id": 6180,
-        "DCStep_Id": 33432,
+        "DCStep_Id": 34602,
         "Profile_Id": 155,
         "SAPType": null,
         "FiltersJson": null,
-        "CreatedOn": "2025-07-23T08:21:02.67",
+        "CreatedOn": "2025-07-24T12:46:27.493",
         "CreatedBy": "116",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -205,13 +209,13 @@
         "Delimeter": null
       },
       {
-        "Id": 2186,
+        "Id": 2397,
         "Scenario_Header_Id": 6180,
-        "DCStep_Id": 33435,
+        "DCStep_Id": 34603,
         "Profile_Id": 121,
         "SAPType": null,
         "FiltersJson": null,
-        "CreatedOn": "2025-07-23T08:22:21.323",
+        "CreatedOn": "2025-07-24T12:46:27.527",
         "CreatedBy": "116",
         "ModifiedOn": "2025-07-23T08:24:04.837",
         "ModifiedBy": "116",
@@ -226,7 +230,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 9143,
+        "Id": 9410,
         "Scenario_Header_Id": 6180,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -256,7 +260,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9144,
+        "Id": 9411,
         "Scenario_Header_Id": 6180,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -286,7 +290,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9145,
+        "Id": 9412,
         "Scenario_Header_Id": 6180,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -316,7 +320,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9146,
+        "Id": 9413,
         "Scenario_Header_Id": 6180,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -346,7 +350,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 9147,
+        "Id": 9414,
         "Scenario_Header_Id": 6180,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -378,8 +382,8 @@
     ],
     "ScenarioTDRColumnsMapping": [
       {
-        "Id": 18562,
-        "TDRMappingId": 9143,
+        "Id": 18981,
+        "TDRMappingId": 9410,
         "ScenarioId": 6180,
         "SourceColumnName": "N_NAME",
         "SourceAliasColumnName": "N_NAME",
@@ -408,8 +412,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18563,
-        "TDRMappingId": 9143,
+        "Id": 18982,
+        "TDRMappingId": 9410,
         "ScenarioId": 6180,
         "SourceColumnName": "N_COMMENT",
         "SourceAliasColumnName": "N_COMMENT",
@@ -438,8 +442,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18564,
-        "TDRMappingId": 9143,
+        "Id": 18983,
+        "TDRMappingId": 9410,
         "ScenarioId": 6180,
         "SourceColumnName": "N_NATIONKEY",
         "SourceAliasColumnName": "N_NK",
@@ -468,8 +472,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18565,
-        "TDRMappingId": 9143,
+        "Id": 18984,
+        "TDRMappingId": 9410,
         "ScenarioId": 6180,
         "SourceColumnName": "N_REGIONKEY",
         "SourceAliasColumnName": "N_RK",
@@ -498,8 +502,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18566,
-        "TDRMappingId": 9146,
+        "Id": 18985,
+        "TDRMappingId": 9413,
         "ScenarioId": 6180,
         "SourceColumnName": "S_NAME",
         "SourceAliasColumnName": "S_NAME",
@@ -528,8 +532,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18567,
-        "TDRMappingId": 9146,
+        "Id": 18986,
+        "TDRMappingId": 9413,
         "ScenarioId": 6180,
         "SourceColumnName": "S_ADDRESS",
         "SourceAliasColumnName": "S_ADDRESS",
@@ -558,8 +562,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18568,
-        "TDRMappingId": 9146,
+        "Id": 18987,
+        "TDRMappingId": 9413,
         "ScenarioId": 6180,
         "SourceColumnName": "S_PHONE",
         "SourceAliasColumnName": "S_PHONE",
@@ -588,8 +592,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18569,
-        "TDRMappingId": 9146,
+        "Id": 18988,
+        "TDRMappingId": 9413,
         "ScenarioId": 6180,
         "SourceColumnName": "S_COMMENT",
         "SourceAliasColumnName": "S_COMMENT",
@@ -618,8 +622,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18570,
-        "TDRMappingId": 9146,
+        "Id": 18989,
+        "TDRMappingId": 9413,
         "ScenarioId": 6180,
         "SourceColumnName": "S_SUPPKEY",
         "SourceAliasColumnName": "S_SUPPKEY",
@@ -648,8 +652,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18571,
-        "TDRMappingId": 9146,
+        "Id": 18990,
+        "TDRMappingId": 9413,
         "ScenarioId": 6180,
         "SourceColumnName": "S_NATIONKEY",
         "SourceAliasColumnName": "S_NATIONKEY",
@@ -678,8 +682,8 @@
         "ThresholdPercentage": null
       },
       {
-        "Id": 18572,
-        "TDRMappingId": 9146,
+        "Id": 18991,
+        "TDRMappingId": 9413,
         "ScenarioId": 6180,
         "SourceColumnName": "S_ACCTBAL",
         "SourceAliasColumnName": "S_ACCTBAL",
