@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Snowflake_Tranformations_Validation rules\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH1.PUBLIC.CUSTOMER\\\" for data source \\\"Snowflake_J\\\"\",\"position\":\"position: absolute; left: 246.604px; top: 201.076px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from TPCH1.PUBLIC.CUSTOMER\",\"position\":\"position: absolute; left: 406.722px; top: 198.076px;\",\"mapping\":\"65,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped.4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_MKTSEGMENT != 'HOUSEHOLD' \",\"position\":\"position: absolute; left: 577.639px; top: 197.072px;\",\"mapping\":\"66,4-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.5\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"Duplicate hceck\",\"position\":\"position: absolute; left: 733.91px; top: 193.706px;\",\"mapping\":\"12,5-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"},{\"widgetId\":\"Email_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 914.722px; top: 194.076px;\",\"mapping\":\"20,6-[12,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Snowflake_Tranformations_Validation rules\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH1.PUBLIC.CUSTOMER\\\" for data source \\\"Snowflake_J\\\"\",\"position\":\"position: absolute; left: 246.604px; top: 201.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform data from TPCH1.PUBLIC.CUSTOMER\",\"position\":\"position: absolute; left: 406.722px; top: 198.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,3-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"dcSimpleFilters_dropped.4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_MKTSEGMENT != 'HOUSEHOLD' \",\"position\":\"position: absolute; left: 577.639px; top: 197.072px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,4-[65,3]\",\"dsstep\":\"1\"},{\"widgetId\":\"Duplicates_dropped.5\",\"UniqueId\":\"12\",\"stepId\":\"5\",\"description\":\"Duplicate hceck\",\"position\":\"position: absolute; left: 733.91px; top: 193.706px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,5-[66,4]\",\"dsstep\":\"1\"},{\"widgetId\":\"Email_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 914.722px; top: 194.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,6-[12,5]\",\"dsstep\":null},{\"widgetId\":\"MSTeams_dropped.8\",\"UniqueId\":\"156\",\"stepId\":\"8\",\"description\":\"MS Teams\",\"position\":\"position: absolute; left: 879.525px; top: 75.0764px;\",\"mapping\":\"156,8-[12,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-24T05:47:23.89",
+        "ModifiedOn": "2025-07-24T06:24:41.117",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -68,11 +68,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 4900,
+        "Id": 4905,
         "Scenario_Header_Id": 6228,
         "Profile_Id": 155,
         "Query_Id": null,
-        "DCStep_Id": 34002,
+        "DCStep_Id": 34051,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH1.PUBLIC.CUSTOMER",
@@ -80,7 +80,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -116,7 +116,7 @@
         "QCDataSource": [],
         "SourceName_Id": 125,
         "ProfileName": "Snowflake_J",
-        "CreatedOnSC": "2025-07-24T05:42:41.67",
+        "CreatedOnSC": "2025-07-24T06:24:10.54",
         "CreatedBySC": "Sarada",
         "ModifiedOnSC": null,
         "ModifiedBySC": null
@@ -127,7 +127,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 33999,
+        "Id": 34050,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -136,7 +136,7 @@
         "TransformationId": 0,
         "Description": "Sarada 7/24/2025 5:40:57 AM",
         "Position": null,
-        "CreatedOn": "2025-07-24T05:41:28.55",
+        "CreatedOn": "2025-07-24T06:24:10.497",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -164,7 +164,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34002,
+        "Id": 34051,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -173,7 +173,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH1.PUBLIC.CUSTOMER\" for data source \"Snowflake_J\"",
         "Position": "position: absolute; left: 246.604px; top: 201.076px;",
-        "CreatedOn": "2025-07-24T05:42:41.647",
+        "CreatedOn": "2025-07-24T06:24:10.537",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -201,7 +201,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34005,
+        "Id": 34052,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -210,10 +210,10 @@
         "TransformationId": 65,
         "Description": "Transform data from TPCH1.PUBLIC.CUSTOMER",
         "Position": "position: absolute; left: 406.722px; top: 198.076px;",
-        "CreatedOn": "2025-07-24T05:42:53.37",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T05:47:00.577",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T06:24:10.603",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -238,7 +238,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34006,
+        "Id": 34053,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -247,10 +247,10 @@
         "TransformationId": 66,
         "Description": "C_MKTSEGMENT != 'HOUSEHOLD' ",
         "Position": "position: absolute; left: 577.639px; top: 197.072px;",
-        "CreatedOn": "2025-07-24T05:43:02.313",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T05:47:23.353",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T06:24:10.647",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -275,7 +275,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34007,
+        "Id": 34054,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -284,10 +284,10 @@
         "TransformationId": 12,
         "Description": "Duplicate Check",
         "Position": "position: absolute; left: 83px; top: 202.5px;",
-        "CreatedOn": "2025-07-24T05:43:19.223",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T05:43:28.127",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-24T06:24:10.67",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -312,7 +312,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 34020,
+        "Id": 34055,
         "ScenarioId": 6228,
         "QueryId": null,
         "Job_Id": null,
@@ -321,9 +321,46 @@
         "TransformationId": 20,
         "Description": "Email",
         "Position": "position: absolute; left: 914.722px; top: 194.076px;",
-        "CreatedOn": "2025-07-24T05:47:35.583",
+        "CreatedOn": "2025-07-24T06:24:10.69",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "Overwritesnapshot": null,
+        "IsPreBlend": null,
+        "BlendStepId": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": true,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 34057,
+        "ScenarioId": 6228,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 8,
+        "StepMapping": "156,8-[12,5]",
+        "TransformationId": 156,
+        "Description": "MS Teams",
+        "Position": "position: absolute; left: 879.525px; top: 75.0764px;",
+        "CreatedOn": "2025-07-24T06:24:36.803",
         "CreatedBy": "134",
-        "ModifiedOn": "2025-07-24T05:47:58.923",
+        "ModifiedOn": "2025-07-24T06:24:41.15",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -369,8 +406,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 45108,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45148,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -386,8 +423,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45109,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45149,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -403,8 +440,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45110,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45150,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -420,8 +457,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45111,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45151,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -437,8 +474,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45112,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45152,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -454,8 +491,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45113,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45153,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -471,8 +508,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45114,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45154,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -488,8 +525,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 45115,
-        "ScenarioDataSourceId": 4900,
+        "Id": 45155,
+        "ScenarioDataSourceId": 4905,
         "DBlendId": null,
         "ProfileId": 155,
         "TableName": "TPCH1.PUBLIC.CUSTOMER",
@@ -507,13 +544,13 @@
     ],
     "SimpleFilters": [
       {
-        "Id": 506,
+        "Id": 512,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34006,
+        "DcStepId": 34053,
         "DCTypeId": null,
         "StepId": 4,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "GlobalFilter": "C_MKTSEGMENT != 'HOUSEHOLD' ",
         "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_MKTSEGMENT\" selected=\"selected\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option><option value=\"C_CUSTKEY\">C_CUSTKEY</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"Uppercase check\">Uppercase check</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\" selected=\"selected\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"HOUSEHOLD\" size=\"10\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">HOUSEHOLD</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": "134",
@@ -530,13 +567,13 @@
     "SimpleAggregations": [],
     "SimpleProjections": [
       {
-        "Id": 10882,
+        "Id": 10924,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_NAME",
         "AliasColumnName": "C_NAME",
         "SystemDefinedDataType": "VARCHAR",
@@ -554,13 +591,13 @@
         "QueryId": null
       },
       {
-        "Id": 10883,
+        "Id": 10925,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_ADDRESS",
         "AliasColumnName": "C_ADDRESS",
         "SystemDefinedDataType": "VARCHAR",
@@ -578,13 +615,13 @@
         "QueryId": null
       },
       {
-        "Id": 10884,
+        "Id": 10926,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_PHONE",
         "AliasColumnName": "C_PHONE",
         "SystemDefinedDataType": "VARCHAR",
@@ -602,13 +639,13 @@
         "QueryId": null
       },
       {
-        "Id": 10885,
+        "Id": 10927,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_MKTSEGMENT",
         "AliasColumnName": "C_MKTSEGMENT",
         "SystemDefinedDataType": "VARCHAR",
@@ -626,13 +663,13 @@
         "QueryId": null
       },
       {
-        "Id": 10886,
+        "Id": 10928,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_COMMENT",
         "AliasColumnName": "C_COMMENT",
         "SystemDefinedDataType": "VARCHAR",
@@ -650,13 +687,13 @@
         "QueryId": null
       },
       {
-        "Id": 10887,
+        "Id": 10929,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_CUSTKEY",
         "AliasColumnName": "C_CUSTKEY",
         "SystemDefinedDataType": "DOUBLE",
@@ -674,13 +711,13 @@
         "QueryId": null
       },
       {
-        "Id": 10888,
+        "Id": 10930,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_NATIONKEY",
         "AliasColumnName": "C_NATIONKEY",
         "SystemDefinedDataType": "DOUBLE",
@@ -698,13 +735,13 @@
         "QueryId": null
       },
       {
-        "Id": 10889,
+        "Id": 10931,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "C_ACCTBAL",
         "AliasColumnName": "C_ACCTBAL",
         "SystemDefinedDataType": "DOUBLE",
@@ -722,13 +759,13 @@
         "QueryId": null
       },
       {
-        "Id": 10890,
+        "Id": 10932,
         "ScenarioId": 6228,
         "CSV_Id": 0,
-        "DcStepId": 34005,
+        "DcStepId": 34052,
         "DCTypeId": null,
         "StepId": 3,
-        "DataSourceId": 4900,
+        "DataSourceId": 4905,
         "ColumnName": "Uppercase check",
         "AliasColumnName": "Uppercase check",
         "SystemDefinedDataType": null,
@@ -753,7 +790,7 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 10055,
+        "Id": 10072,
         "Scenario_Header_Id": 6228,
         "RuleText": "C_NATIONKEY",
         "RuleHtml": null,
@@ -780,7 +817,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 27475,
+        "Id": 27520,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 0,
@@ -790,7 +827,7 @@
         "JobId": null
       },
       {
-        "Id": 27477,
+        "Id": 27521,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 1,
@@ -800,7 +837,7 @@
         "JobId": null
       },
       {
-        "Id": 27479,
+        "Id": 27522,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 3,
@@ -810,7 +847,7 @@
         "JobId": null
       },
       {
-        "Id": 27480,
+        "Id": 27523,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 4,
@@ -820,7 +857,7 @@
         "JobId": null
       },
       {
-        "Id": 27482,
+        "Id": 27524,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 5,
@@ -830,7 +867,7 @@
         "JobId": null
       },
       {
-        "Id": 27495,
+        "Id": 27525,
         "ScenarioId": 6228,
         "QueryId": null,
         "StepId": 6,
@@ -840,10 +877,23 @@
         "JobId": null
       }
     ],
-    "ThirdPartyAPIParams": [],
+    "ThirdPartyAPIParams": [
+      {
+        "Id": 6916,
+        "APIInte_ID": 107,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "InstanceName",
+        "ParamterValue": "[\"MS_Teams\"]",
+        "ScenarioId": 6228,
+        "DependantStepId": null,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      }
+    ],
     "EmailAlerts": [
       {
-        "Id": 2048,
+        "Id": 2052,
         "Scenario_Header_Id": 6228,
         "Query_Id": null,
         "Job_Id": null,
@@ -857,7 +907,7 @@
         "AttachResultsInEmail": true,
         "ExportType": "Excel",
         "RaiseDefect": null,
-        "CreatedOn": "2025-07-24T05:47:58.877",
+        "CreatedOn": "2025-07-24T06:24:10.693",
         "CreatedBy": "134",
         "ModifiedOn": null,
         "ModifiedBy": null,
