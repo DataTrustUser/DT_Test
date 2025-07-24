@@ -106,7 +106,7 @@
         "Scenario_SessionId": null,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": "N_NAME",
+        "OrderByValue": "N_NAME,N_NATIONKEY",
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
         "Delimeter": null,
