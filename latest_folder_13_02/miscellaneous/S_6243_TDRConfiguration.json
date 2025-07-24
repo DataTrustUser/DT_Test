@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-24T08:42:48.877",
+        "ModifiedOn": "2025-07-24T08:48:54.233",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -229,7 +229,7 @@
         "Position": "position: absolute; left: 778.062px; top: 99.059px;",
         "CreatedOn": "2025-07-24T08:47:32.963",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-07-24T08:48:24.31",
+        "ModifiedOn": "2025-07-24T08:48:54.263",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -836,7 +836,7 @@
     "TDRSAP": [],
     "ThirdPartyAPIParams": [
       {
-        "Id": 7626,
+        "Id": 7634,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Instance Name",
@@ -847,7 +847,7 @@
         "RuleId": null
       },
       {
-        "Id": 7627,
+        "Id": 7635,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Caller",
@@ -858,7 +858,7 @@
         "RuleId": null
       },
       {
-        "Id": 7628,
+        "Id": 7636,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Category",
@@ -869,21 +869,10 @@
         "RuleId": null
       },
       {
-        "Id": 7629,
+        "Id": 7637,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Impact",
-        "ParamterValue": "1",
-        "ScenarioId": 6243,
-        "DependantStepId": 5,
-        "SessionId": null,
-        "RuleId": null
-      },
-      {
-        "Id": 7630,
-        "APIInte_ID": 109,
-        "APIParamLookupTypeId": 2,
-        "ParamName": "Urgency",
         "ParamterValue": "2",
         "ScenarioId": 6243,
         "DependantStepId": 5,
@@ -891,7 +880,18 @@
         "RuleId": null
       },
       {
-        "Id": 7631,
+        "Id": 7638,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Urgency",
+        "ParamterValue": "3",
+        "ScenarioId": 6243,
+        "DependantStepId": 5,
+        "SessionId": null,
+        "RuleId": null
+      },
+      {
+        "Id": 7639,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assignment group",
@@ -902,7 +902,7 @@
         "RuleId": null
       },
       {
-        "Id": 7632,
+        "Id": 7640,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assigned to",
@@ -913,11 +913,11 @@
         "RuleId": null
       },
       {
-        "Id": 7633,
+        "Id": 7641,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Short description",
-        "ParamterValue": "rdt",
+        "ParamterValue": "rd",
         "ScenarioId": 6243,
         "DependantStepId": 5,
         "SessionId": null,
