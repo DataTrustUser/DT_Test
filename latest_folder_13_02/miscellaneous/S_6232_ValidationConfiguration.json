@@ -96,7 +96,7 @@
         "SQL_Text": null,
         "TableVizName": "TPCH_1||dbo||NATION",
         "ExtraColumnSC": null,
-        "DefaultfParallelism": 3.0,
+        "DefaultfParallelism": 4.0,
         "DefaultPacketSize": 50000.0,
         "MaxParallelism": null,
         "MaxPacketSize": null,
