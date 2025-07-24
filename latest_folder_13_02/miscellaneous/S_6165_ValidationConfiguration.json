@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/23/2025 5:34:20 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"MSSQL_Supplier\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 262.617px; top: 227.431px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.4\",\"UniqueId\":\"12\",\"stepId\":\"4\",\"description\":\"etd\",\"position\":\"position: absolute; left: 516.558px; top: 219.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,4-[3,1]\",\"dsstep\":\"1\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/23/2025 5:34:20 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"MSSQL_Supplier\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 262.617px; top: 227.431px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"Duplicates_dropped.4\",\"UniqueId\":\"12\",\"stepId\":\"4\",\"description\":\"etd\",\"position\":\"position: absolute; left: 516.558px; top: 219.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"12,4-[3,1]\",\"dsstep\":\"1\",\"activestatus\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-24T05:10:02.107",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -68,11 +68,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 4873,
+        "Id": 4887,
         "Scenario_Header_Id": 6165,
         "Profile_Id": 1184,
         "Query_Id": 4965,
-        "DCStep_Id": 33769,
+        "DCStep_Id": 33949,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": null,
@@ -116,8 +116,8 @@
         "QCDataSource": [],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_J",
-        "CreatedOnSC": "2025-07-23T18:40:47.167",
-        "CreatedBySC": "Saikiran",
+        "CreatedOnSC": "2025-07-24T05:09:55.053",
+        "CreatedBySC": "Swami",
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       }
@@ -142,9 +142,9 @@
         "IsforVariableBuilder": false,
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-22T17:22:15.747",
-        "CreatedBy": "116",
+        "CreatedBy": "Vinay",
         "ModifiedOn": "2025-07-23T12:37:03.193",
-        "ModifiedBy": "116",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": false,
@@ -156,7 +156,7 @@
         "QueryDecription": null,
         "JSON": "null",
         "TypeofQuery": null,
-        "StepId": 33769,
+        "StepId": 33949,
         "Fid": 1,
         "DataRetentionJson": null
       }
@@ -282,7 +282,7 @@
     "QuerySap": null,
     "DCSteps": [
       {
-        "Id": 33767,
+        "Id": 33948,
         "ScenarioId": 6165,
         "QueryId": null,
         "Job_Id": null,
@@ -291,8 +291,8 @@
         "TransformationId": 0,
         "Description": "Swami 7/23/2025 5:34:20 AM",
         "Position": null,
-        "CreatedOn": "2025-07-23T18:40:44.21",
-        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-07-24T05:09:54.997",
+        "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -319,7 +319,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 33769,
+        "Id": 33949,
         "ScenarioId": 6165,
         "QueryId": null,
         "Job_Id": null,
@@ -328,8 +328,8 @@
         "TransformationId": 3,
         "Description": "Read data from \"MSSQL_Supplier\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 262.617px; top: 227.431px;",
-        "CreatedOn": "2025-07-23T18:40:46.38",
-        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-07-24T05:09:55.033",
+        "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -356,7 +356,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 33770,
+        "Id": 33950,
         "ScenarioId": 6165,
         "QueryId": null,
         "Job_Id": null,
@@ -365,8 +365,8 @@
         "TransformationId": 12,
         "Description": "Duplicate Check",
         "Position": "position: absolute; left: 516.558px; top: 219.437px;",
-        "CreatedOn": "2025-07-23T18:40:48.05",
-        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-07-24T05:09:55.1",
+        "CreatedBy": "Swami",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -389,7 +389,7 @@
         "IsActive": true,
         "Comments": null,
         "RunTimeJSON": null,
-        "IsMLRecommended": null,
+        "IsMLRecommended": false,
         "QueryTimeOut": null
       }
     ],
@@ -424,17 +424,17 @@
     "ProfileDataTypesFDR": [],
     "ScenarioValidationRule": [
       {
-        "Id": 9968,
+        "Id": 10042,
         "Scenario_Header_Id": 6165,
-        "RuleText": "S_SUPPKEY,S_NAME",
-        "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncS_SUPPKEY active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_SUPPKEY\">S_SUPPKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_NAME active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_NAME\">S_NAME<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_NATIONKEY\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_NATIONKEY\">S_NATIONKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_ACCTBAL\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_ACCTBAL\">S_ACCTBAL<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"><li class=\"tagList ncS_NAME active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_NAME\">S_NAME<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following combination of fields should not be duplicated: <b>S_SUPPKEY, S_NAME</b></span>\n                    </div>\n                </div>\n            ",
+        "RuleText": "S_SUPPKEY,S_NAME,S_NATIONKEY",
+        "RuleHtml": "\n                <div class=\"OparatorsBlock col-md-12 no-padding no-margin-bottom no-border-bottom\" style=\"height: 65%;\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\" id=\"srcHeader\">\n                        <div class=\"pull-left\">Available Fields</div>\n                        <div class=\"pull-right\" style=\"width:250px;\">\n                            <div class=\"search_container\">\n                                <div class=\"search_form no_bottom_margin\">\n                                    <div class=\"icon_search_wrapper\">\n                                        <rd-icon class=\"fa fa-search rd_icon_search\" aria-hidden=\"true\"></rd-icon>\n                                    </div>\n                                    <div class=\"Loadericon_search_wrapper\" style=\"display:none;\">\n                                        <img style=\"vertical-align: top;\" src=\"/Images/Loader.gif\" width=\"13\" alt=\"Placeholder Description\">\n                                    </div>\n                                    <div class=\"search_input_wrapper\">\n                                        <input type=\"text\" id=\"srcSeachTextBox\" onkeyup=\"EnterSearch()\" name=\"Global Search\" class=\"search_input search_input_highlighted filter\" placeholder=\"Search...\" autocomplete=\"off\" maxlength=\"250\">\n                                    </div>\n                                    <div class=\"search_clear_icon_wrapper\">\n                                        <button id=\"RD_GlobalSearch_clear\" type=\"button\" class=\"btn_unstyle rd_search_clear_icon\" style=\"display:none;\">\n                                            <img src=\"/Images/Close.svg\" width=\"13\" alt=\"Placeholder Description\">\n                                        </button>\n                                    </div>\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"pull-right\">\n                            <input id=\"showhideDescription\" class=\"checkbox-eye\" type=\"checkbox\" onchange=\"showhideColDescription(this)\">\n                            <label for=\"showhideDescription\" class=\"checkbox-eye-label no-padding\" style=\"margin: -1px 10px;\">Fields Description</label>\n                        </div>\n                        <div class=\"clearfix\"></div>\n                    </div>\n                    <div class=\"srcHeader col-md-4\" id=\"selectedTagsText\" style=\"display:none;height:30px;\">\n                        <label class=\"srcHeaderlbl\" style=\"line-height: 24px;\">Selected Fields</label>\n                    </div>\n                    <div class=\"col-md-12 no-padding\" style=\"height: calc(100% - 31px); overflow: auto;\">\n                        <ul class=\"fieldTags\" id=\"fieldTags\"><li class=\"tagList ncS_SUPPKEY active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_SUPPKEY\">S_SUPPKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_NAME active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_NAME\">S_NAME<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_NATIONKEY active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_NATIONKEY\">S_NATIONKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_ACCTBAL\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_ACCTBAL\">S_ACCTBAL<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_ADDRESS\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_ADDRESS\">S_ADDRESS<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_PHONE\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_PHONE\">S_PHONE<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li><li class=\"tagList ncS_COMMENT\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_COMMENT\">S_COMMENT<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                    <div class=\"col-md-4 no-padding tagFieldsContainer selectedFields\" style=\"display:none;height: calc(100% - 40px);\">\n                        <ul class=\"selectedFieldTags\"><li class=\"tagList ncS_NATIONKEY active\" onclick=\"selectTag(this)\" value=\"undefined\" name=\"S_NATIONKEY\">S_NATIONKEY<abbr class=\"colmnDescription\"></abbr> <span onclick=\"removeRule(this)\" style=\"display:none\"><i class=\"fa fa-trash-o\" aria-hidden=\"true\"></i></span></li></ul>\n                    </div>\n                </div>\n                <div class=\"businessBlock OparatorsBlock col-md-12 no-padding\" style=\"height: calc(35% - 0px)\">\n                    <div class=\"TableHeaderbarWithInput no-margin-bottom\">\n                        <div class=\"pull-left\">Business Rule</div>\n                    </div>\n                    <div class=\"col-md-12\" style=\"height: calc(100% - 31px); padding:10px;\">\n                        <span id=\"businessRuleText\">Following combination of fields should not be duplicated: <b>S_SUPPKEY, S_NAME, S_NATIONKEY</b></span>\n                    </div>\n                </div>\n            ",
         "Status": null,
         "RuleTitle": "etd",
         "IsPredefined": true,
         "PredefinedRuleId": 1,
         "StepId": 4,
         "IgnoreNulls": true,
-        "BusinessRule": "Following combination of fields should not be duplicated: S_SUPPKEY, S_NAME",
+        "BusinessRule": "Following combination of fields should not be duplicated: S_SUPPKEY, S_NAME, S_NATIONKEY",
         "RuleJson": null,
         "RiskProfile": null,
         "QualityFacet": null,
@@ -451,7 +451,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 27289,
+        "Id": 27428,
         "ScenarioId": 6165,
         "QueryId": null,
         "StepId": 0,
@@ -461,7 +461,7 @@
         "JobId": null
       },
       {
-        "Id": 27290,
+        "Id": 27429,
         "ScenarioId": 6165,
         "QueryId": null,
         "StepId": 1,
@@ -471,7 +471,7 @@
         "JobId": null
       },
       {
-        "Id": 27291,
+        "Id": 27430,
         "ScenarioId": 6165,
         "QueryId": null,
         "StepId": 2,
@@ -481,7 +481,7 @@
         "JobId": null
       },
       {
-        "Id": 27292,
+        "Id": 27431,
         "ScenarioId": 6165,
         "QueryId": null,
         "StepId": 3,
@@ -491,7 +491,7 @@
         "JobId": null
       },
       {
-        "Id": 27293,
+        "Id": 27432,
         "ScenarioId": 6165,
         "QueryId": null,
         "StepId": 4,
