@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/22/2025 4:05:27 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL TPCH\",\"position\":\"position: absolute; left: 283.8px; top: 91.6375px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL TPCH\",\"position\":\"position: absolute; left: 260.8px; top: 326.638px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 536.8px; top: 195.638px;\",\"mapping\":\"27,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/22/2025 4:05:27 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL TPCH\",\"position\":\"position: absolute; left: 283.8px; top: 91.6375px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL TPCH\",\"position\":\"position: absolute; left: 260.8px; top: 326.638px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 536.8px; top: 195.638px;\",\"mapping\":\"27,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 824.8px; top: 198.638px;\",\"mapping\":\"20,4-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
@@ -50,7 +50,7 @@
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
         "EnableExternalLink": null,
-        "EmailTemplateJSON": null,
+        "EmailTemplateJSON": "{\"TemplateType\":\"Default\",\"TemplatedId\":\"\",\"IncludeQueryChain\":null,\"IncludeFDR\":null,\"IncludeValidation\":null,\"IncludeTDR\":null,\"IncludeBDV\":null,\"HTML\":null}",
         "UserAssignedDate": null,
         "TDRPullCheckSum": false,
         "TDRPullRecordConcat": false,
@@ -94,7 +94,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32760,
@@ -123,7 +124,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32761,
@@ -152,7 +154,38 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
+      },
+      {
+        "Id": 32762,
+        "ScenarioId": 6140,
+        "QueryId": null,
+        "Job_Id": null,
+        "Step": 4,
+        "StepMapping": "20,4-[27,3]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "position: absolute; left: 824.8px; top: 198.638px;",
+        "CreatedOn": "2025-07-22T16:07:34.673",
+        "CreatedBy": "38010db1-1f6e-42d0-bf8a-65343cfa8a0a",
+        "ModifiedOn": "2025-07-24T06:44:13.23",
+        "ModifiedBy": "Pranisha",
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": null,
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32763,
@@ -181,7 +214,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       }
     ],
     "ScenarioTDRDataSource": [
@@ -260,6 +294,40 @@
     "TDRAdvancedObjectMapping": [],
     "TDRSAP": [],
     "ThirdPartyAPIParams": [],
-    "EmailAlerts": []
+    "EmailAlerts": [
+      {
+        "Id": 2060,
+        "Scenario_Header_Id": 6140,
+        "Query_Id": null,
+        "Job_Id": null,
+        "WhenFaild": true,
+        "EmailWhen_F": "pranisha.odela@getrightdata.com",
+        "WhenSuccess": true,
+        "EmailWhen_S": "pranisha.odela@getrightdata.com",
+        "EmailWhen_E": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "CreatedOn": "2025-07-24T06:44:13.187",
+        "CreatedBy": "38010db1-1f6e-42d0-bf8a-65343cfa8a0a",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": null,
+        "EmailTemplateId": null,
+        "SendExtrenalLink": false,
+        "PdfAttachment": false,
+        "EmailSubject": null,
+        "EmailPriority": "Normal",
+        "EnableHyperlinks": true,
+        "EmailFromName": null,
+        "AttachCustomValidationReport": false,
+        "AttachCSV": false,
+        "AttachResultSummary": false,
+        "AttachTableLevelExceptions": false
+      }
+    ]
   }
 ]
