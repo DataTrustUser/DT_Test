@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-24T09:25:33.587",
+        "ModifiedOn": "2025-07-24T09:38:41.27",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -423,7 +423,7 @@
         "DataQualityDimensionId": null,
         "RiskCategoryId": null,
         "SelectedColumnsJSON": null,
-        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]",
+        "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":13},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":100},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]",
         "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "PassThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}"
