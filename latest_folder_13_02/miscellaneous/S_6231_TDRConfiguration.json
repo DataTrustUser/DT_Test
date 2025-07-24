@@ -46,7 +46,7 @@
         "PassThreshold": null,
         "WarningThreshold": null,
         "PacketSizeByPair": 2,
-        "ExceptionsLimit": null,
+        "ExceptionsLimit": 0,
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
         "EnableExternalLink": null,
@@ -68,7 +68,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 34197,
+        "Id": 34259,
         "ScenarioId": 6231,
         "QueryId": null,
         "Job_Id": null,
@@ -77,7 +77,7 @@
         "TransformationId": 0,
         "Description": "Dhanusha 7/24/2025 6:36:11 AM",
         "Position": null,
-        "CreatedOn": "2025-07-24T07:11:52.563",
+        "CreatedOn": "2025-07-24T07:38:29.673",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -98,7 +98,7 @@
         "Comments": null
       },
       {
-        "Id": 34198,
+        "Id": 34260,
         "ScenarioId": 6231,
         "QueryId": null,
         "Job_Id": null,
@@ -107,7 +107,7 @@
         "TransformationId": 33,
         "Description": "RDBMS Tables",
         "Position": "position: absolute; left: 350px; top: 98.5px;",
-        "CreatedOn": "2025-07-24T07:11:52.583",
+        "CreatedOn": "2025-07-24T07:38:29.693",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -128,7 +128,7 @@
         "Comments": null
       },
       {
-        "Id": 34199,
+        "Id": 34261,
         "ScenarioId": 6231,
         "QueryId": null,
         "Job_Id": null,
@@ -137,7 +137,7 @@
         "TransformationId": 23,
         "Description": "SAP Tables",
         "Position": "position: absolute; left: 357px; top: 280.5px;",
-        "CreatedOn": "2025-07-24T07:11:52.617",
+        "CreatedOn": "2025-07-24T07:38:29.72",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -158,7 +158,7 @@
         "Comments": null
       },
       {
-        "Id": 34200,
+        "Id": 34262,
         "ScenarioId": 6231,
         "QueryId": null,
         "Job_Id": null,
@@ -167,7 +167,7 @@
         "TransformationId": 31,
         "Description": "Data Compare",
         "Position": "position: absolute; left: 573px; top: 154.5px;",
-        "CreatedOn": "2025-07-24T07:11:52.647",
+        "CreatedOn": "2025-07-24T07:38:29.743",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -190,13 +190,13 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 2304,
+        "Id": 2326,
         "Scenario_Header_Id": 6231,
-        "DCStep_Id": 34198,
+        "DCStep_Id": 34260,
         "Profile_Id": 1184,
         "SAPType": null,
         "FiltersJson": null,
-        "CreatedOn": "2025-07-24T07:11:52.587",
+        "CreatedOn": "2025-07-24T07:38:29.697",
         "CreatedBy": "118",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -209,13 +209,13 @@
         "Delimeter": null
       },
       {
-        "Id": 2305,
+        "Id": 2327,
         "Scenario_Header_Id": 6231,
-        "DCStep_Id": 34199,
+        "DCStep_Id": 34261,
         "Profile_Id": 111,
         "SAPType": "TABLE",
         "FiltersJson": null,
-        "CreatedOn": "2025-07-24T07:11:52.62",
+        "CreatedOn": "2025-07-24T07:38:29.723",
         "CreatedBy": "118",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -230,7 +230,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 9303,
+        "Id": 9340,
         "Scenario_Header_Id": 6231,
         "StepId": null,
         "SourceDatabase": "SAP_TABLE",
