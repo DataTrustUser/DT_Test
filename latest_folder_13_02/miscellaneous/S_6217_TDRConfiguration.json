@@ -2,9 +2,9 @@
   {
     "ScenarioHeader": [
       {
-        "CheckForMissingInSource": true,
+        "CheckForMissingInSource": false,
         "CheckForMissingInTarget": true,
-        "CheckForExistInBoth": true,
+        "CheckForExistInBoth": false,
         "CompareCount": null,
         "CreatedOn": "2025-07-24T04:27:45.793",
         "CreatedBy": "Swami",
@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": true,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/24/2025 4:26:30 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 336.615px; top: 110.429px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 338.621px; top: 284.431px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 566.623px; top: 184.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,3-[33,1-33,2]\",\"dsstep\":null},{\"widgetId\":\"dcAddOptionItem_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 752.623px; top: 178.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,4-[27,3]\"},{\"widgetId\":\"ServiceNow_dropped.0\",\"UniqueId\":\"159\",\"stepId\":\"7\",\"description\":\"ServiceNow\",\"position\":\"position: absolute; left: 724.062px; top: 68.059px;\",\"mapping\":\"159,7-[27,3]\",\"warning\":null,\"decision\":null}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/24/2025 4:26:30 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 336.615px; top: 110.429px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 338.621px; top: 284.431px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 566.623px; top: 184.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,3-[33,1-33,2]\",\"dsstep\":null},{\"widgetId\":\"dcAddOptionItem_4\",\"UniqueId\":\"20\",\"stepId\":\"4\",\"description\":\"Email\",\"position\":\"position: absolute; left: 752.623px; top: 178.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"20,4-[27,3]\"}]",
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-24T06:34:35.133",
+        "ModifiedOn": "2025-07-24T06:36:32.397",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
