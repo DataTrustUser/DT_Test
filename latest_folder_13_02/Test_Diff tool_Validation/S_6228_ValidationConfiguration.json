@@ -106,7 +106,7 @@
         "Scenario_SessionId": null,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": null,
+        "OrderByValue": "C_ACCTBAL",
         "TableLevelAggrFunction": "[{\"ColumnName\":\"C_NAME\",\"AliasColumnName\":\"C_NAME\",\"DataType\":\"VARCHAR\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_ADDRESS\",\"AliasColumnName\":\"C_ADDRESS\",\"DataType\":\"VARCHAR\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_PHONE\",\"AliasColumnName\":\"C_PHONE\",\"DataType\":\"VARCHAR\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_MKTSEGMENT\",\"AliasColumnName\":\"C_MKTSEGMENT\",\"DataType\":\"VARCHAR\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_COMMENT\",\"AliasColumnName\":\"C_COMMENT\",\"DataType\":\"VARCHAR\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_CUSTKEY\",\"AliasColumnName\":\"C_CUSTKEY\",\"DataType\":\"DOUBLE\",\"UserDataType\":\"Decimal\",\"Aggregation\":null},{\"ColumnName\":\"C_NATIONKEY\",\"AliasColumnName\":\"C_NATIONKEY\",\"DataType\":\"DOUBLE\",\"UserDataType\":\"Decimal\",\"Aggregation\":null},{\"ColumnName\":\"C_ACCTBAL\",\"AliasColumnName\":\"C_ACCTBAL\",\"DataType\":\"DOUBLE\",\"UserDataType\":\"Decimal\",\"Aggregation\":null}]",
         "TableLevelFilterJson": null,
         "Delimeter": null,
