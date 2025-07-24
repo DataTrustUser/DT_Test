@@ -106,7 +106,7 @@
         "Scenario_SessionId": null,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": null,
+        "OrderByValue": "C_CUSTKEY,C_NAME",
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
         "Delimeter": null,
