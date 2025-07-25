@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 0,
-        "SnapshotOffset": 2,
+        "SnapshotOffset": null,
         "CreatedOn": "2025-07-25T08:14:00.84",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-25T08:17:23.83",
+        "ModifiedOn": "2025-07-25T08:19:17.183",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": false,
         "SAPType": null,
@@ -74,7 +74,7 @@
         "UseLatestSession": false,
         "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
-        "OffsetDate": null,
+        "OffsetDate": "4",
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
@@ -87,7 +87,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 60133,
+        "Id": 60149,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -106,7 +106,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60134,
+        "Id": 60150,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -125,7 +125,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60135,
+        "Id": 60151,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -144,7 +144,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60136,
+        "Id": 60152,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -163,7 +163,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60137,
+        "Id": 60153,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -182,7 +182,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60138,
+        "Id": 60154,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -201,7 +201,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60139,
+        "Id": 60155,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -220,7 +220,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60140,
+        "Id": 60156,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -239,7 +239,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60141,
+        "Id": 60157,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -258,7 +258,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60142,
+        "Id": 60158,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -277,7 +277,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60143,
+        "Id": 60159,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -296,7 +296,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60144,
+        "Id": 60160,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -315,7 +315,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60145,
+        "Id": 60161,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -334,7 +334,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60146,
+        "Id": 60162,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -353,7 +353,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60147,
+        "Id": 60163,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -372,7 +372,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60148,
+        "Id": 60164,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
