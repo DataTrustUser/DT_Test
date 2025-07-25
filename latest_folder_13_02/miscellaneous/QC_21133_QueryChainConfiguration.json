@@ -37,10 +37,10 @@
       {
         "Id": 17667,
         "Query_Id": 21133,
-        "Profile_Id": null,
+        "Profile_Id": 3200,
         "DCStep_Id": 379381,
         "BlendStepId": null,
-        "Query_Id_Id": 16999,
+        "Query_Id_Id": 14936,
         "ResultTableName": null,
         "TableOrViewName": null,
         "DataSnapShotId": null,
@@ -49,8 +49,8 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-25T11:09:18.49",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T11:11:26.22",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": false,
         "SAPType": null,
         "DataSourceType": "DS",
@@ -72,7 +72,7 @@
         "MaxPacketSize": null,
         "MaxParallelism": null,
         "UseLatestSession": true,
-        "ResultScenario_Id": null,
+        "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
         "OffsetDate": null,
         "OrderByValue": null,
@@ -80,12 +80,14 @@
         "TableLevelFilterJson": null,
         "iteration": false,
         "SelectedSAPVariable": null,
-        "Delimeter": null
+        "Delimeter": null,
+        "SourceName_Id": 145,
+        "ProfileName": "RestAPI_32"
       }
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 60472,
+        "Id": 60475,
         "QueryDataSourceId": 17667,
         "DBlendId": null,
         "ProfileId": null,
@@ -94,17 +96,17 @@
         "AliasColumnName": null,
         "DataType": "String",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 21133,
         "Description": "FieldName",
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": null,
-        "Scenario_SessionId": null
+        "ResultScenario_Id": 0,
+        "Scenario_SessionId": 0
       },
       {
-        "Id": 60473,
+        "Id": 60476,
         "QueryDataSourceId": 17667,
         "DBlendId": null,
         "ProfileId": null,
@@ -113,17 +115,17 @@
         "AliasColumnName": null,
         "DataType": "String",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 21133,
         "Description": "MetricName",
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": null,
-        "Scenario_SessionId": null
+        "ResultScenario_Id": 0,
+        "Scenario_SessionId": 0
       },
       {
-        "Id": 60474,
+        "Id": 60477,
         "QueryDataSourceId": 17667,
         "DBlendId": null,
         "ProfileId": null,
@@ -132,14 +134,14 @@
         "AliasColumnName": null,
         "DataType": "String",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 21133,
         "Description": "Value",
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": null,
-        "Scenario_SessionId": null
+        "ResultScenario_Id": 0,
+        "Scenario_SessionId": 0
       }
     ],
     "ObjectFilters": [],
@@ -260,9 +262,9 @@
     "QFTypes": [],
     "Query": [
       {
-        "Id": 16999,
-        "Profile_Id": 2078,
-        "Query_Name": "Pranisha 5/28/2025 6:06:57 PM",
+        "Id": 14936,
+        "Profile_Id": 3200,
+        "Query_Name": "Saikiran 4/10/2025 9:55:22 AM",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -271,8 +273,8 @@
         "Split_By_Column": null,
         "IsforVariableBuilder": null,
         "IsUsedInVariableBuilder": null,
-        "CreatedOn": "2025-05-28T18:07:12.707",
-        "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
+        "CreatedOn": "2025-04-10T09:55:41.03",
+        "CreatedBy": "1164",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -283,11 +285,11 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "Pranisha 5/28/2025 6:06:57 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 5/28/2025 6:06:57 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 325.638px; top: 207.625px; pointer-events: auto;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleFilters_dropped.3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"N_REGIONKEY > 2 \",\"position\":\"pointer-events: auto; position: absolute; left: 573.8px; top: 207.637px;\",\"mapping\":\"66,3-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 811.8px; top: 200.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"DataProfiling_dropped.5\",\"UniqueId\":\"80\",\"stepId\":\"5\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 995.8px; top: 194.638px;\",\"mapping\":\"80,5-[79,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 989.8px; top: 355.638px;\",\"mapping\":\"20,6-[79,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "QueryDescription": "Saikiran 4/10/2025 9:55:22 AM",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 4/10/2025 9:55:22 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"RestAPI_PostmanAPI\\\" for data source \\\"RestAPI_32\\\"\",\"position\":\"position: absolute; left: 260.762px; top: 193.452px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcDeduplication_dropped.2\",\"UniqueId\":\"85\",\"stepId\":\"2\",\"description\":\"Remove duplicates from selected columns\",\"position\":\"position: absolute; left: 477.762px; top: 194.452px;\",\"mapping\":\"85,2-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 694.762px; top: 196.452px;\",\"mapping\":\"79,3-[85,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 918.762px; top: 156.452px;\",\"mapping\":\"80,4-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "FId": 1213,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}"
+        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
       }
     ],
     "QuerySap": [],
