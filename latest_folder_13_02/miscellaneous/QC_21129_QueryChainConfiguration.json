@@ -1,38 +1,6 @@
 [
   {
-    "QueryData": [
-      {
-        "Id": 21129,
-        "Profile_Id": 196,
-        "Query_Name": "Afroze 7/25/2025 10:05:03 AM",
-        "Query_Type": null,
-        "Query_Text": null,
-        "Query_Modified_Text": null,
-        "Queryfor_Edit": null,
-        "Parallel_Processor_Count": null,
-        "Split_By_Column": null,
-        "IsforVariableBuilder": null,
-        "IsUsedInVariableBuilder": null,
-        "CreatedOn": "2025-07-25T10:05:20.7",
-        "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-25T10:11:36.587",
-        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "Status": true,
-        "IsHeavyWeightEngine": null,
-        "IsMigrated": null,
-        "MigratedOn": null,
-        "IsDeleted": null,
-        "DegreeOfParallelism": null,
-        "AzurePreViewPath": null,
-        "PacketSize": null,
-        "QueryDescription": "Afroze 7/25/2025 10:05:03 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/25/2025 10:05:03 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsSAPTable_dropped.3\",\"UniqueId\":\"36\",\"stepId\":\"3\",\"description\":\"Read data from Table\",\"position\":\"pointer-events: auto; position: absolute; left: 304.125px; top: 172.641px;\",\"mapping\":\"36,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcSimpleFilters_dropped.4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"Filter data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 510px; top: 160.641px;\",\"mapping\":\"66,4-[36,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcSimpleProjection_dropped.5\",\"UniqueId\":\"65\",\"stepId\":\"5\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 683px; top: 148.641px;\",\"mapping\":\"65,5-[66,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcAggregation_dropped.6\",\"UniqueId\":\"67\",\"stepId\":\"6\",\"description\":\"Aggregate data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 934px; top: 172.641px;\",\"mapping\":\"67,6-[65,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcDeduplication_dropped.8\",\"UniqueId\":\"85\",\"stepId\":\"8\",\"description\":\"Remove duplicates from selected columns\",\"position\":\"pointer-events: auto; position: absolute; left: 1066px; top: 170.641px;\",\"mapping\":\"85,8-[67,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcPivot_dropped.9\",\"UniqueId\":\"82\",\"stepId\":\"9\",\"description\":\"pivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 1089px; top: 27.6406px;\",\"mapping\":\"82,9-[85,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcUnPivot_dropped.10\",\"UniqueId\":\"83\",\"stepId\":\"10\",\"description\":\"Unpivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 1245px; top: 52.6406px;\",\"mapping\":\"83,10-[82,9]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"qcEndItem_dropped.11\",\"UniqueId\":\"79\",\"stepId\":\"11\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 1401px; top: 40.6406px;\",\"mapping\":\"79,11-[83,10]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"10\"}]",
-        "TypeofQuery": "QueryChain",
-        "UserName": "Afroze",
-        "FId": 1213,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}"
-      }
-    ],
+    "QueryData": [],
     "QcDataSource": [
       {
         "Id": 17659,
@@ -475,8 +443,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 510px; top: 160.641px;",
         "CreatedOn": "2025-07-25T10:10:16.207",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T10:11:58.563",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -516,7 +484,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": false,
+        "Warning": true,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -545,8 +513,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 934px; top: 172.641px;",
         "CreatedOn": "2025-07-25T10:10:34.02",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T10:12:08.223",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -586,7 +554,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": false,
+        "Warning": true,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -650,8 +618,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 1245px; top: 52.6406px;",
         "CreatedOn": "2025-07-25T10:11:20.86",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T10:12:35.623",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -718,12 +686,12 @@
         "DCTypeId": null,
         "StepId": 4,
         "DataSourceId": 17659,
-        "GlobalFilter": "CARRID = 'tf' ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"MANDT\">MANDT</option><option value=\"CARRID\" selected=\"selected\">CARRID</option><option value=\"CONNID\">CONNID</option><option value=\"COUNTRYFR\">COUNTRYFR</option><option value=\"CITYFROM\">CITYFROM</option><option value=\"AIRPFROM\">AIRPFROM</option><option value=\"COUNTRYTO\">COUNTRYTO</option><option value=\"CITYTO\">CITYTO</option><option value=\"AIRPTO\">AIRPTO</option><option value=\"FLTIME\">FLTIME</option><option value=\"DEPTIME\">DEPTIME</option><option value=\"ARRTIME\">ARRTIME</option><option value=\"DISTANCE\">DISTANCE</option><option value=\"DISTID\">DISTID</option><option value=\"FLTYPE\">FLTYPE</option><option value=\"PERIOD\">PERIOD</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\" selected=\"selected\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"tf\" size=\"3\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">tf</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
+        "GlobalFilter": "CONNID = 'GH' ",
+        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"MANDT\">MANDT</option><option value=\"CARRID\">CARRID</option><option value=\"CONNID\" selected=\"selected\">CONNID</option><option value=\"COUNTRYFR\">COUNTRYFR</option><option value=\"CITYFROM\">CITYFROM</option><option value=\"AIRPFROM\">AIRPFROM</option><option value=\"COUNTRYTO\">COUNTRYTO</option><option value=\"CITYTO\">CITYTO</option><option value=\"AIRPTO\">AIRPTO</option><option value=\"FLTIME\">FLTIME</option><option value=\"DEPTIME\">DEPTIME</option><option value=\"ARRTIME\">ARRTIME</option><option value=\"DISTANCE\">DISTANCE</option><option value=\"DISTID\">DISTID</option><option value=\"FLTYPE\">FLTYPE</option><option value=\"PERIOD\">PERIOD</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\" selected=\"selected\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"GH\" size=\"3\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">tf</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "CreatedOn": "2025-07-25T10:10:15.317",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
+        "ModifiedOn": "2025-07-25T10:11:57.19",
         "JSON": null,
         "Description": null,
         "QueryId": 21129
@@ -731,7 +699,7 @@
     ],
     "SimpleAggregations": [
       {
-        "Id": 9724,
+        "Id": 9740,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -742,7 +710,7 @@
         "AggregationType": "Count",
         "IsPrimary": true,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -753,7 +721,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9725,
+        "Id": 9741,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -764,7 +732,7 @@
         "AggregationType": "",
         "IsPrimary": true,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -775,7 +743,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9726,
+        "Id": 9742,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -786,7 +754,7 @@
         "AggregationType": "",
         "IsPrimary": true,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -797,7 +765,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9727,
+        "Id": 9743,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -808,7 +776,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -819,7 +787,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9728,
+        "Id": 9744,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -827,10 +795,10 @@
         "StepId": 6,
         "DataSourceId": 17659,
         "ColumnName": "CITYFROM",
-        "AggregationType": "",
+        "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -841,7 +809,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9729,
+        "Id": 9745,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -852,7 +820,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -863,7 +831,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9730,
+        "Id": 9746,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -874,7 +842,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -885,7 +853,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9731,
+        "Id": 9747,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -896,7 +864,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -907,7 +875,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9732,
+        "Id": 9748,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -918,7 +886,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -929,7 +897,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9733,
+        "Id": 9749,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -940,7 +908,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -951,7 +919,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9734,
+        "Id": 9750,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -962,7 +930,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -973,7 +941,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9735,
+        "Id": 9751,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -984,7 +952,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -995,7 +963,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9736,
+        "Id": 9752,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -1006,7 +974,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1017,7 +985,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9737,
+        "Id": 9753,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -1028,7 +996,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1039,7 +1007,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9738,
+        "Id": 9754,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -1050,7 +1018,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1061,7 +1029,7 @@
         "QueryId": 21129
       },
       {
-        "Id": 9739,
+        "Id": 9755,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379316,
@@ -1072,7 +1040,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T10:10:33",
+        "CreatedOn": "2025-07-25T10:12:06.497",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1905,11 +1873,11 @@
     ],
     "UnPivotDetails": [
       {
-        "Id": 260,
+        "Id": 261,
         "ScenarioId": null,
         "QueryId": 21129,
         "DataSourceId": 17659,
-        "UnPivotFor": "CONNID",
+        "UnPivotFor": "DISTID",
         "PivotBy": "CITYTO",
         "UnPivotColumns": "CONNID",
         "DCStepId": 379319,
@@ -2068,164 +2036,164 @@
         "UnPivotId": null
       },
       {
-        "Id": 5027,
+        "Id": 5043,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "COUNTRYFR",
         "AliasColumnName": "COUNTRYFR",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5028,
+        "Id": 5044,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "CITYFROM",
         "AliasColumnName": "CITYFROM",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5029,
+        "Id": 5045,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "AIRPFROM",
         "AliasColumnName": "AIRPFROM",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5030,
+        "Id": 5046,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "COUNTRYTO",
         "AliasColumnName": "COUNTRYTO",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5031,
+        "Id": 5047,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "CITYTO",
         "AliasColumnName": "CITYTO",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5032,
+        "Id": 5048,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "AIRPTO",
         "AliasColumnName": "AIRPTO",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5033,
+        "Id": 5049,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "FLTIME",
         "AliasColumnName": "FLTIME",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5034,
+        "Id": 5050,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "DEPTIME",
         "AliasColumnName": "DEPTIME",
         "PivotId": null,
         "DataType": "Time",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5035,
+        "Id": 5051,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "ARRTIME",
         "AliasColumnName": "ARRTIME",
         "PivotId": null,
         "DataType": "Time",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5036,
+        "Id": 5052,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "DISTANCE",
         "AliasColumnName": "DISTANCE",
         "PivotId": null,
         "DataType": "Decimal",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5037,
+        "Id": 5053,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "DISTID",
         "AliasColumnName": "DISTID",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5038,
+        "Id": 5054,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "FLTYPE",
         "AliasColumnName": "FLTYPE",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5039,
+        "Id": 5055,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "PERIOD",
         "AliasColumnName": "PERIOD",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5040,
+        "Id": 5056,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "jhk",
         "AliasColumnName": "jhk",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5041,
+        "Id": 5057,
         "ScenarioId": null,
         "QueryId": 21129,
-        "ColumnName": "CONNID",
-        "AliasColumnName": "CONNID",
+        "ColumnName": "DISTID",
+        "AliasColumnName": "DISTID",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       },
       {
-        "Id": 5042,
+        "Id": 5058,
         "ScenarioId": null,
         "QueryId": 21129,
         "ColumnName": "CITYTO",
         "AliasColumnName": "CITYTO",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 260
+        "UnPivotId": 261
       }
     ],
     "FileOffload": []
