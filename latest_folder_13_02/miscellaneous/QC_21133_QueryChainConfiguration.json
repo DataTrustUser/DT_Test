@@ -49,7 +49,7 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-25T11:01:23.653",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-25T11:01:57.563",
+        "ModifiedOn": "2025-07-25T11:02:43.053",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": false,
         "SAPType": null,
@@ -72,7 +72,7 @@
         "MaxPacketSize": null,
         "MaxParallelism": null,
         "UseLatestSession": true,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "RemoveDuplicates": false,
         "OffsetDate": null,
         "OrderByValue": null,
@@ -85,7 +85,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 60378,
+        "Id": 60393,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -100,11 +100,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60379,
+        "Id": 60394,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -119,11 +119,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60380,
+        "Id": 60395,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -138,11 +138,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60381,
+        "Id": 60396,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -157,11 +157,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60382,
+        "Id": 60397,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -176,11 +176,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60383,
+        "Id": 60398,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -195,11 +195,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60384,
+        "Id": 60399,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -214,11 +214,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60385,
+        "Id": 60400,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -233,11 +233,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60386,
+        "Id": 60401,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -252,11 +252,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60387,
+        "Id": 60402,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -271,11 +271,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60388,
+        "Id": 60403,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -290,11 +290,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60389,
+        "Id": 60404,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -309,11 +309,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60390,
+        "Id": 60405,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -328,11 +328,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60391,
+        "Id": 60406,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -347,11 +347,11 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60392,
+        "Id": 60407,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -366,7 +366,7 @@
         "QueryId": 21133,
         "Description": null,
         "NewlyAddedColumn": null,
-        "ResultScenario_Id": 43200,
+        "ResultScenario_Id": 44204,
         "Scenario_SessionId": 0
       }
     ],
