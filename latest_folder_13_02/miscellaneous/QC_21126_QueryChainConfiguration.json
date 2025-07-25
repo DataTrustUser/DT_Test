@@ -1,38 +1,6 @@
 [
   {
-    "QueryData": [
-      {
-        "Id": 21126,
-        "Profile_Id": null,
-        "Query_Name": "Afroze 7/25/2025 9:39:43 AM",
-        "Query_Type": null,
-        "Query_Text": null,
-        "Query_Modified_Text": null,
-        "Queryfor_Edit": null,
-        "Parallel_Processor_Count": null,
-        "Split_By_Column": null,
-        "IsforVariableBuilder": null,
-        "IsUsedInVariableBuilder": null,
-        "CreatedOn": "2025-07-25T09:39:52.377",
-        "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-25T09:45:15.48",
-        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "Status": true,
-        "IsHeavyWeightEngine": null,
-        "IsMigrated": null,
-        "MigratedOn": null,
-        "IsDeleted": null,
-        "DegreeOfParallelism": null,
-        "AzurePreViewPath": null,
-        "PacketSize": null,
-        "QueryDescription": "Afroze 7/25/2025 9:39:43 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/25/2025 9:39:43 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"test_afroze\\\" for data source \\\"Oracle_J\\\"\",\"position\":\"position: absolute; left: 306px; top: 191.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.3\",\"UniqueId\":\"65\",\"stepId\":\"3\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 591px; top: 210.641px;\",\"mapping\":\"65,3-[66,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcAggregation_dropped.4\",\"UniqueId\":\"67\",\"stepId\":\"4\",\"description\":\"Aggregate data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 746px; top: 194.641px;\",\"mapping\":\"67,4-[65,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcSimpleFilters_dropped.5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"Filter data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 466px; top: 215.641px;\",\"mapping\":\"66,5-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcDeduplication_dropped.6\",\"UniqueId\":\"85\",\"stepId\":\"6\",\"description\":\"Remove duplicates from selected columns\",\"position\":\"pointer-events: auto; position: absolute; left: 890px; top: 202.641px;\",\"mapping\":\"85,6-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcPivot_dropped.7\",\"UniqueId\":\"82\",\"stepId\":\"7\",\"description\":\"pivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 1030px; top: 202.641px;\",\"mapping\":\"82,7-[85,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcUnPivot_dropped.8\",\"UniqueId\":\"83\",\"stepId\":\"8\",\"description\":\"Unpivot Data\",\"position\":\"pointer-events: auto; position: absolute; left: 1166px; top: 197.641px;\",\"mapping\":\"83,8-[82,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.9\",\"UniqueId\":\"79\",\"stepId\":\"9\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 1342px; top: 182.641px;\",\"mapping\":\"79,9-[83,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"8\"}]",
-        "TypeofQuery": "QueryChain",
-        "UserName": "Afroze",
-        "FId": 1213,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}"
-      }
-    ],
+    "QueryData": [],
     "QcDataSource": [
       {
         "Id": 17651,
@@ -170,8 +138,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 466px; top: 215.641px;",
         "CreatedOn": "2025-07-25T09:43:26.367",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T09:45:34.577",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -205,8 +173,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 591px; top: 210.641px;",
         "CreatedOn": "2025-07-25T09:43:38.363",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T09:45:47.837",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -240,8 +208,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 746px; top: 194.641px;",
         "CreatedOn": "2025-07-25T09:43:49.977",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T09:46:05.787",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -281,7 +249,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": false,
+        "Warning": true,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -310,8 +278,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 1030px; top: 202.641px;",
         "CreatedOn": "2025-07-25T09:44:17.553",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T09:46:44.537",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -345,8 +313,8 @@
         "Position": "pointer-events: auto; position: absolute; left: 1166px; top: 197.641px;",
         "CreatedOn": "2025-07-25T09:45:01.56",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-25T09:47:33.957",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -413,12 +381,12 @@
         "DCTypeId": null,
         "StepId": 5,
         "DataSourceId": 17651,
-        "GlobalFilter": "L_PARTKEY > 10 ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"L_ORDERKEY\">L_ORDERKEY</option><option value=\"L_PARTKEY\" selected=\"selected\">L_PARTKEY</option><option value=\"L_SUPPKEY\">L_SUPPKEY</option><option value=\"L_LINENUMERIC\">L_LINENUMERIC</option><option value=\"L_QUANTITY\">L_QUANTITY</option><option value=\"L_EXTENDEDPRICE\">L_EXTENDEDPRICE</option><option value=\"L_DISCOUNT\">L_DISCOUNT</option><option value=\"L_TAX\">L_TAX</option><option value=\"L_RETURNFLAG\">L_RETURNFLAG</option><option value=\"L_LINESTATUS\">L_LINESTATUS</option><option value=\"L_SHIPDATE\">L_SHIPDATE</option><option value=\"L_COMMITDATE\">L_COMMITDATE</option><option value=\"L_RECEIPTDATE\">L_RECEIPTDATE</option><option value=\"L_SHIPINSTRUCT\">L_SHIPINSTRUCT</option><option value=\"L_SHIPMODE\">L_SHIPMODE</option><option value=\"L_COMMENT\">L_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\" selected=\"selected\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"10\" size=\"3\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">10</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
+        "GlobalFilter": "L_ORDERKEY < 10 ",
+        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"L_ORDERKEY\" selected=\"selected\">L_ORDERKEY</option><option value=\"L_PARTKEY\">L_PARTKEY</option><option value=\"L_SUPPKEY\">L_SUPPKEY</option><option value=\"L_LINENUMERIC\">L_LINENUMERIC</option><option value=\"L_QUANTITY\">L_QUANTITY</option><option value=\"L_EXTENDEDPRICE\">L_EXTENDEDPRICE</option><option value=\"L_DISCOUNT\">L_DISCOUNT</option><option value=\"L_TAX\">L_TAX</option><option value=\"L_RETURNFLAG\">L_RETURNFLAG</option><option value=\"L_LINESTATUS\">L_LINESTATUS</option><option value=\"L_SHIPDATE\">L_SHIPDATE</option><option value=\"L_COMMITDATE\">L_COMMITDATE</option><option value=\"L_RECEIPTDATE\">L_RECEIPTDATE</option><option value=\"L_SHIPINSTRUCT\">L_SHIPINSTRUCT</option><option value=\"L_SHIPMODE\">L_SHIPMODE</option><option value=\"L_COMMENT\">L_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\" selected=\"selected\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"10\" size=\"3\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">10</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "CreatedOn": "2025-07-25T09:43:25.503",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
+        "ModifiedOn": "2025-07-25T09:45:32.877",
         "JSON": null,
         "Description": null,
         "QueryId": 21126
@@ -426,7 +394,7 @@
     ],
     "SimpleAggregations": [
       {
-        "Id": 9644,
+        "Id": 9660,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -434,21 +402,21 @@
         "StepId": 4,
         "DataSourceId": 17651,
         "ColumnName": "L_ORDERKEY",
-        "AggregationType": "Count",
+        "AggregationType": "Min",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
         "AliasColumnName": "L_ORDERKEY",
         "Description": null,
         "UserDefinedDataType": "BigInt",
-        "SystemDefinedDataType": "BigInt",
+        "SystemDefinedDataType": "Decimal",
         "QueryId": 21126
       },
       {
-        "Id": 9645,
+        "Id": 9661,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -459,7 +427,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -470,7 +438,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9646,
+        "Id": 9662,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -481,7 +449,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -492,7 +460,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9647,
+        "Id": 9663,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -503,7 +471,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -514,7 +482,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9648,
+        "Id": 9664,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -525,7 +493,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -536,7 +504,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9649,
+        "Id": 9665,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -547,7 +515,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -558,7 +526,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9650,
+        "Id": 9666,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -569,7 +537,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -580,7 +548,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9651,
+        "Id": 9667,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -591,7 +559,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -602,7 +570,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9652,
+        "Id": 9668,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -613,7 +581,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -624,7 +592,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9653,
+        "Id": 9669,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -635,7 +603,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -646,7 +614,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9654,
+        "Id": 9670,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -657,7 +625,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -668,7 +636,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9655,
+        "Id": 9671,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -679,7 +647,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -690,7 +658,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9656,
+        "Id": 9672,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -701,7 +669,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -712,7 +680,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9657,
+        "Id": 9673,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -723,7 +691,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -734,7 +702,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9658,
+        "Id": 9674,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -745,7 +713,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -756,7 +724,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 9659,
+        "Id": 9675,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 379230,
@@ -767,7 +735,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:48.67",
+        "CreatedOn": "2025-07-25T09:46:03.5",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -781,7 +749,7 @@
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 49398,
+        "Id": 49414,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -791,10 +759,10 @@
         "ColumnName": "L_ORDERKEY",
         "AliasColumnName": "L_ORDERKEY",
         "SystemDefinedDataType": "NUMBER",
-        "UserDefinedDataType": "BigInt",
+        "UserDefinedDataType": "Decimal",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -805,7 +773,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49399,
+        "Id": 49415,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -818,7 +786,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -829,7 +797,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49400,
+        "Id": 49416,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -842,7 +810,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -853,7 +821,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49401,
+        "Id": 49417,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -866,7 +834,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -877,7 +845,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49402,
+        "Id": 49418,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -890,7 +858,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -901,7 +869,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49403,
+        "Id": 49419,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -914,7 +882,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -925,7 +893,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49404,
+        "Id": 49420,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -938,7 +906,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -949,7 +917,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49405,
+        "Id": 49421,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -962,7 +930,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -973,7 +941,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49406,
+        "Id": 49422,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -986,7 +954,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -997,7 +965,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49407,
+        "Id": 49423,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -1010,7 +978,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1021,7 +989,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49408,
+        "Id": 49424,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -1034,7 +1002,7 @@
         "UserDefinedDataType": "Date",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1045,7 +1013,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49409,
+        "Id": 49425,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -1058,7 +1026,7 @@
         "UserDefinedDataType": "Date",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1069,7 +1037,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49410,
+        "Id": 49426,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -1082,7 +1050,7 @@
         "UserDefinedDataType": "Date",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1093,7 +1061,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49411,
+        "Id": 49427,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -1106,7 +1074,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1117,7 +1085,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49412,
+        "Id": 49428,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -1130,7 +1098,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1141,7 +1109,7 @@
         "QueryId": 21126
       },
       {
-        "Id": 49413,
+        "Id": 49429,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 379229,
@@ -1154,7 +1122,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-25T09:43:37.163",
+        "CreatedOn": "2025-07-25T09:45:45.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1850,342 +1818,322 @@
     ],
     "PivotDetails": [
       {
-        "Id": 1349,
+        "Id": 1350,
         "ScenarioId": null,
         "QueryId": 21126,
         "DataSourceId": 17651,
-        "PivotColumn": "L_ORDERKEY",
-        "AggregationColumn": "L_PARTKEY",
-        "AggregationType": "SUM",
-        "GroupByColumns": "L_SUPPKEY,L_LINENUMERIC,L_QUANTITY,L_EXTENDEDPRICE,L_DISCOUNT,L_TAX,L_RETURNFLAG,L_LINESTATUS,L_SHIPDATE,L_COMMITDATE,L_RECEIPTDATE,L_SHIPINSTRUCT,L_SHIPMODE,L_COMMENT",
-        "PivotColumnValues": "23",
+        "PivotColumn": "L_PARTKEY",
+        "AggregationColumn": "L_SUPPKEY",
+        "AggregationType": "AVG",
+        "GroupByColumns": "L_LINENUMERIC,L_QUANTITY,L_EXTENDEDPRICE,L_DISCOUNT,L_TAX,L_RETURNFLAG,L_LINESTATUS,L_SHIPDATE,L_COMMITDATE,L_RECEIPTDATE,L_SHIPINSTRUCT,L_SHIPMODE,L_COMMENT",
+        "PivotColumnValues": "32",
         "DCStepId": 379232,
         "CSV_Id": 0
       }
     ],
     "UnPivotDetails": [
       {
-        "Id": 251,
+        "Id": 252,
         "ScenarioId": null,
         "QueryId": 21126,
         "DataSourceId": 17651,
-        "UnPivotFor": "L_SUPPKEY",
-        "PivotBy": "L_QUANTITY",
-        "UnPivotColumns": "L_SUPPKEY",
+        "UnPivotFor": "L_QUANTITY",
+        "PivotBy": "L_DISCOUNT",
+        "UnPivotColumns": "L_LINENUMERIC",
         "DCStepId": 379234,
         "CSV_Id": 0
       }
     ],
     "PivotFieldType": [
       {
-        "Id": 4743,
-        "ScenarioId": null,
-        "QueryId": 21126,
-        "ColumnName": "L_SUPPKEY",
-        "AliasColumnName": "L_SUPPKEY",
-        "PivotId": 1349,
-        "DataType": "Integer",
-        "UnPivotId": null
-      },
-      {
-        "Id": 4744,
+        "Id": 4774,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_LINENUMERIC",
         "AliasColumnName": "L_LINENUMERIC",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 4745,
+        "Id": 4775,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_QUANTITY",
         "AliasColumnName": "L_QUANTITY",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 4746,
+        "Id": 4776,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_EXTENDEDPRICE",
         "AliasColumnName": "L_EXTENDEDPRICE",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 4747,
+        "Id": 4777,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_DISCOUNT",
         "AliasColumnName": "L_DISCOUNT",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 4748,
+        "Id": 4778,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_TAX",
         "AliasColumnName": "L_TAX",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 4749,
+        "Id": 4779,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_RETURNFLAG",
         "AliasColumnName": "L_RETURNFLAG",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "String",
         "UnPivotId": null
       },
       {
-        "Id": 4750,
+        "Id": 4780,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_LINESTATUS",
         "AliasColumnName": "L_LINESTATUS",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "String",
         "UnPivotId": null
       },
       {
-        "Id": 4751,
+        "Id": 4781,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_SHIPDATE",
         "AliasColumnName": "L_SHIPDATE",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Date",
         "UnPivotId": null
       },
       {
-        "Id": 4752,
+        "Id": 4782,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_COMMITDATE",
         "AliasColumnName": "L_COMMITDATE",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Date",
         "UnPivotId": null
       },
       {
-        "Id": 4753,
+        "Id": 4783,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_RECEIPTDATE",
         "AliasColumnName": "L_RECEIPTDATE",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "Date",
         "UnPivotId": null
       },
       {
-        "Id": 4754,
+        "Id": 4784,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_SHIPINSTRUCT",
         "AliasColumnName": "L_SHIPINSTRUCT",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "String",
         "UnPivotId": null
       },
       {
-        "Id": 4755,
+        "Id": 4785,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_SHIPMODE",
         "AliasColumnName": "L_SHIPMODE",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "String",
         "UnPivotId": null
       },
       {
-        "Id": 4756,
+        "Id": 4786,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_COMMENT",
         "AliasColumnName": "L_COMMENT",
-        "PivotId": 1349,
+        "PivotId": 1350,
         "DataType": "String",
         "UnPivotId": null
       },
       {
-        "Id": 4757,
+        "Id": 4787,
         "ScenarioId": null,
         "QueryId": 21126,
-        "ColumnName": "23",
-        "AliasColumnName": "23",
-        "PivotId": 1349,
-        "DataType": "Integer",
+        "ColumnName": "32",
+        "AliasColumnName": "32",
+        "PivotId": 1350,
+        "DataType": "Decimal",
         "UnPivotId": null
       },
       {
-        "Id": 4758,
-        "ScenarioId": null,
-        "QueryId": 21126,
-        "ColumnName": "L_LINENUMERIC",
-        "AliasColumnName": "L_LINENUMERIC",
-        "PivotId": null,
-        "DataType": "Integer",
-        "UnPivotId": 251
-      },
-      {
-        "Id": 4759,
+        "Id": 4788,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_QUANTITY",
         "AliasColumnName": "L_QUANTITY",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4760,
+        "Id": 4789,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_EXTENDEDPRICE",
         "AliasColumnName": "L_EXTENDEDPRICE",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4761,
+        "Id": 4790,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_DISCOUNT",
         "AliasColumnName": "L_DISCOUNT",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4762,
+        "Id": 4791,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_TAX",
         "AliasColumnName": "L_TAX",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4763,
+        "Id": 4792,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_RETURNFLAG",
         "AliasColumnName": "L_RETURNFLAG",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4764,
+        "Id": 4793,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_LINESTATUS",
         "AliasColumnName": "L_LINESTATUS",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4765,
+        "Id": 4794,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_SHIPDATE",
         "AliasColumnName": "L_SHIPDATE",
         "PivotId": null,
         "DataType": "Date",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4766,
+        "Id": 4795,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_COMMITDATE",
         "AliasColumnName": "L_COMMITDATE",
         "PivotId": null,
         "DataType": "Date",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4767,
+        "Id": 4796,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_RECEIPTDATE",
         "AliasColumnName": "L_RECEIPTDATE",
         "PivotId": null,
         "DataType": "Date",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4768,
+        "Id": 4797,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_SHIPINSTRUCT",
         "AliasColumnName": "L_SHIPINSTRUCT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4769,
+        "Id": 4798,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_SHIPMODE",
         "AliasColumnName": "L_SHIPMODE",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4770,
+        "Id": 4799,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_COMMENT",
         "AliasColumnName": "L_COMMENT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 251
+        "UnPivotId": 252
       },
       {
-        "Id": 4771,
+        "Id": 4800,
         "ScenarioId": null,
         "QueryId": 21126,
-        "ColumnName": "23",
-        "AliasColumnName": "23",
+        "ColumnName": "32",
+        "AliasColumnName": "32",
         "PivotId": null,
-        "DataType": "Integer",
-        "UnPivotId": 251
+        "DataType": "Decimal",
+        "UnPivotId": 252
       },
       {
-        "Id": 4772,
-        "ScenarioId": null,
-        "QueryId": 21126,
-        "ColumnName": "L_SUPPKEY",
-        "AliasColumnName": "L_SUPPKEY",
-        "PivotId": null,
-        "DataType": "String",
-        "UnPivotId": 251
-      },
-      {
-        "Id": 4773,
+        "Id": 4801,
         "ScenarioId": null,
         "QueryId": 21126,
         "ColumnName": "L_QUANTITY",
         "AliasColumnName": "L_QUANTITY",
         "PivotId": null,
+        "DataType": "String",
+        "UnPivotId": 252
+      },
+      {
+        "Id": 4802,
+        "ScenarioId": null,
+        "QueryId": 21126,
+        "ColumnName": "L_DISCOUNT",
+        "AliasColumnName": "L_DISCOUNT",
+        "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 251
+        "UnPivotId": 252
       }
     ],
     "FileOffload": []
