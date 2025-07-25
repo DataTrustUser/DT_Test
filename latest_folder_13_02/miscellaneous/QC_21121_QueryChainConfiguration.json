@@ -49,7 +49,7 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-25T08:14:00.84",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-25T08:19:17.183",
+        "ModifiedOn": "2025-07-25T08:20:31.433",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": false,
         "SAPType": null,
@@ -67,15 +67,15 @@
         "SQL_Text": null,
         "TableVizName": null,
         "ExtraColumn": null,
-        "DefaultfParallelism": null,
-        "DefaultPacketSize": null,
+        "DefaultfParallelism": 2.0,
+        "DefaultPacketSize": 5000.0,
         "MaxPacketSize": null,
         "MaxParallelism": null,
         "UseLatestSession": false,
         "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
         "OffsetDate": "4",
-        "OrderByValue": null,
+        "OrderByValue": "L_ORDERKEY",
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
         "iteration": false,
@@ -87,7 +87,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 60149,
+        "Id": 60176,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -106,7 +106,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60150,
+        "Id": 60177,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -125,7 +125,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60151,
+        "Id": 60178,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -144,7 +144,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60152,
+        "Id": 60179,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -163,7 +163,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60153,
+        "Id": 60180,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -182,7 +182,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60154,
+        "Id": 60181,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -201,7 +201,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60155,
+        "Id": 60182,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -220,7 +220,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60156,
+        "Id": 60183,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -239,7 +239,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60157,
+        "Id": 60184,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -258,7 +258,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60158,
+        "Id": 60185,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -277,7 +277,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60159,
+        "Id": 60186,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -296,7 +296,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60160,
+        "Id": 60187,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -315,7 +315,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60161,
+        "Id": 60188,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -334,7 +334,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60162,
+        "Id": 60189,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -353,7 +353,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60163,
+        "Id": 60190,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
@@ -372,7 +372,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60164,
+        "Id": 60191,
         "QueryDataSourceId": 17639,
         "DBlendId": null,
         "ProfileId": null,
