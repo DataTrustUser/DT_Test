@@ -49,7 +49,7 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-25T11:01:23.653",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-25T11:02:43.053",
+        "ModifiedOn": "2025-07-25T11:03:45.07",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": false,
         "SAPType": null,
@@ -85,7 +85,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 60393,
+        "Id": 60408,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -104,7 +104,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60394,
+        "Id": 60409,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -123,7 +123,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60395,
+        "Id": 60410,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -142,7 +142,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60396,
+        "Id": 60411,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -161,7 +161,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60397,
+        "Id": 60412,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -180,7 +180,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60398,
+        "Id": 60413,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -199,7 +199,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60399,
+        "Id": 60414,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -218,7 +218,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60400,
+        "Id": 60415,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -237,7 +237,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60401,
+        "Id": 60416,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -256,7 +256,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60402,
+        "Id": 60417,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -275,7 +275,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60403,
+        "Id": 60418,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -294,7 +294,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60404,
+        "Id": 60419,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -313,7 +313,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60405,
+        "Id": 60420,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -332,7 +332,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60406,
+        "Id": 60421,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
@@ -351,7 +351,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 60407,
+        "Id": 60422,
         "QueryDataSourceId": 17665,
         "DBlendId": null,
         "ProfileId": null,
