@@ -295,8 +295,8 @@
         "IsFTP": false,
         "CreatedOn": "2025-07-28T07:10:14.407",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-28T12:34:24.817",
+        "ModifiedBy": "1164",
         "Status": null,
         "BlendStepId": 0,
         "MaxScanRows": 0,
@@ -378,8 +378,7 @@
         "Delimiter": ",",
         "TextQualifier": "\"",
         "OverrideFile": true,
-        "Header": false,
-        "ManipulatedFileName": ""
+        "Header": false
       }
     ]
   }
