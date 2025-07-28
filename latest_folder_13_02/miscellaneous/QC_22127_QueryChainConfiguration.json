@@ -1101,7 +1101,10 @@
         "EmailPriority": "Low",
         "EmailFromName": "Afrozetest",
         "EmailSubject": "Afroze",
-        "EnableHyperlinks": true
+        "EnableHyperlinks": true,
+        "SendExtrenalLink": null,
+        "AttachResultSummary": null,
+        "PdfAttachment": true
       }
     ],
     "DataProfilings": [
