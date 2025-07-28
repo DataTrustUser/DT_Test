@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-28T17:05:56.287",
         "CreatedBy": "Afroze",
-        "ModifiedOn": "2025-07-28T17:06:39.31",
+        "ModifiedOn": "2025-07-28T17:07:34.553",
         "ModifiedBy": "Afroze",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -31,7 +31,7 @@
         "UserName": "Afroze",
         "FId": 1213,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}",
-        "commitMessage": null
+        "commitMessage": "v1 by Afroze"
       }
     ],
     "QcDataSource": [
@@ -349,9 +349,9 @@
         "DelayedTargetCompare": null,
         "AttachResultsInEmail": true,
         "ExportType": null,
-        "RaiseDefect": null,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "RaiseDefect": false,
+        "ModifiedOn": "2025-07-28T17:07:34.537",
+        "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": null,
         "DependantStepId": 0,
         "Scenario_Header_Id": null,
@@ -363,8 +363,8 @@
         "CreatedOn": "2025-07-28T17:07:10.12",
         "EmailTemplateId": 39,
         "EmailPriority": "Low",
-        "EmailFromName": "Afrozetest",
-        "EmailSubject": "Afroze",
+        "EmailFromName": "Afrozete",
+        "EmailSubject": "Afr",
         "EnableHyperlinks": true,
         "SendExtrenalLink": null,
         "AttachResultSummary": null,
