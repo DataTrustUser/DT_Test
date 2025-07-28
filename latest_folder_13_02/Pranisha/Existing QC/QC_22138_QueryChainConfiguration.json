@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC inside QC",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC inside QC\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Pranisha 7/28/2025 11:08:20 AM\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 272.412px; top: 211.638px; \",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 460.8px; top: 191.638px;\",\"mapping\":\"79,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC inside QC\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Pranisha 7/28/2025 11:08:20 AM\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 272.412px; top: 211.638px;  \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"78,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 460.8px; top: 191.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[78,1]\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Pranisha",
         "FId": 126681,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 18669,
+        "Id": 18671,
         "Query_Id": 22138,
         "Profile_Id": null,
-        "DCStep_Id": 380378,
+        "DCStep_Id": 380384,
         "BlendStepId": null,
         "Query_Id_Id": 22114,
         "ResultTableName": null,
@@ -47,9 +47,9 @@
         "ObjectCode": null,
         "SessionId": 0,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-07-28T11:16:08.793",
+        "CreatedOn": "2025-07-28T11:21:03.043",
         "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": "2025-07-28T11:17:38.367",
+        "ModifiedOn": "2025-07-28T11:23:14.457",
         "ModifiedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
         "Status": false,
         "SAPType": null,
@@ -85,8 +85,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 61298,
-        "QueryDataSourceId": 18669,
+        "Id": 61328,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -104,8 +104,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61299,
-        "QueryDataSourceId": 18669,
+        "Id": 61329,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -123,8 +123,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61300,
-        "QueryDataSourceId": 18669,
+        "Id": 61330,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -142,8 +142,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61301,
-        "QueryDataSourceId": 18669,
+        "Id": 61331,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -161,8 +161,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61302,
-        "QueryDataSourceId": 18669,
+        "Id": 61332,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -180,8 +180,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61303,
-        "QueryDataSourceId": 18669,
+        "Id": 61333,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -199,8 +199,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61304,
-        "QueryDataSourceId": 18669,
+        "Id": 61334,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -218,8 +218,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61305,
-        "QueryDataSourceId": 18669,
+        "Id": 61335,
+        "QueryDataSourceId": 18671,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -240,7 +240,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 380377,
+        "Id": 380383,
         "ScenarioId": null,
         "QueryId": 22138,
         "Job_Id": null,
@@ -249,7 +249,7 @@
         "TransformationId": 0,
         "Description": "QC inside QC",
         "Position": null,
-        "CreatedOn": "2025-07-28T11:15:40.617",
+        "CreatedOn": "2025-07-28T11:21:03.337",
         "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -275,7 +275,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 380378,
+        "Id": 380384,
         "ScenarioId": null,
         "QueryId": 22138,
         "Job_Id": null,
@@ -284,7 +284,7 @@
         "TransformationId": 78,
         "Description": "Read data from \"Pranisha 7/28/2025 11:08:20 AM\" for data source \" \"",
         "Position": "position: absolute; left: 272.412px; top: 211.638px;",
-        "CreatedOn": "2025-07-28T11:16:08.5",
+        "CreatedOn": "2025-07-28T11:21:03.637",
         "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -310,7 +310,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 380379,
+        "Id": 380385,
         "ScenarioId": null,
         "QueryId": 22138,
         "Job_Id": null,
@@ -319,7 +319,7 @@
         "TransformationId": 79,
         "Description": "Pranisha#@7/28/2025 11:16:33 AM",
         "Position": null,
-        "CreatedOn": "2025-07-28T11:16:37.123",
+        "CreatedOn": "2025-07-28T11:21:03.927",
         "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -337,7 +337,7 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_22138_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null,
-        "AppendToExistingData": false,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -368,8 +368,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-28T06:58:22.953",
         "CreatedBy": "1164",
-        "ModifiedOn": "2025-07-28T06:59:57.803",
-        "ModifiedBy": "1164",
+        "ModifiedOn": "2025-07-28T11:22:23.77",
+        "ModifiedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -379,7 +379,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Saikiran 7/28/2025 6:58:12 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 7/28/2025 6:58:12 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsFileParquet_dropped.1\",\"UniqueId\":\"160\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\_2025_07_28_06_58_33_customer_1_2.parquet\\\"\",\"position\":\"position: absolute; left: 319.643px; top: 191.384px;\",\"mapping\":\"160,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 555.94px; top: 190.384px;\",\"mapping\":\"79,2-[160,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 7/28/2025 6:58:12 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsFileParquet_dropped.1\",\"UniqueId\":\"160\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\_2025_07_28_06_58_33_customer_1_2.parquet\\\"\",\"position\":\"position: absolute; left: 319.643px; top: 191.384px;\",\"mapping\":\"160,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 709.938px; top: 187.375px;\",\"mapping\":\"79,2-[66,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcSimpleFilters_dropped.3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"C_CUSTKEY > 30050 \",\"position\":\"position: absolute; left: 527.8px; top: 191.638px;\",\"mapping\":\"66,3-[160,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "FId": 1213,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}"
@@ -393,7 +393,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 274467,
+        "Id": 274469,
         "ScenarioId": null,
         "QueryId": 22138,
         "StepId": 1,
