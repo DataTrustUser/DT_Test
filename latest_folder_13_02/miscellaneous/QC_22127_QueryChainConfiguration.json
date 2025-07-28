@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-28T09:28:33.023",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-28T10:16:36.913",
+        "ModifiedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -275,7 +275,7 @@
         "Position": "position: absolute; left: 704.667px; top: 233.635px;",
         "CreatedOn": "2025-07-28T09:29:57.29",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-28T10:16:37.523",
+        "ModifiedOn": "2025-07-28T10:17:11.013",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": true,
         "ErrorCodes": null,
@@ -1035,7 +1035,7 @@
     "EmailAlerts": [],
     "DataProfilings": [
       {
-        "Id": 21874,
+        "Id": 21890,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1048,7 +1048,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1058,7 +1058,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21875,
+        "Id": 21891,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1067,11 +1067,11 @@
         "ScenarioDataSourceId": null,
         "ColumnName": "L_PARTKEY",
         "AliasColumnName": "L_PARTKEY",
-        "SystemDefinedDataType": "Integer",
+        "SystemDefinedDataType": "String",
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1081,7 +1081,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21876,
+        "Id": 21892,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1094,7 +1094,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1104,7 +1104,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21877,
+        "Id": 21893,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1117,7 +1117,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1127,7 +1127,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21878,
+        "Id": 21894,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1140,7 +1140,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1150,7 +1150,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21879,
+        "Id": 21895,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1163,7 +1163,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1173,7 +1173,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21880,
+        "Id": 21896,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1186,7 +1186,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1196,7 +1196,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21881,
+        "Id": 21897,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1209,7 +1209,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1219,7 +1219,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21882,
+        "Id": 21898,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1232,7 +1232,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1242,7 +1242,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21883,
+        "Id": 21899,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1255,7 +1255,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1265,7 +1265,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21884,
+        "Id": 21900,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1278,7 +1278,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1288,7 +1288,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21885,
+        "Id": 21901,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1301,7 +1301,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1311,7 +1311,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21886,
+        "Id": 21902,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1324,7 +1324,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1334,7 +1334,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21887,
+        "Id": 21903,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1347,7 +1347,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1357,7 +1357,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21888,
+        "Id": 21904,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1370,7 +1370,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -1380,7 +1380,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 21889,
+        "Id": 21905,
         "ScenarioId": null,
         "QueryId": 22127,
         "CSV_Id": 0,
@@ -1393,7 +1393,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "CreatedOn": "2025-07-28T10:16:36.913",
+        "CreatedOn": "2025-07-28T10:17:10.437",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
