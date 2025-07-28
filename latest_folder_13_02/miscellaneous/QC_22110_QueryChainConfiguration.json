@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-28T12:07:21.233",
         "CreatedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
-        "ModifiedOn": "2025-07-28T12:11:40.267",
+        "ModifiedOn": "2025-07-28T12:15:46.663",
         "ModifiedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -635,7 +635,7 @@
         "AttachResultsInEmail": false,
         "ExportType": null,
         "RaiseDefect": false,
-        "ModifiedOn": "2025-07-28T12:11:39.693",
+        "ModifiedOn": "2025-07-28T12:15:46.077",
         "ModifiedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
         "Status": null,
         "DependantStepId": 0,
@@ -646,7 +646,7 @@
         "EmailWhen_S": "srinidhi.burra@getrightdata.com",
         "CreatedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
         "CreatedOn": "2025-07-28T12:09:28.523",
-        "EmailTemplateId": null
+        "EmailTemplateId": 39
       }
     ],
     "DataProfilings": [
