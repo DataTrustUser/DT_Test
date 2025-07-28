@@ -378,7 +378,8 @@
         "Delimiter": ",",
         "TextQualifier": "\"",
         "OverrideFile": true,
-        "Header": true
+        "Header": true,
+        "ManipulatedFileName": ""
       }
     ]
   }
