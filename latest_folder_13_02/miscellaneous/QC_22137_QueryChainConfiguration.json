@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Pranisha 7/28/2025 11:08:20 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/28/2025 11:08:20 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"QC supplier for val\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 285.412px; top: 196.638px; \",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 492.8px; top: 184.638px;\",\"mapping\":\"79,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 7/28/2025 11:08:20 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"QC supplier for val\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 285.412px; top: 196.638px;  \",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 492.8px; top: 184.638px;\",\"mapping\":\"79,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Pranisha",
         "FId": 1213,
@@ -49,7 +49,7 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-28T11:08:40.94",
         "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": "2025-07-28T11:09:57.777",
+        "ModifiedOn": "2025-07-28T11:12:01.82",
         "ModifiedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
         "Status": false,
         "SAPType": null,
@@ -87,7 +87,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 61280,
+        "Id": 61283,
         "QueryDataSourceId": 18666,
         "DBlendId": null,
         "ProfileId": null,
@@ -106,7 +106,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61281,
+        "Id": 61284,
         "QueryDataSourceId": 18666,
         "DBlendId": null,
         "ProfileId": null,
@@ -125,7 +125,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61282,
+        "Id": 61285,
         "QueryDataSourceId": 18666,
         "DBlendId": null,
         "ProfileId": null,
@@ -275,7 +275,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-28T06:53:17.923",
         "CreatedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
-        "ModifiedOn": "2025-07-28T11:09:39.767",
+        "ModifiedOn": "2025-07-28T11:11:09.973",
         "ModifiedBy": "aebe05f3-e7a8-47ff-8847-2f3179a61d06",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -286,7 +286,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC supplier for val",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC supplier for val\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Vis query MSSQL_J\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 271.8px; top: 191.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,1-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 680.8px; top: 191.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[66,3]\",\"dsstep\":\"3\"},{\"widgetId\":\"dcSimpleFilters_dropped.3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"S_SUPPKEY > 100 \",\"position\":\"pointer-events: all; position: absolute; left: 481.8px; top: 187.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,3-[3,1]\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC supplier for val\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Vis query MSSQL_J\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 271.8px; top: 191.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,1-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 680.8px; top: 191.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[66,3]\",\"dsstep\":\"3\"},{\"widgetId\":\"dcSimpleFilters_dropped.3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"S_SUPPKEY > 50 \",\"position\":\"pointer-events: all; position: absolute; left: 481.8px; top: 187.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,3-[3,1]\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "FId": 124678,
         "DataRetentionJson": null
