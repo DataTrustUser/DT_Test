@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-28T16:29:08.59",
         "CreatedBy": "Afroze",
-        "ModifiedOn": "2025-07-28T22:54:48.33",
+        "ModifiedOn": "2025-07-28T23:07:20.993",
         "ModifiedBy": "Afroze",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,12 +26,44 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Afroze 7/28/2025 4:28:19 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/28/2025 4:28:19 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"78\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Afroze 7/24/2025 3:57:00 PM\\\" for data source \\\"Oracle_J\\\"\",\"position\":\"position: absolute; left: 275.01px; top: 145.635px;  \",\"mapping\":\"78,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.5\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 444.667px; top: 121.635px;\",\"mapping\":\"79,5-[78,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/28/2025 4:28:19 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"78\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Afroze 7/24/2025 3:57:00 PM\\\"for data source \\\"Oracle_J\\\"\",\"position\":\"position: absolute; left: 275.01px; top: 145.635px; pointer-events: auto;\",\"mapping\":\"78,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.5\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 444.667px; top: 121.635px;\",\"mapping\":\"79,5-[78,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Afroze",
         "FId": 1213,
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}",
         "commitMessage": "ve by Afroze"
+      },
+      {
+        "Id": 22146,
+        "Profile_Id": null,
+        "Query_Name": "Afroze 7/28/2025 4:28:19 PM",
+        "Query_Type": null,
+        "Query_Text": null,
+        "Query_Modified_Text": null,
+        "Queryfor_Edit": null,
+        "Parallel_Processor_Count": null,
+        "Split_By_Column": null,
+        "IsforVariableBuilder": null,
+        "IsUsedInVariableBuilder": null,
+        "CreatedOn": "2025-07-28T16:29:08.59",
+        "CreatedBy": "Afroze",
+        "ModifiedOn": "2025-07-28T23:07:20.993",
+        "ModifiedBy": "Afroze",
+        "Status": true,
+        "IsHeavyWeightEngine": null,
+        "IsMigrated": null,
+        "MigratedOn": null,
+        "IsDeleted": null,
+        "DegreeOfParallelism": null,
+        "AzurePreViewPath": null,
+        "PacketSize": null,
+        "QueryDescription": "Afroze 7/28/2025 4:28:19 PM",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 7/28/2025 4:28:19 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"78\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Afroze 7/24/2025 3:57:00 PM\\\"for data source \\\"Oracle_J\\\"\",\"position\":\"position: absolute; left: 275.01px; top: 145.635px; pointer-events: auto;\",\"mapping\":\"78,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.5\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 444.667px; top: 121.635px;\",\"mapping\":\"79,5-[78,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
+        "TypeofQuery": "QueryChain",
+        "UserName": "Afroze",
+        "FId": 1213,
+        "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"2\",\"runs\":null}",
+        "commitMessage": "gtf by Afroze"
       }
     ],
     "QcDataSource": [
@@ -47,10 +79,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 0,
-        "SnapshotOffset": -7,
+        "SnapshotOffset": null,
         "CreatedOn": "2025-07-28T22:41:25.293",
         "CreatedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
-        "ModifiedOn": "2025-07-28T22:52:36.027",
+        "ModifiedOn": "2025-07-28T23:07:20.15",
         "ModifiedBy": "40c2e706-8c47-4840-a80e-3afb897ee895",
         "Status": false,
         "SAPType": null,
@@ -75,7 +107,7 @@
         "UseLatestSession": false,
         "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
-        "OffsetDate": null,
+        "OffsetDate": "-4",
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
@@ -88,7 +120,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 61610,
+        "Id": 61626,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -107,7 +139,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61611,
+        "Id": 61627,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -126,7 +158,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61612,
+        "Id": 61628,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -145,7 +177,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61613,
+        "Id": 61629,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -164,7 +196,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61614,
+        "Id": 61630,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -183,7 +215,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61615,
+        "Id": 61631,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -202,7 +234,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61616,
+        "Id": 61632,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -221,7 +253,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61617,
+        "Id": 61633,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -240,7 +272,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61618,
+        "Id": 61634,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -259,7 +291,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61619,
+        "Id": 61635,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -278,7 +310,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61620,
+        "Id": 61636,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -297,7 +329,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61621,
+        "Id": 61637,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -316,7 +348,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61622,
+        "Id": 61638,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -335,7 +367,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61623,
+        "Id": 61639,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -354,7 +386,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61624,
+        "Id": 61640,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
@@ -373,7 +405,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 61625,
+        "Id": 61641,
         "QueryDataSourceId": 18702,
         "DBlendId": null,
         "ProfileId": null,
