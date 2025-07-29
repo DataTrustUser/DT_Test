@@ -281,11 +281,11 @@
         "Step": 4,
         "StepMapping": "88,4-[79,2]",
         "TransformationId": 88,
-        "Description": "Offload the File",
+        "Description": "Write  data To File",
         "Position": "position: absolute; left: 605.762px; top: 218.452px;",
         "CreatedOn": "2025-07-29T04:46:44.69",
         "CreatedBy": "1164",
-        "ModifiedOn": "2025-07-29T04:47:20.58",
+        "ModifiedOn": "2025-07-29T10:39:09.717",
         "ModifiedBy": "1164",
         "Status": true,
         "ErrorCodes": null,
@@ -463,7 +463,7 @@
         "Row_Count": null,
         "Delimiter": ",",
         "TextQualifier": "\"",
-        "OverrideFile": true,
+        "OverrideFile": false,
         "Header": true,
         "ManipulatedFileName": ""
       }
