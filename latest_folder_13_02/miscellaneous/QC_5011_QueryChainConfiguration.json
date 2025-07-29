@@ -1,38 +1,6 @@
 [
   {
-    "QueryData": [
-      {
-        "Id": 5011,
-        "Profile_Id": 1184,
-        "Query_Name": "Swami 7/29/2025 12:04:48 PM",
-        "Query_Type": null,
-        "Query_Text": null,
-        "Query_Modified_Text": null,
-        "Queryfor_Edit": null,
-        "Parallel_Processor_Count": null,
-        "Split_By_Column": null,
-        "IsforVariableBuilder": null,
-        "IsUsedInVariableBuilder": null,
-        "CreatedOn": "2025-07-29T12:04:56.67",
-        "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-29T12:06:08.497",
-        "ModifiedBy": "Swami",
-        "Status": true,
-        "IsHeavyWeightEngine": null,
-        "IsMigrated": null,
-        "MigratedOn": null,
-        "IsDeleted": null,
-        "DegreeOfParallelism": null,
-        "AzurePreViewPath": null,
-        "PacketSize": null,
-        "QueryDescription": "Swami 7/29/2025 12:04:48 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 7/29/2025 12:04:48 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Temp.dbo.Pivot_Dedup\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 282.979px; top: 204.059px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcPivot_dropped.2\",\"UniqueId\":\"82\",\"stepId\":\"2\",\"description\":\"pivot Data\",\"position\":\"position: absolute; left: 477.062px; top: 201.059px;\",\"mapping\":\"82,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 670.104px; top: 197.059px;\",\"mapping\":\"79,3-[82,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
-        "TypeofQuery": "QueryChain",
-        "UserName": "Swami",
-        "FId": 1,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
-      }
-    ],
+    "QueryData": [],
     "QcDataSource": [
       {
         "Id": 4460,
@@ -247,8 +215,8 @@
         "Position": "position: absolute; left: 477.062px; top: 201.059px;",
         "CreatedOn": "2025-07-29T12:06:00.733",
         "CreatedBy": "Swami",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-29T12:06:21.947",
+        "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -349,14 +317,14 @@
     "DuDeplications": [],
     "PivotDetails": [
       {
-        "Id": 1076,
+        "Id": 1077,
         "ScenarioId": null,
         "QueryId": 5011,
         "DataSourceId": 4460,
         "PivotColumn": "Department_ID",
         "AggregationColumn": "Salary",
         "AggregationType": "COUNT",
-        "GroupByColumns": "Employee_Name",
+        "GroupByColumns": "Employee_ID",
         "PivotColumnValues": "10,20,30",
         "DCStepId": 35166,
         "CSV_Id": 0
@@ -365,42 +333,42 @@
     "UnPivotDetails": [],
     "PivotFieldType": [
       {
-        "Id": 1936,
+        "Id": 1940,
         "ScenarioId": null,
         "QueryId": 5011,
-        "ColumnName": "Employee_Name",
-        "AliasColumnName": "Employee_Name",
-        "PivotId": 1076,
-        "DataType": "String",
+        "ColumnName": "Employee_ID",
+        "AliasColumnName": "Employee_ID",
+        "PivotId": 1077,
+        "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 1937,
+        "Id": 1941,
         "ScenarioId": null,
         "QueryId": 5011,
         "ColumnName": "10",
         "AliasColumnName": "10",
-        "PivotId": 1076,
+        "PivotId": 1077,
         "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 1938,
+        "Id": 1942,
         "ScenarioId": null,
         "QueryId": 5011,
         "ColumnName": "20",
         "AliasColumnName": "20",
-        "PivotId": 1076,
+        "PivotId": 1077,
         "DataType": "Integer",
         "UnPivotId": null
       },
       {
-        "Id": 1939,
+        "Id": 1943,
         "ScenarioId": null,
         "QueryId": 5011,
         "ColumnName": "30",
         "AliasColumnName": "30",
-        "PivotId": 1076,
+        "PivotId": 1077,
         "DataType": "Integer",
         "UnPivotId": null
       }
