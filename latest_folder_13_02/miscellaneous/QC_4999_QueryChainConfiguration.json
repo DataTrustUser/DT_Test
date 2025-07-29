@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-29T09:54:04.887",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-29T10:40:32.413",
+        "ModifiedOn": "2025-07-29T10:41:18.673",
         "ModifiedBy": "Swami",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -598,7 +598,7 @@
         "Position": "pointer-events: auto; position: absolute; left: 494.031px; top: 197.052px;",
         "CreatedOn": "2025-07-29T10:38:01.293",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-29T10:40:32.46",
+        "ModifiedOn": "2025-07-29T10:41:18.713",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -670,17 +670,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1213\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"customsqlpool.dbo.Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"PARTKEY\",\"included\":true,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"NAME\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"widStyle\":\"left: 10px; min-width: 315px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":\"1213\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":false,\"key\":true},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"included\":true,\"key\":false},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"widStyle\":\"left: 370px; min-width: 315px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"number|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"NAME\",\"alias\":\"P_NAME\",\"dataType\":\"string|01\",\"oName\":\"P_NAME\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"number|11\",\"oName\":\"P_SIZE\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"string|11\",\"oName\":\"P_CONTAINER\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1213\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"customsqlpool.dbo.Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"PARTKEY\",\"included\":true,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"NAME\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"widStyle\":\"left: 10px; min-width: 315px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":\"1213\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":false,\"key\":true},{\"name\":\"P_SIZE\",\"alias\":\"SIZE\",\"included\":true,\"key\":false},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"widStyle\":\"left: 370px; min-width: 315px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"number|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"NAME\",\"alias\":\"P_NAME\",\"dataType\":\"string|01\",\"oName\":\"P_NAME\"},{\"name\":\"SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"number|11\",\"oName\":\"P_SIZE\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"string|11\",\"oName\":\"P_CONTAINER\"}]}",
         "CreatedOn": "2025-07-29T10:38:01.21",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-29T10:40:32.417",
+        "ModifiedOn": "2025-07-29T10:41:18.677",
         "ModifiedBy": "Swami",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6389,
+        "Id": 6397,
         "DBlendId": 1291,
         "TableName": null,
         "ColumnName": "P_PARTKEY",
@@ -688,7 +688,7 @@
         "Status": true
       },
       {
-        "Id": 6390,
+        "Id": 6398,
         "DBlendId": 1291,
         "TableName": null,
         "ColumnName": "P_NAME",
@@ -696,7 +696,7 @@
         "Status": true
       },
       {
-        "Id": 6391,
+        "Id": 6399,
         "DBlendId": 1291,
         "TableName": null,
         "ColumnName": "P_SIZE",
@@ -704,7 +704,7 @@
         "Status": true
       },
       {
-        "Id": 6392,
+        "Id": 6400,
         "DBlendId": 1291,
         "TableName": null,
         "ColumnName": "P_CONTAINER",
