@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-29T15:47:45.637",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-29T16:59:26.243",
+        "ModifiedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -49,7 +49,7 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-29T16:51:20.903",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-29T16:57:37.383",
+        "ModifiedOn": "2025-07-29T17:08:19.147",
         "ModifiedBy": "Sarada",
         "Status": false,
         "SAPType": null,
@@ -77,7 +77,7 @@
         "OffsetDate": null,
         "OrderByValue": "c_mktsegment",
         "TableLevelAggrFunction": "[{\"ColumnName\":\"c_custkey\",\"AliasColumnName\":\"c_custkey\",\"DataType\":\"int4\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"c_name\",\"AliasColumnName\":\"c_name\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"c_address\",\"AliasColumnName\":\"c_address\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"c_nationkey\",\"AliasColumnName\":\"c_nationkey\",\"DataType\":\"int4\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"c_phone\",\"AliasColumnName\":\"c_phone\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"c_acctbal\",\"AliasColumnName\":\"c_acctbal\",\"DataType\":\"numeric\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"c_mktsegment\",\"AliasColumnName\":\"c_mktsegment\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"c_comment\",\"AliasColumnName\":\"c_comment\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null}]",
-        "TableLevelFilterJson": "{\"GlobalSQL\":\"c_nationkey != 15\",\"fltrMode\":\"selection\",\"fltrStr\":\"COLUMN~c_nationkey|OPERATOR~Not equals to|INPUT~15|\",\"tblName\":\"tpch1.customer\"}",
+        "TableLevelFilterJson": "{\"GlobalSQL\":\"c_mktsegment = 'HOUSEHOLD'\",\"fltrMode\":\"selection\",\"fltrStr\":\"COLUMN~c_mktsegment|OPERATOR~Equals to|INPUT~HOUSEHOLD|\",\"tblName\":\"tpch1.customer\"}",
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
@@ -87,7 +87,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 15324,
+        "Id": 15332,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -106,7 +106,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15325,
+        "Id": 15333,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -125,7 +125,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15326,
+        "Id": 15334,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -144,7 +144,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15327,
+        "Id": 15335,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -163,7 +163,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15328,
+        "Id": 15336,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -182,7 +182,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15329,
+        "Id": 15337,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -201,7 +201,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15330,
+        "Id": 15338,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -220,7 +220,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15331,
+        "Id": 15339,
         "QueryDataSourceId": 4471,
         "DBlendId": null,
         "ProfileId": 122,
@@ -323,7 +323,7 @@
         "Position": null,
         "CreatedOn": "2025-07-29T16:51:21.013",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-29T16:59:26.24",
+        "ModifiedOn": "2025-07-29T17:08:23.21",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -358,7 +358,7 @@
         "Position": "position: absolute; left: 545.667px; top: 203.635px;",
         "CreatedOn": "2025-07-29T16:51:21.07",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-29T16:57:46.92",
+        "ModifiedOn": "2025-07-29T17:08:26.663",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -419,7 +419,7 @@
     "EmailAlerts": [],
     "DataProfilings": [
       {
-        "Id": 6810,
+        "Id": 6818,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -432,7 +432,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -442,7 +442,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 6811,
+        "Id": 6819,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -455,7 +455,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -465,7 +465,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 6812,
+        "Id": 6820,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -478,7 +478,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -488,7 +488,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 6813,
+        "Id": 6821,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -501,7 +501,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -511,7 +511,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 6814,
+        "Id": 6822,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -524,7 +524,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -534,7 +534,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 6815,
+        "Id": 6823,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -547,7 +547,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -557,7 +557,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 6816,
+        "Id": 6824,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -570,7 +570,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -580,7 +580,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 6817,
+        "Id": 6825,
         "ScenarioId": null,
         "QueryId": 5018,
         "CSV_Id": 0,
@@ -593,7 +593,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-29T16:57:46.873",
+        "CreatedOn": "2025-07-29T17:08:26.62",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
