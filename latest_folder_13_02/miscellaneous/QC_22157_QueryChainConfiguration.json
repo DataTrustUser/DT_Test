@@ -369,16 +369,16 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 380723,
+        "Id": 380724,
         "ScenarioId": null,
         "QueryId": 22157,
         "Job_Id": null,
-        "Step": 4,
-        "StepMapping": "20,4-[79,2]",
+        "Step": 5,
+        "StepMapping": "20,5-[79,2]",
         "TransformationId": 20,
         "Description": "Email",
-        "Position": "position: absolute; left: 770.8px; top: 162.638px;",
-        "CreatedOn": "2025-07-29T06:06:40.097",
+        "Position": "position: absolute; left: 680.8px; top: 219.638px;",
+        "CreatedOn": "2025-07-29T06:17:52.84",
         "CreatedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -446,6 +446,16 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 274722,
+        "ScenarioId": null,
+        "QueryId": 22157,
+        "StepId": 5,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
     "EmailAlerts": [
@@ -467,7 +477,7 @@
         "WhenSuccess": true,
         "EmailWhen_S": "srinidhi.burra@getrightdata.com",
         "CreatedBy": "9183a212-55ec-4e70-bc5d-9a9032b6cdc7",
-        "CreatedOn": "2025-07-29T06:06:39.747",
+        "CreatedOn": "2025-07-29T06:17:52.447",
         "EmailTemplateId": null,
         "EmailPriority": "Normal",
         "EmailFromName": null,
