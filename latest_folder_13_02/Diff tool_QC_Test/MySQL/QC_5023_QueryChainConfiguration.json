@@ -15,9 +15,9 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T04:40:58.803",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T05:46:33.797",
+        "ModifiedOn": "2025-07-30T05:48:24.787",
         "ModifiedBy": "Swami",
-        "Status": true,
+        "Status": false,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
         "MigratedOn": null,
@@ -355,7 +355,7 @@
         "Position": "position: absolute; left: 613.435px; top: 194.437px;",
         "CreatedOn": "2025-07-30T05:44:27.06",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T05:46:21.047",
+        "ModifiedOn": "2025-07-30T05:48:24.89",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -578,47 +578,57 @@
     "PivotDetails": [],
     "UnPivotDetails": [
       {
-        "Id": 53,
+        "Id": 54,
         "ScenarioId": null,
         "QueryId": 5023,
         "DataSourceId": 4512,
         "UnPivotFor": "Year",
         "PivotBy": "score",
-        "UnPivotColumns": "2020,2021,2022,2023,2025",
+        "UnPivotColumns": "2020,2021,2022,2023",
         "DCStepId": 35390,
         "CSV_Id": 0
       }
     ],
     "PivotFieldType": [
       {
-        "Id": 1972,
+        "Id": 1975,
+        "ScenarioId": null,
+        "QueryId": 5023,
+        "ColumnName": "2025",
+        "AliasColumnName": "2025",
+        "PivotId": null,
+        "DataType": "Integer",
+        "UnPivotId": 54
+      },
+      {
+        "Id": 1976,
         "ScenarioId": null,
         "QueryId": 5023,
         "ColumnName": "Country",
         "AliasColumnName": "Country",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 53
+        "UnPivotId": 54
       },
       {
-        "Id": 1973,
+        "Id": 1977,
         "ScenarioId": null,
         "QueryId": 5023,
         "ColumnName": "Year",
         "AliasColumnName": "Year",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 53
+        "UnPivotId": 54
       },
       {
-        "Id": 1974,
+        "Id": 1978,
         "ScenarioId": null,
         "QueryId": 5023,
         "ColumnName": "score",
         "AliasColumnName": "score",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 53
+        "UnPivotId": 54
       }
     ],
     "FileOffload": []
