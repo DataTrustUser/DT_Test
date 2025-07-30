@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T08:57:10.127",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T08:59:26.177",
+        "ModifiedOn": "2025-07-30T08:59:49.153",
         "ModifiedBy": "Swami",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -598,7 +598,7 @@
         "Position": "position: absolute; left: 501.021px; top: 191.049px;",
         "CreatedOn": "2025-07-30T08:59:02.167",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T08:59:15.917",
+        "ModifiedOn": "2025-07-30T08:59:49.207",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -670,17 +670,17 @@
         "Title": "",
         "Description": "Union Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1213\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Float\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"Integer\"},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"String\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"String\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"String\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"String\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"Integer\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"String\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1213\",\"SAPType\":\"\",\"ProfileTypeId\":\"1213\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"1184\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Float\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"Integer\"},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"String\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"String\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"String\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"String\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"Integer\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"String\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
         "CreatedOn": "2025-07-30T08:59:02.14",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T08:59:15.85",
+        "ModifiedOn": "2025-07-30T08:59:49.157",
         "ModifiedBy": "Swami",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6659,
+        "Id": 6668,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_PARTKEY",
@@ -688,7 +688,7 @@
         "Status": true
       },
       {
-        "Id": 6660,
+        "Id": 6669,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_NAME",
@@ -696,7 +696,7 @@
         "Status": true
       },
       {
-        "Id": 6661,
+        "Id": 6670,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_MFGR",
@@ -704,7 +704,7 @@
         "Status": true
       },
       {
-        "Id": 6662,
+        "Id": 6671,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_BRAND",
@@ -712,7 +712,7 @@
         "Status": true
       },
       {
-        "Id": 6663,
+        "Id": 6672,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_TYPE",
@@ -720,7 +720,7 @@
         "Status": true
       },
       {
-        "Id": 6664,
+        "Id": 6673,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_SIZE",
@@ -728,7 +728,7 @@
         "Status": true
       },
       {
-        "Id": 6665,
+        "Id": 6674,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_CONTAINER",
@@ -736,7 +736,7 @@
         "Status": true
       },
       {
-        "Id": 6666,
+        "Id": 6675,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_RETAILPRICE",
@@ -744,7 +744,7 @@
         "Status": true
       },
       {
-        "Id": 6667,
+        "Id": 6676,
         "DBlendId": 1314,
         "TableName": null,
         "ColumnName": "P_COMMENT",
