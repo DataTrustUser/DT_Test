@@ -691,7 +691,7 @@
         "ScenarioId": null,
         "JobId": null,
         "QueryId": 4997,
-        "SessionId": null,
+        "SessionId": 1,
         "Row_Count": null,
         "Delimiter": ",",
         "TextQualifier": "\"",
