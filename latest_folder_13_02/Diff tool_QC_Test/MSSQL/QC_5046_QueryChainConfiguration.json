@@ -25,7 +25,7 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "Dhanusha 7/30/2025 8:24:47 AM",
+        "QueryDescription": "Union",
         "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 7/30/2025 8:24:47 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"MSSQL QRY\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 316px; top: 101.641px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataUnion_dropped.2\",\"UniqueId\":\"81\",\"stepId\":\"2\",\"description\":\"Union Datasets\",\"position\":\"position: absolute; left: 596px; top: 184.641px;\",\"mapping\":\"3,1-78,3\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"undefined_dropped.3\",\"UniqueId\":\"78\",\"stepId\":\"3\",\"description\":\"Read data from \\\"Dhanusha 7/30/2025 7:21:04 AM\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 336.336px; top: 297.641px;\",\"mapping\":\"78,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.4\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 765px; top: 158.641px;\",\"mapping\":\"79,4-[81,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
