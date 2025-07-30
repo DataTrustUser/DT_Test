@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-29T09:43:30.097",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-07-30T03:54:34.857",
+        "ModifiedOn": "2025-07-30T03:56:35.327",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -49,7 +49,7 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-30T03:51:13.983",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-07-30T03:54:27.22",
+        "ModifiedOn": "2025-07-30T03:56:35.32",
         "ModifiedBy": "Dhanusha",
         "Status": false,
         "SAPType": null,
@@ -77,7 +77,7 @@
         "OffsetDate": null,
         "OrderByValue": null,
         "TableLevelAggrFunction": "[{\"ColumnName\":\"C_CUSTKEY\",\"AliasColumnName\":\"C_CUSTKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"C_NAME\",\"AliasColumnName\":\"C_NAME\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_ADDRESS\",\"AliasColumnName\":\"C_ADDRESS\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_NATIONKEY\",\"AliasColumnName\":\"C_NATIONKEY\",\"DataType\":\"int\",\"UserDataType\":\"Integer\",\"Aggregation\":null},{\"ColumnName\":\"C_PHONE\",\"AliasColumnName\":\"C_PHONE\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_ACCTBAL\",\"AliasColumnName\":\"C_ACCTBAL\",\"DataType\":\"decimal\",\"UserDataType\":\"Decimal\",\"Aggregation\":null},{\"ColumnName\":\"C_MKTSEGMENT\",\"AliasColumnName\":\"C_MKTSEGMENT\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null},{\"ColumnName\":\"C_COMMENT\",\"AliasColumnName\":\"C_COMMENT\",\"DataType\":\"varchar\",\"UserDataType\":\"String\",\"Aggregation\":null}]",
-        "TableLevelFilterJson": null,
+        "TableLevelFilterJson": "{\"GlobalSQL\":\"C_CUSTKEY > 5\",\"fltrMode\":\"selection\",\"fltrStr\":\"COLUMN~C_CUSTKEY|OPERATOR~Greater than|INPUT~5|\",\"tblName\":\"TPCH_1.dbo.CUSTOMER\"}",
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
@@ -87,7 +87,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 15419,
+        "Id": 15427,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
@@ -106,7 +106,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15420,
+        "Id": 15428,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
@@ -125,7 +125,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15421,
+        "Id": 15429,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
@@ -144,7 +144,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15422,
+        "Id": 15430,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
@@ -163,7 +163,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15423,
+        "Id": 15431,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
@@ -182,7 +182,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15424,
+        "Id": 15432,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
@@ -201,7 +201,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15425,
+        "Id": 15433,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
@@ -220,7 +220,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15426,
+        "Id": 15434,
         "QueryDataSourceId": 4481,
         "DBlendId": null,
         "ProfileId": 1184,
