@@ -205,8 +205,8 @@
         "Position": "position: absolute; left: 606px; top: 178.641px;",
         "CreatedOn": "2025-07-30T09:50:12.167",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-30T09:50:34.493",
+        "ModifiedBy": "RDAdmin",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -236,7 +236,53 @@
     "DataBlends": [],
     "DataBlendFieldType": [],
     "ScenarioQCFieldTypes": [],
-    "QFTypes": [],
+    "QFTypes": [
+      {
+        "Id": 12702,
+        "Query_Id": 5039,
+        "ColumnName": "C_CUSTKEY",
+        "AliasColumnName": null,
+        "DataType": "int",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-07-30T15:20:32.057",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": false
+      },
+      {
+        "Id": 12703,
+        "Query_Id": 5039,
+        "ColumnName": "C_NATIONKEY",
+        "AliasColumnName": null,
+        "DataType": "int",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-07-30T15:20:32.323",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": false
+      },
+      {
+        "Id": 12704,
+        "Query_Id": 5039,
+        "ColumnName": "C_ADDRESS",
+        "AliasColumnName": null,
+        "DataType": "varchar",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-07-30T15:20:32.577",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": false
+      }
+    ],
     "Query": [
       {
         "Id": 5039,
@@ -252,7 +298,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T07:26:20.96",
         "CreatedBy": "118",
-        "ModifiedOn": "2025-07-30T09:44:04.387",
+        "ModifiedOn": "2025-07-30T15:20:27.11",
         "ModifiedBy": null,
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -314,7 +360,7 @@
         "Row_Count": null,
         "Delimiter": ",",
         "TextQualifier": "\"",
-        "OverrideFile": false,
+        "OverrideFile": true,
         "Header": true,
         "ManipulatedFileName": ""
       }
