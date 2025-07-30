@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T08:25:52.99",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-07-30T08:26:47.563",
+        "ModifiedOn": "2025-07-30T08:27:02.813",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -263,7 +263,7 @@
         "Position": "position: absolute; left: 596px; top: 184.641px;",
         "CreatedOn": "2025-07-30T08:26:33.917",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-07-30T08:26:39.93",
+        "ModifiedOn": "2025-07-30T08:27:02.857",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "ErrorCodes": null,
@@ -335,17 +335,17 @@
         "Title": "",
         "Description": "Union Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5039\",\"sourceTableOrQuery\":\"MSSQL QRY\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_CUSTKEY\",\"dataType\":\"Integer\",\"included\":false},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Integer\",\"included\":false},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5040\",\"sourceTableOrQuery\":\"Dhanusha#@7/30/2025 8:11:37 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY\",\"dataType\":\"Integer\"},{\"name\":\"C_NATIONKEY\",\"alias\":\"C_NATIONKEY\",\"dataType\":\"Integer\"},{\"name\":\"C_ADDRESS\",\"alias\":\"C_ADDRESS\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"1184\",\"queryId\":\"5039\",\"sourceTableOrQuery\":\"MSSQL QRY\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_CUSTKEY\",\"dataType\":\"Integer\",\"included\":false},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Integer\",\"included\":false},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"0\",\"queryId\":\"5040\",\"sourceTableOrQuery\":\"Dhanusha#@7/30/2025 8:11:37 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY\",\"dataType\":\"Integer\"},{\"name\":\"C_NATIONKEY\",\"alias\":\"C_NATIONKEY\",\"dataType\":\"Integer\"},{\"name\":\"C_ADDRESS\",\"alias\":\"C_ADDRESS\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
         "CreatedOn": "2025-07-30T08:26:33.893",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-07-30T08:26:39.877",
+        "ModifiedOn": "2025-07-30T08:27:02.817",
         "ModifiedBy": "Dhanusha",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6594,
+        "Id": 6597,
         "DBlendId": 1305,
         "TableName": null,
         "ColumnName": "C_CUSTKEY",
@@ -353,7 +353,7 @@
         "Status": true
       },
       {
-        "Id": 6595,
+        "Id": 6598,
         "DBlendId": 1305,
         "TableName": null,
         "ColumnName": "C_NATIONKEY",
@@ -361,7 +361,7 @@
         "Status": true
       },
       {
-        "Id": 6596,
+        "Id": 6599,
         "DBlendId": 1305,
         "TableName": null,
         "ColumnName": "C_ADDRESS",
