@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T04:10:57.9",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T04:24:29.267",
+        "ModifiedOn": "2025-07-30T04:53:23.037",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "PostgreSQL_CustomSQLWidget_Snapshot",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"PostgreSQL_CustomSQLWidget_Snapshot\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 235.354px; top: 203.635px;  \",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 388.667px; top: 199.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 546.667px; top: 200.635px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"PostgreSQL_CustomSQLWidget_Snapshot\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"custom query data\",\"position\":\"position: absolute; left: 235.354px; top: 203.635px;   \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 388.667px; top: 199.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 546.667px; top: 200.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,3-[79,2]\",\"dsstep\":null}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2295,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 4482,
+        "Id": 4494,
         "Query_Id": 5022,
         "Profile_Id": 122,
-        "DCStep_Id": 35252,
+        "DCStep_Id": 35301,
         "BlendStepId": null,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -47,10 +47,10 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-07-30T04:11:34.36",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T04:22:22.843",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-30T04:53:22.983",
+        "CreatedBy": "RDAdmin",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": false,
         "SAPType": "SQL",
         "DataSourceType": "DS",
@@ -87,8 +87,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 15473,
-        "QueryDataSourceId": 4482,
+        "Id": 15554,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -106,8 +106,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15474,
-        "QueryDataSourceId": 4482,
+        "Id": 15555,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -125,8 +125,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15475,
-        "QueryDataSourceId": 4482,
+        "Id": 15556,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -144,8 +144,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15476,
-        "QueryDataSourceId": 4482,
+        "Id": 15557,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -163,8 +163,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15477,
-        "QueryDataSourceId": 4482,
+        "Id": 15558,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -182,8 +182,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15478,
-        "QueryDataSourceId": 4482,
+        "Id": 15559,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -201,8 +201,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15479,
-        "QueryDataSourceId": 4482,
+        "Id": 15560,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -220,8 +220,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 15480,
-        "QueryDataSourceId": 4482,
+        "Id": 15561,
+        "QueryDataSourceId": 4494,
         "DBlendId": null,
         "ProfileId": 122,
         "TableName": null,
@@ -242,7 +242,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 35251,
+        "Id": 35300,
         "ScenarioId": null,
         "QueryId": 5022,
         "Job_Id": null,
@@ -251,8 +251,8 @@
         "TransformationId": 0,
         "Description": "Sarada 7/30/2025 4:10:48 AM",
         "Position": null,
-        "CreatedOn": "2025-07-30T04:10:57.93",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-07-30T04:53:23.007",
+        "CreatedBy": "RDAdmin",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -277,17 +277,17 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 35252,
+        "Id": 35301,
         "ScenarioId": null,
         "QueryId": 5022,
         "Job_Id": null,
         "Step": 1,
         "StepMapping": "61,1-[0,0]",
         "TransformationId": 61,
-        "Description": "Read data from customer SQL query of the connection profile  \"PostgreSQL\"",
-        "Position": "position: absolute; left: 232.354px; top: 201.635px;",
-        "CreatedOn": "2025-07-30T04:11:34.323",
-        "CreatedBy": "Sarada",
+        "Description": "custom query data",
+        "Position": null,
+        "CreatedOn": "2025-07-30T04:53:23.03",
+        "CreatedBy": "RDAdmin",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -312,7 +312,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 35253,
+        "Id": 35302,
         "ScenarioId": null,
         "QueryId": 5022,
         "Job_Id": null,
@@ -321,10 +321,10 @@
         "TransformationId": 79,
         "Description": "Snapshot data ",
         "Position": null,
-        "CreatedOn": "2025-07-30T04:11:53.787",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T04:22:28.103",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-30T04:53:23.06",
+        "CreatedBy": "RDAdmin",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -339,7 +339,7 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_5022_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null,
-        "AppendToExistingData": false,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -347,7 +347,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 35264,
+        "Id": 35303,
         "ScenarioId": null,
         "QueryId": 5022,
         "Job_Id": null,
@@ -356,10 +356,10 @@
         "TransformationId": 88,
         "Description": "Offload the File",
         "Position": "position: absolute; left: 546.667px; top: 200.635px;",
-        "CreatedOn": "2025-07-30T04:36:11.747",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T04:52:07.89",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-07-30T04:53:23.107",
+        "CreatedBy": "RDAdmin",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -396,7 +396,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 28252,
+        "Id": 28272,
         "ScenarioId": null,
         "QueryId": 5022,
         "StepId": 1,
@@ -418,23 +418,23 @@
     "PivotFieldType": [],
     "FileOffload": [
       {
-        "Id": 214,
+        "Id": 216,
         "Type": null,
         "IsFileCreated": null,
         "FileName": "QC_5022_Offload data",
         "FilePath": null,
         "FileSize": null,
-        "FileCreatedOn": "2025-07-30T04:36:11.767",
-        "FolderId": 0,
+        "FileCreatedOn": "2025-07-30T04:53:23.11",
+        "FolderId": 1,
         "ScenarioId": null,
         "JobId": null,
         "QueryId": 5022,
-        "SessionId": 2,
+        "SessionId": null,
         "Row_Count": null,
-        "Delimiter": "|",
+        "Delimiter": ",",
         "TextQualifier": "\"",
         "OverrideFile": false,
-        "Header": false,
+        "Header": true,
         "ManipulatedFileName": ""
       }
     ]
