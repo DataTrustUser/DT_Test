@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T10:29:05.533",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-30T11:33:04.277",
+        "ModifiedOn": "2025-07-30T11:35:03.707",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Vinay 7/30/2025 10:28:23 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 7/30/2025 10:28:23 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.is_employees\\\" for data source \\\"Redshift_Test\\\"\",\"position\":\"position: absolute; left: 253.979px; top: 206.059px; \",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 403.104px; top: 208.059px;\",\"mapping\":\"65,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcAggregation_dropped.4\",\"UniqueId\":\"67\",\"stepId\":\"4\",\"description\":\"Aggregate data by employeeid,lastname,firstname,title,titleofcourtesy,birthdate,hiredate,address,city,region,postalcode,country,homephone,extension,photo,notes,reportsto,photopath,CONCAT\",\"position\":\"position: absolute; left: 555.094px; top: 208.059px;\",\"mapping\":\"67,4-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcSimpleFilters_dropped.5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"employeeid > 5 \",\"position\":\"position: absolute; left: 716.083px; top: 210.059px;\",\"mapping\":\"66,5-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.6\",\"UniqueId\":\"79\",\"stepId\":\"6\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 885.104px; top: 213.059px;\",\"mapping\":\"79,6-[66,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 7/30/2025 10:28:23 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.is_employees\\\" for data source \\\"Redshift_Test\\\"\",\"position\":\"position: absolute; left: 253.979px; top: 206.059px; \",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 403.104px; top: 208.059px;\",\"mapping\":\"65,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcAggregation_dropped.4\",\"UniqueId\":\"67\",\"stepId\":\"4\",\"description\":\"Aggregate data by <b>employeeid,lastname,firstname,title,titleofcourtesy,birthdate,hiredate,address,city,region,postalcode,country,homephone,extension,photo,notes,reportsto,photopath,CONCAT</b>\",\"position\":\"position: absolute; left: 555.094px; top: 208.059px;\",\"mapping\":\"67,4-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcSimpleFilters_dropped.5\",\"UniqueId\":\"66\",\"stepId\":\"5\",\"description\":\"employeeid > 5 \",\"position\":\"position: absolute; left: 716.083px; top: 210.059px;\",\"mapping\":\"66,5-[67,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.6\",\"UniqueId\":\"79\",\"stepId\":\"6\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 885.104px; top: 213.059px;\",\"mapping\":\"79,6-[66,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 1,
@@ -513,8 +513,8 @@
         "Position": "position: absolute; left: 403.104px; top: 208.059px;",
         "CreatedOn": "2025-07-30T11:31:01.5",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-30T11:33:54.253",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -544,12 +544,12 @@
         "Step": 4,
         "StepMapping": "67,4-[65,2]",
         "TransformationId": 67,
-        "Description": "Aggregate data from Data Source",
+        "Description": "Aggregate data by <b>employeeid,lastname,firstname,title,titleofcourtesy,birthdate,hiredate,address,city,region,postalcode,country,homephone,extension,photo,notes,reportsto,photopath,CONCAT</b>",
         "Position": "position: absolute; left: 555.094px; top: 208.059px;",
         "CreatedOn": "2025-07-30T11:32:27.24",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-30T11:34:50.667",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -579,12 +579,12 @@
         "Step": 5,
         "StepMapping": "66,5-[67,4]",
         "TransformationId": 66,
-        "Description": "Filter data from Data Source",
+        "Description": "employeeid > 5 ",
         "Position": "position: absolute; left: 716.083px; top: 210.059px;",
         "CreatedOn": "2025-07-30T11:32:52.287",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-30T11:34:57.46",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -618,8 +618,8 @@
         "Position": null,
         "CreatedOn": "2025-07-30T11:33:04.273",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-30T11:35:03.703",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -652,11 +652,11 @@
         "StepId": 5,
         "DataSourceId": 4646,
         "GlobalFilter": "employeeid > 5 ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"employeeid\" selected=\"selected\">employeeid</option><option value=\"lastname\">lastname</option><option value=\"firstname\">firstname</option><option value=\"title\">title</option><option value=\"titleofcourtesy\">titleofcourtesy</option><option value=\"birthdate\">birthdate</option><option value=\"hiredate\">hiredate</option><option value=\"address\">address</option><option value=\"city\">city</option><option value=\"region\">region</option><option value=\"postalcode\">postalcode</option><option value=\"country\">country</option><option value=\"homephone\">homephone</option><option value=\"extension\">extension</option><option value=\"photo\">photo</option><option value=\"notes\">notes</option><option value=\"reportsto\">reportsto</option><option value=\"photopath\">photopath</option><option value=\"CONCAT\">CONCAT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\" selected=\"selected\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"5\" size=\"2\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">5</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
+        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"employeeid\" selected=\"selected\">employeeid</option><option value=\"lastname\">lastname</option><option value=\"firstname\">firstname</option><option value=\"title\">title</option><option value=\"titleofcourtesy\">titleofcourtesy</option><option value=\"birthdate\">birthdate</option><option value=\"hiredate\">hiredate</option><option value=\"address\">address</option><option value=\"city\">city</option><option value=\"region\">region</option><option value=\"postalcode\">postalcode</option><option value=\"country\">country</option><option value=\"homephone\">homephone</option><option value=\"extension\">extension</option><option value=\"photo\">photo</option><option value=\"notes\">notes</option><option value=\"reportsto\">reportsto</option><option value=\"photopath\">photopath</option><option value=\"CONCAT\">CONCAT</option><option value=\"SUM\">SUM</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\" selected=\"selected\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle ui-sortable-handle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"5\" size=\"2\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">5</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": "Vinay",
         "CreatedOn": "2025-07-30T11:32:52.21",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
+        "ModifiedBy": "Vinay",
+        "ModifiedOn": "2025-07-30T11:34:57.37",
         "JSON": null,
         "Description": null,
         "QueryId": 5065
@@ -664,7 +664,7 @@
     ],
     "SimpleAggregations": [
       {
-        "Id": 3051,
+        "Id": 3070,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -672,10 +672,10 @@
         "StepId": 4,
         "DataSourceId": 4646,
         "ColumnName": "employeeid",
-        "AggregationType": "",
+        "AggregationType": "Sum",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -686,7 +686,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3052,
+        "Id": 3071,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -697,7 +697,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -708,7 +708,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3053,
+        "Id": 3072,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -719,7 +719,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -730,7 +730,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3054,
+        "Id": 3073,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -741,7 +741,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -752,7 +752,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3055,
+        "Id": 3074,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -763,7 +763,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -774,7 +774,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3056,
+        "Id": 3075,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -785,7 +785,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -796,7 +796,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3057,
+        "Id": 3076,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -804,10 +804,10 @@
         "StepId": 4,
         "DataSourceId": 4646,
         "ColumnName": "hiredate",
-        "AggregationType": "",
+        "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -818,7 +818,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3058,
+        "Id": 3077,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -829,7 +829,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -840,7 +840,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3059,
+        "Id": 3078,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -851,7 +851,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -862,7 +862,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3060,
+        "Id": 3079,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -873,7 +873,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -884,7 +884,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3061,
+        "Id": 3080,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -895,7 +895,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -906,7 +906,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3062,
+        "Id": 3081,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -917,7 +917,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -928,7 +928,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3063,
+        "Id": 3082,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -936,10 +936,10 @@
         "StepId": 4,
         "DataSourceId": 4646,
         "ColumnName": "homephone",
-        "AggregationType": "",
+        "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -950,7 +950,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3064,
+        "Id": 3083,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -958,10 +958,10 @@
         "StepId": 4,
         "DataSourceId": 4646,
         "ColumnName": "extension",
-        "AggregationType": "",
+        "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -972,7 +972,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3065,
+        "Id": 3084,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -983,7 +983,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -994,7 +994,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3066,
+        "Id": 3085,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -1005,7 +1005,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1016,7 +1016,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3067,
+        "Id": 3086,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -1027,7 +1027,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1038,7 +1038,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3068,
+        "Id": 3087,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -1049,7 +1049,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1060,7 +1060,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 3069,
+        "Id": 3088,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DCStepId": 35829,
@@ -1071,7 +1071,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:32:27.15",
+        "CreatedOn": "2025-07-30T11:34:50.423",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1080,12 +1080,34 @@
         "UserDefinedDataType": "String",
         "SystemDefinedDataType": "String",
         "QueryId": 5065
+      },
+      {
+        "Id": 3089,
+        "ScenarioId": null,
+        "CSV_Id": 0,
+        "DCStepId": 35829,
+        "DCTypeId": null,
+        "StepId": 4,
+        "DataSourceId": 4646,
+        "ColumnName": "SUM",
+        "AggregationType": "",
+        "IsPrimary": false,
+        "CreatedBy": "Vinay",
+        "CreatedOn": "2025-07-30T11:34:50.423",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "JSON": null,
+        "AliasColumnName": "SUM",
+        "Description": null,
+        "UserDefinedDataType": "Integer",
+        "SystemDefinedDataType": "Integer",
+        "QueryId": 5065
       }
     ],
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 11252,
+        "Id": 11271,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1098,7 +1120,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1109,7 +1131,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11253,
+        "Id": 11272,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1122,7 +1144,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1133,7 +1155,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11254,
+        "Id": 11273,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1146,7 +1168,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1157,7 +1179,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11255,
+        "Id": 11274,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1170,7 +1192,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1181,7 +1203,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11256,
+        "Id": 11275,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1194,7 +1216,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1205,7 +1227,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11257,
+        "Id": 11276,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1218,7 +1240,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1229,7 +1251,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11258,
+        "Id": 11277,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1242,7 +1264,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1253,7 +1275,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11259,
+        "Id": 11278,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1266,7 +1288,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1277,7 +1299,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11260,
+        "Id": 11279,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1290,7 +1312,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1301,7 +1323,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11261,
+        "Id": 11280,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1314,7 +1336,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1325,7 +1347,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11262,
+        "Id": 11281,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1338,7 +1360,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1349,7 +1371,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11263,
+        "Id": 11282,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1362,7 +1384,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1373,7 +1395,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11264,
+        "Id": 11283,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1386,7 +1408,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1397,7 +1419,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11265,
+        "Id": 11284,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1410,7 +1432,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1421,7 +1443,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11266,
+        "Id": 11285,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1434,7 +1456,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1445,7 +1467,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11267,
+        "Id": 11286,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1458,7 +1480,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1469,7 +1491,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11268,
+        "Id": 11287,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1482,7 +1504,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1493,7 +1515,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11269,
+        "Id": 11288,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1506,7 +1528,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1517,7 +1539,7 @@
         "QueryId": 5065
       },
       {
-        "Id": 11270,
+        "Id": 11289,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35828,
@@ -1530,13 +1552,37 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-30T11:31:01.423",
+        "CreatedOn": "2025-07-30T11:33:54.073",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
         "Description": null,
         "IsDerived": true,
         "DerivedFormula": " CONCAT(  city ,  country )  ",
+        "HTMLDiv": null,
+        "QueryId": 5065
+      },
+      {
+        "Id": 11290,
+        "ScenarioId": null,
+        "CSV_Id": 0,
+        "DcStepId": 35828,
+        "DCTypeId": null,
+        "StepId": 2,
+        "DataSourceId": 4646,
+        "ColumnName": "SUM",
+        "AliasColumnName": "SUM",
+        "SystemDefinedDataType": null,
+        "UserDefinedDataType": "Integer",
+        "IsPrimary": false,
+        "CreatedBy": "Vinay",
+        "CreatedOn": "2025-07-30T11:33:54.073",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "JSON": null,
+        "Description": null,
+        "IsDerived": true,
+        "DerivedFormula": " SUM(  employeeid )  ",
         "HTMLDiv": null,
         "QueryId": 5065
       }
