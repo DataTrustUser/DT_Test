@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T09:19:39.953",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T09:40:34.557",
+        "ModifiedOn": "2025-07-30T11:01:12.12",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -515,7 +515,7 @@
         "Position": "pointer-events: auto; position: absolute; left: 595.667px; top: 162.635px;",
         "CreatedOn": "2025-07-30T09:36:26.26",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T09:40:22.31",
+        "ModifiedOn": "2025-07-30T11:01:12.22",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -622,17 +622,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"5\",\"profileId\":\"1259\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1m.nation\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"included\":true,\"key\":true},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"2\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"included\":true,\"key\":true},{\"name\":\"s_address\",\"alias\":\"s_address\",\"included\":true,\"key\":false},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":true,\"key\":true},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"7\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"5031\",\"sourceTableOrQuery\":\"PostgreSQL_Supplier Query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey_2\",\"included\":true,\"key\":true},{\"name\":\"s_name\",\"alias\":\"s_name\",\"included\":true,\"key\":false},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"included\":true,\"key\":false},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal_2\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:730px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"n_nationkey\",\"srcColumn\":\"n_nationkey\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"s_suppkey\",\"srcColumn\":\"s_suppkey\",\"endColumnName\":\"s_suppkey\",\"tgtColumn\":\"s_suppkey\"}]}],\"blendFinalColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"dataType\":\"number|01\",\"oName\":\"n_nationkey\"},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"dataType\":\"number|01\",\"oName\":\"n_regionkey\"},{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"dataType\":\"number|11\",\"oName\":\"s_suppkey\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"dataType\":\"number|11\",\"oName\":\"s_acctbal\"},{\"name\":\"s_address\",\"alias\":\"s_address\",\"dataType\":\"string|11\",\"oName\":\"s_address\"},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"dataType\":\"number|11\",\"oName\":\"s_nationkey\"},{\"name\":\"s_suppkey_2\",\"alias\":\"s_suppkey_2\",\"dataType\":\"Integer|21\",\"oName\":\"s_suppkey\"},{\"name\":\"s_name\",\"alias\":\"s_name\",\"dataType\":\"String|21\",\"oName\":\"s_name\"},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"dataType\":\"String|21\",\"oName\":\"s_phone\"},{\"name\":\"s_acctbal_2\",\"alias\":\"s_acctbal_2\",\"dataType\":\"Integer|21\",\"oName\":\"s_acctbal\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"5\",\"profileId\":\"1259\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1m.nation\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"included\":true,\"key\":true},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"2\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"included\":true,\"key\":true},{\"name\":\"s_address\",\"alias\":\"s_address\",\"included\":true,\"key\":false},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":true,\"key\":true},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"7\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"5031\",\"sourceTableOrQuery\":\"PostgreSQL_Supplier Query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey_2\",\"included\":true,\"key\":true},{\"name\":\"s_name\",\"alias\":\"s_name\",\"included\":true,\"key\":false},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"included\":true,\"key\":false},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal_2\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:730px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"n_nationkey\",\"srcColumn\":\"n_nationkey\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"s_suppkey\",\"srcColumn\":\"s_suppkey\",\"endColumnName\":\"s_suppkey\",\"tgtColumn\":\"s_suppkey\"}]}],\"blendFinalColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"dataType\":\"number|01\",\"oName\":\"n_nationkey\"},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"dataType\":\"number|01\",\"oName\":\"n_regionkey\"},{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"dataType\":\"number|11\",\"oName\":\"s_suppkey\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"dataType\":\"number|11\",\"oName\":\"s_acctbal\"},{\"name\":\"s_address\",\"alias\":\"s_address\",\"dataType\":\"string|11\",\"oName\":\"s_address\"},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"dataType\":\"number|11\",\"oName\":\"s_nationkey\"},{\"name\":\"s_suppkey_2\",\"alias\":\"s_suppkey_2\",\"dataType\":\"number|21\",\"oName\":\"s_suppkey\"},{\"name\":\"s_name\",\"alias\":\"s_name\",\"dataType\":\"string|21\",\"oName\":\"s_name\"},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"dataType\":\"string|21\",\"oName\":\"s_phone\"},{\"name\":\"s_acctbal_2\",\"alias\":\"s_acctbal_2\",\"dataType\":\"number|21\",\"oName\":\"s_acctbal\"}]}",
         "CreatedOn": "2025-07-30T09:36:26.233",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T09:40:21.447",
+        "ModifiedOn": "2025-07-30T11:01:12.123",
         "ModifiedBy": "Sarada",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6729,
+        "Id": 6798,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "n_nationkey",
@@ -640,7 +640,7 @@
         "Status": true
       },
       {
-        "Id": 6730,
+        "Id": 6799,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "n_regionkey",
@@ -648,7 +648,7 @@
         "Status": true
       },
       {
-        "Id": 6731,
+        "Id": 6800,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_suppkey",
@@ -656,7 +656,7 @@
         "Status": true
       },
       {
-        "Id": 6732,
+        "Id": 6801,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_acctbal",
@@ -664,7 +664,7 @@
         "Status": true
       },
       {
-        "Id": 6733,
+        "Id": 6802,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_address",
@@ -672,7 +672,7 @@
         "Status": true
       },
       {
-        "Id": 6734,
+        "Id": 6803,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_nationkey",
@@ -680,35 +680,35 @@
         "Status": true
       },
       {
-        "Id": 6735,
+        "Id": 6804,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_suppkey_2",
-        "DataType": "Integer",
+        "DataType": "number",
         "Status": true
       },
       {
-        "Id": 6736,
+        "Id": 6805,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_name",
-        "DataType": "String",
+        "DataType": "string",
         "Status": true
       },
       {
-        "Id": 6737,
+        "Id": 6806,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_phone",
-        "DataType": "String",
+        "DataType": "string",
         "Status": true
       },
       {
-        "Id": 6738,
+        "Id": 6807,
         "DBlendId": 1320,
         "TableName": null,
         "ColumnName": "s_acctbal_2",
-        "DataType": "Integer",
+        "DataType": "number",
         "Status": true
       }
     ],
