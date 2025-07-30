@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Swami 7/30/2025 4:39:59 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff QC\",\"position\":\"position: absolute; left: 82.996px; top: 201.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"test.unpivot\\\" for data source \\\"MySql\\\"\",\"position\":\"position: absolute; left: 242.399px; top: 197.437px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 421.623px; top: 196.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 814.603px; top: 196.415px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"},{\"widgetId\":\"dcUnPivot_dropped.4\",\"UniqueId\":\"83\",\"stepId\":\"4\",\"description\":\"Unpivot Data\",\"position\":\"position: absolute; left: 613.435px; top: 194.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"83,4-[65,2]\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.5\",\"UniqueId\":\"80\",\"stepId\":\"5\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 1019.09px; top: 196.059px;\",\"mapping\":\"80,5-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff QC\",\"position\":\"position: absolute; left: 82.996px; top: 201.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"test.unpivot\\\" for data source \\\"MySql\\\"\",\"position\":\"position: absolute; left: 242.399px; top: 197.437px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 421.623px; top: 196.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 814.603px; top: 196.415px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"},{\"widgetId\":\"dcUnPivot_dropped.4\",\"UniqueId\":\"83\",\"stepId\":\"4\",\"description\":\"Unpivot Data\",\"position\":\"position: absolute; left: 613.435px; top: 194.437px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"83,4-[65,2]\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.5\",\"UniqueId\":\"80\",\"stepId\":\"5\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 1019.09px; top: 196.059px;\",\"mapping\":\"80,5-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.6\",\"UniqueId\":\"88\",\"stepId\":\"6\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 1033.08px; top: 49.059px;\",\"mapping\":\"88,6-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Swami",
         "FId": 2296,
@@ -412,6 +412,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 35418,
+        "ScenarioId": null,
+        "QueryId": 5023,
+        "Job_Id": null,
+        "Step": 6,
+        "StepMapping": "88,6-[79,3]",
+        "TransformationId": 88,
+        "Description": "Write  data To File",
+        "Position": "position: absolute; left: 1033.08px; top: 49.059px;",
+        "CreatedOn": "2025-07-30T06:47:05.703",
+        "CreatedBy": "Swami",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -746,6 +781,27 @@
         "UnPivotId": 54
       }
     ],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 219,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_5023_Diff_QC",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2025-07-30T06:47:05.72",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 5023,
+        "SessionId": null,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true,
+        "ManipulatedFileName": ""
+      }
+    ]
   }
 ]
