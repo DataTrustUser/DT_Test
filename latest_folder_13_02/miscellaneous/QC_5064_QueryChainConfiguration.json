@@ -80,7 +80,8 @@
         "TableLevelFilterJson": null,
         "iteration": false,
         "SelectedSAPVariable": null,
-        "Delimeter": null
+        "Delimeter": null,
+        "Scenario_SessionId": 2
       }
     ],
     "QCTableFieldTypes": [
