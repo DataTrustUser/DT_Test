@@ -358,8 +358,8 @@
         "Position": "position: absolute; left: 546.667px; top: 200.635px;",
         "CreatedOn": "2025-07-30T04:36:11.747",
         "CreatedBy": "Sarada",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-30T04:52:07.89",
+        "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -429,12 +429,12 @@
         "ScenarioId": null,
         "JobId": null,
         "QueryId": 5022,
-        "SessionId": null,
+        "SessionId": 2,
         "Row_Count": null,
-        "Delimiter": ",",
+        "Delimiter": "|",
         "TextQualifier": "\"",
         "OverrideFile": false,
-        "Header": true,
+        "Header": false,
         "ManipulatedFileName": ""
       }
     ]
