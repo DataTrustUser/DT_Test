@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T10:00:03.16",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T10:20:16.543",
+        "ModifiedOn": "2025-07-30T11:26:57.733",
         "ModifiedBy": "Swami",
         "Status": false,
         "IsHeavyWeightEngine": null,
@@ -572,7 +572,7 @@
         "Position": "position: absolute; left: 602.031px; top: 299.056px;",
         "CreatedOn": "2025-07-30T10:00:03.16",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T10:20:16.593",
+        "ModifiedOn": "2025-07-30T11:26:57.783",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -679,17 +679,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.REGION\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"R_REGIONKEY\",\"alias\":\"R_REGIONKEY\",\"included\":true,\"key\":true},{\"name\":\"R_NAME\",\"alias\":\"R_NAME\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"included\":true,\"key\":true},{\"name\":\"N_NAME\",\"alias\":\"N_NAME\",\"included\":true,\"key\":false},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"7\",\"profileId\":\"117\",\"SAPType\":\"\",\"ProfileTypeId\":\"101\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":true,\"key\":false},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"widStyle\":\"left:730px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"R_REGIONKEY\",\"srcColumn\":\"R_REGIONKEY\",\"endColumnName\":\"N_REGIONKEY\",\"tgtColumn\":\"N_REGIONKEY\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"N_NATIONKEY\",\"srcColumn\":\"N_NATIONKEY\",\"endColumnName\":\"S_NATIONKEY\",\"tgtColumn\":\"S_NATIONKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"R_REGIONKEY\",\"alias\":\"R_REGIONKEY\",\"dataType\":\"number|01\",\"oName\":\"R_REGIONKEY\"},{\"name\":\"R_NAME\",\"alias\":\"R_NAME\",\"dataType\":\"string|01\",\"oName\":\"R_NAME\"},{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"dataType\":\"number|11\",\"oName\":\"N_NATIONKEY\"},{\"name\":\"N_NAME\",\"alias\":\"N_NAME\",\"dataType\":\"string|11\",\"oName\":\"N_NAME\"},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"dataType\":\"number|21\",\"oName\":\"S_SUPPKEY\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"string|21\",\"oName\":\"S_NAME\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.REGION\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"R_REGIONKEY\",\"alias\":\"R_REGIONKEY\",\"included\":true,\"key\":true},{\"name\":\"R_NAME\",\"alias\":\"R_NAME\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"included\":true,\"key\":true},{\"name\":\"N_NAME\",\"alias\":\"N_NAME\",\"included\":true,\"key\":false},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"7\",\"profileId\":\"117\",\"SAPType\":\"\",\"ProfileTypeId\":\"101\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":true,\"key\":false},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"widStyle\":\"left:730px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"R_REGIONKEY\",\"srcColumn\":\"R_REGIONKEY\",\"endColumnName\":\"N_REGIONKEY\",\"tgtColumn\":\"N_REGIONKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"N_NATIONKEY\",\"srcColumn\":\"N_NATIONKEY\",\"endColumnName\":\"S_NATIONKEY\",\"tgtColumn\":\"S_NATIONKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"R_REGIONKEY\",\"alias\":\"R_REGIONKEY\",\"dataType\":\"number|01\",\"oName\":\"R_REGIONKEY\"},{\"name\":\"R_NAME\",\"alias\":\"R_NAME\",\"dataType\":\"string|01\",\"oName\":\"R_NAME\"},{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"dataType\":\"number|11\",\"oName\":\"N_NATIONKEY\"},{\"name\":\"N_NAME\",\"alias\":\"N_NAME\",\"dataType\":\"string|11\",\"oName\":\"N_NAME\"},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"dataType\":\"number|21\",\"oName\":\"S_SUPPKEY\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"string|21\",\"oName\":\"S_NAME\"}]}",
         "CreatedOn": "2025-07-30T10:07:27.053",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-30T10:20:16.547",
+        "ModifiedOn": "2025-07-30T11:26:57.737",
         "ModifiedBy": "Swami",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6786,
+        "Id": 6852,
         "DBlendId": 1328,
         "TableName": null,
         "ColumnName": "R_REGIONKEY",
@@ -697,7 +697,7 @@
         "Status": true
       },
       {
-        "Id": 6787,
+        "Id": 6853,
         "DBlendId": 1328,
         "TableName": null,
         "ColumnName": "R_NAME",
@@ -705,7 +705,7 @@
         "Status": true
       },
       {
-        "Id": 6788,
+        "Id": 6854,
         "DBlendId": 1328,
         "TableName": null,
         "ColumnName": "N_NATIONKEY",
@@ -713,7 +713,7 @@
         "Status": true
       },
       {
-        "Id": 6789,
+        "Id": 6855,
         "DBlendId": 1328,
         "TableName": null,
         "ColumnName": "N_NAME",
@@ -721,7 +721,7 @@
         "Status": true
       },
       {
-        "Id": 6790,
+        "Id": 6856,
         "DBlendId": 1328,
         "TableName": null,
         "ColumnName": "S_SUPPKEY",
@@ -729,7 +729,7 @@
         "Status": true
       },
       {
-        "Id": 6791,
+        "Id": 6857,
         "DBlendId": 1328,
         "TableName": null,
         "ColumnName": "S_NAME",
