@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T09:18:16.663",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-30T09:41:48.773",
+        "ModifiedOn": "2025-07-30T10:05:41.75",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC-Redshift_join",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Redshift_join\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.3\",\"UniqueId\":\"2\",\"stepId\":\"3\",\"description\":\"Read data from \\\"tpch1.nation\\\" for data source \\\"Redshift_Test\\\"\",\"position\":\"position: absolute; left: 328.979px; top: 63.059px;\",\"mapping\":\"2,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataBlening_dropped.4\",\"UniqueId\":\"35\",\"stepId\":\"4\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 692.042px; top: 197.042px;\",\"mapping\":\"2,3-61,5-3,6-78,7\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"7\"},{\"widgetId\":\"dsCustomSequel_dropped.5\",\"UniqueId\":\"61\",\"stepId\":\"5\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Redshift_Test\\\"\",\"position\":\"position: absolute; left: 335.351px; top: 184.059px;\",\"mapping\":\"61,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"RS_Supplier_AGQ\\\" for data source \\\"Amazon Redshift\\\"\",\"position\":\"position: absolute; left: 336.094px; top: 308.059px;\",\"mapping\":\"3,6-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"undefined_dropped.7\",\"UniqueId\":\"78\",\"stepId\":\"7\",\"description\":\"Read data from \\\"QC-Redshift\\\" for data source \\\"Redshift_Test\\\"\",\"position\":\"position: absolute; left: 334.722px; top: 415.059px;\",\"mapping\":\"78,7-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.8\",\"UniqueId\":\"79\",\"stepId\":\"8\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 895.104px; top: 200.059px;\",\"mapping\":\"79,8-[35,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Redshift_join\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.3\",\"UniqueId\":\"2\",\"stepId\":\"3\",\"description\":\"RDBMS\",\"position\":\"position: absolute; left: 328.979px; top: 63.059px;\",\"mapping\":\"2,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataBlening_dropped.4\",\"UniqueId\":\"35\",\"stepId\":\"4\",\"description\":\"Join\",\"position\":\"position: absolute; left: 692.042px; top: 197.042px;\",\"mapping\":\"2,3-61,5-3,6-78,7\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"7\"},{\"widgetId\":\"dsCustomSequel_dropped.5\",\"UniqueId\":\"61\",\"stepId\":\"5\",\"description\":\"Custom SQL\",\"position\":\"position: absolute; left: 335.351px; top: 184.059px;\",\"mapping\":\"61,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Query\",\"position\":\"position: absolute; left: 336.094px; top: 308.059px;\",\"mapping\":\"3,6-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"undefined_dropped.7\",\"UniqueId\":\"78\",\"stepId\":\"7\",\"description\":\"QC\",\"position\":\"position: absolute; left: 334.722px; top: 415.059px;\",\"mapping\":\"78,7-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.8\",\"UniqueId\":\"79\",\"stepId\":\"8\",\"description\":\"Output\",\"position\":\"position: absolute; left: 895.104px; top: 200.059px;\",\"mapping\":\"79,8-[35,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2299,
@@ -707,8 +707,8 @@
         "Step": 3,
         "StepMapping": "2,3-[0,0]",
         "TransformationId": 2,
-        "Description": "Read data from \"tpch1.nation\" for data source \"Redshift_Test\"",
-        "Position": "position: absolute; left: 328.979px; top: 63.059px;",
+        "Description": "RDBMS",
+        "Position": null,
         "CreatedOn": "2025-07-30T09:34:09.863",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
@@ -742,8 +742,8 @@
         "Step": 5,
         "StepMapping": "61,5-[0,0]",
         "TransformationId": 61,
-        "Description": "Read data from customer SQL query of the connection profile  \"Redshift_Test\"",
-        "Position": "position: absolute; left: 335.351px; top: 184.059px;",
+        "Description": "Custom SQL",
+        "Position": null,
         "CreatedOn": "2025-07-30T09:35:04.05",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
@@ -777,8 +777,8 @@
         "Step": 6,
         "StepMapping": "3,6-[0,0]",
         "TransformationId": 3,
-        "Description": "Read data from \"RS_Supplier_AGQ\" for data source \"Amazon Redshift\"",
-        "Position": "position: absolute; left: 336.094px; top: 308.059px;",
+        "Description": "Query",
+        "Position": null,
         "CreatedOn": "2025-07-30T09:36:01.233",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
@@ -812,8 +812,8 @@
         "Step": 7,
         "StepMapping": "78,7-[0,0]",
         "TransformationId": 78,
-        "Description": "Read data from \"QC-Redshift\" for data source \"Redshift_Test\"",
-        "Position": "position: absolute; left: 334.722px; top: 415.059px;",
+        "Description": "QC",
+        "Position": null,
         "CreatedOn": "2025-07-30T09:37:13.16",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
@@ -847,11 +847,11 @@
         "Step": 4,
         "StepMapping": "2,3-61,5-3,6-78,7",
         "TransformationId": 35,
-        "Description": "Join Datasets",
+        "Description": "Join",
         "Position": "position: absolute; left: 692.042px; top: 197.042px;",
         "CreatedOn": "2025-07-30T09:37:38.167",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-30T09:41:49.17",
+        "ModifiedOn": "2025-07-30T10:04:18.23",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -882,12 +882,12 @@
         "Step": 8,
         "StepMapping": null,
         "TransformationId": 79,
-        "Description": "Vinay#@7/30/2025 9:39:46 AM",
+        "Description": "Vinay",
         "Position": null,
         "CreatedOn": "2025-07-30T09:39:50.927",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-07-30T10:05:41.63",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -899,7 +899,7 @@
         "MaxParallelism": null,
         "IsLastStep": null,
         "PreviousMetaStructure": null,
-        "LATEST_OUTPUT_VIEW_NAME": "QC_5054_CUR",
+        "LATEST_OUTPUT_VIEW_NAME": "QC_5054_PRESENT",
         "Overwritesnapshot": false,
         "JsonValue": null,
         "AppendToExistingData": false,
@@ -921,19 +921,19 @@
         "QueryId": 5054,
         "StepId": 4,
         "Title": "",
-        "Description": "Join Datasets",
+        "Description": "Join",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"3\",\"profileId\":\"1252\",\"SAPType\":\"\",\"ProfileTypeId\":\"117\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.nation\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"included\":true,\"key\":true},{\"name\":\"n_name\",\"alias\":\"n_name\",\"included\":true,\"key\":false},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"included\":true,\"key\":true},{\"name\":\"n_comment\",\"alias\":\"n_comment\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"5\",\"profileId\":\"1252\",\"SAPType\":\"\",\"ProfileTypeId\":\"117\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1.region\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"r_regionkey\",\"alias\":\"r_regionkey\",\"included\":false,\"key\":true},{\"name\":\"r_name\",\"alias\":\"r_name\",\"included\":true,\"key\":true},{\"name\":\"r_comment\",\"alias\":\"r_comment\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left: 368px; top: 70px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"6\",\"profileId\":\"106\",\"SAPType\":\"\",\"ProfileTypeId\":\"117\",\"queryId\":\"4179\",\"sourceTableOrQuery\":\"RS_Supplier_AGQ\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"included\":true,\"key\":false},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":false,\"key\":true},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"included\":true,\"key\":false},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left: 397px; top: 335px;\"},{\"id\":\"31\",\"dataSourceStepId\":\"7\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"1252\",\"queryId\":\"5002\",\"sourceTableOrQuery\":\"Vinay#@7/29/2025 10:16:10 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"employeeid\",\"alias\":\"employeeid\",\"included\":true,\"key\":false},{\"name\":\"lastname\",\"alias\":\"lastname\",\"included\":true,\"key\":true},{\"name\":\"birthdate\",\"alias\":\"birthdate\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left: 839px; top: 46px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"n_regionkey\",\"srcColumn\":\"n_regionkey\",\"endColumnName\":\"r_regionkey\",\"tgtColumn\":\"r_regionkey\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"n_nationkey\",\"srcColumn\":\"n_nationkey\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"11\",\"joinEndId\":\"31\",\"joinColumnPairs\":[{\"startColumnName\":\"r_name\",\"srcColumn\":\"r_name\",\"endColumnName\":\"lastname\",\"tgtColumn\":\"lastname\"}]}],\"blendFinalColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nk\",\"dataType\":\"number|01\",\"oName\":\"n_nationkey\"},{\"name\":\"n_name\",\"alias\":\"n_name\",\"dataType\":\"string|01\",\"oName\":\"n_name\"},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"dataType\":\"number|01\",\"oName\":\"n_regionkey\"},{\"name\":\"n_comment\",\"alias\":\"n_comment\",\"dataType\":\"string|01\",\"oName\":\"n_comment\"},{\"name\":\"r_name\",\"alias\":\"r_name\",\"dataType\":\"string|11\",\"oName\":\"r_name\"},{\"name\":\"r_comment\",\"alias\":\"r_comment\",\"dataType\":\"string|11\",\"oName\":\"r_comment\"},{\"name\":\"s_suppkey\",\"alias\":\"s_sk\",\"dataType\":\"number|21\",\"oName\":\"s_suppkey\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"dataType\":\"number|21\",\"oName\":\"s_acctbal\"},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"dataType\":\"string|21\",\"oName\":\"s_phone\"},{\"name\":\"employeeid\",\"alias\":\"employeeid\",\"dataType\":\"number|31\",\"oName\":\"employeeid\"},{\"name\":\"lastname\",\"alias\":\"lastname\",\"dataType\":\"string|31\",\"oName\":\"lastname\"},{\"name\":\"birthdate\",\"alias\":\"birthdate\",\"dataType\":\"string|31\",\"oName\":\"birthdate\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"3\",\"profileId\":\"1252\",\"SAPType\":\"\",\"ProfileTypeId\":\"117\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.nation\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"included\":true,\"key\":true},{\"name\":\"n_name\",\"alias\":\"n_name\",\"included\":true,\"key\":false},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"5\",\"profileId\":\"1252\",\"SAPType\":\"\",\"ProfileTypeId\":\"117\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1.region\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"r_regionkey\",\"alias\":\"r_regionkey\",\"included\":false,\"key\":true},{\"name\":\"r_name\",\"alias\":\"r_name\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left: 368px; top: 70px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"6\",\"profileId\":\"106\",\"SAPType\":\"\",\"ProfileTypeId\":\"117\",\"queryId\":\"4179\",\"sourceTableOrQuery\":\"RS_Supplier_AGQ\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"included\":true,\"key\":false},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":false,\"key\":true},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left: 397px; top: 335px;\"},{\"id\":\"31\",\"dataSourceStepId\":\"7\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"1252\",\"queryId\":\"5002\",\"sourceTableOrQuery\":\"Vinay#@7/29/2025 10:16:10 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"employeeid\",\"alias\":\"employeeid\",\"included\":true,\"key\":false},{\"name\":\"lastname\",\"alias\":\"lastname\",\"included\":true,\"key\":true},{\"name\":\"city\",\"alias\":\"city\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"widStyle\":\"left: 839px; top: 46px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"n_regionkey\",\"srcColumn\":\"n_regionkey\",\"endColumnName\":\"r_regionkey\",\"tgtColumn\":\"r_regionkey\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"n_nationkey\",\"srcColumn\":\"n_nationkey\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"11\",\"joinEndId\":\"31\",\"joinColumnPairs\":[{\"startColumnName\":\"r_name\",\"srcColumn\":\"r_name\",\"endColumnName\":\"lastname\",\"tgtColumn\":\"lastname\"}]}],\"blendFinalColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nk\",\"dataType\":\"number|01\",\"oName\":\"n_nationkey\"},{\"name\":\"n_name\",\"alias\":\"n_name\",\"dataType\":\"string|01\",\"oName\":\"n_name\"},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"dataType\":\"number|01\",\"oName\":\"n_regionkey\"},{\"name\":\"r_name\",\"alias\":\"r_name\",\"dataType\":\"string|11\",\"oName\":\"r_name\"},{\"name\":\"s_suppkey\",\"alias\":\"s_sk\",\"dataType\":\"number|21\",\"oName\":\"s_suppkey\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"dataType\":\"number|21\",\"oName\":\"s_acctbal\"},{\"name\":\"employeeid\",\"alias\":\"employeeid\",\"dataType\":\"number|31\",\"oName\":\"employeeid\"},{\"name\":\"lastname\",\"alias\":\"lastname\",\"dataType\":\"string|31\",\"oName\":\"lastname\"},{\"name\":\"city\",\"alias\":\"city\",\"dataType\":\"string|31\",\"oName\":\"city\"}]}",
         "CreatedOn": "2025-07-30T09:37:37.76",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-30T09:41:48.777",
+        "ModifiedOn": "2025-07-30T10:04:17.587",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6739,
+        "Id": 6771,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "n_nk",
@@ -941,7 +941,7 @@
         "Status": true
       },
       {
-        "Id": 6740,
+        "Id": 6772,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "n_name",
@@ -949,7 +949,7 @@
         "Status": true
       },
       {
-        "Id": 6741,
+        "Id": 6773,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "n_regionkey",
@@ -957,15 +957,7 @@
         "Status": true
       },
       {
-        "Id": 6742,
-        "DBlendId": 1321,
-        "TableName": null,
-        "ColumnName": "n_comment",
-        "DataType": "string",
-        "Status": true
-      },
-      {
-        "Id": 6743,
+        "Id": 6774,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "r_name",
@@ -973,15 +965,7 @@
         "Status": true
       },
       {
-        "Id": 6744,
-        "DBlendId": 1321,
-        "TableName": null,
-        "ColumnName": "r_comment",
-        "DataType": "string",
-        "Status": true
-      },
-      {
-        "Id": 6745,
+        "Id": 6775,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "s_sk",
@@ -989,7 +973,7 @@
         "Status": true
       },
       {
-        "Id": 6746,
+        "Id": 6776,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "s_acctbal",
@@ -997,15 +981,7 @@
         "Status": true
       },
       {
-        "Id": 6747,
-        "DBlendId": 1321,
-        "TableName": null,
-        "ColumnName": "s_phone",
-        "DataType": "string",
-        "Status": true
-      },
-      {
-        "Id": 6748,
+        "Id": 6777,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "employeeid",
@@ -1013,7 +989,7 @@
         "Status": true
       },
       {
-        "Id": 6749,
+        "Id": 6778,
         "DBlendId": 1321,
         "TableName": null,
         "ColumnName": "lastname",
@@ -1021,10 +997,10 @@
         "Status": true
       },
       {
-        "Id": 6750,
+        "Id": 6779,
         "DBlendId": 1321,
         "TableName": null,
-        "ColumnName": "birthdate",
+        "ColumnName": "city",
         "DataType": "string",
         "Status": true
       }
