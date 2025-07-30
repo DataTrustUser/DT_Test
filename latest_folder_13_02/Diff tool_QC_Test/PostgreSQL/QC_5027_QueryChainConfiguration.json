@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T05:38:22.253",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T07:52:59.58",
+        "ModifiedOn": "2025-07-30T08:23:21.403",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 7/30/2025 5:38:12 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"PostgreSQL_Multiple Joins\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.nation\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 232.698px; top: 112.635px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 525.667px; top: 165.625px;\",\"mapping\":\"2,1-61,3-3,5\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"PostgreSQL_NJ\\\"\",\"position\":\"position: absolute; left: 245.354px; top: 276.635px;\",\"mapping\":\"61,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.5\",\"UniqueId\":\"3\",\"stepId\":\"5\",\"description\":\"Read data from \\\"PostgreSQL_Supplier Query\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 390.667px; top: 348.635px;\",\"mapping\":\"3,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcSimpleProjection_dropped.6\",\"UniqueId\":\"65\",\"stepId\":\"6\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 640.667px; top: 164.969px;\",\"mapping\":\"65,6-[35,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"},{\"widgetId\":\"qcEndItem_dropped.7\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 784.667px; top: 167.635px;\",\"mapping\":\"79,7-[65,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"6\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"PostgreSQL_Multiple Joins\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.nation\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 232.698px; top: 112.635px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 525.667px; top: 165.625px;\",\"mapping\":\"2,1-61,3-3,5\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"PostgreSQL_NJ\\\"\",\"position\":\"position: absolute; left: 245.354px; top: 276.635px;\",\"mapping\":\"61,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.5\",\"UniqueId\":\"3\",\"stepId\":\"5\",\"description\":\"Read data from \\\"PostgreSQL_Supplier Query\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 390.667px; top: 348.635px;\",\"mapping\":\"3,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcSimpleProjection_dropped.6\",\"UniqueId\":\"65\",\"stepId\":\"6\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 640.667px; top: 164.969px;\",\"mapping\":\"65,6-[35,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 784.667px; top: 167.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"6\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2295,
@@ -433,13 +433,13 @@
         "QueryId": 5027,
         "Job_Id": null,
         "Step": 2,
-        "StepMapping": "2,1-61,3-3,5",
+        "StepMapping": "",
         "TransformationId": 35,
         "Description": "Join Datasets",
         "Position": "position: absolute; left: 525.667px; top: 165.625px;",
         "CreatedOn": "2025-07-30T05:40:31.063",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T06:48:26.757",
+        "ModifiedOn": "2025-07-30T08:23:11.407",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -509,7 +509,7 @@
         "Position": "pointer-events: auto; position: absolute; left: 640.667px; top: 164.969px;",
         "CreatedOn": "2025-07-30T07:50:04.737",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T07:52:54.56",
+        "ModifiedOn": "2025-07-30T08:23:16.79",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -544,7 +544,7 @@
         "Position": null,
         "CreatedOn": "2025-07-30T07:50:21.19",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T07:52:59.577",
+        "ModifiedOn": "2025-07-30T08:23:21.4",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -573,7 +573,7 @@
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 11220,
+        "Id": 11229,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -586,7 +586,7 @@
         "UserDefinedDataType": "Decimal",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -597,7 +597,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11221,
+        "Id": 11230,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -610,7 +610,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -621,7 +621,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11222,
+        "Id": 11231,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -634,7 +634,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -645,7 +645,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11223,
+        "Id": 11232,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -658,7 +658,7 @@
         "UserDefinedDataType": "Decimal",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -669,7 +669,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11224,
+        "Id": 11233,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -678,11 +678,11 @@
         "DataSourceId": 0,
         "ColumnName": "s_suppkey",
         "AliasColumnName": "s_suppkey",
-        "SystemDefinedDataType": "Integer",
+        "SystemDefinedDataType": "number",
         "UserDefinedDataType": "Decimal",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -693,7 +693,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11225,
+        "Id": 11234,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -702,11 +702,11 @@
         "DataSourceId": 0,
         "ColumnName": "s_name",
         "AliasColumnName": "s_name",
-        "SystemDefinedDataType": "String",
+        "SystemDefinedDataType": "string",
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -717,7 +717,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11226,
+        "Id": 11235,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -726,11 +726,11 @@
         "DataSourceId": 0,
         "ColumnName": "s_phone",
         "AliasColumnName": "s_phone",
-        "SystemDefinedDataType": "String",
+        "SystemDefinedDataType": "string",
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -741,7 +741,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11227,
+        "Id": 11236,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -750,11 +750,11 @@
         "DataSourceId": 0,
         "ColumnName": "s_acctbal",
         "AliasColumnName": "s_acctbal",
-        "SystemDefinedDataType": "Integer",
+        "SystemDefinedDataType": "number",
         "UserDefinedDataType": "Decimal",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -765,7 +765,7 @@
         "QueryId": 5027
       },
       {
-        "Id": 11228,
+        "Id": 11237,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 35499,
@@ -774,11 +774,11 @@
         "DataSourceId": 0,
         "ColumnName": "s_comment",
         "AliasColumnName": "s_comment",
-        "SystemDefinedDataType": "String",
+        "SystemDefinedDataType": "string",
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-07-30T07:52:54.447",
+        "CreatedOn": "2025-07-30T08:23:16.443",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -798,17 +798,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.nation\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"included\":true,\"key\":true},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1259\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1.region\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"r_regionkey\",\"alias\":\"r_regionkey\",\"included\":false,\"key\":true},{\"name\":\"r_name\",\"alias\":\"r_name\",\"included\":true,\"key\":false},{\"name\":\"r_comment\",\"alias\":\"r_comment\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"5\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"5031\",\"sourceTableOrQuery\":\"PostgreSQL_Supplier Query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"included\":true,\"key\":false},{\"name\":\"s_name\",\"alias\":\"s_name\",\"included\":true,\"key\":false},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":false,\"key\":true},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"included\":true,\"key\":false},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"included\":true,\"key\":false},{\"name\":\"s_comment\",\"alias\":\"s_comment\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 470px; top: 182px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"n_regionkey\",\"srcColumn\":\"n_regionkey\",\"endColumnName\":\"r_regionkey\",\"tgtColumn\":\"r_regionkey\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"n_nationkey\",\"srcColumn\":\"n_nationkey\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]}],\"blendFinalColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"dataType\":\"number|01\",\"oName\":\"n_nationkey\"},{\"name\":\"r_name\",\"alias\":\"r_name\",\"dataType\":\"string|11\",\"oName\":\"r_name\"},{\"name\":\"r_comment\",\"alias\":\"r_comment\",\"dataType\":\"string|11\",\"oName\":\"r_comment\"},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"dataType\":\"number|01\",\"oName\":\"n_regionkey\"},{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"dataType\":\"Integer|21\",\"oName\":\"s_suppkey\"},{\"name\":\"s_name\",\"alias\":\"s_name\",\"dataType\":\"String|21\",\"oName\":\"s_name\"},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"dataType\":\"String|21\",\"oName\":\"s_phone\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"dataType\":\"Integer|21\",\"oName\":\"s_acctbal\"},{\"name\":\"s_comment\",\"alias\":\"s_comment\",\"dataType\":\"String|21\",\"oName\":\"s_comment\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\"tpch1.nation\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"included\":true,\"key\":true},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1259\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1.region\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"r_regionkey\",\"alias\":\"r_regionkey\",\"included\":false,\"key\":true},{\"name\":\"r_name\",\"alias\":\"r_name\",\"included\":true,\"key\":false},{\"name\":\"r_comment\",\"alias\":\"r_comment\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"5\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"5031\",\"sourceTableOrQuery\":\"PostgreSQL_Supplier Query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"included\":true,\"key\":false},{\"name\":\"s_name\",\"alias\":\"s_name\",\"included\":true,\"key\":false},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":false,\"key\":true},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"included\":true,\"key\":false},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"included\":true,\"key\":false},{\"name\":\"s_comment\",\"alias\":\"s_comment\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 470px; top: 182px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"n_regionkey\",\"srcColumn\":\"n_regionkey\",\"endColumnName\":\"r_regionkey\",\"tgtColumn\":\"r_regionkey\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"n_nationkey\",\"srcColumn\":\"n_nationkey\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]}],\"blendFinalColumns\":[{\"name\":\"n_nationkey\",\"alias\":\"n_nationkey\",\"dataType\":\"number|01\",\"oName\":\"n_nationkey\"},{\"name\":\"r_name\",\"alias\":\"r_name\",\"dataType\":\"string|11\",\"oName\":\"r_name\"},{\"name\":\"r_comment\",\"alias\":\"r_comment\",\"dataType\":\"string|11\",\"oName\":\"r_comment\"},{\"name\":\"n_regionkey\",\"alias\":\"n_regionkey\",\"dataType\":\"number|01\",\"oName\":\"n_regionkey\"},{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"dataType\":\"number|21\",\"oName\":\"s_suppkey\"},{\"name\":\"s_name\",\"alias\":\"s_name\",\"dataType\":\"string|21\",\"oName\":\"s_name\"},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"dataType\":\"string|21\",\"oName\":\"s_phone\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"dataType\":\"number|21\",\"oName\":\"s_acctbal\"},{\"name\":\"s_comment\",\"alias\":\"s_comment\",\"dataType\":\"string|21\",\"oName\":\"s_comment\"}]}",
         "CreatedOn": "2025-07-30T05:40:31.037",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T06:48:26.7",
+        "ModifiedOn": "2025-07-30T08:23:11.353",
         "ModifiedBy": "Sarada",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6543,
+        "Id": 6582,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "n_nationkey",
@@ -816,7 +816,7 @@
         "Status": true
       },
       {
-        "Id": 6544,
+        "Id": 6583,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "r_name",
@@ -824,7 +824,7 @@
         "Status": true
       },
       {
-        "Id": 6545,
+        "Id": 6584,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "r_comment",
@@ -832,7 +832,7 @@
         "Status": true
       },
       {
-        "Id": 6546,
+        "Id": 6585,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "n_regionkey",
@@ -840,43 +840,43 @@
         "Status": true
       },
       {
-        "Id": 6547,
+        "Id": 6586,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "s_suppkey",
-        "DataType": "Integer",
+        "DataType": "number",
         "Status": true
       },
       {
-        "Id": 6548,
+        "Id": 6587,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "s_name",
-        "DataType": "String",
+        "DataType": "string",
         "Status": true
       },
       {
-        "Id": 6549,
+        "Id": 6588,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "s_phone",
-        "DataType": "String",
+        "DataType": "string",
         "Status": true
       },
       {
-        "Id": 6550,
+        "Id": 6589,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "s_acctbal",
-        "DataType": "Integer",
+        "DataType": "number",
         "Status": true
       },
       {
-        "Id": 6551,
+        "Id": 6590,
         "DBlendId": 1296,
         "TableName": null,
         "ColumnName": "s_comment",
-        "DataType": "String",
+        "DataType": "string",
         "Status": true
       }
     ],
