@@ -23,11 +23,11 @@
         "IsfromValidation": true,
         "Iswait": false,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 7/30/2025 9:26:39 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"QC_Existing Query_Dedups widget \\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 267.683px; top: 203.076px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"scsc\",\"position\":\"position: absolute; left: 448.921px; top: 195.711px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 7/30/2025 9:26:39 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRdOutput_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Exist QC\",\"position\":\"position: absolute; left: 267.683px; top: 203.076px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.2\",\"UniqueId\":\"12\",\"stepId\":\"2\",\"description\":\"scsc\",\"position\":\"position: absolute; left: 448.921px; top: 195.711px;\",\"mapping\":\"12,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Vinay",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-07-30T09:28:09.123",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -101,9 +101,9 @@
         "MaxParallelism": null,
         "MaxPacketSize": null,
         "UseLatestSession": true,
-        "ResultScenario_Id": null,
+        "ResultScenario_Id": 0,
         "ScenarioType": null,
-        "Scenario_SessionId": null,
+        "Scenario_SessionId": 0,
         "RemoveDuplicates": false,
         "OffsetDate": null,
         "OrderByValue": null,
@@ -172,8 +172,8 @@
         "ProfileName": null,
         "CreatedOnSC": "2025-07-30T09:27:05.557",
         "CreatedBySC": "Vinay",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2025-07-30T09:28:07.763",
+        "ModifiedBySC": "Vinay"
       }
     ],
     "CSVSource": false,
@@ -631,7 +631,7 @@
         "StepMapping": "78,1-[0,0]",
         "TransformationId": 78,
         "Description": "Read data from \"QC_Existing Query_Dedups widget \" for data source \"PostgreSQL\"",
-        "Position": "position: absolute; left: 267.683px; top: 203.076px;",
+        "Position": null,
         "CreatedOn": "2025-07-30T09:27:05.527",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
@@ -1035,7 +1035,7 @@
         "DataBlends": [],
         "ScenarioQCFieldTypes": [
           {
-            "Id": 6291,
+            "Id": 6296,
             "ScenarioDataSourceId": 5047,
             "DBlendId": null,
             "ProfileId": null,
@@ -1049,13 +1049,13 @@
             "Description": null,
             "QueryId": 5048,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 6292,
+            "Id": 6297,
             "ScenarioDataSourceId": 5047,
             "DBlendId": null,
             "ProfileId": null,
@@ -1069,13 +1069,13 @@
             "Description": null,
             "QueryId": 5048,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 6293,
+            "Id": 6298,
             "ScenarioDataSourceId": 5047,
             "DBlendId": null,
             "ProfileId": null,
@@ -1089,13 +1089,13 @@
             "Description": null,
             "QueryId": 5048,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 6294,
+            "Id": 6299,
             "ScenarioDataSourceId": 5047,
             "DBlendId": null,
             "ProfileId": null,
@@ -1109,13 +1109,13 @@
             "Description": null,
             "QueryId": 5048,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           },
           {
-            "Id": 6295,
+            "Id": 6300,
             "ScenarioDataSourceId": 5047,
             "DBlendId": null,
             "ProfileId": null,
@@ -1129,8 +1129,8 @@
             "Description": null,
             "QueryId": 5048,
             "QuerySessionId": 0,
-            "ResultScenario_Id": null,
-            "Scenario_SessionId": null,
+            "ResultScenario_Id": 0,
+            "Scenario_SessionId": 0,
             "isSecure": null,
             "Scenario_Header": null
           }
@@ -1531,7 +1531,7 @@
     "MapNRecon": [],
     "ScenarioQCFieldTypes": [
       {
-        "Id": 6291,
+        "Id": 6296,
         "ScenarioDataSourceId": 5047,
         "DBlendId": null,
         "ProfileId": null,
@@ -1547,7 +1547,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 6292,
+        "Id": 6297,
         "ScenarioDataSourceId": 5047,
         "DBlendId": null,
         "ProfileId": null,
@@ -1563,7 +1563,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 6293,
+        "Id": 6298,
         "ScenarioDataSourceId": 5047,
         "DBlendId": null,
         "ProfileId": null,
@@ -1579,7 +1579,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 6294,
+        "Id": 6299,
         "ScenarioDataSourceId": 5047,
         "DBlendId": null,
         "ProfileId": null,
@@ -1595,7 +1595,7 @@
         "QuerySessionId": 0
       },
       {
-        "Id": 6295,
+        "Id": 6300,
         "ScenarioDataSourceId": 5047,
         "DBlendId": null,
         "ProfileId": null,
