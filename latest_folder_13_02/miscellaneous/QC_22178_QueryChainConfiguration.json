@@ -277,11 +277,11 @@
         "Step": 3,
         "StepMapping": "88,3-[79,2]",
         "TransformationId": 88,
-        "Description": "Offload the File",
+        "Description": "Write  data To File",
         "Position": "position: absolute; left: 663.762px; top: 157.452px;",
         "CreatedOn": "2025-07-31T06:25:35.08",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-07-31T06:26:08.91",
+        "ModifiedOn": "2025-07-31T12:20:08.347",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
@@ -356,7 +356,7 @@
         "Row_Count": null,
         "Delimiter": ",",
         "TextQualifier": "\"",
-        "OverrideFile": true,
+        "OverrideFile": false,
         "Header": true,
         "ManipulatedFileName": ""
       }
