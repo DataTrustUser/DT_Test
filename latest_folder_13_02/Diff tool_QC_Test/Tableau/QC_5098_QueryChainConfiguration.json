@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 1,
-        "SnapshotOffset": null,
+        "SnapshotOffset": 2,
         "CreatedOn": "2025-07-31T09:38:41.99",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-31T09:44:16.667",
+        "ModifiedOn": "2025-07-31T09:49:48.607",
         "ModifiedBy": "Vinay",
         "Status": false,
         "SAPType": null,
@@ -86,7 +86,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 17387,
+        "Id": 17391,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17388,
+        "Id": 17392,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -124,7 +124,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17389,
+        "Id": 17393,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -143,7 +143,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17390,
+        "Id": 17394,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -562,7 +562,7 @@
         "TextQualifier": "!",
         "OverrideFile": false,
         "Header": false,
-        "ManipulatedFileName": "QC_5098_QC_Exist_QC_with_Dedup_20250731094551"
+        "ManipulatedFileName": "QC_5098_QC_Exist_QC_with_Dedup_20250731094955"
       }
     ]
   }
