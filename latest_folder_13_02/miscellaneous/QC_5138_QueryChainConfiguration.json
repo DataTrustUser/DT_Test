@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-31T14:46:45.24",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-07-31T14:51:36.517",
+        "ModifiedOn": "2025-07-31T14:52:33.367",
         "ModifiedBy": "RDAdmin",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 1,
-        "SnapshotOffset": null,
+        "SnapshotOffset": 2,
         "CreatedOn": "2025-07-31T14:47:19.01",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-07-31T14:51:36.507",
+        "ModifiedOn": "2025-07-31T14:52:33.11",
         "ModifiedBy": "RDAdmin",
         "Status": false,
         "SAPType": null,
@@ -86,7 +86,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 17934,
+        "Id": 17938,
         "QueryDataSourceId": 4768,
         "DBlendId": null,
         "ProfileId": null,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17935,
+        "Id": 17939,
         "QueryDataSourceId": 4768,
         "DBlendId": null,
         "ProfileId": null,
@@ -124,7 +124,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17936,
+        "Id": 17940,
         "QueryDataSourceId": 4768,
         "DBlendId": null,
         "ProfileId": null,
@@ -143,7 +143,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17937,
+        "Id": 17941,
         "QueryDataSourceId": 4768,
         "DBlendId": null,
         "ProfileId": null,
