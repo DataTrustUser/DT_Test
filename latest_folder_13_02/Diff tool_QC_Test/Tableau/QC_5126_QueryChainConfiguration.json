@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 0,
-        "SnapshotOffset": 2,
+        "SnapshotOffset": null,
         "CreatedOn": "2025-07-31T11:42:59.873",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-31T11:55:11.583",
+        "ModifiedOn": "2025-07-31T11:57:21.02",
         "ModifiedBy": "Vinay",
         "Status": false,
         "SAPType": null,
@@ -74,7 +74,7 @@
         "UseLatestSession": false,
         "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
-        "OffsetDate": "0",
+        "OffsetDate": "1",
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
@@ -86,7 +86,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 17798,
+        "Id": 17810,
         "QueryDataSourceId": 4742,
         "DBlendId": null,
         "ProfileId": null,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17799,
+        "Id": 17811,
         "QueryDataSourceId": 4742,
         "DBlendId": null,
         "ProfileId": null,
@@ -124,7 +124,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17800,
+        "Id": 17812,
         "QueryDataSourceId": 4742,
         "DBlendId": null,
         "ProfileId": null,
