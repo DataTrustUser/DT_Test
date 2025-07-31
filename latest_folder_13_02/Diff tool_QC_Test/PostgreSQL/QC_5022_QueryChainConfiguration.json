@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T04:10:57.9",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-07-30T04:54:58.923",
-        "ModifiedBy": "Sarada",
+        "ModifiedOn": "2025-07-31T10:48:58.15",
+        "ModifiedBy": "Saikiran",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "PostgreSQL_CustomSQLWidget_Snapshot",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"PostgreSQL_CustomSQLWidget_Snapshot\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Query data \",\"position\":\"position: absolute; left: 235.354px; top: 203.635px;   \",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 388.667px; top: 199.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 546.667px; top: 200.635px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"PostgreSQL_CustomSQLWidget_Snapshot\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Query data \",\"position\":\"position: absolute; left: 235.354px; top: 203.635px;   \",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 391.667px; top: 204.625px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 546.667px; top: 200.635px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: all; position: absolute; left: 539.667px; top: 96.6354px;\",\"mapping\":\"80,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2295,
@@ -81,8 +81,7 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "SourceName_Id": 119,
-        "ProfileName": "PostgreSQL"
+        "Scenario_SessionId": null
       }
     ],
     "QCTableFieldTypes": [
@@ -354,11 +353,46 @@
         "Step": 3,
         "StepMapping": "88,3-[79,2]",
         "TransformationId": 88,
-        "Description": "Offload the File",
+        "Description": "Write  data To File",
         "Position": "position: absolute; left: 546.667px; top: 200.635px;",
         "CreatedOn": "2025-07-30T04:54:58.993",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-07-30T05:04:44.503",
+        "ModifiedOn": "2025-07-31T10:48:58.137",
+        "ModifiedBy": "Saikiran",
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 35351,
+        "ScenarioId": null,
+        "QueryId": 5022,
+        "Job_Id": null,
+        "Step": 4,
+        "StepMapping": "80,4-[79,2]",
+        "TransformationId": 80,
+        "Description": "Data Profiling",
+        "Position": "pointer-events: all; position: absolute; left: 539.667px; top: 96.6354px;",
+        "CreatedOn": "2025-07-30T05:16:54.34",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": "2025-07-30T05:19:53.29",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -404,6 +438,16 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 28303,
+        "ScenarioId": null,
+        "QueryId": 5022,
+        "StepId": 4,
+        "Dependency": 2,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
     "EmailAlerts": [],
@@ -433,9 +477,9 @@
         "Row_Count": null,
         "Delimiter": "|",
         "TextQualifier": "'",
-        "OverrideFile": true,
-        "Header": false,
-        "ManipulatedFileName": ""
+        "OverrideFile": false,
+        "Header": true,
+        "ManipulatedFileName": "QC_5022_Offloaddata_20250731104903"
       }
     ]
   }
