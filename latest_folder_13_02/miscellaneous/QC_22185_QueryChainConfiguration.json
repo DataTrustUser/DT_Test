@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-31T07:37:23.233",
         "CreatedBy": "Srinidhi",
-        "ModifiedOn": "2025-07-31T07:39:14.337",
+        "ModifiedOn": "2025-07-31T07:42:06.597",
         "ModifiedBy": "Srinidhi",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -476,7 +476,7 @@
         "Position": "position: absolute; left: 428px; top: 208.641px;",
         "CreatedOn": "2025-07-31T07:38:22.873",
         "CreatedBy": "Srinidhi",
-        "ModifiedOn": "2025-07-31T07:39:14.987",
+        "ModifiedOn": "2025-07-31T07:42:06.913",
         "ModifiedBy": "Srinidhi",
         "Status": true,
         "ErrorCodes": null,
@@ -513,61 +513,61 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"2078\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.NATION\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"included\":true,\"key\":true},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"included\":true,\"key\":false},{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"2078\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY_2\",\"included\":true,\"key\":true},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY_2\",\"included\":true,\"key\":false},{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT_2\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"N_NATIONKEY\",\"srcColumn\":\"N_NATIONKEY\",\"endColumnName\":\"N_NATIONKEY\",\"tgtColumn\":\"N_NATIONKEY\"},{\"startColumnName\":\"N_COMMENT\",\"srcColumn\":\"N_COMMENT\",\"endColumnName\":\"N_COMMENT\",\"tgtColumn\":\"N_COMMENT\"}]}],\"blendFinalColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"NATIONKEY\",\"dataType\":\"Integer|01\",\"oName\":\"N_NATIONKEY\"},{\"name\":\"N_COMMENT\",\"alias\":\"COMMENT\",\"dataType\":\"String|01\",\"oName\":\"N_COMMENT\"},{\"name\":\"N_NATIONKEY_2\",\"alias\":\"N_NATIONKEY_2\",\"dataType\":\"Integer|11\",\"oName\":\"N_NATIONKEY\"},{\"name\":\"N_COMMENT_2\",\"alias\":\"COMMENT_2\",\"dataType\":\"String|11\",\"oName\":\"N_COMMENT\"},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"dataType\":\"Integer|01\",\"oName\":\"N_REGIONKEY\"},{\"name\":\"N_REGIONKEY_2\",\"alias\":\"REGIONKEY_2\",\"dataType\":\"Integer|11\",\"oName\":\"N_REGIONKEY\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"2078\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.NATION\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"included\":true,\"key\":true},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"included\":true,\"key\":false},{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"2078\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY_2\",\"included\":true,\"key\":true},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY_2\",\"included\":true,\"key\":false},{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT_2\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"N_NATIONKEY\",\"srcColumn\":\"N_NATIONKEY\",\"endColumnName\":\"N_NATIONKEY\",\"tgtColumn\":\"N_NATIONKEY\"},{\"startColumnName\":\"N_COMMENT\",\"srcColumn\":\"N_COMMENT\",\"endColumnName\":\"N_COMMENT\",\"tgtColumn\":\"N_COMMENT\"}]}],\"blendFinalColumns\":[{\"name\":\"N_NATIONKEY\",\"alias\":\"NATIONKEY\",\"dataType\":\"number|01\",\"oName\":\"N_NATIONKEY\"},{\"name\":\"N_COMMENT\",\"alias\":\"COMMENT\",\"dataType\":\"string|01\",\"oName\":\"N_COMMENT\"},{\"name\":\"N_NATIONKEY_2\",\"alias\":\"Key\",\"dataType\":\"number|11\",\"oName\":\"N_NATIONKEY\"},{\"name\":\"N_COMMENT_2\",\"alias\":\"COMMENT----\",\"dataType\":\"string|11\",\"oName\":\"N_COMMENT\"},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"dataType\":\"number|01\",\"oName\":\"N_REGIONKEY\"},{\"name\":\"N_REGIONKEY_2\",\"alias\":\"REGIONKEY_2\",\"dataType\":\"number|11\",\"oName\":\"N_REGIONKEY\"}]}",
         "CreatedOn": "2025-07-31T07:38:22.567",
         "CreatedBy": "Srinidhi",
-        "ModifiedOn": "2025-07-31T07:39:14.34",
+        "ModifiedOn": "2025-07-31T07:42:06.6",
         "ModifiedBy": "Srinidhi",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 13277,
+        "Id": 13283,
         "DBlendId": 4865,
         "TableName": null,
         "ColumnName": "NATIONKEY",
-        "DataType": "Integer",
+        "DataType": "number",
         "Status": true
       },
       {
-        "Id": 13278,
+        "Id": 13284,
         "DBlendId": 4865,
         "TableName": null,
         "ColumnName": "COMMENT",
-        "DataType": "String",
+        "DataType": "string",
         "Status": true
       },
       {
-        "Id": 13279,
+        "Id": 13285,
         "DBlendId": 4865,
         "TableName": null,
-        "ColumnName": "N_NATIONKEY_2",
-        "DataType": "Integer",
+        "ColumnName": "Key",
+        "DataType": "number",
         "Status": true
       },
       {
-        "Id": 13280,
+        "Id": 13286,
         "DBlendId": 4865,
         "TableName": null,
-        "ColumnName": "COMMENT_2",
-        "DataType": "String",
+        "ColumnName": "COMMENT----",
+        "DataType": "string",
         "Status": true
       },
       {
-        "Id": 13281,
+        "Id": 13287,
         "DBlendId": 4865,
         "TableName": null,
         "ColumnName": "N_REGIONKEY",
-        "DataType": "Integer",
+        "DataType": "number",
         "Status": true
       },
       {
-        "Id": 13282,
+        "Id": 13288,
         "DBlendId": 4865,
         "TableName": null,
         "ColumnName": "REGIONKEY_2",
-        "DataType": "Integer",
+        "DataType": "number",
         "Status": true
       }
     ],
