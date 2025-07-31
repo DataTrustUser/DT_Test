@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-31T09:48:56.253",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-31T11:40:26.59",
+        "ModifiedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": "Swami",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -224,7 +224,7 @@
         "Position": "position: absolute; left: 846.094px; top: 194.059px;",
         "CreatedOn": "2025-07-31T11:39:10.553",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-07-31T11:40:26.84",
+        "ModifiedOn": "2025-07-31T11:41:54.27",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -270,7 +270,7 @@
     ],
     "SimpleAggregations": [
       {
-        "Id": 3368,
+        "Id": 3377,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -281,7 +281,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -292,7 +292,7 @@
         "QueryId": 5102
       },
       {
-        "Id": 3369,
+        "Id": 3378,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -303,7 +303,7 @@
         "AggregationType": "Min",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -314,7 +314,7 @@
         "QueryId": 5102
       },
       {
-        "Id": 3370,
+        "Id": 3379,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -325,7 +325,7 @@
         "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -336,7 +336,7 @@
         "QueryId": 5102
       },
       {
-        "Id": 3371,
+        "Id": 3380,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -347,7 +347,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -358,7 +358,7 @@
         "QueryId": 5102
       },
       {
-        "Id": 3372,
+        "Id": 3381,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -369,7 +369,7 @@
         "AggregationType": "Min",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -380,7 +380,7 @@
         "QueryId": 5102
       },
       {
-        "Id": 3373,
+        "Id": 3382,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -391,7 +391,7 @@
         "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -402,7 +402,7 @@
         "QueryId": 5102
       },
       {
-        "Id": 3374,
+        "Id": 3383,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -413,7 +413,7 @@
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -424,7 +424,7 @@
         "QueryId": 5102
       },
       {
-        "Id": 3375,
+        "Id": 3384,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -435,18 +435,18 @@
         "AggregationType": "Min",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
         "AliasColumnName": "1030.01",
         "Description": null,
-        "UserDefinedDataType": "String",
+        "UserDefinedDataType": "Decimal",
         "SystemDefinedDataType": "String",
         "QueryId": 5102
       },
       {
-        "Id": 3376,
+        "Id": 3385,
         "ScenarioId": null,
         "CSV_Id": 1440,
         "DCStepId": 36250,
@@ -457,7 +457,7 @@
         "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "Swami",
-        "CreatedOn": "2025-07-31T11:40:26.59",
+        "CreatedOn": "2025-07-31T11:41:53.88",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
