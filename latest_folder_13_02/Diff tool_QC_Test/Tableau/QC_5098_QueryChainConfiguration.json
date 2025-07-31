@@ -45,11 +45,11 @@
         "TableOrViewName": null,
         "DataSnapShotId": null,
         "ObjectCode": null,
-        "SessionId": 1,
-        "SnapshotOffset": 2,
+        "SessionId": 0,
+        "SnapshotOffset": null,
         "CreatedOn": "2025-07-31T09:38:41.99",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-31T09:49:48.607",
+        "ModifiedOn": "2025-07-31T09:50:26.157",
         "ModifiedBy": "Vinay",
         "Status": false,
         "SAPType": null,
@@ -74,7 +74,7 @@
         "UseLatestSession": false,
         "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
-        "OffsetDate": null,
+        "OffsetDate": "1",
         "OrderByValue": "Stateabbr,Stateid,Stateregion",
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
@@ -86,7 +86,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 17391,
+        "Id": 17395,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17392,
+        "Id": 17396,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -124,7 +124,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17393,
+        "Id": 17397,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -143,7 +143,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 17394,
+        "Id": 17398,
         "QueryDataSourceId": 4700,
         "DBlendId": null,
         "ProfileId": null,
@@ -375,26 +375,7 @@
         "QueryTimeOut": null
       }
     ],
-    "SimpleFilters": [
-      {
-        "Id": 541,
-        "ScenarioId": null,
-        "CSV_Id": 0,
-        "DcStepId": 36074,
-        "DCTypeId": null,
-        "StepId": 6,
-        "DataSourceId": 4700,
-        "GlobalFilter": "Statename = 'HYD' ",
-        "HtmlDiv": "\n            <div class=\"form-horizontal pull-left\" style=\"height:50%;margin-top: 1%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 no-padding availableColumns divLengthOptions no-border-right\">\n                        <ul class=\"ruleOptions pull-left\">\n                            <li id=\"Column_Names\" style=\"width: 135px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                Available Fields\n                            </li>\n                            <li style=\"width: 170px;padding: 2px 10px;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\">input</li>\n\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">(</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\">)</li>\n                            <li draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><img src=\"/Images/VBuilder.svg\" width=\"18\" style=\"margin-top:-4px;\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart pull-left\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 no-padding Height-full divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions Height-full ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"Stateid\">Stateid</option><option value=\"Statename\" selected=\"selected\">Statename</option><option value=\"Stateregion\">Stateregion</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\" selected=\"selected\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"HYD\" size=\"4\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">HYD</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 no-padding divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal pull-left\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 no-padding\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar no-margin-bottom\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><i class=\"fa fa-pencil-square-o\"></i></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons pull-right\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><i class=\"fa fa-refresh\"></i></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter no-border\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
-        "CreatedBy": "Vinay",
-        "CreatedOn": "2025-07-31T09:44:54.587",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "JSON": null,
-        "Description": null,
-        "QueryId": 5098
-      }
-    ],
+    "SimpleFilters": [],
     "SimpleAggregations": [],
     "AdvancedObjectFilter": [],
     "SimpleProjections": [],
@@ -562,7 +543,7 @@
         "TextQualifier": "!",
         "OverrideFile": false,
         "Header": false,
-        "ManipulatedFileName": "QC_5098_QC_Exist_QC_with_Dedup_20250731094955"
+        "ManipulatedFileName": "QC_5098_QC_Exist_QC_with_Dedup_20250731095030"
       }
     ]
   }
