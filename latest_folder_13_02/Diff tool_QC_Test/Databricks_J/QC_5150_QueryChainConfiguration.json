@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Existing Query",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Existing Query\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 496px; top: 183.641px;\",\"mapping\":\"79,2-[2,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 678px; top: 110.641px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 716px; top: 273.641px;\",\"mapping\":\"80,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"dsRelTable_dropped.5\",\"UniqueId\":\"2\",\"stepId\":\"5\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 265.008px; top: 182.641px;\",\"mapping\":\"2,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Existing Query\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 496px; top: 183.641px;\",\"mapping\":\"79,2-[2,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 678px; top: 110.641px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 716px; top: 273.641px;\",\"mapping\":\"80,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"dsRelTable_dropped.5\",\"UniqueId\":\"2\",\"stepId\":\"5\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 265.008px; top: 182.641px;\",\"mapping\":\"2,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 927px; top: 176.641px;\",\"mapping\":\"20,6-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 2307,
@@ -395,6 +395,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 36513,
+        "ScenarioId": null,
+        "QueryId": 5150,
+        "Job_Id": null,
+        "Step": 6,
+        "StepMapping": "20,6-[79,2]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "position: absolute; left: 927px; top: 176.641px;",
+        "CreatedOn": "2025-08-01T06:26:13.3",
+        "CreatedBy": "Dhanusha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -439,9 +474,48 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 28963,
+        "ScenarioId": null,
+        "QueryId": 5150,
+        "StepId": 6,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
-    "EmailAlerts": [],
+    "EmailAlerts": [
+      {
+        "Query_Id": 5150,
+        "Job_Id": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": true,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": 0,
+        "Scenario_Header_Id": null,
+        "WhenFaild": false,
+        "EmailWhen_F": null,
+        "WhenSuccess": true,
+        "EmailWhen_S": "kotari.dhanusha@getrightdata.com",
+        "CreatedBy": "118",
+        "CreatedOn": "2025-08-01T06:26:13.247",
+        "EmailTemplateId": null,
+        "EmailPriority": "Normal",
+        "EmailFromName": null,
+        "EmailSubject": null,
+        "EnableHyperlinks": true,
+        "SendExtrenalLink": null,
+        "AttachResultSummary": null,
+        "PdfAttachment": true
+      }
+    ],
     "DataProfilings": [
       {
         "Id": 7219,
@@ -632,7 +706,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5150_Existing_Query_20250801062142"
+        "ManipulatedFileName": "QC_5150_Existing_Query_20250801062618"
       }
     ]
   }
