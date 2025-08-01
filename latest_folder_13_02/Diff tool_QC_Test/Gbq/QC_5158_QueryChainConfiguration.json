@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-01T06:36:18.113",
         "CreatedBy": "shrikant",
-        "ModifiedOn": "2025-08-01T06:41:53.24",
+        "ModifiedOn": "2025-08-01T06:45:01.167",
         "ModifiedBy": "shrikant",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,11 +26,11 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "shrikant 8/1/2025 6:33:00 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"shrikant 8/1/2025 6:33:00 A\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Query using part table\\\" for data source \\\"Google Big Query\\\"\",\"position\":\"position: absolute; left: 315px; top: 196.641px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 555px; top: 199.641px;\",\"mapping\":\"79,2-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Gbq \",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Query using part table\\\" for data source \\\"Google Big Query\\\"\",\"position\":\"position: absolute; left: 315px; top: 196.641px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 555px; top: 199.641px;\",\"mapping\":\"79,2-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "shrikant",
         "FId": 2305,
-        "DataRetentionJson": null
+        "DataRetentionJson": "{\"sinceDate\":\"2025-08-01\",\"days\":null,\"runs\":null}"
       }
     ],
     "QcDataSource": [
