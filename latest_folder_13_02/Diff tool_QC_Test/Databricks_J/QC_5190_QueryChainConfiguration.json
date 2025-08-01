@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-01T10:12:29.273",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-01T10:24:05.24",
+        "ModifiedOn": "2025-08-01T12:38:51.83",
         "ModifiedBy": "Swami",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -314,13 +314,13 @@
         "QueryId": 5190,
         "Job_Id": null,
         "Step": 8,
-        "StepMapping": "61,1-3,5",
+        "StepMapping": "",
         "TransformationId": 81,
         "Description": "Union Datasets",
         "Position": "position: absolute; left: 537.031px; top: 218.059px;",
         "CreatedOn": "2025-08-01T10:18:06.663",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-08-01T10:24:05.34",
+        "ModifiedOn": "2025-08-01T12:38:51.893",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -497,17 +497,17 @@
         "Title": "",
         "Description": "Union Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"5\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5151\",\"sourceTableOrQuery\":\"Databricks_JDBC_Part_SQL_Query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"BigInt\"},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"String\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"String\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"String\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"String\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"BigInt\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"String\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"1197\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"5\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"1197\",\"queryId\":\"5151\",\"sourceTableOrQuery\":\"Databricks_JDBC_Part_SQL_Query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"P_PARTKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_MFGR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_BRAND\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_TYPE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_SIZE\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"P_CONTAINER\",\"dataType\":\"String\",\"included\":true},{\"name\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"P_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"BigInt\"},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"String\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"String\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"String\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"String\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"BigInt\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"String\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"Decimal\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
         "CreatedOn": "2025-08-01T10:18:06.633",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-08-01T10:24:05.247",
+        "ModifiedOn": "2025-08-01T12:38:51.833",
         "ModifiedBy": "Swami",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7070,
+        "Id": 7093,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_PARTKEY",
@@ -515,7 +515,7 @@
         "Status": true
       },
       {
-        "Id": 7071,
+        "Id": 7094,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_NAME",
@@ -523,7 +523,7 @@
         "Status": true
       },
       {
-        "Id": 7072,
+        "Id": 7095,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_MFGR",
@@ -531,7 +531,7 @@
         "Status": true
       },
       {
-        "Id": 7073,
+        "Id": 7096,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_BRAND",
@@ -539,7 +539,7 @@
         "Status": true
       },
       {
-        "Id": 7074,
+        "Id": 7097,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_TYPE",
@@ -547,7 +547,7 @@
         "Status": true
       },
       {
-        "Id": 7075,
+        "Id": 7098,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_SIZE",
@@ -555,7 +555,7 @@
         "Status": true
       },
       {
-        "Id": 7076,
+        "Id": 7099,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_CONTAINER",
@@ -563,7 +563,7 @@
         "Status": true
       },
       {
-        "Id": 7077,
+        "Id": 7100,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_RETAILPRICE",
@@ -571,7 +571,7 @@
         "Status": true
       },
       {
-        "Id": 7078,
+        "Id": 7101,
         "DBlendId": 1368,
         "TableName": null,
         "ColumnName": "P_COMMENT",
