@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T07:10:10.91",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-07-31T10:51:36.52",
-        "ModifiedBy": "Saikiran",
+        "ModifiedOn": "2025-08-01T05:10:25.75",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC-Recon",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 7/30/2025 7:10:01 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsFDRResult_dropped.1\",\"UniqueId\":\"86\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Vinay 7/30/2025 6:55:29 AM\",\"position\":\"position: absolute; left: 263.519px; top: 202.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"86,1-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 449.711px; top: 201.067px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[86,1]\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 7/30/2025 7:10:01 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsFDRResult_dropped.1\",\"UniqueId\":\"86\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Vinay 7/30/2025 6:55:29 AM\",\"position\":\"position: absolute; left: 262.519px; top: 202.072px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"86,1-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 449.711px; top: 201.067px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[86,1]\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2299,
@@ -49,8 +49,8 @@
         "SnapshotOffset": null,
         "CreatedOn": "2025-07-31T10:50:59.39",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-07-31T10:51:36.513",
-        "ModifiedBy": "Saikiran",
+        "ModifiedOn": "2025-08-01T05:10:25.743",
+        "ModifiedBy": "Vinay",
         "Status": false,
         "SAPType": null,
         "DataSourceType": "DS",
@@ -71,9 +71,9 @@
         "DefaultPacketSize": null,
         "MaxPacketSize": null,
         "MaxParallelism": null,
-        "UseLatestSession": true,
+        "UseLatestSession": false,
         "ResultScenario_Id": 6310,
-        "RemoveDuplicates": false,
+        "RemoveDuplicates": true,
         "OffsetDate": null,
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
@@ -81,12 +81,12 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       }
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 17573,
+        "Id": 18303,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -102,10 +102,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17574,
+        "Id": 18304,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -121,10 +121,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17575,
+        "Id": 18305,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -140,10 +140,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17576,
+        "Id": 18306,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -159,10 +159,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17577,
+        "Id": 18307,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -178,10 +178,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17578,
+        "Id": 18308,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -197,10 +197,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17579,
+        "Id": 18309,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -216,10 +216,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17580,
+        "Id": 18310,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -235,10 +235,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17581,
+        "Id": 18311,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -254,10 +254,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17582,
+        "Id": 18312,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -273,10 +273,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17583,
+        "Id": 18313,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -292,10 +292,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17584,
+        "Id": 18314,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -311,10 +311,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17585,
+        "Id": 18315,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -330,10 +330,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17586,
+        "Id": 18316,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -349,10 +349,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17587,
+        "Id": 18317,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -368,10 +368,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17588,
+        "Id": 18318,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -387,10 +387,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17589,
+        "Id": 18319,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -406,10 +406,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17590,
+        "Id": 18320,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -425,10 +425,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17591,
+        "Id": 18321,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -444,10 +444,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17592,
+        "Id": 18322,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -463,10 +463,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17593,
+        "Id": 18323,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -482,10 +482,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17594,
+        "Id": 18324,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -501,10 +501,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17595,
+        "Id": 18325,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -520,10 +520,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17596,
+        "Id": 18326,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -539,10 +539,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17597,
+        "Id": 18327,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -558,10 +558,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17598,
+        "Id": 18328,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -577,10 +577,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17599,
+        "Id": 18329,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -596,10 +596,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17600,
+        "Id": 18330,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -615,10 +615,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17601,
+        "Id": 18331,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -634,10 +634,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17602,
+        "Id": 18332,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -653,10 +653,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17603,
+        "Id": 18333,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -672,10 +672,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17604,
+        "Id": 18334,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -691,10 +691,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17605,
+        "Id": 18335,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -710,10 +710,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17606,
+        "Id": 18336,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -729,10 +729,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17607,
+        "Id": 18337,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -748,10 +748,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17608,
+        "Id": 18338,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -767,10 +767,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17609,
+        "Id": 18339,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -786,10 +786,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17610,
+        "Id": 18340,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -805,10 +805,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17611,
+        "Id": 18341,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -824,10 +824,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17612,
+        "Id": 18342,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -843,10 +843,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17613,
+        "Id": 18343,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -862,10 +862,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17614,
+        "Id": 18344,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -881,10 +881,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17615,
+        "Id": 18345,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -900,10 +900,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17616,
+        "Id": 18346,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -919,10 +919,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17617,
+        "Id": 18347,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -938,10 +938,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17618,
+        "Id": 18348,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -957,10 +957,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17619,
+        "Id": 18349,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -976,10 +976,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17620,
+        "Id": 18350,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -995,10 +995,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17621,
+        "Id": 18351,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -1014,10 +1014,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17622,
+        "Id": 18352,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -1033,10 +1033,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17623,
+        "Id": 18353,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -1052,10 +1052,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17624,
+        "Id": 18354,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -1071,10 +1071,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17625,
+        "Id": 18355,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -1090,10 +1090,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17626,
+        "Id": 18356,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -1109,10 +1109,10 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       },
       {
-        "Id": 17627,
+        "Id": 18357,
         "QueryDataSourceId": 4718,
         "DBlendId": null,
         "ProfileId": null,
@@ -1128,7 +1128,7 @@
         "Description": null,
         "NewlyAddedColumn": null,
         "ResultScenario_Id": 6310,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 1
       }
     ],
     "ObjectFilters": [],
