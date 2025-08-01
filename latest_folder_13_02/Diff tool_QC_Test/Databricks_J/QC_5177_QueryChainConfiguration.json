@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC-Profiling",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Profiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsProfiling_dropped.1\",\"UniqueId\":\"87\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Existing Query\\\" for data source \\\"Databricks_JDBC\\\"\",\"position\":\"position: absolute; left: 258.113px; top: 199.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"87,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 412.722px; top: 195.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[87,1]\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Profiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsProfiling_dropped.1\",\"UniqueId\":\"87\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Existing Query\\\" for data source \\\"Databricks_JDBC\\\"\",\"position\":\"position: absolute; left: 258.113px; top: 199.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"87,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 412.722px; top: 195.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[87,1]\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2307,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 4889,
+        "Id": 4907,
         "Query_Id": 5177,
         "Profile_Id": null,
-        "DCStep_Id": 36866,
+        "DCStep_Id": 36953,
         "BlendStepId": null,
         "Query_Id_Id": 5150,
         "ResultTableName": null,
@@ -47,8 +47,8 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-01T09:44:47.117",
-        "CreatedBy": "Vinay",
+        "CreatedOn": "2025-08-01T10:26:23.96",
+        "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": false,
@@ -86,8 +86,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 18828,
-        "QueryDataSourceId": 4889,
+        "Id": 18895,
+        "QueryDataSourceId": 4907,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -105,8 +105,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 18829,
-        "QueryDataSourceId": 4889,
+        "Id": 18896,
+        "QueryDataSourceId": 4907,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -124,8 +124,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 18830,
-        "QueryDataSourceId": 4889,
+        "Id": 18897,
+        "QueryDataSourceId": 4907,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -146,7 +146,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 36865,
+        "Id": 36952,
         "ScenarioId": null,
         "QueryId": 5177,
         "Job_Id": null,
@@ -155,8 +155,8 @@
         "TransformationId": 0,
         "Description": "Vinay 8/1/2025 9:23:27 AM",
         "Position": null,
-        "CreatedOn": "2025-08-01T09:44:47.143",
-        "CreatedBy": "Vinay",
+        "CreatedOn": "2025-08-01T10:26:23.99",
+        "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -181,7 +181,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 36866,
+        "Id": 36953,
         "ScenarioId": null,
         "QueryId": 5177,
         "Job_Id": null,
@@ -190,8 +190,8 @@
         "TransformationId": 87,
         "Description": "Read data from \"Existing Query\" for data source \"Databricks_JDBC\"",
         "Position": "position: absolute; left: 258.118px; top: 200.076px;",
-        "CreatedOn": "2025-08-01T09:44:47.173",
-        "CreatedBy": "Vinay",
+        "CreatedOn": "2025-08-01T10:26:24.017",
+        "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -216,7 +216,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 36867,
+        "Id": 36954,
         "ScenarioId": null,
         "QueryId": 5177,
         "Job_Id": null,
@@ -225,8 +225,8 @@
         "TransformationId": 79,
         "Description": "Vinay#@8/1/2025 9:41:39 AM",
         "Position": null,
-        "CreatedOn": "2025-08-01T09:44:47.197",
-        "CreatedBy": "Vinay",
+        "CreatedOn": "2025-08-01T10:26:24.04",
+        "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -299,7 +299,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 29166,
+        "Id": 29215,
         "ScenarioId": null,
         "QueryId": 5177,
         "StepId": 1,
