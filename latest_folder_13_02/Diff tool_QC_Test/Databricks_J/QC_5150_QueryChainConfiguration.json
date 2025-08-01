@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-01T06:18:50.463",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-01T09:27:38.6",
+        "ModifiedOn": "2025-08-01T09:27:51.493",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -338,7 +338,7 @@
         "Position": "position: absolute; left: 715px; top: 276.641px;",
         "CreatedOn": "2025-08-01T09:27:24.017",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-01T09:27:38.66",
+        "ModifiedOn": "2025-08-01T09:27:51.547",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "ErrorCodes": null,
@@ -528,7 +528,7 @@
     ],
     "DataProfilings": [
       {
-        "Id": 7369,
+        "Id": 7375,
         "ScenarioId": null,
         "QueryId": 5150,
         "CSV_Id": 0,
@@ -541,7 +541,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-01T09:27:38.6",
+        "CreatedOn": "2025-08-01T09:27:51.493",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -551,7 +551,7 @@
         "SummaryOnly": true
       },
       {
-        "Id": 7370,
+        "Id": 7376,
         "ScenarioId": null,
         "QueryId": 5150,
         "CSV_Id": 0,
@@ -564,7 +564,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-01T09:27:38.6",
+        "CreatedOn": "2025-08-01T09:27:51.493",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -574,7 +574,7 @@
         "SummaryOnly": true
       },
       {
-        "Id": 7371,
+        "Id": 7377,
         "ScenarioId": null,
         "QueryId": 5150,
         "CSV_Id": 0,
@@ -587,7 +587,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-01T09:27:38.6",
+        "CreatedOn": "2025-08-01T09:27:51.493",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -597,7 +597,7 @@
         "SummaryOnly": true
       },
       {
-        "Id": 7372,
+        "Id": 7378,
         "ScenarioId": null,
         "QueryId": 5150,
         "CSV_Id": 0,
@@ -610,7 +610,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-01T09:27:38.6",
+        "CreatedOn": "2025-08-01T09:27:51.493",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -620,7 +620,7 @@
         "SummaryOnly": true
       },
       {
-        "Id": 7373,
+        "Id": 7379,
         "ScenarioId": null,
         "QueryId": 5150,
         "CSV_Id": 0,
@@ -633,7 +633,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-01T09:27:38.6",
+        "CreatedOn": "2025-08-01T09:27:51.493",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -643,7 +643,7 @@
         "SummaryOnly": true
       },
       {
-        "Id": 7374,
+        "Id": 7380,
         "ScenarioId": null,
         "QueryId": 5150,
         "CSV_Id": 0,
@@ -656,7 +656,30 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-01T09:27:38.6",
+        "CreatedOn": "2025-08-01T09:27:51.493",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "QueryDataSourceId": null,
+        "DBlendId": null,
+        "Status": null,
+        "Description": null,
+        "SummaryOnly": true
+      },
+      {
+        "Id": 7381,
+        "ScenarioId": null,
+        "QueryId": 5150,
+        "CSV_Id": 0,
+        "DcStepId": 36808,
+        "StepId": 36808,
+        "ScenarioDataSourceId": null,
+        "ColumnName": "S_COMMENT",
+        "AliasColumnName": "S_COMMENT",
+        "SystemDefinedDataType": "String",
+        "UserDefinedDataType": null,
+        "IsPrimary": null,
+        "CreatedBy": "Dhanusha",
+        "CreatedOn": "2025-08-01T09:27:51.493",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -693,7 +716,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5150_Existing_Query_20250801092745"
+        "ManipulatedFileName": "QC_5150_Existing_Query_20250801092755"
       }
     ]
   }
