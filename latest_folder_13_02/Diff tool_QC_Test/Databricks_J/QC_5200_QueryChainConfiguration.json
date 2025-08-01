@@ -4,7 +4,7 @@
       {
         "Id": 5200,
         "Profile_Id": null,
-        "Query_Name": "_Copy Of_Vinay 8/1/2025 12:41:41 PM",
+        "Query_Name": "QC-RDBMS-Union",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-01T13:17:00.913",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-01T13:18:02.743",
+        "ModifiedOn": "2025-08-01T13:19:19.653",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -25,12 +25,12 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "Vinay 8/1/2025 12:41:41 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDBMS-Join\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"rightdata_datasets.tpch1.supplier\\\" for data source \\\"Databricks_JDBC\\\"\",\"position\":\"position: absolute; left: 323.44px; top: 120.069px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.3\",\"UniqueId\":\"3\",\"stepId\":\"3\",\"description\":\"Read data from \\\"Databricks_Supplier\\\" for data source \\\"Databricks_JDBC\\\"\",\"position\":\"position: absolute; left: 328.722px; top: 309.076px;\",\"mapping\":\"3,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataUnion_dropped.4\",\"UniqueId\":\"81\",\"stepId\":\"4\",\"description\":\"Union Datasets\",\"position\":\"position: absolute; left: 510.447px; top: 193.076px;\",\"mapping\":\"2,1-3,3\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"qcEndItem_dropped.5\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 672.722px; top: 193.076px;\",\"mapping\":\"79,5-[81,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"}]",
+        "QueryDescription": "QC-RDBMS-Union",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-RDBMS-Union\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"rightdata_datasets.tpch1.supplier\\\" for data source \\\"Databricks_JDBC\\\"\",\"position\":\"position: absolute; left: 323.44px; top: 120.069px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.3\",\"UniqueId\":\"3\",\"stepId\":\"3\",\"description\":\"Read data from \\\"Databricks_Supplier\\\" for data source \\\"Databricks_JDBC\\\"\",\"position\":\"position: absolute; left: 328.722px; top: 309.076px;\",\"mapping\":\"3,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataUnion_dropped.4\",\"UniqueId\":\"81\",\"stepId\":\"4\",\"description\":\"Union Datasets\",\"position\":\"position: absolute; left: 510.447px; top: 193.076px;\",\"mapping\":\"2,1-3,3\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"qcEndItem_dropped.5\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 672.722px; top: 193.076px;\",\"mapping\":\"79,5-[81,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2307,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
@@ -387,7 +387,7 @@
         "Position": "position: absolute; left: 510.447px; top: 193.076px;",
         "CreatedOn": "2025-08-01T13:17:55.583",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-01T13:18:02.83",
+        "ModifiedOn": "2025-08-01T13:19:19.71",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -459,25 +459,25 @@
         "Title": "",
         "Description": "Union Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"rightdata_datasets.tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_SUPPKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5149\",\"sourceTableOrQuery\":\"Databricks_Supplier\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_SUPPKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"dataType\":\"BigInt\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"String\"},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"dataType\":\"String\"},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"dataType\":\"BigInt\"},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"dataType\":\"String\"},{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"dataType\":\"Decimal\"},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"1197\",\"queryId\":\"\",\"sourceTableOrQuery\":\"rightdata_datasets.tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_SUPPKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1197\",\"SAPType\":\"\",\"ProfileTypeId\":\"1197\",\"queryId\":\"5149\",\"sourceTableOrQuery\":\"Databricks_Supplier\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_SUPPKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SK\",\"dataType\":\"BigInt\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"String\"},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADD\",\"dataType\":\"String\"},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NAT\",\"dataType\":\"BigInt\"},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"dataType\":\"String\"},{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACC\",\"dataType\":\"Decimal\"},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
         "CreatedOn": "2025-08-01T13:17:55.55",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-01T13:18:02.747",
+        "ModifiedOn": "2025-08-01T13:19:19.657",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7102,
+        "Id": 7109,
         "DBlendId": 1377,
         "TableName": null,
-        "ColumnName": "S_SUPPKEY",
+        "ColumnName": "S_SK",
         "DataType": "BigInt",
         "Status": true
       },
       {
-        "Id": 7103,
+        "Id": 7110,
         "DBlendId": 1377,
         "TableName": null,
         "ColumnName": "S_NAME",
@@ -485,23 +485,23 @@
         "Status": true
       },
       {
-        "Id": 7104,
+        "Id": 7111,
         "DBlendId": 1377,
         "TableName": null,
-        "ColumnName": "S_ADDRESS",
+        "ColumnName": "S_ADD",
         "DataType": "String",
         "Status": true
       },
       {
-        "Id": 7105,
+        "Id": 7112,
         "DBlendId": 1377,
         "TableName": null,
-        "ColumnName": "S_NATIONKEY",
+        "ColumnName": "S_NAT",
         "DataType": "BigInt",
         "Status": true
       },
       {
-        "Id": 7106,
+        "Id": 7113,
         "DBlendId": 1377,
         "TableName": null,
         "ColumnName": "S_PHONE",
@@ -509,15 +509,15 @@
         "Status": true
       },
       {
-        "Id": 7107,
+        "Id": 7114,
         "DBlendId": 1377,
         "TableName": null,
-        "ColumnName": "S_ACCTBAL",
+        "ColumnName": "S_ACC",
         "DataType": "Decimal",
         "Status": true
       },
       {
-        "Id": 7108,
+        "Id": 7115,
         "DBlendId": 1377,
         "TableName": null,
         "ColumnName": "S_COMMENT",
