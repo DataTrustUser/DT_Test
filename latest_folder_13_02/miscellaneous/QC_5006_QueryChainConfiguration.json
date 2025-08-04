@@ -81,8 +81,7 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "SourceName_Id": 100,
-        "ProfileName": "MSSQL_J"
+        "Scenario_SessionId": null
       }
     ],
     "QCTableFieldTypes": [
