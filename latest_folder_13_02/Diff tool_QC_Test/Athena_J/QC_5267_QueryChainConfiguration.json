@@ -4,7 +4,7 @@
       {
         "Id": 5267,
         "Profile_Id": null,
-        "Query_Name": "Vinay 8/4/2025 4:05:06 PM",
+        "Query_Name": "QC-Athena-Union",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T16:05:42.577",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-04T16:06:46.787",
+        "ModifiedOn": "2025-08-04T16:08:05.44",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -25,12 +25,12 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "Vinay 8/4/2025 4:05:06 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 8/4/2025 4:05:06 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Athena-Supplier query\\\" for data source \\\"Athena_J\\\"\",\"position\":\"position: absolute; left: 306.722px; top: 94.0764px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataUnion_dropped.2\",\"UniqueId\":\"81\",\"stepId\":\"2\",\"description\":\"Union Datasets\",\"position\":\"position: absolute; left: 486.438px; top: 160.074px;\",\"mapping\":\"3,1-78,3\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"undefined_dropped.3\",\"UniqueId\":\"78\",\"stepId\":\"3\",\"description\":\"Read data from \\\"QC-Exist query\\\" for data source \\\"Athena_J\\\"\",\"position\":\"position: absolute; left: 306.322px; top: 267.076px;\",\"mapping\":\"78,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.4\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 645.722px; top: 161.076px;\",\"mapping\":\"79,4-[81,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
+        "QueryDescription": "QC-Athena-Union",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Athena-Union\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Athena-Supplier query\\\" for data source \\\"Athena_J\\\"\",\"position\":\"position: absolute; left: 306.722px; top: 94.0764px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataUnion_dropped.2\",\"UniqueId\":\"81\",\"stepId\":\"2\",\"description\":\"Union Datasets\",\"position\":\"position: absolute; left: 486.438px; top: 160.074px;\",\"mapping\":\"3,1-78,3\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"undefined_dropped.3\",\"UniqueId\":\"78\",\"stepId\":\"3\",\"description\":\"Read data from \\\"QC-Exist query\\\" for data source \\\"Athena_J\\\"\",\"position\":\"position: absolute; left: 306.322px; top: 267.076px;\",\"mapping\":\"78,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.4\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 645.722px; top: 161.076px;\",\"mapping\":\"79,4-[81,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2311,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
@@ -406,7 +406,7 @@
         "Position": "position: absolute; left: 486.438px; top: 160.074px;",
         "CreatedOn": "2025-08-04T16:06:38.8",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-04T16:06:46.853",
+        "ModifiedOn": "2025-08-04T16:07:58.42",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -441,8 +441,8 @@
         "Position": null,
         "CreatedOn": "2025-08-04T16:06:56.94",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-04T16:08:05.437",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -478,25 +478,25 @@
         "Title": "",
         "Description": "Union Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1203\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5258\",\"sourceTableOrQuery\":\"Athena-Supplier query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"s_suppkey\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"s_name\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_address\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_nationkey\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"s_phone\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_acctbal\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_comment\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5259\",\"sourceTableOrQuery\":\"Vinay#@8/4/2025 1:08:09 PM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"s_suppkey\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"s_name\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_address\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_nationkey\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"s_phone\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_acctbal\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"s_comment\",\"dataType\":\"String\",\"included\":true},{\"name\":\"new column\",\"dataType\":\"Integer\",\"included\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_suppkey\",\"dataType\":\"BigInt\"},{\"name\":\"s_name\",\"alias\":\"s_name\",\"dataType\":\"String\"},{\"name\":\"s_address\",\"alias\":\"s_address\",\"dataType\":\"String\"},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"dataType\":\"Integer\"},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"dataType\":\"String\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acctbal\",\"dataType\":\"String\"},{\"name\":\"s_comment\",\"alias\":\"s_comment\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1203\",\"SAPType\":\"\",\"ProfileTypeId\":\"1203\",\"queryId\":\"5258\",\"sourceTableOrQuery\":\"Athena-Supplier query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"s_suppkey\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"s_name\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_address\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_nationkey\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"s_phone\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_acctbal\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_comment\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"0\",\"queryId\":\"5259\",\"sourceTableOrQuery\":\"Vinay#@8/4/2025 1:08:09 PM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"s_suppkey\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"s_name\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_address\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_nationkey\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"s_phone\",\"dataType\":\"String\",\"included\":true},{\"name\":\"s_acctbal\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"s_comment\",\"dataType\":\"String\",\"included\":true},{\"name\":\"new column\",\"dataType\":\"Integer\",\"included\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"s_suppkey\",\"alias\":\"s_sk\",\"dataType\":\"BigInt\"},{\"name\":\"s_name\",\"alias\":\"s_name\",\"dataType\":\"String\"},{\"name\":\"s_address\",\"alias\":\"s_address\",\"dataType\":\"String\"},{\"name\":\"s_nationkey\",\"alias\":\"s_nk\",\"dataType\":\"Integer\"},{\"name\":\"s_phone\",\"alias\":\"s_phone\",\"dataType\":\"String\"},{\"name\":\"s_acctbal\",\"alias\":\"s_acc\",\"dataType\":\"String\"},{\"name\":\"s_comment\",\"alias\":\"s_comment\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
         "CreatedOn": "2025-08-04T16:06:38.777",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-04T16:06:46.79",
+        "ModifiedOn": "2025-08-04T16:07:58.213",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7352,
+        "Id": 7359,
         "DBlendId": 1406,
         "TableName": null,
-        "ColumnName": "s_suppkey",
+        "ColumnName": "s_sk",
         "DataType": "BigInt",
         "Status": true
       },
       {
-        "Id": 7353,
+        "Id": 7360,
         "DBlendId": 1406,
         "TableName": null,
         "ColumnName": "s_name",
@@ -504,7 +504,7 @@
         "Status": true
       },
       {
-        "Id": 7354,
+        "Id": 7361,
         "DBlendId": 1406,
         "TableName": null,
         "ColumnName": "s_address",
@@ -512,15 +512,15 @@
         "Status": true
       },
       {
-        "Id": 7355,
+        "Id": 7362,
         "DBlendId": 1406,
         "TableName": null,
-        "ColumnName": "s_nationkey",
+        "ColumnName": "s_nk",
         "DataType": "Integer",
         "Status": true
       },
       {
-        "Id": 7356,
+        "Id": 7363,
         "DBlendId": 1406,
         "TableName": null,
         "ColumnName": "s_phone",
@@ -528,15 +528,15 @@
         "Status": true
       },
       {
-        "Id": 7357,
+        "Id": 7364,
         "DBlendId": 1406,
         "TableName": null,
-        "ColumnName": "s_acctbal",
+        "ColumnName": "s_acc",
         "DataType": "String",
         "Status": true
       },
       {
-        "Id": 7358,
+        "Id": 7365,
         "DBlendId": 1406,
         "TableName": null,
         "ColumnName": "s_comment",
