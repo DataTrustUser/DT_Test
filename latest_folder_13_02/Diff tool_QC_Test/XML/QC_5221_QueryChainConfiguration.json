@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T07:39:25.737",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-04T09:03:59.727",
+        "ModifiedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -204,7 +204,7 @@
         "Position": "position: absolute; left: 387.667px; top: 204.635px;",
         "CreatedOn": "2025-08-04T08:58:03.74",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-04T09:03:55.05",
+        "ModifiedOn": "2025-08-04T09:05:14.463",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -233,7 +233,7 @@
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 12724,
+        "Id": 12733,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -246,7 +246,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -257,7 +257,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12725,
+        "Id": 12734,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -270,7 +270,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -281,7 +281,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12726,
+        "Id": 12735,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -294,7 +294,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -305,7 +305,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12727,
+        "Id": 12736,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -318,7 +318,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -329,7 +329,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12728,
+        "Id": 12737,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -342,7 +342,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -353,7 +353,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12729,
+        "Id": 12738,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -366,7 +366,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -377,7 +377,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12730,
+        "Id": 12739,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -385,12 +385,12 @@
         "StepId": 4,
         "DataSourceId": 0,
         "ColumnName": "C_NATIONKEY",
-        "AliasColumnName": "C_NATIONKEY",
+        "AliasColumnName": "C_NATIONKEY as nationkey ",
         "SystemDefinedDataType": "STRING",
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -401,7 +401,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12731,
+        "Id": 12740,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -414,7 +414,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -425,7 +425,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12732,
+        "Id": 12741,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -438,7 +438,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:03:54.943",
+        "CreatedOn": "2025-08-04T09:05:14.07",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
