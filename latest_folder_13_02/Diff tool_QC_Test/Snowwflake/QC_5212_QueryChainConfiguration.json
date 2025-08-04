@@ -30,7 +30,7 @@
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 2309,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
@@ -574,7 +574,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5212_QC_using_Existing_Query_for_Snowflake_20250804060538"
+        "ManipulatedFileName": "QC_5212_QC_using_Existing_Query_for_Snowflake_20250804060635"
       }
     ]
   }
