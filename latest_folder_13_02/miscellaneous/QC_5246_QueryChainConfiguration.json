@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T11:35:34.14",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-04T11:36:46.01",
+        "ModifiedOn": "2025-08-04T11:39:45.257",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -45,11 +45,11 @@
         "TableOrViewName": null,
         "DataSnapShotId": null,
         "ObjectCode": null,
-        "SessionId": 1,
+        "SessionId": 2,
         "SnapshotOffset": null,
         "CreatedOn": "2025-08-04T11:36:04.253",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-04T11:36:41.41",
+        "ModifiedOn": "2025-08-04T11:39:29.27",
         "ModifiedBy": "Vinay",
         "Status": false,
         "SAPType": null,
@@ -86,7 +86,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 19534,
+        "Id": 19545,
         "QueryDataSourceId": 5035,
         "DBlendId": null,
         "ProfileId": null,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19535,
+        "Id": 19546,
         "QueryDataSourceId": 5035,
         "DBlendId": null,
         "ProfileId": null,
@@ -124,7 +124,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19536,
+        "Id": 19547,
         "QueryDataSourceId": 5035,
         "DBlendId": null,
         "ProfileId": null,
@@ -227,7 +227,7 @@
         "Position": null,
         "CreatedOn": "2025-08-04T11:36:13.71",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-04T11:36:46.007",
+        "ModifiedOn": "2025-08-04T11:39:45.25",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
