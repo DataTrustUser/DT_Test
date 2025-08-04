@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T07:39:25.737",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-04T09:05:14.07",
+        "ModifiedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/4/2025 7:39:05 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"XML_Local file_Transformations \",\"position\":\"position: absolute; left: 82px; top: 207.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsXML_dropped.2\",\"UniqueId\":\"140\",\"stepId\":\"2\",\"description\":\"Read data from \\\"\\\\Customer_2025_08_04_07_39_46.xml\\\"\",\"position\":\"position: absolute; left: 234.177px; top: 204.635px;\",\"mapping\":\"140,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 561.667px; top: 202.635px;\",\"mapping\":\"79,3-[65,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"},{\"widgetId\":\"dcSimpleProjection_dropped.4\",\"UniqueId\":\"65\",\"stepId\":\"4\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 387.667px; top: 204.635px;\",\"mapping\":\"65,4-[140,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"XML_Local file_Transformations \",\"position\":\"position: absolute; left: 82px; top: 207.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsXML_dropped.2\",\"UniqueId\":\"140\",\"stepId\":\"2\",\"description\":\"Read data from \\\"\\\\Customer_2025_08_04_07_39_46.xml\\\"\",\"position\":\"position: absolute; left: 234.177px; top: 204.635px;\",\"mapping\":\"140,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 561.667px; top: 202.635px;\",\"mapping\":\"79,3-[65,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"},{\"widgetId\":\"dcSimpleProjection_dropped.4\",\"UniqueId\":\"65\",\"stepId\":\"4\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 389.667px; top: 204.635px;\",\"mapping\":\"65,4-[140,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2308,
@@ -201,10 +201,10 @@
         "StepMapping": "65,4-[140,2]",
         "TransformationId": 65,
         "Description": "Transform the data from Data Source",
-        "Position": "position: absolute; left: 387.667px; top: 204.635px;",
+        "Position": "position: absolute; left: 389.667px; top: 204.635px;",
         "CreatedOn": "2025-08-04T08:58:03.74",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-04T09:05:14.463",
+        "ModifiedOn": "2025-08-04T09:07:25.367",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -233,7 +233,7 @@
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 12733,
+        "Id": 12742,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -246,7 +246,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -257,7 +257,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12734,
+        "Id": 12743,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -270,7 +270,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -281,7 +281,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12735,
+        "Id": 12744,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -294,7 +294,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -305,7 +305,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12736,
+        "Id": 12745,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -315,10 +315,10 @@
         "ColumnName": "C_CUSTKEY",
         "AliasColumnName": "C_CUSTKEY",
         "SystemDefinedDataType": "STRING",
-        "UserDefinedDataType": "String",
+        "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -329,7 +329,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12737,
+        "Id": 12746,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -342,7 +342,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -353,7 +353,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12738,
+        "Id": 12747,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -366,7 +366,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -377,7 +377,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12739,
+        "Id": 12748,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -390,7 +390,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -401,7 +401,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12740,
+        "Id": 12749,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -414,7 +414,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -425,7 +425,7 @@
         "QueryId": 5221
       },
       {
-        "Id": 12741,
+        "Id": 12750,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37275,
@@ -438,7 +438,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T09:05:14.07",
+        "CreatedOn": "2025-08-04T09:07:25.287",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
