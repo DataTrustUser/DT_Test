@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T06:02:18.013",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-04T06:16:35.647",
+        "ModifiedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC using Existing Query for Snowflake",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC using Existing Query for Snowflake\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Customer Snowflake_J\\\" for data source \\\"Snowflake_J1\\\"\",\"position\":\"position: absolute; left: 248px; top: 203.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.5\",\"UniqueId\":\"65\",\"stepId\":\"5\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 433px; top: 196.641px;\",\"mapping\":\"65,5-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcAggregation_dropped.6\",\"UniqueId\":\"67\",\"stepId\":\"6\",\"description\":\"Aggregate data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 610px; top: 189.641px;\",\"mapping\":\"67,6-[65,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.7\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 768px; top: 187.641px;\",\"mapping\":\"79,7-[67,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"6\"},{\"widgetId\":\"DataProfiling_dropped.8\",\"UniqueId\":\"80\",\"stepId\":\"8\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: auto; position: absolute; left: 936px; top: 94.6406px;\",\"mapping\":\"80,8-[79,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.9\",\"UniqueId\":\"88\",\"stepId\":\"9\",\"description\":\"Offload the File\",\"position\":\"pointer-events: auto; position: absolute; left: 927px; top: 248.641px;\",\"mapping\":\"88,9-[79,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.10\",\"UniqueId\":\"20\",\"stepId\":\"10\",\"description\":\"Email\",\"position\":\"pointer-events: auto; position: absolute; left: 1099px; top: 183.641px;\",\"mapping\":\"20,10-[79,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC using Existing Query for Snowflake\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Customer Snowflake_J\\\" for data source \\\"Snowflake_J1\\\"\",\"position\":\"position: absolute; left: 248px; top: 203.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.5\",\"UniqueId\":\"65\",\"stepId\":\"5\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 408px; top: 203.641px;\",\"mapping\":\"65,5-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dcAggregation_dropped.6\",\"UniqueId\":\"67\",\"stepId\":\"6\",\"description\":\"Aggregate data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 579px; top: 204.641px;\",\"mapping\":\"67,6-[65,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.7\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 744px; top: 198.641px;\",\"mapping\":\"79,7-[67,6]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"6\"},{\"widgetId\":\"DataProfiling_dropped.8\",\"UniqueId\":\"80\",\"stepId\":\"8\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: auto; position: absolute; left: 936px; top: 94.6406px;\",\"mapping\":\"80,8-[79,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.9\",\"UniqueId\":\"88\",\"stepId\":\"9\",\"description\":\"Offload the File\",\"position\":\"pointer-events: auto; position: absolute; left: 925px; top: 302.641px;\",\"mapping\":\"88,9-[79,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.10\",\"UniqueId\":\"20\",\"stepId\":\"10\",\"description\":\"Email\",\"position\":\"pointer-events: auto; position: absolute; left: 1047px; top: 198.641px;\",\"mapping\":\"20,10-[79,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 2309,
@@ -166,11 +166,11 @@
         "StepMapping": "65,5-[3,1]",
         "TransformationId": 65,
         "Description": "Transform the data from Data Source",
-        "Position": "pointer-events: auto; position: absolute; left: 433px; top: 196.641px;",
+        "Position": "pointer-events: auto; position: absolute; left: 408px; top: 203.641px;",
         "CreatedOn": "2025-08-04T06:16:48.537",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-04T06:18:24.827",
+        "ModifiedBy": "Dhanusha",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -210,7 +210,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": false,
+        "Warning": true,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -550,7 +550,7 @@
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 12540,
+        "Id": 12548,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -558,12 +558,12 @@
         "StepId": 5,
         "DataSourceId": 4955,
         "ColumnName": "C_CUSTKEY",
-        "AliasColumnName": "C_CUSTKEY",
+        "AliasColumnName": "key",
         "SystemDefinedDataType": "DOUBLE",
-        "UserDefinedDataType": "Decimal",
+        "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -574,7 +574,7 @@
         "QueryId": 5212
       },
       {
-        "Id": 12541,
+        "Id": 12549,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -587,7 +587,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -598,7 +598,7 @@
         "QueryId": 5212
       },
       {
-        "Id": 12542,
+        "Id": 12550,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -611,7 +611,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -622,7 +622,7 @@
         "QueryId": 5212
       },
       {
-        "Id": 12543,
+        "Id": 12551,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -632,10 +632,10 @@
         "ColumnName": "C_NATIONKEY",
         "AliasColumnName": "C_NATIONKEY",
         "SystemDefinedDataType": "DOUBLE",
-        "UserDefinedDataType": "Decimal",
+        "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -646,7 +646,7 @@
         "QueryId": 5212
       },
       {
-        "Id": 12544,
+        "Id": 12552,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -659,7 +659,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -670,7 +670,7 @@
         "QueryId": 5212
       },
       {
-        "Id": 12545,
+        "Id": 12553,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -683,7 +683,7 @@
         "UserDefinedDataType": "Decimal",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -694,7 +694,7 @@
         "QueryId": 5212
       },
       {
-        "Id": 12546,
+        "Id": 12554,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -707,7 +707,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -718,7 +718,7 @@
         "QueryId": 5212
       },
       {
-        "Id": 12547,
+        "Id": 12555,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 37162,
@@ -731,7 +731,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Dhanusha",
-        "CreatedOn": "2025-08-04T06:16:48.47",
+        "CreatedOn": "2025-08-04T06:18:24.667",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -1210,7 +1210,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5212_QC_using_Existing_Query_for_Snowflake_20250804061748"
+        "ManipulatedFileName": "QC_5212_QC_using_Existing_Query_for_Snowflake_20250804061841"
       }
     ]
   }
