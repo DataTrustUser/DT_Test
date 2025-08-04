@@ -25,12 +25,12 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "shrikant 8/4/2025 12:20:53 PM",
+        "QueryDescription": "Qc with data profiling",
         "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Qc with data profiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsProfiling_dropped.2\",\"UniqueId\":\"87\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Qc with part table\\\" for data source \\\"Google Big Query\\\"\",\"position\":\"position: absolute; left: 320.625px; top: 190.641px;\",\"mapping\":\"87,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 551px; top: 193.641px;\",\"mapping\":\"79,3-[87,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "shrikant",
         "FId": 2305,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
