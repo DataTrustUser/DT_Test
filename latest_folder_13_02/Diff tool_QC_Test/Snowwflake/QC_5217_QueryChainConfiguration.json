@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T07:07:28.847",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-04T07:10:00.673",
+        "ModifiedOn": "2025-08-04T07:10:26.997",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -558,7 +558,7 @@
         "Position": "position: absolute; left: 530px; top: 210.641px;",
         "CreatedOn": "2025-08-04T07:09:52.607",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-04T07:10:00.773",
+        "ModifiedOn": "2025-08-04T07:10:23.12",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "ErrorCodes": null,
@@ -593,8 +593,8 @@
         "Position": null,
         "CreatedOn": "2025-08-04T07:10:06.963",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-04T07:10:26.993",
+        "ModifiedBy": "Dhanusha",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -630,17 +630,17 @@
         "Title": "",
         "Description": "Union Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"171\",\"SAPType\":\"\",\"ProfileTypeId\":\"125\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_MKTSEGMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5213\",\"sourceTableOrQuery\":\"Dhanusha#@8/4/2025 6:12:46 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"C_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"C_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_MKTSEGMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY\",\"dataType\":\"Decimal\"},{\"name\":\"C_NAME\",\"alias\":\"C_NAME\",\"dataType\":\"String\"},{\"name\":\"C_ADDRESS\",\"alias\":\"C_ADDRESS\",\"dataType\":\"String\"},{\"name\":\"C_NATIONKEY\",\"alias\":\"C_NATIONKEY\",\"dataType\":\"Decimal\"},{\"name\":\"C_PHONE\",\"alias\":\"C_PHONE\",\"dataType\":\"String\"},{\"name\":\"C_ACCTBAL\",\"alias\":\"C_ACCTBAL\",\"dataType\":\"Decimal\"},{\"name\":\"C_MKTSEGMENT\",\"alias\":\"C_MKTSEGMENT\",\"dataType\":\"String\"},{\"name\":\"C_COMMENT\",\"alias\":\"C_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"171\",\"SAPType\":\"\",\"ProfileTypeId\":\"171\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_MKTSEGMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"0\",\"queryId\":\"5213\",\"sourceTableOrQuery\":\"Dhanusha#@8/4/2025 6:12:46 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"C_CUSTKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"C_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_NATIONKEY\",\"dataType\":\"BigInt\",\"included\":true},{\"name\":\"C_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_ACCTBAL\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"C_MKTSEGMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"C_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":5,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY\",\"dataType\":\"Decimal\"},{\"name\":\"C_NAME\",\"alias\":\"C_NAME\",\"dataType\":\"String\"},{\"name\":\"C_ADDRESS\",\"alias\":\"C_ADDRESS\",\"dataType\":\"String\"},{\"name\":\"C_NATIONKEY\",\"alias\":\"C_NATIONKEY\",\"dataType\":\"Decimal\"},{\"name\":\"C_PHONE\",\"alias\":\"C_PHONE\",\"dataType\":\"String\"},{\"name\":\"C_ACCTBAL\",\"alias\":\"C_ACCTBAL\",\"dataType\":\"Decimal\"},{\"name\":\"C_MKTSEGMENT\",\"alias\":\"C_MKTSEGMENT\",\"dataType\":\"String\"},{\"name\":\"C_COMMENT\",\"alias\":\"C_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
         "CreatedOn": "2025-08-04T07:09:52.587",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-04T07:10:00.68",
+        "ModifiedOn": "2025-08-04T07:10:23.077",
         "ModifiedBy": "Dhanusha",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7140,
+        "Id": 7148,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_CUSTKEY",
@@ -648,7 +648,7 @@
         "Status": true
       },
       {
-        "Id": 7141,
+        "Id": 7149,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_NAME",
@@ -656,7 +656,7 @@
         "Status": true
       },
       {
-        "Id": 7142,
+        "Id": 7150,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_ADDRESS",
@@ -664,7 +664,7 @@
         "Status": true
       },
       {
-        "Id": 7143,
+        "Id": 7151,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_NATIONKEY",
@@ -672,7 +672,7 @@
         "Status": true
       },
       {
-        "Id": 7144,
+        "Id": 7152,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_PHONE",
@@ -680,7 +680,7 @@
         "Status": true
       },
       {
-        "Id": 7145,
+        "Id": 7153,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_ACCTBAL",
@@ -688,7 +688,7 @@
         "Status": true
       },
       {
-        "Id": 7146,
+        "Id": 7154,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_MKTSEGMENT",
@@ -696,7 +696,7 @@
         "Status": true
       },
       {
-        "Id": 7147,
+        "Id": 7155,
         "DBlendId": 1386,
         "TableName": null,
         "ColumnName": "C_COMMENT",
