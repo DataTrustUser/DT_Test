@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T11:27:47.573",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-04T11:43:23.507",
+        "ModifiedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -274,8 +274,8 @@
         "Position": "pointer-events: all; position: absolute; left: 656.667px; top: 195.635px;",
         "CreatedOn": "2025-08-04T11:43:17.507",
         "CreatedBy": "Sarada",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-04T11:45:44.143",
+        "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -320,7 +320,7 @@
     ],
     "SimpleAggregations": [
       {
-        "Id": 3653,
+        "Id": 3661,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -328,10 +328,10 @@
         "StepId": 5,
         "DataSourceId": 0,
         "ColumnName": "C_ACCTBAL",
-        "AggregationType": "",
+        "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -342,7 +342,7 @@
         "QueryId": 5244
       },
       {
-        "Id": 3654,
+        "Id": 3662,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -353,7 +353,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -364,7 +364,7 @@
         "QueryId": 5244
       },
       {
-        "Id": 3655,
+        "Id": 3663,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -375,7 +375,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -386,7 +386,7 @@
         "QueryId": 5244
       },
       {
-        "Id": 3656,
+        "Id": 3664,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -397,7 +397,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -408,7 +408,7 @@
         "QueryId": 5244
       },
       {
-        "Id": 3657,
+        "Id": 3665,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -416,10 +416,10 @@
         "StepId": 5,
         "DataSourceId": 0,
         "ColumnName": "C_MKTSEGMENT",
-        "AggregationType": "",
+        "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -430,7 +430,7 @@
         "QueryId": 5244
       },
       {
-        "Id": 3658,
+        "Id": 3666,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -441,7 +441,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -452,7 +452,7 @@
         "QueryId": 5244
       },
       {
-        "Id": 3659,
+        "Id": 3667,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -463,7 +463,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -474,7 +474,7 @@
         "QueryId": 5244
       },
       {
-        "Id": 3660,
+        "Id": 3668,
         "ScenarioId": null,
         "CSV_Id": 1460,
         "DCStepId": 37528,
@@ -485,7 +485,7 @@
         "AggregationType": "",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-04T11:43:17.413",
+        "CreatedOn": "2025-08-04T11:45:44.02",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
