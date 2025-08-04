@@ -40,17 +40,17 @@
         "Profile_Id": null,
         "DCStep_Id": 37609,
         "BlendStepId": null,
-        "Query_Id_Id": null,
+        "Query_Id_Id": 0,
         "ResultTableName": null,
         "TableOrViewName": null,
         "DataSnapShotId": null,
         "ObjectCode": null,
-        "SessionId": null,
+        "SessionId": 0,
         "SnapshotOffset": null,
         "CreatedOn": "2025-08-04T12:54:32.51",
         "CreatedBy": "Swami",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-04T12:55:07.38",
+        "ModifiedBy": "Swami",
         "Status": false,
         "SAPType": null,
         "DataSourceType": "DS",
@@ -73,7 +73,7 @@
         "MaxParallelism": null,
         "UseLatestSession": true,
         "ResultScenario_Id": 6351,
-        "RemoveDuplicates": false,
+        "RemoveDuplicates": true,
         "OffsetDate": null,
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
@@ -86,7 +86,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 19653,
+        "Id": 19666,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -95,7 +95,7 @@
         "AliasColumnName": null,
         "DataType": "varchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19654,
+        "Id": 19667,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -114,7 +114,7 @@
         "AliasColumnName": null,
         "DataType": "varchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -124,7 +124,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19655,
+        "Id": 19668,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -133,7 +133,7 @@
         "AliasColumnName": null,
         "DataType": "varchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -143,7 +143,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19656,
+        "Id": 19669,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -152,7 +152,7 @@
         "AliasColumnName": null,
         "DataType": "varchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -162,7 +162,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19657,
+        "Id": 19670,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -171,7 +171,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -181,7 +181,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19658,
+        "Id": 19671,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -190,7 +190,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -200,7 +200,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19659,
+        "Id": 19672,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -209,7 +209,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -219,7 +219,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19660,
+        "Id": 19673,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -228,7 +228,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -238,7 +238,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19661,
+        "Id": 19674,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -247,7 +247,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -257,7 +257,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19662,
+        "Id": 19675,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -266,7 +266,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -276,7 +276,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19663,
+        "Id": 19676,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -285,7 +285,7 @@
         "AliasColumnName": null,
         "DataType": "bigint",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -295,7 +295,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19664,
+        "Id": 19677,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -304,7 +304,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
@@ -314,7 +314,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19665,
+        "Id": 19678,
         "QueryDataSourceId": 5057,
         "DBlendId": null,
         "ProfileId": null,
@@ -323,7 +323,7 @@
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
-        "IsFromSource": true,
+        "IsFromSource": null,
         "IsPrimaryKey": false,
         "Status": true,
         "QueryId": 5262,
