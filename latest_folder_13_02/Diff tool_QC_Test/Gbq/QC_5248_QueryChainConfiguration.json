@@ -30,7 +30,7 @@
         "TypeofQuery": "QueryChain",
         "UserName": "shrikant",
         "FId": 2305,
-        "DataRetentionJson": null
+        "DataRetentionJson": "{\"sinceDate\":\"2025-08-04\",\"days\":null,\"runs\":null}"
       }
     ],
     "QcDataSource": [
