@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T05:15:53.357",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-04T05:39:11.04",
+        "ModifiedOn": "2025-08-04T07:19:50.697",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -348,28 +348,28 @@
         "Job_Id": null,
         "FailRDjobWhenRecon_F": null,
         "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
+        "AttachResultsInEmail": true,
         "ExportType": null,
-        "RaiseDefect": null,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "RaiseDefect": false,
+        "ModifiedOn": "2025-08-04T07:19:50.693",
+        "ModifiedBy": "134",
         "Status": null,
         "DependantStepId": 0,
         "Scenario_Header_Id": null,
         "WhenFaild": false,
         "EmailWhen_F": null,
         "WhenSuccess": true,
-        "EmailWhen_S": "sarada.manne@getrightdata.com",
+        "EmailWhen_S": "sarada.manne@getrightdata.com,vinay.pulugujja@getrightdata.com,annepu.appalaswami@getrightdata.com",
         "CreatedBy": "134",
         "CreatedOn": "2025-08-04T07:14:59.25",
         "EmailTemplateId": null,
-        "EmailPriority": "Normal",
-        "EmailFromName": null,
-        "EmailSubject": null,
+        "EmailPriority": "High",
+        "EmailFromName": "sarada",
+        "EmailSubject": "dat",
         "EnableHyperlinks": true,
         "SendExtrenalLink": null,
         "AttachResultSummary": null,
-        "PdfAttachment": false
+        "PdfAttachment": true
       }
     ],
     "DataProfilings": [
@@ -774,7 +774,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5207_XML_Local_file_Snapshot_Profiling_20250804071845"
+        "ManipulatedFileName": "QC_5207_XML_Local_file_Snapshot_Profiling_20250804071958"
       }
     ]
   }
