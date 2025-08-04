@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 1,
-        "SnapshotOffset": null,
+        "SnapshotOffset": 1,
         "CreatedOn": "2025-08-04T12:31:33.97",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-04T12:32:41.207",
+        "ModifiedOn": "2025-08-04T12:35:06.69",
         "ModifiedBy": "Swami",
         "Status": false,
         "SAPType": null,
@@ -86,7 +86,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 19633,
+        "Id": 19636,
         "QueryDataSourceId": 5051,
         "DBlendId": null,
         "ProfileId": null,
@@ -105,7 +105,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19634,
+        "Id": 19637,
         "QueryDataSourceId": 5051,
         "DBlendId": null,
         "ProfileId": null,
@@ -124,7 +124,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 19635,
+        "Id": 19638,
         "QueryDataSourceId": 5051,
         "DBlendId": null,
         "ProfileId": null,
