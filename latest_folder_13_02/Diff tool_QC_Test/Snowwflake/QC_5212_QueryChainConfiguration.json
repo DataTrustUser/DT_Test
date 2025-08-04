@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-04T06:02:18.013",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-04T18:24:29.73",
+        "ModifiedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": "RDAdmin",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -357,7 +357,7 @@
         "Position": "pointer-events: auto; position: absolute; left: 937px; top: 93.625px;",
         "CreatedOn": "2025-08-04T07:08:01.477",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-08-04T18:24:29.8",
+        "ModifiedOn": "2025-08-04T20:39:48.58",
         "ModifiedBy": "RDAdmin",
         "Status": true,
         "ErrorCodes": null,
@@ -771,7 +771,7 @@
     ],
     "DataProfilings": [
       {
-        "Id": 7754,
+        "Id": 7761,
         "ScenarioId": null,
         "QueryId": 5212,
         "CSV_Id": 0,
@@ -784,17 +784,17 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "RDAdmin",
-        "CreatedOn": "2025-08-04T18:24:29.73",
+        "CreatedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": true
       },
       {
-        "Id": 7755,
+        "Id": 7762,
         "ScenarioId": null,
         "QueryId": 5212,
         "CSV_Id": 0,
@@ -807,17 +807,17 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "RDAdmin",
-        "CreatedOn": "2025-08-04T18:24:29.73",
+        "CreatedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": true
       },
       {
-        "Id": 7756,
+        "Id": 7763,
         "ScenarioId": null,
         "QueryId": 5212,
         "CSV_Id": 0,
@@ -830,17 +830,17 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "RDAdmin",
-        "CreatedOn": "2025-08-04T18:24:29.73",
+        "CreatedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": true
       },
       {
-        "Id": 7757,
+        "Id": 7764,
         "ScenarioId": null,
         "QueryId": 5212,
         "CSV_Id": 0,
@@ -853,17 +853,17 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "RDAdmin",
-        "CreatedOn": "2025-08-04T18:24:29.73",
+        "CreatedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": true
       },
       {
-        "Id": 7758,
+        "Id": 7765,
         "ScenarioId": null,
         "QueryId": 5212,
         "CSV_Id": 0,
@@ -876,17 +876,17 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "RDAdmin",
-        "CreatedOn": "2025-08-04T18:24:29.73",
+        "CreatedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": true
       },
       {
-        "Id": 7759,
+        "Id": 7766,
         "ScenarioId": null,
         "QueryId": 5212,
         "CSV_Id": 0,
@@ -899,17 +899,17 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "RDAdmin",
-        "CreatedOn": "2025-08-04T18:24:29.73",
+        "CreatedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": true
       },
       {
-        "Id": 7760,
+        "Id": 7767,
         "ScenarioId": null,
         "QueryId": 5212,
         "CSV_Id": 0,
@@ -922,14 +922,14 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "RDAdmin",
-        "CreatedOn": "2025-08-04T18:24:29.73",
+        "CreatedOn": "2025-08-04T20:39:48.527",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": true
       }
     ],
     "CSV": [],
@@ -959,7 +959,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5212_QC_using_Existing_Query_for_Snowflake_20250804182438"
+        "ManipulatedFileName": "QC_5212_QC_using_Existing_Query_for_Snowflake_20250804204000"
       }
     ]
   }
