@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/4/2025 5:15:34 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"XML_Local file_Snapshot_Profiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsXML_dropped.1\",\"UniqueId\":\"140\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\Customer_2025_08_04_05_16_42.xml\\\"\",\"position\":\"position: absolute; left: 236.177px; top: 198.635px;\",\"mapping\":\"140,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 384.667px; top: 196.635px;\",\"mapping\":\"79,2-[140,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 548.667px; top: 149.302px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 545.667px; top: 253.302px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"pointer-events: all; position: absolute; left: 693.667px; top: 197.635px;\",\"mapping\":\"20,5-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"XML_Local file_Snapshot_Profiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsXML_dropped.1\",\"UniqueId\":\"140\",\"stepId\":\"1\",\"description\":\"Customer data\\n\",\"position\":\"position: absolute; left: 236.177px; top: 198.635px;\",\"mapping\":\"140,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 384.667px; top: 196.635px;\",\"mapping\":\"79,2-[140,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 548.667px; top: 149.302px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 545.667px; top: 253.302px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"pointer-events: all; position: absolute; left: 693.667px; top: 197.635px;\",\"mapping\":\"20,5-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2308,
@@ -130,8 +130,8 @@
         "Step": 1,
         "StepMapping": "140,1-[0,0]",
         "TransformationId": 140,
-        "Description": "Read data from Table",
-        "Position": "position: absolute; left: 236.177px; top: 198.635px;",
+        "Description": "Customer data\n",
+        "Position": null,
         "CreatedOn": "2025-08-04T05:36:39.753",
         "CreatedBy": "Sarada",
         "ModifiedOn": null,
@@ -774,7 +774,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5207_XML_Local_file_Snapshot_Profiling_20250804071958"
+        "ManipulatedFileName": "QC_5207_XML_Local_file_Snapshot_Profiling_20250804073343"
       }
     ]
   }
