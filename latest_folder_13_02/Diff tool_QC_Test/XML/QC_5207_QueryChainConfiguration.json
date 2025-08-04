@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/4/2025 5:15:34 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"XML_Local file_Snapshot_Profiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsXML_dropped.1\",\"UniqueId\":\"140\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\Customer_2025_08_04_05_16_42.xml\\\"\",\"position\":\"position: absolute; left: 236.177px; top: 198.635px;\",\"mapping\":\"140,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 384.667px; top: 196.635px;\",\"mapping\":\"79,2-[140,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 548.667px; top: 149.302px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 545.667px; top: 253.302px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"XML_Local file_Snapshot_Profiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsXML_dropped.1\",\"UniqueId\":\"140\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\Customer_2025_08_04_05_16_42.xml\\\"\",\"position\":\"position: absolute; left: 236.177px; top: 198.635px;\",\"mapping\":\"140,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 384.667px; top: 196.635px;\",\"mapping\":\"79,2-[140,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 548.667px; top: 149.302px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 545.667px; top: 253.302px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"pointer-events: all; position: absolute; left: 693.667px; top: 197.635px;\",\"mapping\":\"20,5-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2308,
@@ -261,6 +261,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 37203,
+        "ScenarioId": null,
+        "QueryId": 5207,
+        "Job_Id": null,
+        "Step": 5,
+        "StepMapping": "20,5-[79,2]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "pointer-events: all; position: absolute; left: 693.667px; top: 197.635px;",
+        "CreatedOn": "2025-08-04T07:14:59.287",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -295,9 +330,48 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 29379,
+        "ScenarioId": null,
+        "QueryId": 5207,
+        "StepId": 5,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
-    "EmailAlerts": [],
+    "EmailAlerts": [
+      {
+        "Query_Id": 5207,
+        "Job_Id": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": 0,
+        "Scenario_Header_Id": null,
+        "WhenFaild": false,
+        "EmailWhen_F": null,
+        "WhenSuccess": true,
+        "EmailWhen_S": "sarada.manne@getrightdata.com",
+        "CreatedBy": "134",
+        "CreatedOn": "2025-08-04T07:14:59.25",
+        "EmailTemplateId": null,
+        "EmailPriority": "Normal",
+        "EmailFromName": null,
+        "EmailSubject": null,
+        "EnableHyperlinks": true,
+        "SendExtrenalLink": null,
+        "AttachResultSummary": null,
+        "PdfAttachment": false
+      }
+    ],
     "DataProfilings": [
       {
         "Id": 7546,
@@ -694,13 +768,13 @@
         "ScenarioId": null,
         "JobId": null,
         "QueryId": 5207,
-        "SessionId": null,
+        "SessionId": 1,
         "Row_Count": null,
         "Delimiter": ",",
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5207_XML_Local_file_Snapshot_Profiling_20250804053939"
+        "ManipulatedFileName": "QC_5207_XML_Local_file_Snapshot_Profiling_20250804071505"
       }
     ]
   }
