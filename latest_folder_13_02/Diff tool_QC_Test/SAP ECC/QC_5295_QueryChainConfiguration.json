@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T10:13:28.057",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:00:10.227",
+        "ModifiedOn": "2025-08-05T12:14:06.91",
         "ModifiedBy": "Swami",
         "Status": false,
         "IsHeavyWeightEngine": null,
@@ -389,7 +389,7 @@
         "Position": "position: absolute; left: 922.052px; top: 208.059px;",
         "CreatedOn": "2025-08-05T10:21:43.857",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:00:10.403",
+        "ModifiedOn": "2025-08-05T12:14:07.037",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -802,13 +802,13 @@
     ],
     "UnPivotDetails": [
       {
-        "Id": 56,
+        "Id": 57,
         "ScenarioId": null,
         "QueryId": 5295,
         "DataSourceId": 5148,
-        "UnPivotFor": "COUNTRY",
-        "PivotBy": "PLUSS",
-        "UnPivotColumns": "INS,UK,US",
+        "UnPivotFor": "COUNTR",
+        "PivotBy": "PLUS",
+        "UnPivotColumns": "UK,US",
         "DCStepId": 37986,
         "CSV_Id": 0
       }
@@ -865,44 +865,54 @@
         "UnPivotId": null
       },
       {
-        "Id": 2050,
+        "Id": 2054,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "MANDT",
         "AliasColumnName": "MANDT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 56
+        "UnPivotId": 57
       },
       {
-        "Id": 2051,
+        "Id": 2055,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "CONTINENT",
         "AliasColumnName": "CONTINENT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 56
+        "UnPivotId": 57
       },
       {
-        "Id": 2052,
+        "Id": 2056,
         "ScenarioId": null,
         "QueryId": 5295,
-        "ColumnName": "COUNTRY",
-        "AliasColumnName": "COUNTRY",
-        "PivotId": null,
-        "DataType": "String",
-        "UnPivotId": 56
-      },
-      {
-        "Id": 2053,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "PLUSS",
-        "AliasColumnName": "PLUSS",
+        "ColumnName": "INS",
+        "AliasColumnName": "INS",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 56
+        "UnPivotId": 57
+      },
+      {
+        "Id": 2057,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "COUNTR",
+        "AliasColumnName": "COUNTR",
+        "PivotId": null,
+        "DataType": "String",
+        "UnPivotId": 57
+      },
+      {
+        "Id": 2058,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "PLUS",
+        "AliasColumnName": "PLUS",
+        "PivotId": null,
+        "DataType": "Integer",
+        "UnPivotId": 57
       }
     ],
     "FileOffload": []
