@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T10:13:28.057",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T10:22:39.81",
+        "ModifiedOn": "2025-08-05T12:00:10.227",
         "ModifiedBy": "Swami",
         "Status": false,
         "IsHeavyWeightEngine": null,
@@ -354,7 +354,7 @@
         "Position": "position: absolute; left: 742.062px; top: 205.059px;",
         "CreatedOn": "2025-08-05T10:21:16.02",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T10:22:39.973",
+        "ModifiedOn": "2025-08-05T12:00:01.507",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -389,13 +389,13 @@
         "Position": "position: absolute; left: 922.052px; top: 208.059px;",
         "CreatedOn": "2025-08-05T10:21:43.857",
         "CreatedBy": "Swami",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-05T12:00:10.403",
+        "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -787,14 +787,14 @@
     ],
     "PivotDetails": [
       {
-        "Id": 1093,
+        "Id": 1094,
         "ScenarioId": null,
         "QueryId": 5295,
         "DataSourceId": 5148,
         "PivotColumn": "COUNTRY",
         "AggregationColumn": "PIPE_SEP",
-        "AggregationType": "MAX",
-        "GroupByColumns": "MANDT",
+        "AggregationType": "COUNT",
+        "GroupByColumns": "MANDT,CONTINENT",
         "PivotColumnValues": "INS,UK,US",
         "DCStepId": 37985,
         "CSV_Id": 0
@@ -802,87 +802,107 @@
     ],
     "UnPivotDetails": [
       {
-        "Id": 55,
+        "Id": 56,
         "ScenarioId": null,
         "QueryId": 5295,
         "DataSourceId": 5148,
         "UnPivotFor": "COUNTRY",
-        "PivotBy": "PLUS",
-        "UnPivotColumns": "INS,US,UK",
+        "PivotBy": "PLUSS",
+        "UnPivotColumns": "INS,UK,US",
         "DCStepId": 37986,
         "CSV_Id": 0
       }
     ],
     "PivotFieldType": [
       {
-        "Id": 2038,
+        "Id": 2045,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "MANDT",
+        "AliasColumnName": "MANDT",
+        "PivotId": 1094,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2046,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "CONTINENT",
+        "AliasColumnName": "CONTINENT",
+        "PivotId": 1094,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2047,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "INS",
+        "AliasColumnName": "INS",
+        "PivotId": 1094,
+        "DataType": "Integer",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2048,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "UK",
+        "AliasColumnName": "UK",
+        "PivotId": 1094,
+        "DataType": "Integer",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2049,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "US",
+        "AliasColumnName": "US",
+        "PivotId": 1094,
+        "DataType": "Integer",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2050,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "MANDT",
         "AliasColumnName": "MANDT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 55
+        "UnPivotId": 56
       },
       {
-        "Id": 2039,
+        "Id": 2051,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "CONTINENT",
+        "AliasColumnName": "CONTINENT",
+        "PivotId": null,
+        "DataType": "String",
+        "UnPivotId": 56
+      },
+      {
+        "Id": 2052,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "COUNTRY",
         "AliasColumnName": "COUNTRY",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 55
+        "UnPivotId": 56
       },
       {
-        "Id": 2040,
+        "Id": 2053,
         "ScenarioId": null,
         "QueryId": 5295,
-        "ColumnName": "PLUS",
-        "AliasColumnName": "PLUS",
+        "ColumnName": "PLUSS",
+        "AliasColumnName": "PLUSS",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 55
-      },
-      {
-        "Id": 2041,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "MANDT",
-        "AliasColumnName": "MANDT",
-        "PivotId": 1093,
-        "DataType": "String",
-        "UnPivotId": null
-      },
-      {
-        "Id": 2042,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "INS",
-        "AliasColumnName": "INS",
-        "PivotId": 1093,
-        "DataType": "String",
-        "UnPivotId": null
-      },
-      {
-        "Id": 2043,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "UK",
-        "AliasColumnName": "UK",
-        "PivotId": 1093,
-        "DataType": "String",
-        "UnPivotId": null
-      },
-      {
-        "Id": 2044,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "US",
-        "AliasColumnName": "US",
-        "PivotId": 1093,
-        "DataType": "String",
-        "UnPivotId": null
+        "UnPivotId": 56
       }
     ],
     "FileOffload": []
