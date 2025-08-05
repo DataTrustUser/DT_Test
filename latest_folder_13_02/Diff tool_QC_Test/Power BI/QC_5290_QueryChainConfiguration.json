@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T09:32:29.907",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T09:36:28.643",
+        "ModifiedOn": "2025-08-05T09:40:06.003",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,11 +26,11 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC-Power BI-Union",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Power BI-Union\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.2\",\"UniqueId\":\"3\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 300.722px; top: 85.0764px;\",\"mapping\":\"3,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataUnion_dropped.3\",\"UniqueId\":\"81\",\"stepId\":\"3\",\"description\":\"Union Datasets\",\"position\":\"position: absolute; left: 489.447px; top: 184.076px;\",\"mapping\":\"3,2-3,6\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"6\"},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 289.722px; top: 282.076px;\",\"mapping\":\"3,6-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.7\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 634.722px; top: 185.076px;\",\"mapping\":\"79,7-[81,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Power BI-Union\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.2\",\"UniqueId\":\"3\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 300.722px; top: 85.0764px;\",\"mapping\":\"3,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataUnion_dropped.3\",\"UniqueId\":\"81\",\"stepId\":\"3\",\"description\":\"Union \",\"position\":\"position: absolute; left: 489.447px; top: 184.076px;\",\"mapping\":\"3,2-3,6\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"6\"},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 289.722px; top: 282.076px;\",\"mapping\":\"3,6-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.7\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 634.722px; top: 185.076px;\",\"mapping\":\"79,7-[81,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2315,
-        "DataRetentionJson": null
+        "DataRetentionJson": "{\"sinceDate\":null,\"days\":\"7\",\"runs\":null}"
       }
     ],
     "QcDataSource": [
@@ -67,15 +67,15 @@
         "SQL_Text": null,
         "TableVizName": null,
         "ExtraColumn": null,
-        "DefaultfParallelism": 1.0,
-        "DefaultPacketSize": 50000.0,
+        "DefaultfParallelism": 2.0,
+        "DefaultPacketSize": 5000.0,
         "MaxPacketSize": null,
         "MaxParallelism": null,
         "UseLatestSession": null,
         "ResultScenario_Id": null,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": null,
+        "OrderByValue": "S_ACCTBAL,S_ADDRESS,S_COMMENT",
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
         "iteration": false,
@@ -116,15 +116,15 @@
         "SQL_Text": null,
         "TableVizName": null,
         "ExtraColumn": null,
-        "DefaultfParallelism": 1.0,
-        "DefaultPacketSize": 50000.0,
+        "DefaultfParallelism": 2.0,
+        "DefaultPacketSize": 500000.0,
         "MaxPacketSize": null,
         "MaxParallelism": null,
         "UseLatestSession": null,
         "ResultScenario_Id": null,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": null,
+        "OrderByValue": "S_SUPPKEY",
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
         "iteration": false,
@@ -249,11 +249,11 @@
         "Step": 3,
         "StepMapping": "3,2-3,6",
         "TransformationId": 81,
-        "Description": "Union Datasets",
+        "Description": "Union ",
         "Position": "position: absolute; left: 489.447px; top: 184.076px;",
         "CreatedOn": "2025-08-05T09:36:21.093",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T09:36:28.83",
+        "ModifiedOn": "2025-08-05T09:40:06.05",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -323,19 +323,19 @@
         "QueryId": 5290,
         "StepId": 3,
         "Title": "",
-        "Description": "Union Datasets",
+        "Description": "Union ",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"2\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"124\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_ACCTBAL\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_SUPPKEY\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"6\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"124\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_ACCTBAL\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_SUPPKEY\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACC\",\"dataType\":\"String\"},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"dataType\":\"String\"},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"dataType\":\"String\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"String\"},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"dataType\":\"String\"},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"dataType\":\"String\"},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"2\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"114\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_ACCTBAL\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_SUPPKEY\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"6\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"114\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"S_ACCTBAL\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_ADDRESS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_COMMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_NATIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_PHONE\",\"dataType\":\"String\",\"included\":true},{\"name\":\"S_SUPPKEY\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":3,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACC\",\"dataType\":\"String\"},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"dataType\":\"String\"},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"dataType\":\"String\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"String\"},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATION\",\"dataType\":\"String\"},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"dataType\":\"String\"},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPP\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
         "CreatedOn": "2025-08-05T09:36:21.07",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T09:36:28.647",
+        "ModifiedOn": "2025-08-05T09:40:06.007",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7479,
+        "Id": 7486,
         "DBlendId": 1426,
         "TableName": null,
         "ColumnName": "S_ACC",
@@ -343,7 +343,7 @@
         "Status": true
       },
       {
-        "Id": 7480,
+        "Id": 7487,
         "DBlendId": 1426,
         "TableName": null,
         "ColumnName": "S_ADDRESS",
@@ -351,7 +351,7 @@
         "Status": true
       },
       {
-        "Id": 7481,
+        "Id": 7488,
         "DBlendId": 1426,
         "TableName": null,
         "ColumnName": "S_COMMENT",
@@ -359,7 +359,7 @@
         "Status": true
       },
       {
-        "Id": 7482,
+        "Id": 7489,
         "DBlendId": 1426,
         "TableName": null,
         "ColumnName": "S_NAME",
@@ -367,15 +367,15 @@
         "Status": true
       },
       {
-        "Id": 7483,
+        "Id": 7490,
         "DBlendId": 1426,
         "TableName": null,
-        "ColumnName": "S_NATIONKEY",
+        "ColumnName": "S_NATION",
         "DataType": "String",
         "Status": true
       },
       {
-        "Id": 7484,
+        "Id": 7491,
         "DBlendId": 1426,
         "TableName": null,
         "ColumnName": "S_PHONE",
@@ -383,10 +383,10 @@
         "Status": true
       },
       {
-        "Id": 7485,
+        "Id": 7492,
         "DBlendId": 1426,
         "TableName": null,
-        "ColumnName": "S_SUPPKEY",
+        "ColumnName": "S_SUPP",
         "DataType": "String",
         "Status": true
       }
