@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T10:13:28.057",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:14:06.91",
+        "ModifiedOn": "2025-08-05T12:28:36.103",
         "ModifiedBy": "Swami",
         "Status": false,
         "IsHeavyWeightEngine": null,
@@ -389,7 +389,7 @@
         "Position": "position: absolute; left: 922.052px; top: 208.059px;",
         "CreatedOn": "2025-08-05T10:21:43.857",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:14:07.037",
+        "ModifiedOn": "2025-08-05T12:28:36.223",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -802,7 +802,7 @@
     ],
     "UnPivotDetails": [
       {
-        "Id": 57,
+        "Id": 58,
         "ScenarioId": null,
         "QueryId": 5295,
         "DataSourceId": 5148,
@@ -865,54 +865,54 @@
         "UnPivotId": null
       },
       {
-        "Id": 2054,
+        "Id": 2095,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "MANDT",
-        "AliasColumnName": "MANDT",
+        "AliasColumnName": "MANDTT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 57
+        "UnPivotId": 58
       },
       {
-        "Id": 2055,
+        "Id": 2096,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "CONTINENT",
         "AliasColumnName": "CONTINENT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 57
+        "UnPivotId": 58
       },
       {
-        "Id": 2056,
+        "Id": 2097,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "INS",
         "AliasColumnName": "INS",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 57
+        "UnPivotId": 58
       },
       {
-        "Id": 2057,
+        "Id": 2098,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "COUNTR",
         "AliasColumnName": "COUNTR",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 57
+        "UnPivotId": 58
       },
       {
-        "Id": 2058,
+        "Id": 2099,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "PLUS",
         "AliasColumnName": "PLUS",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 57
+        "UnPivotId": 58
       }
     ],
     "FileOffload": []
