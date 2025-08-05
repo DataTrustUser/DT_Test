@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T10:44:32.357",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2025-08-05T10:45:18.323",
+        "ModifiedOn": "2025-08-05T10:48:21.007",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -300,9 +300,9 @@
         "DelayedTargetCompare": null,
         "AttachResultsInEmail": false,
         "ExportType": null,
-        "RaiseDefect": null,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "RaiseDefect": false,
+        "ModifiedOn": "2025-08-05T10:48:21.613",
+        "ModifiedBy": "118",
         "Status": null,
         "DependantStepId": 0,
         "Scenario_Header_Id": null,
@@ -313,7 +313,7 @@
         "CreatedBy": "118",
         "CreatedOn": "2025-08-05T10:47:25.887",
         "EmailTemplateId": null,
-        "EmailPriority": "Normal",
+        "EmailPriority": "High",
         "EmailFromName": null,
         "EmailSubject": null,
         "EnableHyperlinks": true,
@@ -724,7 +724,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5282_Parquet_Query_20250805104733"
+        "ManipulatedFileName": "QC_5282_Parquet_Query_20250805104827"
       }
     ]
   }
