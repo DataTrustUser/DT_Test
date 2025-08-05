@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T10:13:28.057",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:28:36.103",
+        "ModifiedOn": "2025-08-05T12:30:13.773",
         "ModifiedBy": "Swami",
         "Status": false,
         "IsHeavyWeightEngine": null,
@@ -354,7 +354,7 @@
         "Position": "position: absolute; left: 742.062px; top: 205.059px;",
         "CreatedOn": "2025-08-05T10:21:16.02",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:00:01.507",
+        "ModifiedOn": "2025-08-05T12:30:13.943",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -395,7 +395,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": false,
+        "Warning": true,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -787,15 +787,15 @@
     ],
     "PivotDetails": [
       {
-        "Id": 1094,
+        "Id": 1099,
         "ScenarioId": null,
         "QueryId": 5295,
         "DataSourceId": 5148,
         "PivotColumn": "COUNTRY",
         "AggregationColumn": "PIPE_SEP",
-        "AggregationType": "COUNT",
-        "GroupByColumns": "MANDT,CONTINENT",
-        "PivotColumnValues": "INS,UK,US",
+        "AggregationType": "MAX",
+        "GroupByColumns": "MANDT,CONTINENT,COMMA_SEP",
+        "PivotColumnValues": "12,INS,UK,US",
         "DCStepId": 37985,
         "CSV_Id": 0
       }
@@ -814,56 +814,6 @@
       }
     ],
     "PivotFieldType": [
-      {
-        "Id": 2045,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "MANDT",
-        "AliasColumnName": "MANDT",
-        "PivotId": 1094,
-        "DataType": "String",
-        "UnPivotId": null
-      },
-      {
-        "Id": 2046,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "CONTINENT",
-        "AliasColumnName": "CONTINENT",
-        "PivotId": 1094,
-        "DataType": "String",
-        "UnPivotId": null
-      },
-      {
-        "Id": 2047,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "INS",
-        "AliasColumnName": "INS",
-        "PivotId": 1094,
-        "DataType": "Integer",
-        "UnPivotId": null
-      },
-      {
-        "Id": 2048,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "UK",
-        "AliasColumnName": "UK",
-        "PivotId": 1094,
-        "DataType": "Integer",
-        "UnPivotId": null
-      },
-      {
-        "Id": 2049,
-        "ScenarioId": null,
-        "QueryId": 5295,
-        "ColumnName": "US",
-        "AliasColumnName": "US",
-        "PivotId": 1094,
-        "DataType": "Integer",
-        "UnPivotId": null
-      },
       {
         "Id": 2095,
         "ScenarioId": null,
@@ -913,6 +863,76 @@
         "PivotId": null,
         "DataType": "Integer",
         "UnPivotId": 58
+      },
+      {
+        "Id": 2100,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "MANDT",
+        "AliasColumnName": "MANDT",
+        "PivotId": 1099,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2101,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "CONTINENT",
+        "AliasColumnName": "CONTINENT",
+        "PivotId": 1099,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2102,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "COMMA_SEP",
+        "AliasColumnName": "COMMA_SEP",
+        "PivotId": 1099,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2103,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "INS",
+        "AliasColumnName": "INS",
+        "PivotId": 1099,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2104,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "UK",
+        "AliasColumnName": "UK",
+        "PivotId": 1099,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2105,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "US",
+        "AliasColumnName": "US",
+        "PivotId": 1099,
+        "DataType": "String",
+        "UnPivotId": null
+      },
+      {
+        "Id": 2106,
+        "ScenarioId": null,
+        "QueryId": 5295,
+        "ColumnName": "12",
+        "AliasColumnName": "12",
+        "PivotId": 1099,
+        "DataType": "String",
+        "UnPivotId": null
       }
     ],
     "FileOffload": []
