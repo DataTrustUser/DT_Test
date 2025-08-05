@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T12:06:00.92",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T12:08:15.207",
+        "ModifiedOn": "2025-08-05T12:08:48.65",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -574,7 +574,7 @@
         "Position": "position: absolute; left: 485.486px; top: 191.076px;",
         "CreatedOn": "2025-08-05T12:06:18.583",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T12:07:51.283",
+        "ModifiedOn": "2025-08-05T12:08:48.713",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -611,17 +611,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"2\",\"profileId\":\"112\",\"SAPType\":\"INFO\",\"ProfileTypeId\":\"103\",\"queryId\":\"\",\"sourceTableOrQuery\":\"0SD_C04\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"0CHNGID\",\"alias\":\"0CHNGID\",\"included\":false,\"key\":true},{\"name\":\"0RECORDTP\",\"alias\":\"0RECORDTP\",\"included\":true,\"key\":false},{\"name\":\"0REQUID\",\"alias\":\"0REQUID\",\"included\":true,\"key\":false},{\"name\":\"0CALDAY\",\"alias\":\"0CALDAY\",\"included\":true,\"key\":false},{\"name\":\"0CALMONTH\",\"alias\":\"0CALMONTH\",\"included\":true,\"key\":false},{\"name\":\"0LATE_QTY\",\"alias\":\"0LATE_QTY\",\"included\":true,\"key\":false},{\"name\":\"0EARLY_QTY\",\"alias\":\"0EARLY_QTY\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":\"112\",\"SAPType\":\"\",\"ProfileTypeId\":\"103\",\"queryId\":\"5296\",\"sourceTableOrQuery\":\"Vinay#@8/5/2025 10:33:09 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"0CHNGID\",\"alias\":\"0CHNGID_2\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"0CHNGID\",\"srcColumn\":\"0CHNGID\",\"endColumnName\":\"0CHNGID\",\"tgtColumn\":\"0CHNGID\"}]}],\"blendFinalColumns\":[{\"name\":\"0RECORDTP\",\"alias\":\"0RECORDTP\",\"dataType\":\"string|01\",\"oName\":\"0RECORDTP\"},{\"name\":\"0REQUID\",\"alias\":\"0REQUID\",\"dataType\":\"string|01\",\"oName\":\"0REQUID\"},{\"name\":\"0CALDAY\",\"alias\":\"0CALDAY\",\"dataType\":\"string|01\",\"oName\":\"0CALDAY\"},{\"name\":\"0CALMONTH\",\"alias\":\"0CALMONTH\",\"dataType\":\"string|01\",\"oName\":\"0CALMONTH\"},{\"name\":\"0LATE_QTY\",\"alias\":\"0LATE_QTY\",\"dataType\":\"string|01\",\"oName\":\"0LATE_QTY\"},{\"name\":\"0EARLY_QTY\",\"alias\":\"0EARLY_QTY\",\"dataType\":\"string|01\",\"oName\":\"0EARLY_QTY\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"2\",\"profileId\":\"112\",\"SAPType\":\"INFO\",\"ProfileTypeId\":\"103\",\"queryId\":\"\",\"sourceTableOrQuery\":\"0SD_C04\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"0CHNGID\",\"alias\":\"0CHNGID\",\"included\":false,\"key\":true},{\"name\":\"0RECORDTP\",\"alias\":\"0RECORDTP\",\"included\":true,\"key\":false},{\"name\":\"0REQUID\",\"alias\":\"0REQUID\",\"included\":true,\"key\":false},{\"name\":\"0CALDAY\",\"alias\":\"0CALDAY\",\"included\":true,\"key\":false},{\"name\":\"0CALMONTH\",\"alias\":\"0CALMONTH\",\"included\":true,\"key\":false},{\"name\":\"0LATE_QTY\",\"alias\":\"0LATE_QTY\",\"included\":true,\"key\":false},{\"name\":\"0EARLY_QTY\",\"alias\":\"0EARLY_QTY\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":\"112\",\"SAPType\":\"\",\"ProfileTypeId\":\"103\",\"queryId\":\"5296\",\"sourceTableOrQuery\":\"Vinay#@8/5/2025 10:33:09 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"0CHNGID\",\"alias\":\"0CHNGID_2\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"0CHNGID\",\"srcColumn\":\"0CHNGID\",\"endColumnName\":\"0CHNGID\",\"tgtColumn\":\"0CHNGID\"}]}],\"blendFinalColumns\":[{\"name\":\"0RECORDTP\",\"alias\":\"0RECORDTP\",\"dataType\":\"string|01\",\"oName\":\"0RECORDTP\"},{\"name\":\"0REQUID\",\"alias\":\"0RID\",\"dataType\":\"string|01\",\"oName\":\"0REQUID\"},{\"name\":\"0CALDAY\",\"alias\":\"0CALDAY\",\"dataType\":\"string|01\",\"oName\":\"0CALDAY\"},{\"name\":\"0CALMONTH\",\"alias\":\"0CALMONTH\",\"dataType\":\"string|01\",\"oName\":\"0CALMONTH\"},{\"name\":\"0LATE_QTY\",\"alias\":\"0LATE_QTY\",\"dataType\":\"string|01\",\"oName\":\"0LATE_QTY\"},{\"name\":\"0EARLY_QTY\",\"alias\":\"0EARLY_QTY\",\"dataType\":\"string|01\",\"oName\":\"0EARLY_QTY\"}]}",
         "CreatedOn": "2025-08-05T12:06:18.553",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T12:07:51.21",
+        "ModifiedOn": "2025-08-05T12:08:48.653",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7626,
+        "Id": 7632,
         "DBlendId": 1442,
         "TableName": null,
         "ColumnName": "0RECORDTP",
@@ -629,15 +629,15 @@
         "Status": true
       },
       {
-        "Id": 7627,
+        "Id": 7633,
         "DBlendId": 1442,
         "TableName": null,
-        "ColumnName": "0REQUID",
+        "ColumnName": "0RID",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7628,
+        "Id": 7634,
         "DBlendId": 1442,
         "TableName": null,
         "ColumnName": "0CALDAY",
@@ -645,7 +645,7 @@
         "Status": true
       },
       {
-        "Id": 7629,
+        "Id": 7635,
         "DBlendId": 1442,
         "TableName": null,
         "ColumnName": "0CALMONTH",
@@ -653,7 +653,7 @@
         "Status": true
       },
       {
-        "Id": 7630,
+        "Id": 7636,
         "DBlendId": 1442,
         "TableName": null,
         "ColumnName": "0LATE_QTY",
@@ -661,7 +661,7 @@
         "Status": true
       },
       {
-        "Id": 7631,
+        "Id": 7637,
         "DBlendId": 1442,
         "TableName": null,
         "ColumnName": "0EARLY_QTY",
