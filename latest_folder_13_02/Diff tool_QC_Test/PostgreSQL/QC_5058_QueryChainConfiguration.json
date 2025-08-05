@@ -81,8 +81,7 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "SourceName_Id": 119,
-        "ProfileName": "PostgreSQL"
+        "Scenario_SessionId": null
       }
     ],
     "QCTableFieldTypes": [],
@@ -236,113 +235,7 @@
     "DataBlends": [],
     "DataBlendFieldType": [],
     "ScenarioQCFieldTypes": [],
-    "QFTypes": [
-      {
-        "Id": 12732,
-        "Query_Id": 5031,
-        "ColumnName": "s_suppkey",
-        "AliasColumnName": null,
-        "DataType": "int4",
-        "ResultTableName": null,
-        "SelectedForRecon": null,
-        "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-07-30T15:36:29.017",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "Description": null,
-        "NewlyAddedColumn": true
-      },
-      {
-        "Id": 12733,
-        "Query_Id": 5031,
-        "ColumnName": "s_name",
-        "AliasColumnName": null,
-        "DataType": "varchar",
-        "ResultTableName": null,
-        "SelectedForRecon": null,
-        "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-07-30T15:36:29.27",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "Description": null,
-        "NewlyAddedColumn": true
-      },
-      {
-        "Id": 12734,
-        "Query_Id": 5031,
-        "ColumnName": "s_address",
-        "AliasColumnName": null,
-        "DataType": "varchar",
-        "ResultTableName": null,
-        "SelectedForRecon": null,
-        "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-07-30T15:36:29.527",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "Description": null,
-        "NewlyAddedColumn": true
-      },
-      {
-        "Id": 12735,
-        "Query_Id": 5031,
-        "ColumnName": "s_nationkey",
-        "AliasColumnName": null,
-        "DataType": "int4",
-        "ResultTableName": null,
-        "SelectedForRecon": null,
-        "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-07-30T15:36:29.78",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "Description": null,
-        "NewlyAddedColumn": true
-      },
-      {
-        "Id": 12736,
-        "Query_Id": 5031,
-        "ColumnName": "s_phone",
-        "AliasColumnName": null,
-        "DataType": "varchar",
-        "ResultTableName": null,
-        "SelectedForRecon": null,
-        "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-07-30T15:36:30.037",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "Description": null,
-        "NewlyAddedColumn": true
-      },
-      {
-        "Id": 12737,
-        "Query_Id": 5031,
-        "ColumnName": "s_acctbal",
-        "AliasColumnName": null,
-        "DataType": "numeric",
-        "ResultTableName": null,
-        "SelectedForRecon": null,
-        "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-07-30T15:36:30.293",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "Description": null,
-        "NewlyAddedColumn": true
-      },
-      {
-        "Id": 12738,
-        "Query_Id": 5031,
-        "ColumnName": "s_comment",
-        "AliasColumnName": null,
-        "DataType": "varchar",
-        "ResultTableName": null,
-        "SelectedForRecon": null,
-        "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-07-30T15:36:30.547",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "Description": null,
-        "NewlyAddedColumn": true
-      }
-    ],
+    "QFTypes": [],
     "Query": [
       {
         "Id": 5031,
@@ -358,8 +251,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-07-30T06:47:09.897",
         "CreatedBy": "134",
-        "ModifiedOn": "2025-07-30T15:36:25.673",
-        "ModifiedBy": "134",
+        "ModifiedOn": "2025-08-04T16:42:21.253",
+        "ModifiedBy": "140",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": false,
@@ -422,7 +315,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": ""
+        "ManipulatedFileName": "QC_5058_PostgreSQL_Existing_Query_widget_Snapshot_20250805104800"
       }
     ]
   }
