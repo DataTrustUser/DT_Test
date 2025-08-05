@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T17:26:45.52",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T17:28:06.45",
+        "ModifiedOn": "2025-08-05T17:28:39.66",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -441,7 +441,7 @@
         "Position": "position: absolute; left: 504.486px; top: 181.076px;",
         "CreatedOn": "2025-08-05T17:27:19.91",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T17:27:39.093",
+        "ModifiedOn": "2025-08-05T17:28:39.71",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -478,33 +478,33 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"6\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5328\",\"sourceTableOrQuery\":\"Vinay#@8/5/2025 4:46:27 PM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"Store name\",\"alias\":\"Store name\",\"included\":false,\"key\":true},{\"name\":\"Year\",\"alias\":\"Year\",\"included\":true,\"key\":false},{\"name\":\"Quarter\",\"alias\":\"Quarter\",\"included\":true,\"key\":false},{\"name\":\"Sales revenue\",\"alias\":\"Sales revenue\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":7,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5331\",\"sourceTableOrQuery\":\"Output#@8/5/2025 4:50:07 PM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"Store name\",\"alias\":\"Store name_2\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":7,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"Store name\",\"srcColumn\":\"Store name\",\"endColumnName\":\"Store name\",\"tgtColumn\":\"Store name\"}]}],\"blendFinalColumns\":[{\"name\":\"Year\",\"alias\":\"Year\",\"dataType\":\"string|01\",\"oName\":\"Year\"},{\"name\":\"Quarter\",\"alias\":\"Quarter\",\"dataType\":\"string|01\",\"oName\":\"Quarter\"},{\"name\":\"Sales revenue\",\"alias\":\"Sales revenue\",\"dataType\":\"string|01\",\"oName\":\"Sales revenue\"},{\"name\":\"Store name_2\",\"alias\":\"Store name_2\",\"dataType\":\"string|11\",\"oName\":\"Store name\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"6\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"119\",\"queryId\":\"5328\",\"sourceTableOrQuery\":\"Vinay#@8/5/2025 4:46:27 PM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"Store name\",\"alias\":\"Store name\",\"included\":false,\"key\":true},{\"name\":\"Year\",\"alias\":\"Year\",\"included\":true,\"key\":false},{\"name\":\"Quarter\",\"alias\":\"Quarter\",\"included\":true,\"key\":false},{\"name\":\"Sales revenue\",\"alias\":\"Sales revenue\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":7,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"4\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5331\",\"sourceTableOrQuery\":\"Output#@8/5/2025 4:50:07 PM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"Store name\",\"alias\":\"Store name_2\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":7,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Full Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"Store name\",\"srcColumn\":\"Store name\",\"endColumnName\":\"Store name\",\"tgtColumn\":\"Store name\"}]}],\"blendFinalColumns\":[{\"name\":\"Year\",\"alias\":\"Yr\",\"dataType\":\"string|01\",\"oName\":\"Year\"},{\"name\":\"Quarter\",\"alias\":\"Qrtr\",\"dataType\":\"string|01\",\"oName\":\"Quarter\"},{\"name\":\"Sales revenue\",\"alias\":\"Sales revenue\",\"dataType\":\"string|01\",\"oName\":\"Sales revenue\"},{\"name\":\"Store name_2\",\"alias\":\"Store name_2\",\"dataType\":\"string|11\",\"oName\":\"Store name\"}]}",
         "CreatedOn": "2025-08-05T17:27:19.88",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-05T17:27:39.027",
+        "ModifiedOn": "2025-08-05T17:28:39.663",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7727,
+        "Id": 7731,
         "DBlendId": 1456,
         "TableName": null,
-        "ColumnName": "Year",
+        "ColumnName": "Yr",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7728,
+        "Id": 7732,
         "DBlendId": 1456,
         "TableName": null,
-        "ColumnName": "Quarter",
+        "ColumnName": "Qrtr",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7729,
+        "Id": 7733,
         "DBlendId": 1456,
         "TableName": null,
         "ColumnName": "Sales revenue",
@@ -512,7 +512,7 @@
         "Status": true
       },
       {
-        "Id": 7730,
+        "Id": 7734,
         "DBlendId": 1456,
         "TableName": null,
         "ColumnName": "Store name_2",
