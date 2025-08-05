@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T09:23:14.573",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T09:44:19.623",
+        "ModifiedOn": "2025-08-05T09:46:21.907",
         "ModifiedBy": "Swami",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -489,7 +489,7 @@
         "Position": "position: absolute; left: 820.042px; top: 208.059px;",
         "CreatedOn": "2025-08-05T09:26:09.047",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T09:30:18.153",
+        "ModifiedOn": "2025-08-05T09:46:21.953",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -684,17 +684,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"Remove duplicates from selected columns\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"KUNNR\",\"alias\":\"KUNNR\",\"included\":true,\"key\":true},{\"name\":\"LAND1\",\"alias\":\"LAND1\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"7\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"111\",\"queryId\":\"5285\",\"sourceTableOrQuery\":\"Swami#@8/5/2025 8:58:16 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"KUNNR\",\"alias\":\"KUNNR_2\",\"included\":false,\"key\":true},{\"name\":\"LAND1\",\"alias\":\"LAND1_2\",\"included\":true,\"key\":false},{\"name\":\"NAME1\",\"alias\":\"NAME1\",\"included\":true,\"key\":false},{\"name\":\"NAME2\",\"alias\":\"NAME2\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"KUNNR\",\"srcColumn\":\"KUNNR\",\"endColumnName\":\"KUNNR\",\"tgtColumn\":\"KUNNR\"}]}],\"blendFinalColumns\":[{\"name\":\"KUNNR\",\"alias\":\"KUNNR\",\"dataType\":\"string|01\",\"oName\":\"KUNNR\"},{\"name\":\"LAND1\",\"alias\":\"LAND1\",\"dataType\":\"string|01\",\"oName\":\"LAND1\"},{\"name\":\"NAME1\",\"alias\":\"NAME1\",\"dataType\":\"string|11\",\"oName\":\"NAME1\"},{\"name\":\"NAME2\",\"alias\":\"NAME2\",\"dataType\":\"string|11\",\"oName\":\"NAME2\"},{\"name\":\"LAND1_2\",\"alias\":\"LAND1_2\",\"dataType\":\"string|11\",\"oName\":\"LAND1\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"De Dups\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"KUNNR\",\"alias\":\"KUNNR\",\"included\":true,\"key\":true},{\"name\":\"LAND1\",\"alias\":\"LAND1\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"7\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"111\",\"queryId\":\"5285\",\"sourceTableOrQuery\":\"Swami#@8/5/2025 8:58:16 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"KUNNR\",\"alias\":\"KUNNR_2\",\"included\":false,\"key\":true},{\"name\":\"LAND1\",\"alias\":\"LAND1_2\",\"included\":true,\"key\":false},{\"name\":\"NAME1\",\"alias\":\"NAME1\",\"included\":true,\"key\":false},{\"name\":\"NAME2\",\"alias\":\"NAME2\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":6,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"KUNNR\",\"srcColumn\":\"KUNNR\",\"endColumnName\":\"KUNNR\",\"tgtColumn\":\"KUNNR\"}]}],\"blendFinalColumns\":[{\"name\":\"KUNNR\",\"alias\":\"KUNNR\",\"dataType\":\"string|01\",\"oName\":\"KUNNR\"},{\"name\":\"LAND1\",\"alias\":\"LAND1\",\"dataType\":\"string|01\",\"oName\":\"LAND1\"},{\"name\":\"NAME1\",\"alias\":\"NAME1\",\"dataType\":\"string|11\",\"oName\":\"NAME1\"},{\"name\":\"NAME2\",\"alias\":\"NAME2\",\"dataType\":\"string|11\",\"oName\":\"NAME2\"},{\"name\":\"LAND1_2\",\"alias\":\"LAND1_2\",\"dataType\":\"string|11\",\"oName\":\"LAND1\"}]}",
         "CreatedOn": "2025-08-05T09:26:09.027",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T09:30:18.117",
+        "ModifiedOn": "2025-08-05T09:46:21.91",
         "ModifiedBy": "Swami",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7474,
+        "Id": 7493,
         "DBlendId": 1425,
         "TableName": null,
         "ColumnName": "KUNNR",
@@ -702,7 +702,7 @@
         "Status": true
       },
       {
-        "Id": 7475,
+        "Id": 7494,
         "DBlendId": 1425,
         "TableName": null,
         "ColumnName": "LAND1",
@@ -710,7 +710,7 @@
         "Status": true
       },
       {
-        "Id": 7476,
+        "Id": 7495,
         "DBlendId": 1425,
         "TableName": null,
         "ColumnName": "NAME1",
@@ -718,7 +718,7 @@
         "Status": true
       },
       {
-        "Id": 7477,
+        "Id": 7496,
         "DBlendId": 1425,
         "TableName": null,
         "ColumnName": "NAME2",
@@ -726,7 +726,7 @@
         "Status": true
       },
       {
-        "Id": 7478,
+        "Id": 7497,
         "DBlendId": 1425,
         "TableName": null,
         "ColumnName": "LAND1_2",
