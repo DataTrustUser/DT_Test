@@ -81,7 +81,8 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": null
+        "Scenario_SessionId": null,
+        "QcDatasetName": ""
       }
     ],
     "QCTableFieldTypes": [],
@@ -315,7 +316,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5058_PostgreSQL_Existing_Query_widget_Snapshot_20250805104800"
+        "ManipulatedFileName": "QC_5058_PostgreSQL_Existing_Query_widget_Snapshot_20250805162123"
       }
     ]
   }
