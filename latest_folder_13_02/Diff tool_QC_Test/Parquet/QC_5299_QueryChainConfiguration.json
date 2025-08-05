@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T10:44:32.357",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-05T10:45:18.323",
+        "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -25,8 +25,8 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "Dhanusha 8/5/2025 8:43:42 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 8/5/2025 8:43:42 AM\",\"position\":\"position: absolute; left: 96px; top: 173.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsFileParquet_dropped.1\",\"UniqueId\":\"160\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\_2025_08_05_08_44_42_customer_1_1.parquet\\\"\",\"position\":\"position: absolute; left: 277.883px; top: 175.641px;\",\"mapping\":\"160,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 465px; top: 167.641px;\",\"mapping\":\"79,2-[160,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 675px; top: 50.1406px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 683px; top: 289.141px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "QueryDescription": "Parquet Query 1",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Parquet Query 1\",\"position\":\"position: absolute; left: 96px; top: 173.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsFileParquet_dropped.1\",\"UniqueId\":\"160\",\"stepId\":\"1\",\"description\":\"Read data from \\\"\\\\_2025_08_05_08_44_42_customer_1_1.parquet\\\"\",\"position\":\"position: absolute; left: 277.883px; top: 175.641px;\",\"mapping\":\"160,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 465px; top: 167.641px;\",\"mapping\":\"79,2-[160,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 675px; top: 50.1406px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 683px; top: 289.141px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 2313,
@@ -650,7 +650,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5282_Parquet_Query_20250805104453"
+        "ManipulatedFileName": "QC_5282_Parquet_Query_20250805104525"
       }
     ]
   }
