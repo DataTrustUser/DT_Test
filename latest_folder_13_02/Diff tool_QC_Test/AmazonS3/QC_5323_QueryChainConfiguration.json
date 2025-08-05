@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T12:53:13.797",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:56:04.633",
+        "ModifiedOn": "2025-08-05T12:58:09.553",
         "ModifiedBy": "Swami",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -94,11 +94,11 @@
         "TableOrViewName": null,
         "DataSnapShotId": null,
         "ObjectCode": null,
-        "SessionId": 0,
-        "SnapshotOffset": 1,
+        "SessionId": 1,
+        "SnapshotOffset": null,
         "CreatedOn": "2025-08-05T12:53:13.797",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:56:04.627",
+        "ModifiedOn": "2025-08-05T12:57:23.373",
         "ModifiedBy": "Swami",
         "Status": false,
         "SAPType": null,
@@ -135,7 +135,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 20295,
+        "Id": 20299,
         "QueryDataSourceId": 5192,
         "DBlendId": null,
         "ProfileId": null,
@@ -154,7 +154,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 20296,
+        "Id": 20300,
         "QueryDataSourceId": 5192,
         "DBlendId": null,
         "ProfileId": null,
@@ -173,7 +173,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 20297,
+        "Id": 20301,
         "QueryDataSourceId": 5192,
         "DBlendId": null,
         "ProfileId": null,
@@ -192,7 +192,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 20298,
+        "Id": 20302,
         "QueryDataSourceId": 5192,
         "DBlendId": null,
         "ProfileId": null,
@@ -330,7 +330,7 @@
         "Position": null,
         "CreatedOn": "2025-08-05T12:53:13.797",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:54:03.49",
+        "ModifiedOn": "2025-08-05T12:58:09.55",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -400,7 +400,7 @@
         "Position": "position: absolute; left: 755.031px; top: 225.059px;",
         "CreatedOn": "2025-08-05T12:53:50.917",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-05T12:55:13.95",
+        "ModifiedOn": "2025-08-05T12:58:05.283",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -560,8 +560,57 @@
         "QueryId": 5323
       }
     ],
-    "DataBlends": [],
-    "DataBlendFieldType": [],
+    "DataBlends": [
+      {
+        "Id": 1449,
+        "ScenarioId": null,
+        "QueryId": 5323,
+        "StepId": 9,
+        "Title": "",
+        "Description": "Union Datasets",
+        "JsonUI": null,
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"0\",\"queryId\":\"\",\"sourceTableOrQuery\":\"Transform the data from Data Source\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"_NATIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"N_REGIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"N_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":9,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"8\",\"profileId\":\"115\",\"SAPType\":\"\",\"ProfileTypeId\":\"115\",\"queryId\":\"5315\",\"sourceTableOrQuery\":\"Swami#@8/5/2025 12:36:34 PM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"N_NATIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"N_NAME\",\"dataType\":\"String\",\"included\":true},{\"name\":\"N_REGIONKEY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"N_COMMENT\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":9,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"_NATIONKEY\",\"alias\":\"_NATIONKEY\",\"dataType\":\"String\"},{\"name\":\"_NAME\",\"alias\":\"_NAME\",\"dataType\":\"String\"},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"dataType\":\"String\"},{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":true}",
+        "CreatedOn": "2025-08-05T12:57:25.453",
+        "CreatedBy": "Swami",
+        "ModifiedOn": "2025-08-05T12:58:05.24",
+        "ModifiedBy": "Swami",
+        "Status": true
+      }
+    ],
+    "DataBlendFieldType": [
+      {
+        "Id": 7685,
+        "DBlendId": 1449,
+        "TableName": null,
+        "ColumnName": "_NATIONKEY",
+        "DataType": "String",
+        "Status": true
+      },
+      {
+        "Id": 7686,
+        "DBlendId": 1449,
+        "TableName": null,
+        "ColumnName": "_NAME",
+        "DataType": "String",
+        "Status": true
+      },
+      {
+        "Id": 7687,
+        "DBlendId": 1449,
+        "TableName": null,
+        "ColumnName": "N_REGIONKEY",
+        "DataType": "String",
+        "Status": true
+      },
+      {
+        "Id": 7688,
+        "DBlendId": 1449,
+        "TableName": null,
+        "ColumnName": "N_COMMENT",
+        "DataType": "String",
+        "Status": true
+      }
+    ],
     "ScenarioQCFieldTypes": [],
     "QFTypes": [
       {
