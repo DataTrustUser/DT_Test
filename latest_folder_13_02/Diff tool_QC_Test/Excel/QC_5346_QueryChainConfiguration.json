@@ -4,7 +4,7 @@
       {
         "Id": 5346,
         "Profile_Id": 1321,
-        "Query_Name": "Excel_Existig Queru_Snapshot_Offload_Profiling chnages ",
+        "Query_Name": "Excel_Existig Queru_Snapshot_Offload_Profiling ",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -492,7 +492,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806075344"
+        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806075843"
       }
     ]
   }
