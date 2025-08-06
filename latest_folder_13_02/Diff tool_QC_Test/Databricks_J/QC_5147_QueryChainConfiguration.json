@@ -81,7 +81,8 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 0,
+        "QcDatasetName": null
       }
     ],
     "QCTableFieldTypes": [
