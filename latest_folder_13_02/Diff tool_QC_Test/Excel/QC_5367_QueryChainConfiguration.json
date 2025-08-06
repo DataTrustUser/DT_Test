@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-06T09:24:11.897",
         "CreatedBy": "Sarada",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-06T09:25:54.29",
+        "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -170,8 +170,8 @@
         "Position": "position: absolute; left: 375.667px; top: 202.635px;",
         "CreatedOn": "2025-08-06T09:24:54.003",
         "CreatedBy": "Sarada",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-06T09:25:51.54",
+        "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -205,8 +205,8 @@
         "Position": null,
         "CreatedOn": "2025-08-06T09:25:00.797",
         "CreatedBy": "Sarada",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-06T09:25:54.287",
+        "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -368,37 +368,47 @@
     "PivotDetails": [],
     "UnPivotDetails": [
       {
-        "Id": 68,
+        "Id": 69,
         "ScenarioId": null,
         "QueryId": 5367,
         "DataSourceId": 5265,
         "UnPivotFor": "Salary",
         "PivotBy": "Employee_ID",
-        "UnPivotColumns": "Employee_ID,Employee_Name,Department_ID,Salary",
+        "UnPivotColumns": "Employee_ID,Employee_Name,Salary",
         "DCStepId": 38593,
         "CSV_Id": 0
       }
     ],
     "PivotFieldType": [
       {
-        "Id": 2194,
+        "Id": 2196,
+        "ScenarioId": null,
+        "QueryId": 5367,
+        "ColumnName": "Department_ID",
+        "AliasColumnName": "Department_ID",
+        "PivotId": null,
+        "DataType": "Integer",
+        "UnPivotId": 69
+      },
+      {
+        "Id": 2197,
         "ScenarioId": null,
         "QueryId": 5367,
         "ColumnName": "Salary",
         "AliasColumnName": "Salary",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 68
+        "UnPivotId": 69
       },
       {
-        "Id": 2195,
+        "Id": 2198,
         "ScenarioId": null,
         "QueryId": 5367,
         "ColumnName": "Employee_ID",
         "AliasColumnName": "Employee_ID",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 68
+        "UnPivotId": 69
       }
     ],
     "FileOffload": []
