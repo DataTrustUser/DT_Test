@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-06T23:05:29.027",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-08-06T23:41:58.283",
+        "ModifiedOn": "2025-08-06T23:46:18.823",
         "ModifiedBy": "RDAdmin",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -636,7 +636,7 @@
         "Position": "position: absolute; left: 505.8px; top: 165.638px;",
         "CreatedOn": "2025-08-06T23:39:43.407",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-08-06T23:42:02.403",
+        "ModifiedOn": "2025-08-06T23:45:12.937",
         "ModifiedBy": "RDAdmin",
         "Status": true,
         "ErrorCodes": null,
@@ -671,8 +671,8 @@
         "Position": null,
         "CreatedOn": "2025-08-06T23:43:25.03",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-06T23:46:18.563",
+        "ModifiedBy": "RDAdmin",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -708,84 +708,84 @@
         "Title": "",
         "Description": "Union Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"0\",\"queryId\":\"4321\",\"sourceTableOrQuery\":\"QC-Join with Data Profiling\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"VBELN\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ERDAT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ERZET\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ERNAM\",\"dataType\":\"String\",\"included\":true},{\"name\":\"VBELN_2\",\"dataType\":\"String\",\"included\":true},{\"name\":\"POSNR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"MATNR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"MANDT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ZMENG\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"101\",\"SAPType\":\"\",\"ProfileTypeId\":\"101\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.ORDERS\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"O_ORDERKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"O_CUSTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"O_ORDERSTATUS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"O_TOTALPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"O_ORDERDATE\",\"dataType\":\"Date\",\"included\":true},{\"name\":\"O_ORDERPRIORITY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"O_CLERK\",\"dataType\":\"String\",\"included\":true},{\"name\":\"O_SHIPPRIORITY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"O_COMMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"NewColumn\",\"dataType\":\"String\",\"included\":false},{\"name\":\"OneMoreColumn\",\"dataType\":\"String\",\"included\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"VBELN\",\"alias\":\"VBELN\",\"dataType\":\"String\"},{\"name\":\"ERDAT\",\"alias\":\"ERDAT\",\"dataType\":\"String\"},{\"name\":\"ERZET\",\"alias\":\"ERZET\",\"dataType\":\"String\"},{\"name\":\"ERNAM\",\"alias\":\"ERNAM\",\"dataType\":\"String\"},{\"name\":\"VBELN_2\",\"alias\":\"VBELN_2\",\"dataType\":\"String\"},{\"name\":\"POSNR\",\"alias\":\"POSNR\",\"dataType\":\"String\"},{\"name\":\"MATNR\",\"alias\":\"MATNR\",\"dataType\":\"String\"},{\"name\":\"MANDT\",\"alias\":\"MANDT\",\"dataType\":\"String\"},{\"name\":\"ZMENG\",\"alias\":\"ZMENG\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"101\",\"SAPType\":\"\",\"ProfileTypeId\":\"101\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.ORDERS\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"O_ORDERKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"O_CUSTKEY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"O_ORDERSTATUS\",\"dataType\":\"String\",\"included\":true},{\"name\":\"O_TOTALPRICE\",\"dataType\":\"Decimal\",\"included\":true},{\"name\":\"O_ORDERDATE\",\"dataType\":\"Date\",\"included\":true},{\"name\":\"O_ORDERPRIORITY\",\"dataType\":\"String\",\"included\":true},{\"name\":\"O_CLERK\",\"dataType\":\"String\",\"included\":true},{\"name\":\"O_SHIPPRIORITY\",\"dataType\":\"Integer\",\"included\":true},{\"name\":\"O_COMMENT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"NewColumn\",\"dataType\":\"String\",\"included\":false},{\"name\":\"OneMoreColumn\",\"dataType\":\"String\",\"included\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":true},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"0\",\"SAPType\":\"\",\"ProfileTypeId\":\"0\",\"queryId\":\"4321\",\"sourceTableOrQuery\":\"QC-Join with Data Profiling\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"unionColumns\":[{\"name\":\"VBELN\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ERDAT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ERZET\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ERNAM\",\"dataType\":\"String\",\"included\":true},{\"name\":\"VBELN_2\",\"dataType\":\"String\",\"included\":true},{\"name\":\"POSNR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"MATNR\",\"dataType\":\"String\",\"included\":true},{\"name\":\"MANDT\",\"dataType\":\"String\",\"included\":true},{\"name\":\"ZMENG\",\"dataType\":\"String\",\"included\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":4,\"restapi\":false,\"unionDriverTable\":false}],\"blendFinalColumns\":[{\"name\":\"O_ORDERKEY\",\"alias\":\"O_ORDERKEY\",\"dataType\":\"Integer\"},{\"name\":\"O_CUSTKEY\",\"alias\":\"O_CUSTKEY\",\"dataType\":\"Integer\"},{\"name\":\"O_ORDERSTATUS\",\"alias\":\"O_ORDERSTATUS\",\"dataType\":\"String\"},{\"name\":\"O_TOTALPRICE\",\"alias\":\"O_TOTALPRICE\",\"dataType\":\"Decimal\"},{\"name\":\"O_ORDERDATE\",\"alias\":\"O_ORDERDATE\",\"dataType\":\"Date\"},{\"name\":\"O_ORDERPRIORITY\",\"alias\":\"O_ORDERPRIORITY\",\"dataType\":\"String\"},{\"name\":\"O_CLERK\",\"alias\":\"O_CLERK\",\"dataType\":\"String\"},{\"name\":\"O_SHIPPRIORITY\",\"alias\":\"O_SHIPPRIORITY\",\"dataType\":\"Integer\"},{\"name\":\"O_COMMENT\",\"alias\":\"O_COMMENT\",\"dataType\":\"String\"}],\"ignoreDuplicatesInSourceUnion\":false}",
         "CreatedOn": "2025-08-06T23:39:42.367",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-08-06T23:41:58.517",
+        "ModifiedOn": "2025-08-06T23:45:08.967",
         "ModifiedBy": "RDAdmin",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 6863,
+        "Id": 6872,
         "DBlendId": 1224,
         "TableName": null,
-        "ColumnName": "VBELN",
+        "ColumnName": "O_ORDERKEY",
+        "DataType": "Integer",
+        "Status": true
+      },
+      {
+        "Id": 6873,
+        "DBlendId": 1224,
+        "TableName": null,
+        "ColumnName": "O_CUSTKEY",
+        "DataType": "Integer",
+        "Status": true
+      },
+      {
+        "Id": 6874,
+        "DBlendId": 1224,
+        "TableName": null,
+        "ColumnName": "O_ORDERSTATUS",
         "DataType": "String",
         "Status": true
       },
       {
-        "Id": 6864,
+        "Id": 6875,
         "DBlendId": 1224,
         "TableName": null,
-        "ColumnName": "ERDAT",
+        "ColumnName": "O_TOTALPRICE",
+        "DataType": "Decimal",
+        "Status": true
+      },
+      {
+        "Id": 6876,
+        "DBlendId": 1224,
+        "TableName": null,
+        "ColumnName": "O_ORDERDATE",
+        "DataType": "Date",
+        "Status": true
+      },
+      {
+        "Id": 6877,
+        "DBlendId": 1224,
+        "TableName": null,
+        "ColumnName": "O_ORDERPRIORITY",
         "DataType": "String",
         "Status": true
       },
       {
-        "Id": 6865,
+        "Id": 6878,
         "DBlendId": 1224,
         "TableName": null,
-        "ColumnName": "ERZET",
+        "ColumnName": "O_CLERK",
         "DataType": "String",
         "Status": true
       },
       {
-        "Id": 6866,
+        "Id": 6879,
         "DBlendId": 1224,
         "TableName": null,
-        "ColumnName": "ERNAM",
-        "DataType": "String",
+        "ColumnName": "O_SHIPPRIORITY",
+        "DataType": "Integer",
         "Status": true
       },
       {
-        "Id": 6867,
+        "Id": 6880,
         "DBlendId": 1224,
         "TableName": null,
-        "ColumnName": "VBELN_2",
-        "DataType": "String",
-        "Status": true
-      },
-      {
-        "Id": 6868,
-        "DBlendId": 1224,
-        "TableName": null,
-        "ColumnName": "POSNR",
-        "DataType": "String",
-        "Status": true
-      },
-      {
-        "Id": 6869,
-        "DBlendId": 1224,
-        "TableName": null,
-        "ColumnName": "MATNR",
-        "DataType": "String",
-        "Status": true
-      },
-      {
-        "Id": 6870,
-        "DBlendId": 1224,
-        "TableName": null,
-        "ColumnName": "MANDT",
-        "DataType": "String",
-        "Status": true
-      },
-      {
-        "Id": 6871,
-        "DBlendId": 1224,
-        "TableName": null,
-        "ColumnName": "ZMENG",
+        "ColumnName": "O_COMMENT",
         "DataType": "String",
         "Status": true
       }
