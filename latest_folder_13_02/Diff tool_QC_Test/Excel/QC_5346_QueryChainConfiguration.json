@@ -25,12 +25,12 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "Sarada 8/6/2025 7:09:32 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Excel_Existig Queru_Snapshot_Offload_Profiling chnages \",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Excel_Query_Pivot_Dedups\\\" for data source \\\"Excel_P_D\\\"\",\"position\":\"position: absolute; left: 248.667px; top: 201.635px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 417.667px; top: 200.635px;\",\"mapping\":\"79,2-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 573.667px; top: 169.635px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 582.667px; top: 276.635px;\",\"mapping\":\"80,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "QueryDescription": "Excel_Existig Queru_Snapshot_Offload",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Excel_Existig Queru_Snapshot_Offload_Profiling chnages \",\"position\":\"position: absolute; left: 84px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Excel_Query_Pivot_Dedups\\\" for data source \\\"Excel_P_D\\\"\",\"position\":\"position: absolute; left: 248.667px; top: 201.635px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 417.667px; top: 200.635px;\",\"mapping\":\"79,2-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.3\",\"UniqueId\":\"88\",\"stepId\":\"3\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 573.667px; top: 169.635px;\",\"mapping\":\"88,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 582.667px; top: 276.635px;\",\"mapping\":\"80,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2321,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
@@ -486,13 +486,13 @@
         "ScenarioId": null,
         "JobId": null,
         "QueryId": 5346,
-        "SessionId": null,
+        "SessionId": 1,
         "Row_Count": null,
         "Delimiter": ",",
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806075209"
+        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806075344"
       }
     ]
   }
