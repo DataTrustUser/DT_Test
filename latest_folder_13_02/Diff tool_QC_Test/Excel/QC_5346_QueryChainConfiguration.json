@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-06T07:09:39.593",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-06T07:46:30.263",
+        "ModifiedOn": "2025-08-06T07:50:50.663",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -240,7 +240,7 @@
         "Position": "position: absolute; left: 582.667px; top: 276.635px;",
         "CreatedOn": "2025-08-06T07:13:06.39",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-06T07:46:30.363",
+        "ModifiedOn": "2025-08-06T07:50:50.71",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -396,7 +396,7 @@
     "EmailAlerts": [],
     "DataProfilings": [
       {
-        "Id": 8066,
+        "Id": 8070,
         "ScenarioId": null,
         "QueryId": 5346,
         "CSV_Id": 0,
@@ -409,7 +409,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-06T07:46:30.263",
+        "CreatedOn": "2025-08-06T07:50:50.663",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -419,7 +419,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8067,
+        "Id": 8071,
         "ScenarioId": null,
         "QueryId": 5346,
         "CSV_Id": 0,
@@ -432,7 +432,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-06T07:46:30.263",
+        "CreatedOn": "2025-08-06T07:50:50.663",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -442,30 +442,7 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8068,
-        "ScenarioId": null,
-        "QueryId": 5346,
-        "CSV_Id": 0,
-        "DcStepId": 38429,
-        "StepId": 38429,
-        "ScenarioDataSourceId": null,
-        "ColumnName": "Department_ID",
-        "AliasColumnName": "Department_ID",
-        "SystemDefinedDataType": "Integer",
-        "UserDefinedDataType": null,
-        "IsPrimary": null,
-        "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-06T07:46:30.263",
-        "ModifiedBy": null,
-        "ModifiedOn": null,
-        "QueryDataSourceId": null,
-        "DBlendId": null,
-        "Status": null,
-        "Description": null,
-        "SummaryOnly": false
-      },
-      {
-        "Id": 8069,
+        "Id": 8072,
         "ScenarioId": null,
         "QueryId": 5346,
         "CSV_Id": 0,
@@ -478,7 +455,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-06T07:46:30.263",
+        "CreatedOn": "2025-08-06T07:50:50.663",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": null,
@@ -515,7 +492,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806074646"
+        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806075057"
       }
     ]
   }
