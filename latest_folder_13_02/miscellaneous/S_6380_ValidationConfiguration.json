@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Swami 8/6/2025 5:34:45 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.PART\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 238.51px; top: 200.437px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform data from TPCH_1.dbo.PART\",\"position\":\"position: absolute; left: 403.623px; top: 198.437px;\",\"mapping\":\"65,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"Duplicates_dropped.3\",\"UniqueId\":\"12\",\"stepId\":\"3\",\"description\":\"dsd\",\"position\":\"position: absolute; left: 590.835px; top: 197.978px;\",\"mapping\":\"12,3-[65,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\",\"activestatus\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-08-06T05:36:00.783",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -215,7 +215,7 @@
         "Position": "position: absolute; left: 403.623px; top: 198.437px;",
         "CreatedOn": "2025-08-06T05:35:24.637",
         "CreatedBy": "117",
-        "ModifiedOn": "2025-08-06T05:35:28.25",
+        "ModifiedOn": "2025-08-06T05:36:00.353",
         "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
@@ -457,7 +457,7 @@
     "SimpleAggregations": [],
     "SimpleProjections": [
       {
-        "Id": 13187,
+        "Id": 13196,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -465,12 +465,12 @@
         "StepId": 2,
         "DataSourceId": 5137,
         "ColumnName": "P_PARTKEY",
-        "AliasColumnName": "P_PARTKEY",
+        "AliasColumnName": "_PARTKEY",
         "SystemDefinedDataType": "int",
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -481,7 +481,7 @@
         "QueryId": null
       },
       {
-        "Id": 13188,
+        "Id": 13197,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -494,7 +494,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -505,7 +505,7 @@
         "QueryId": null
       },
       {
-        "Id": 13189,
+        "Id": 13198,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -518,7 +518,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -529,7 +529,7 @@
         "QueryId": null
       },
       {
-        "Id": 13190,
+        "Id": 13199,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -542,7 +542,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -553,7 +553,7 @@
         "QueryId": null
       },
       {
-        "Id": 13191,
+        "Id": 13200,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -566,7 +566,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -577,7 +577,7 @@
         "QueryId": null
       },
       {
-        "Id": 13192,
+        "Id": 13201,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -590,7 +590,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -601,7 +601,7 @@
         "QueryId": null
       },
       {
-        "Id": 13193,
+        "Id": 13202,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -614,7 +614,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -625,7 +625,7 @@
         "QueryId": null
       },
       {
-        "Id": 13194,
+        "Id": 13203,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -638,7 +638,7 @@
         "UserDefinedDataType": "Float",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -649,7 +649,7 @@
         "QueryId": null
       },
       {
-        "Id": 13195,
+        "Id": 13204,
         "ScenarioId": 6380,
         "CSV_Id": 0,
         "DcStepId": 38357,
@@ -662,7 +662,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "117",
-        "CreatedOn": "2025-08-06T05:35:28.143",
+        "CreatedOn": "2025-08-06T05:36:00.213",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
