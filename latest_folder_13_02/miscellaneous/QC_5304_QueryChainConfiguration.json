@@ -4,7 +4,7 @@
       {
         "Id": 5304,
         "Profile_Id": 1184,
-        "Query_Name": "Saikiran 2025-08-05 5:04:40 PM",
+        "Query_Name": "QC_DataProfiling",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T17:05:36.443",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-05T11:49:52.05",
+        "ModifiedBy": "Saikiran",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -25,8 +25,8 @@
         "DegreeOfParallelism": null,
         "AzurePreViewPath": null,
         "PacketSize": null,
-        "QueryDescription": "Saikiran 2025-08-05 5:04:40 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 2025-08-05 5:04:40 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 317.619px; top: 155.452px; \",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 520.762px; top: 163.452px;\",\"mapping\":\"79,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 753.762px; top: 156.452px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "QueryDescription": "QC_DataProfiling",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC_DataProfiling\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 317.619px; top: 155.452px; \",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 520.762px; top: 163.452px;\",\"mapping\":\"79,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 753.762px; top: 156.452px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 724.762px; top: 289.452px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Saikiran",
         "FId": 1,
@@ -81,8 +81,7 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": null,
-        "QcDatasetName": ""
+        "Scenario_SessionId": null
       }
     ],
     "QCTableFieldTypes": [
@@ -304,6 +303,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 38341,
+        "ScenarioId": null,
+        "QueryId": 5304,
+        "Job_Id": null,
+        "Step": 4,
+        "StepMapping": "88,4-[79,2]",
+        "TransformationId": 88,
+        "Description": "Write  data To File",
+        "Position": "position: absolute; left: 724.762px; top: 289.452px;",
+        "CreatedOn": "2025-08-06T04:50:53.56",
+        "CreatedBy": "Saikiran",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -443,6 +477,27 @@
     "PivotDetails": [],
     "UnPivotDetails": [],
     "PivotFieldType": [],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 305,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_5304_QC_DataProfiling",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2025-08-06T04:50:53.567",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 5304,
+        "SessionId": 2,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true,
+        "ManipulatedFileName": "QC_5304_QC_DataProfiling_20250806045243"
+      }
+    ]
   }
 ]
