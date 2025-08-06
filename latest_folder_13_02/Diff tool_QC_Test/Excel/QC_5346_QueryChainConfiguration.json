@@ -67,7 +67,7 @@
         "SQL_Text": null,
         "TableVizName": null,
         "ExtraColumn": null,
-        "DefaultfParallelism": 1.0,
+        "DefaultfParallelism": 10.0,
         "DefaultPacketSize": 50000.0,
         "MaxPacketSize": null,
         "MaxParallelism": null,
@@ -75,7 +75,7 @@
         "ResultScenario_Id": null,
         "RemoveDuplicates": false,
         "OffsetDate": null,
-        "OrderByValue": null,
+        "OrderByValue": "Employee_Name,Employee_ID",
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
         "iteration": false,
@@ -492,7 +492,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806075057"
+        "ManipulatedFileName": "QC_5346_Excel_Existig_Queru_Snapshot_Offload_Profiling_chnages_20250806075209"
       }
     ]
   }
