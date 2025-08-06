@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-06T16:37:11.673",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-08-06T16:56:46.143",
         "ModifiedBy": null,
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "RDAdmin 08/06/2025 16:37:03",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 08/06/2025 16:37:03\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"undefined_dropped.1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"shanmukha 7/28/2025 12:33:54 PM\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 258.625px; top: 191.641px;\",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 418px; top: 185.641px;\",\"mapping\":\"79,2-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"RDAdmin 08/06/2025 16:37:03\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"shanmukha 7/28/2025 12:33:54 PM\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 258.625px; top: 191.641px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"78,1-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 418px; top: 185.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[78,1]\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "RDAdmin",
         "FId": 22210,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 3957,
+        "Id": 3958,
         "Query_Id": 4344,
         "Profile_Id": null,
-        "DCStep_Id": 23104,
+        "DCStep_Id": 23107,
         "BlendStepId": null,
         "Query_Id_Id": 4328,
         "ResultTableName": null,
@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 0,
-        "SnapshotOffset": 1,
-        "CreatedOn": "2025-08-06T16:37:26.88",
+        "SnapshotOffset": null,
+        "CreatedOn": "2025-08-06T16:56:43.37",
         "CreatedBy": "RDAdmin",
-        "ModifiedOn": "2025-08-06T16:51:58.923",
+        "ModifiedOn": "2025-08-06T16:58:12.587",
         "ModifiedBy": "RDAdmin",
         "Status": false,
         "SAPType": null,
@@ -74,7 +74,7 @@
         "UseLatestSession": false,
         "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
-        "OffsetDate": null,
+        "OffsetDate": "2",
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
@@ -87,8 +87,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 12229,
-        "QueryDataSourceId": 3957,
+        "Id": 12259,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -106,8 +106,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12230,
-        "QueryDataSourceId": 3957,
+        "Id": 12260,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -125,8 +125,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12231,
-        "QueryDataSourceId": 3957,
+        "Id": 12261,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -144,8 +144,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12232,
-        "QueryDataSourceId": 3957,
+        "Id": 12262,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -163,8 +163,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12233,
-        "QueryDataSourceId": 3957,
+        "Id": 12263,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -182,8 +182,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12234,
-        "QueryDataSourceId": 3957,
+        "Id": 12264,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -201,8 +201,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12235,
-        "QueryDataSourceId": 3957,
+        "Id": 12265,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -220,8 +220,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12236,
-        "QueryDataSourceId": 3957,
+        "Id": 12266,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -239,8 +239,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12237,
-        "QueryDataSourceId": 3957,
+        "Id": 12267,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -258,8 +258,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12238,
-        "QueryDataSourceId": 3957,
+        "Id": 12268,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -277,8 +277,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12239,
-        "QueryDataSourceId": 3957,
+        "Id": 12269,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -296,8 +296,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12240,
-        "QueryDataSourceId": 3957,
+        "Id": 12270,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -315,8 +315,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12241,
-        "QueryDataSourceId": 3957,
+        "Id": 12271,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -334,8 +334,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12242,
-        "QueryDataSourceId": 3957,
+        "Id": 12272,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -353,8 +353,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 12243,
-        "QueryDataSourceId": 3957,
+        "Id": 12273,
+        "QueryDataSourceId": 3958,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -375,7 +375,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 23103,
+        "Id": 23106,
         "ScenarioId": null,
         "QueryId": 4344,
         "Job_Id": null,
@@ -384,7 +384,7 @@
         "TransformationId": 0,
         "Description": "RDAdmin 08/06/2025 16:37:03",
         "Position": null,
-        "CreatedOn": "2025-08-06T16:37:12.93",
+        "CreatedOn": "2025-08-06T16:56:44.197",
         "CreatedBy": "RDAdmin",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -410,7 +410,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 23104,
+        "Id": 23107,
         "ScenarioId": null,
         "QueryId": 4344,
         "Job_Id": null,
@@ -419,7 +419,7 @@
         "TransformationId": 78,
         "Description": "Read data from \"shanmukha 7/28/2025 12:33:54 PM\" for data source \" \"",
         "Position": "position: absolute; left: 258.625px; top: 191.641px;",
-        "CreatedOn": "2025-08-06T16:37:24.057",
+        "CreatedOn": "2025-08-06T16:56:44.757",
         "CreatedBy": "RDAdmin",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -445,7 +445,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 23105,
+        "Id": 23108,
         "ScenarioId": null,
         "QueryId": 4344,
         "Job_Id": null,
@@ -454,7 +454,7 @@
         "TransformationId": 79,
         "Description": "RDAdmin#@08/06/2025 16:37:42",
         "Position": null,
-        "CreatedOn": "2025-08-06T16:37:44.753",
+        "CreatedOn": "2025-08-06T16:56:46.687",
         "CreatedBy": "RDAdmin",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -472,7 +472,7 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_4344_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null,
-        "AppendToExistingData": false,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -528,7 +528,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 19622,
+        "Id": 19623,
         "ScenarioId": null,
         "QueryId": 4344,
         "StepId": 1,
