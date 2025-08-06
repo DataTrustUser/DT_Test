@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-06T05:03:38.617",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-06T05:37:18.31",
+        "ModifiedOn": "2025-08-06T06:02:15.563",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Saikiran 8/6/2025 5:02:30 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 8/6/2025 5:02:30 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.SUPPLIER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 343.607px; top: 69.4524px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 631.762px; top: 187.44px;\",\"mapping\":\"2,1-61,3-3,5\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"},{\"widgetId\":\"dsExistingQuery_3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"PostgreSQL_NJ\\\"\",\"position\":\"position: absolute; left: 370px; top: 220.44px;\",\"mapping\":\"61,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 789.762px; top: 164.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"dsExistingQuery_dropped.5\",\"UniqueId\":\"3\",\"stepId\":\"5\",\"description\":\"Read data from Query\",\"position\":\"pointer-events: all; position: absolute; left: 444.762px; top: 354.452px;\",\"mapping\":\"3,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 8/6/2025 5:02:30 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.SUPPLIER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 343.607px; top: 69.4524px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 631.762px; top: 187.44px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-61,3-3,5\",\"dsstep\":\"5\"},{\"widgetId\":\"dsExistingQuery_3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"PostgreSQL_NJ\\\"\",\"position\":\"position: absolute; left: 370px; top: 220.44px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,3-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 789.762px; top: 164.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"dsExistingQuery_5\",\"UniqueId\":\"3\",\"stepId\":\"5\",\"description\":\"Read data from \\\"XML query\\\" for data source \\\"PostgreSQL_NJ\\\"\",\"position\":\"pointer-events: all; position: absolute; left: 444.762px; top: 354.452px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,5-[0,0]\",\"dsstep\":\"null\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Saikiran",
         "FId": 1,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 5218,
+        "Id": 5223,
         "Query_Id": 5341,
         "Profile_Id": 1184,
-        "DCStep_Id": 38350,
+        "DCStep_Id": 38365,
         "BlendStepId": 2,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -47,7 +47,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-06T05:12:09.227",
+        "CreatedOn": "2025-08-06T05:38:02.187",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -81,13 +81,14 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": null
+        "Scenario_SessionId": null,
+        "QcDatasetName": ""
       },
       {
-        "Id": 5219,
+        "Id": 5224,
         "Query_Id": 5341,
         "Profile_Id": 1259,
-        "DCStep_Id": 38351,
+        "DCStep_Id": 38366,
         "BlendStepId": 2,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -96,7 +97,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-06T05:16:28.84",
+        "CreatedOn": "2025-08-06T05:38:02.187",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -130,13 +131,14 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": null
+        "Scenario_SessionId": null,
+        "QcDatasetName": ""
       },
       {
-        "Id": 5220,
+        "Id": 5225,
         "Query_Id": 5341,
         "Profile_Id": 1299,
-        "DCStep_Id": 38354,
+        "DCStep_Id": 38369,
         "BlendStepId": 2,
         "Query_Id_Id": 4908,
         "ResultTableName": null,
@@ -145,7 +147,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-06T05:29:39.773",
+        "CreatedOn": "2025-08-06T05:38:02.187",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -179,13 +181,14 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": null
+        "Scenario_SessionId": null,
+        "QcDatasetName": "XML query"
       }
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 20371,
-        "QueryDataSourceId": 5218,
+        "Id": 20399,
+        "QueryDataSourceId": 5223,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -203,8 +206,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20372,
-        "QueryDataSourceId": 5218,
+        "Id": 20400,
+        "QueryDataSourceId": 5223,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -222,8 +225,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20373,
-        "QueryDataSourceId": 5218,
+        "Id": 20401,
+        "QueryDataSourceId": 5223,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -241,8 +244,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20374,
-        "QueryDataSourceId": 5218,
+        "Id": 20402,
+        "QueryDataSourceId": 5223,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -260,8 +263,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20375,
-        "QueryDataSourceId": 5218,
+        "Id": 20403,
+        "QueryDataSourceId": 5223,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -279,8 +282,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20376,
-        "QueryDataSourceId": 5218,
+        "Id": 20404,
+        "QueryDataSourceId": 5223,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -298,8 +301,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20377,
-        "QueryDataSourceId": 5218,
+        "Id": 20405,
+        "QueryDataSourceId": 5223,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.SUPPLIER",
@@ -317,8 +320,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20378,
-        "QueryDataSourceId": 5219,
+        "Id": 20406,
+        "QueryDataSourceId": 5224,
         "DBlendId": null,
         "ProfileId": 1259,
         "TableName": null,
@@ -336,8 +339,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20379,
-        "QueryDataSourceId": 5219,
+        "Id": 20407,
+        "QueryDataSourceId": 5224,
         "DBlendId": null,
         "ProfileId": 1259,
         "TableName": null,
@@ -355,8 +358,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20380,
-        "QueryDataSourceId": 5219,
+        "Id": 20408,
+        "QueryDataSourceId": 5224,
         "DBlendId": null,
         "ProfileId": 1259,
         "TableName": null,
@@ -374,8 +377,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20381,
-        "QueryDataSourceId": 5219,
+        "Id": 20409,
+        "QueryDataSourceId": 5224,
         "DBlendId": null,
         "ProfileId": 1259,
         "TableName": null,
@@ -393,8 +396,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20382,
-        "QueryDataSourceId": 5219,
+        "Id": 20410,
+        "QueryDataSourceId": 5224,
         "DBlendId": null,
         "ProfileId": 1259,
         "TableName": null,
@@ -412,8 +415,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20383,
-        "QueryDataSourceId": 5219,
+        "Id": 20411,
+        "QueryDataSourceId": 5224,
         "DBlendId": null,
         "ProfileId": 1259,
         "TableName": null,
@@ -431,8 +434,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20384,
-        "QueryDataSourceId": 5219,
+        "Id": 20412,
+        "QueryDataSourceId": 5224,
         "DBlendId": null,
         "ProfileId": 1259,
         "TableName": null,
@@ -453,7 +456,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 38348,
+        "Id": 38364,
         "ScenarioId": null,
         "QueryId": 5341,
         "Job_Id": null,
@@ -462,7 +465,7 @@
         "TransformationId": 0,
         "Description": "Saikiran 8/6/2025 5:02:30 AM",
         "Position": null,
-        "CreatedOn": "2025-08-06T05:03:38.667",
+        "CreatedOn": "2025-08-06T05:38:02.207",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -488,7 +491,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38350,
+        "Id": 38365,
         "ScenarioId": null,
         "QueryId": 5341,
         "Job_Id": null,
@@ -497,7 +500,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.SUPPLIER\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 312.619px; top: 109.452px;",
-        "CreatedOn": "2025-08-06T05:12:09.187",
+        "CreatedOn": "2025-08-06T05:38:02.23",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -523,7 +526,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38351,
+        "Id": 38366,
         "ScenarioId": null,
         "QueryId": 5341,
         "Job_Id": null,
@@ -532,7 +535,7 @@
         "TransformationId": 61,
         "Description": "Read data from customer SQL query of the connection profile  \"PostgreSQL_NJ\"",
         "Position": "position: absolute; left: 314px; top: 270.452px;",
-        "CreatedOn": "2025-08-06T05:16:28.81",
+        "CreatedOn": "2025-08-06T05:38:02.257",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -558,7 +561,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38352,
+        "Id": 38367,
         "ScenarioId": null,
         "QueryId": 5341,
         "Job_Id": null,
@@ -567,9 +570,9 @@
         "TransformationId": 35,
         "Description": "Join Datasets",
         "Position": "position: absolute; left: 631.762px; top: 187.44px;",
-        "CreatedOn": "2025-08-06T05:16:33.19",
+        "CreatedOn": "2025-08-06T05:38:02.283",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-06T05:37:18.35",
+        "ModifiedOn": "2025-08-06T06:02:11.447",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
@@ -593,7 +596,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38353,
+        "Id": 38368,
         "ScenarioId": null,
         "QueryId": 5341,
         "Job_Id": null,
@@ -602,9 +605,9 @@
         "TransformationId": 79,
         "Description": "Saikiran#@8/6/2025 5:24:38 AM",
         "Position": null,
-        "CreatedOn": "2025-08-06T05:24:48.28",
+        "CreatedOn": "2025-08-06T05:38:02.3",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-06T05:32:45.74",
+        "ModifiedOn": "2025-08-06T06:02:15.56",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
@@ -628,7 +631,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38354,
+        "Id": 38369,
         "ScenarioId": null,
         "QueryId": 5341,
         "Job_Id": null,
@@ -637,7 +640,7 @@
         "TransformationId": 3,
         "Description": "Read data from Query",
         "Position": "pointer-events: all; position: absolute; left: 484.762px; top: 368.452px;",
-        "CreatedOn": "2025-08-06T05:29:39.743",
+        "CreatedOn": "2025-08-06T05:38:02.333",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -669,49 +672,49 @@
     "SimpleProjections": [],
     "DataBlends": [
       {
-        "Id": 1457,
+        "Id": 1459,
         "ScenarioId": null,
         "QueryId": 5341,
         "StepId": 2,
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.SUPPLIER\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1259\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"5\",\"profileId\":\"1299\",\"SAPType\":\"\",\"ProfileTypeId\":\"138\",\"queryId\":\"4908\",\"sourceTableOrQuery\":\"XML query\",\"sourceParallelism\":\"10\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT\",\"included\":true,\"key\":false},{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"included\":false,\"key\":true},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:730px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"S_NATIONKEY\",\"srcColumn\":\"S_NATIONKEY\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]},{\"type\":\"Left Outer Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"s_nationkey\",\"srcColumn\":\"s_nationkey\",\"endColumnName\":\"N_NATIONKEY\",\"tgtColumn\":\"N_NATIONKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"dataType\":\"integer|01\",\"oName\":\"S_SUPPKEY\"},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"dataType\":\"integer|11\",\"oName\":\"s_nationkey\"},{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT\",\"dataType\":\"string|21\",\"oName\":\"N_COMMENT\"},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"dataType\":\"string|21\",\"oName\":\"N_REGIONKEY\"}]}",
-        "CreatedOn": "2025-08-06T05:16:33.123",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.SUPPLIER\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1259\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM tpch1.supplier\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"5\",\"profileId\":\"1299\",\"SAPType\":\"\",\"ProfileTypeId\":\"138\",\"queryId\":\"4908\",\"sourceTableOrQuery\":\"XML query\",\"sourceParallelism\":\"10\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT\",\"included\":true,\"key\":false},{\"name\":\"N_NATIONKEY\",\"alias\":\"N_NATIONKEY\",\"included\":false,\"key\":true},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:730px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"S_NATIONKEY\",\"srcColumn\":\"S_NATIONKEY\",\"endColumnName\":\"s_nationkey\",\"tgtColumn\":\"s_nationkey\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"s_nationkey\",\"srcColumn\":\"s_nationkey\",\"endColumnName\":\"N_NATIONKEY\",\"tgtColumn\":\"N_NATIONKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"dataType\":\"integer|01\",\"oName\":\"S_SUPPKEY\"},{\"name\":\"s_nationkey\",\"alias\":\"s_nationkey\",\"dataType\":\"integer|11\",\"oName\":\"s_nationkey\"},{\"name\":\"N_COMMENT\",\"alias\":\"N_COMMENT\",\"dataType\":\"string|21\",\"oName\":\"N_COMMENT\"},{\"name\":\"N_REGIONKEY\",\"alias\":\"N_REGIONKEY\",\"dataType\":\"string|21\",\"oName\":\"N_REGIONKEY\"}]}",
+        "CreatedOn": "2025-08-06T05:38:02.187",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-06T05:37:18.313",
+        "ModifiedOn": "2025-08-06T06:02:11.413",
         "ModifiedBy": "Saikiran",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7741,
-        "DBlendId": 1457,
+        "Id": 7751,
+        "DBlendId": 1459,
         "TableName": null,
         "ColumnName": "S_SUPPKEY",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 7742,
-        "DBlendId": 1457,
+        "Id": 7752,
+        "DBlendId": 1459,
         "TableName": null,
         "ColumnName": "s_nationkey",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 7743,
-        "DBlendId": 1457,
+        "Id": 7753,
+        "DBlendId": 1459,
         "TableName": null,
         "ColumnName": "N_COMMENT",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7744,
-        "DBlendId": 1457,
+        "Id": 7754,
+        "DBlendId": 1459,
         "TableName": null,
         "ColumnName": "N_REGIONKEY",
         "DataType": "string",
@@ -719,14 +722,109 @@
       }
     ],
     "ScenarioQCFieldTypes": [],
-    "Query": null,
-    "QuerySap": null,
-    "QFTypes": null,
+    "QFTypes": [
+      {
+        "Id": 13487,
+        "Query_Id": 4908,
+        "ColumnName": "N_COMMENT",
+        "AliasColumnName": null,
+        "DataType": "STRING",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-06T06:01:02.187",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13488,
+        "Query_Id": 4908,
+        "ColumnName": "N_NAME",
+        "AliasColumnName": null,
+        "DataType": "STRING",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-06T06:01:02.187",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13489,
+        "Query_Id": 4908,
+        "ColumnName": "N_NATIONKEY",
+        "AliasColumnName": null,
+        "DataType": "STRING",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-06T06:01:02.187",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13490,
+        "Query_Id": 4908,
+        "ColumnName": "N_REGIONKEY",
+        "AliasColumnName": null,
+        "DataType": "STRING",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-06T06:01:02.187",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      }
+    ],
+    "Query": [
+      {
+        "Id": 4908,
+        "Profile_Id": 1299,
+        "Query_Name": "XML query",
+        "Query_Type": false,
+        "Query_Text": " SELECT * FROM [Employee]",
+        "Query_Modified_Text": null,
+        "Queryfor_Edit": null,
+        "Parallel_Processor_Count": 10,
+        "Split_By_Column": null,
+        "IsforVariableBuilder": false,
+        "IsUsedInVariableBuilder": null,
+        "CreatedOn": "2025-07-14T14:36:49.313",
+        "CreatedBy": "116",
+        "ModifiedOn": "2025-08-06T06:01:02.187",
+        "ModifiedBy": "140",
+        "Status": true,
+        "IsHeavyWeightEngine": null,
+        "IsMigrated": false,
+        "MigratedOn": null,
+        "IsDeleted": null,
+        "DegreeOfParallelism": null,
+        "AzurePreViewPath": null,
+        "PacketSize": 1000.0,
+        "QueryDescription": null,
+        "JSON": null,
+        "TypeofQuery": null,
+        "FId": 1,
+        "DataRetentionJson": null
+      }
+    ],
+    "QuerySap": [],
+    "QCExistingQueryCSVProfiles": [],
+    "QCExistingQueryCSVProfileDatatypes": [],
+    "QCExistingQueryCSV": [],
     "CSVQCusingQuerySource": false,
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 30077,
+        "Id": 30088,
         "ScenarioId": null,
         "QueryId": 5341,
         "StepId": 1,
@@ -736,7 +834,7 @@
         "JobId": null
       },
       {
-        "Id": 30078,
+        "Id": 30089,
         "ScenarioId": null,
         "QueryId": 5341,
         "StepId": 3,
@@ -746,7 +844,7 @@
         "JobId": null
       },
       {
-        "Id": 30079,
+        "Id": 30090,
         "ScenarioId": null,
         "QueryId": 5341,
         "StepId": 2,
@@ -756,7 +854,7 @@
         "JobId": null
       },
       {
-        "Id": 30080,
+        "Id": 30091,
         "ScenarioId": null,
         "QueryId": 5341,
         "StepId": 5,
