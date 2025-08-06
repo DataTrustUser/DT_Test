@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-06T07:22:50.58",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-08-06T13:21:12.537",
         "ModifiedBy": null,
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Saikiran 8/6/2025 7:22:45 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 8/6/2025 7:22:45 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 338.619px; top: 185.452px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 540.762px; top: 169.452px;\",\"mapping\":\"79,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 731.762px; top: 84.4524px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 8/6/2025 7:22:45 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 338.619px; top: 185.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 540.762px; top: 169.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 731.762px; top: 84.4524px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"80,3-[79,2]\",\"dsstep\":null}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Saikiran",
         "FId": 1,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 5248,
+        "Id": 5256,
         "Query_Id": 5355,
         "Profile_Id": 1184,
-        "DCStep_Id": 38486,
+        "DCStep_Id": 38543,
         "BlendStepId": null,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -47,7 +47,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-06T07:23:15.717",
+        "CreatedOn": "2025-08-06T13:20:45.56",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -87,8 +87,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 20537,
-        "QueryDataSourceId": 5248,
+        "Id": 20585,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -106,8 +106,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20538,
-        "QueryDataSourceId": 5248,
+        "Id": 20586,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -125,8 +125,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20539,
-        "QueryDataSourceId": 5248,
+        "Id": 20587,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -144,8 +144,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20540,
-        "QueryDataSourceId": 5248,
+        "Id": 20588,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -163,8 +163,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20541,
-        "QueryDataSourceId": 5248,
+        "Id": 20589,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -182,8 +182,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20542,
-        "QueryDataSourceId": 5248,
+        "Id": 20590,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -201,8 +201,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20543,
-        "QueryDataSourceId": 5248,
+        "Id": 20591,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -220,8 +220,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 20544,
-        "QueryDataSourceId": 5248,
+        "Id": 20592,
+        "QueryDataSourceId": 5256,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -242,7 +242,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 38485,
+        "Id": 38542,
         "ScenarioId": null,
         "QueryId": 5355,
         "Job_Id": null,
@@ -251,7 +251,7 @@
         "TransformationId": 0,
         "Description": "Saikiran 8/6/2025 7:22:45 AM",
         "Position": null,
-        "CreatedOn": "2025-08-06T07:22:50.607",
+        "CreatedOn": "2025-08-06T13:21:01.767",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -277,7 +277,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38486,
+        "Id": 38543,
         "ScenarioId": null,
         "QueryId": 5355,
         "Job_Id": null,
@@ -286,7 +286,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"TPCH_1.dbo.CUSTOMER\" for data source \"MSSQL_J\"",
         "Position": "position: absolute; left: 338.619px; top: 185.452px;",
-        "CreatedOn": "2025-08-06T07:23:15.683",
+        "CreatedOn": "2025-08-06T13:21:08.73",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -312,7 +312,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38487,
+        "Id": 38544,
         "ScenarioId": null,
         "QueryId": 5355,
         "Job_Id": null,
@@ -321,7 +321,7 @@
         "TransformationId": 79,
         "Description": "Saikiran#@8/6/2025 7:23:20 AM",
         "Position": null,
-        "CreatedOn": "2025-08-06T07:23:22.54",
+        "CreatedOn": "2025-08-06T13:21:19.603",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -339,7 +339,7 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_5355_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null,
-        "AppendToExistingData": false,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -347,7 +347,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 38493,
+        "Id": 38545,
         "ScenarioId": null,
         "QueryId": 5355,
         "Job_Id": null,
@@ -356,7 +356,7 @@
         "TransformationId": 80,
         "Description": "Data Profiling",
         "Position": "position: absolute; left: 731.762px; top: 84.4524px;",
-        "CreatedOn": "2025-08-06T07:25:04.2",
+        "CreatedOn": "2025-08-06T13:21:27.89",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -396,7 +396,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 30137,
+        "Id": 30156,
         "ScenarioId": null,
         "QueryId": 5355,
         "StepId": 1,
@@ -406,7 +406,7 @@
         "JobId": null
       },
       {
-        "Id": 30138,
+        "Id": 30157,
         "ScenarioId": null,
         "QueryId": 5355,
         "StepId": 3,
@@ -419,12 +419,12 @@
     "EmailAlerts": [],
     "DataProfilings": [
       {
-        "Id": 8002,
+        "Id": 8073,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_CUSTKEY",
         "AliasColumnName": "C_CUSTKEY",
@@ -432,7 +432,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:21:49.117",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
@@ -442,12 +442,12 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8003,
+        "Id": 8074,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_NAME",
         "AliasColumnName": "C_NAME",
@@ -455,7 +455,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:21:53.987",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
@@ -465,12 +465,12 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8004,
+        "Id": 8075,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_ADDRESS",
         "AliasColumnName": "C_ADDRESS",
@@ -478,7 +478,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:21:54.983",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
@@ -488,12 +488,12 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8005,
+        "Id": 8076,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_NATIONKEY",
         "AliasColumnName": "C_NATIONKEY",
@@ -501,7 +501,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:21:56.31",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
@@ -511,12 +511,12 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8006,
+        "Id": 8077,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_PHONE",
         "AliasColumnName": "C_PHONE",
@@ -524,7 +524,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:21:57.303",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
@@ -534,12 +534,12 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8007,
+        "Id": 8078,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_ACCTBAL",
         "AliasColumnName": "C_ACCTBAL",
@@ -547,7 +547,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:21:58.293",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
@@ -557,12 +557,12 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8008,
+        "Id": 8079,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_MKTSEGMENT",
         "AliasColumnName": "C_MKTSEGMENT",
@@ -570,7 +570,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:21:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
@@ -580,12 +580,12 @@
         "SummaryOnly": false
       },
       {
-        "Id": 8009,
+        "Id": 8080,
         "ScenarioId": null,
         "QueryId": 5355,
         "CSV_Id": 0,
-        "DcStepId": 38487,
-        "StepId": 38493,
+        "DcStepId": 38544,
+        "StepId": 38545,
         "ScenarioDataSourceId": null,
         "ColumnName": "C_COMMENT",
         "AliasColumnName": "C_COMMENT",
@@ -593,7 +593,7 @@
         "UserDefinedDataType": null,
         "IsPrimary": null,
         "CreatedBy": "Saikiran",
-        "CreatedOn": "2025-08-06T07:25:04.157",
+        "CreatedOn": "2025-08-06T13:22:00.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "QueryDataSourceId": 0,
