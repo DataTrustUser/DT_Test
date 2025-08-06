@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-06T12:10:26.61",
         "CreatedBy": "Pranisha",
-        "ModifiedOn": "2025-08-06T12:20:03.437",
+        "ModifiedOn": "2025-08-06T12:21:05.053",
         "ModifiedBy": "Pranisha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Pranisha 8/6/2025 12:06:48 PM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 8/6/2025 12:06:48 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Vinay 8/6/2025 9:59:39 AM\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 287.413px; top: 204.638px;     \",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 628.8px; top: 197.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcSimpleFilters_dropped.3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"Filter data from Data Source\",\"position\":\"pointer-events: all; position: absolute; left: 459.8px; top: 204.638px;\",\"mapping\":\"66,3-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Pranisha 8/6/2025 12:06:48 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"78\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Vinay 8/6/2025 9:59:39 AM\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 287.413px; top: 204.638px;      \",\"mapping\":\"78,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 628.8px; top: 197.638px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dcSimpleFilters_dropped.3\",\"UniqueId\":\"66\",\"stepId\":\"3\",\"description\":\"Filter data from Data Source\",\"position\":\"pointer-events: all; position: absolute; left: 459.8px; top: 204.638px;\",\"mapping\":\"66,3-[78,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Pranisha",
         "FId": 1,
@@ -46,10 +46,10 @@
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 0,
-        "SnapshotOffset": null,
+        "SnapshotOffset": 1,
         "CreatedOn": "2025-08-06T12:10:44.783",
         "CreatedBy": "Pranisha",
-        "ModifiedOn": "2025-08-06T12:19:52.873",
+        "ModifiedOn": "2025-08-06T12:20:52.46",
         "ModifiedBy": "Pranisha",
         "Status": false,
         "SAPType": null,
@@ -74,7 +74,7 @@
         "UseLatestSession": false,
         "ResultScenario_Id": 0,
         "RemoveDuplicates": false,
-        "OffsetDate": "0",
+        "OffsetDate": null,
         "OrderByValue": null,
         "TableLevelAggrFunction": null,
         "TableLevelFilterJson": null,
@@ -87,7 +87,7 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 21083,
+        "Id": 21089,
         "QueryDataSourceId": 5324,
         "DBlendId": null,
         "ProfileId": null,
@@ -106,7 +106,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21084,
+        "Id": 21090,
         "QueryDataSourceId": 5324,
         "DBlendId": null,
         "ProfileId": null,
@@ -125,7 +125,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21085,
+        "Id": 21091,
         "QueryDataSourceId": 5324,
         "DBlendId": null,
         "ProfileId": null,
@@ -144,7 +144,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21086,
+        "Id": 21092,
         "QueryDataSourceId": 5324,
         "DBlendId": null,
         "ProfileId": null,
@@ -163,7 +163,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21087,
+        "Id": 21093,
         "QueryDataSourceId": 5324,
         "DBlendId": null,
         "ProfileId": null,
@@ -182,7 +182,7 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21088,
+        "Id": 21094,
         "QueryDataSourceId": 5324,
         "DBlendId": null,
         "ProfileId": null,
@@ -285,7 +285,7 @@
         "Position": null,
         "CreatedOn": "2025-08-06T12:10:59.807",
         "CreatedBy": "Pranisha",
-        "ModifiedOn": "2025-08-06T12:20:03.433",
+        "ModifiedOn": "2025-08-06T12:21:05.05",
         "ModifiedBy": "Pranisha",
         "Status": true,
         "ErrorCodes": null,
@@ -320,7 +320,7 @@
         "Position": "pointer-events: all; position: absolute; left: 459.8px; top: 204.638px;",
         "CreatedOn": "2025-08-06T12:13:56.21",
         "CreatedBy": "Pranisha",
-        "ModifiedOn": "2025-08-06T12:19:58.187",
+        "ModifiedOn": "2025-08-06T12:20:59.99",
         "ModifiedBy": "Pranisha",
         "Status": true,
         "ErrorCodes": null,
@@ -358,7 +358,7 @@
         "CreatedBy": "Pranisha",
         "CreatedOn": "2025-08-06T12:19:10.797",
         "ModifiedBy": "Pranisha",
-        "ModifiedOn": "2025-08-06T12:19:58.1",
+        "ModifiedOn": "2025-08-06T12:20:59.903",
         "JSON": null,
         "Description": null,
         "QueryId": 5388
