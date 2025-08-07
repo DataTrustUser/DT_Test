@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T10:14:30.327",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:46:47.973",
-        "ModifiedBy": "Sarada",
+        "ModifiedOn": "2025-08-07T16:37:35.583",
+        "ModifiedBy": "Saikiran",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/7/2025 10:14:14 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MS ACCESS_Join datasets \",\"position\":\"position: absolute; left: 56.9931px; top: 239.479px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 254.514px; top: 151.069px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 655.454px; top: 133.058px;\",\"mapping\":\"2,1-61,3-3,6-78,7\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"7\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 259.921px; top: 315.076px;\",\"mapping\":\"61,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.4\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 782.708px; top: 211.06px;\",\"mapping\":\"79,4-[35,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 898.627px; top: 191.065px;\",\"mapping\":\"88,5-[79,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from Query\",\"position\":\"position: absolute; left: 406.722px; top: 368.076px;\",\"mapping\":\"3,6-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"undefined_dropped.7\",\"UniqueId\":\"78\",\"stepId\":\"7\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 540.322px; top: 412.076px;\",\"mapping\":\"78,7-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MS ACCESS_Join datasets \",\"position\":\"position: absolute; left: 56.9931px; top: 239.479px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 254.514px; top: 151.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 570.464px; top: 195.06px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-61,3-3,6-78,8\",\"dsstep\":\"8\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 259.921px; top: 315.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,3-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 697.711px; top: 197.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 795.644px; top: 192.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[79,4]\"},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"MSaccess_part Qurey\\\" for data source \\\"Cosmos\\\"\",\"position\":\"position: absolute; left: 406.722px; top: 368.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,6-[0,0]\",\"dsstep\":null},{\"widgetId\":\"undefined_dropped.8\",\"UniqueId\":\"78\",\"stepId\":\"8\",\"description\":\"Read data from \\\"Dhanusha 8/7/2025 10:49:33 AM\\\" for data source \\\" \\\"\",\"position\":\"position: absolute; left: 533.381px; top: 387.452px;\",\"mapping\":\"78,8-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2328,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 5388,
+        "Id": 5419,
         "Query_Id": 5431,
         "Profile_Id": 1232,
-        "DCStep_Id": 39369,
+        "DCStep_Id": 39473,
         "BlendStepId": 2,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -47,8 +47,8 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-07T10:14:54.127",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:52.847",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": false,
@@ -85,10 +85,10 @@
         "QcDatasetName": ""
       },
       {
-        "Id": 5389,
+        "Id": 5420,
         "Query_Id": 5431,
         "Profile_Id": 1231,
-        "DCStep_Id": 39370,
+        "DCStep_Id": 39474,
         "BlendStepId": 2,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -97,10 +97,10 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-07T10:15:41.593",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:24:10.003",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:52.847",
+        "CreatedBy": "Saikiran",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": false,
         "SAPType": "SQL",
         "DataSourceType": "B",
@@ -135,10 +135,10 @@
         "QcDatasetName": null
       },
       {
-        "Id": 5393,
+        "Id": 5421,
         "Query_Id": 5431,
         "Profile_Id": 1232,
-        "DCStep_Id": 39400,
+        "DCStep_Id": 39478,
         "BlendStepId": 2,
         "Query_Id_Id": 5433,
         "ResultTableName": null,
@@ -147,8 +147,8 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-07T10:40:21.84",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:52.847",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": false,
@@ -185,20 +185,20 @@
         "QcDatasetName": "MSaccess_part Qurey"
       },
       {
-        "Id": 5395,
+        "Id": 5422,
         "Query_Id": 5431,
         "Profile_Id": null,
-        "DCStep_Id": 39409,
+        "DCStep_Id": 39485,
         "BlendStepId": 2,
-        "Query_Id_Id": 5417,
+        "Query_Id_Id": 5436,
         "ResultTableName": null,
         "TableOrViewName": null,
         "DataSnapShotId": null,
         "ObjectCode": null,
         "SessionId": 0,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-07T10:46:16.78",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:36:02.06",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": false,
@@ -232,13 +232,13 @@
         "SelectedSAPVariable": null,
         "Delimeter": null,
         "Scenario_SessionId": null,
-        "QcDatasetName": "MSACCESS_versioning "
+        "QcDatasetName": "Dhanusha 8/7/2025 10:49:33 AM"
       }
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 21448,
-        "QueryDataSourceId": 5388,
+        "Id": 21654,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -256,8 +256,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21449,
-        "QueryDataSourceId": 5388,
+        "Id": 21655,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -275,8 +275,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21450,
-        "QueryDataSourceId": 5388,
+        "Id": 21656,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -294,8 +294,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21451,
-        "QueryDataSourceId": 5388,
+        "Id": 21657,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -313,8 +313,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21452,
-        "QueryDataSourceId": 5388,
+        "Id": 21658,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -332,8 +332,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21453,
-        "QueryDataSourceId": 5388,
+        "Id": 21659,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -351,8 +351,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21454,
-        "QueryDataSourceId": 5388,
+        "Id": 21660,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -370,8 +370,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21455,
-        "QueryDataSourceId": 5388,
+        "Id": 21661,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -389,8 +389,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21456,
-        "QueryDataSourceId": 5388,
+        "Id": 21662,
+        "QueryDataSourceId": 5419,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -408,8 +408,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21473,
-        "QueryDataSourceId": 5389,
+        "Id": 21663,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -427,8 +427,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21474,
-        "QueryDataSourceId": 5389,
+        "Id": 21664,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -446,8 +446,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21475,
-        "QueryDataSourceId": 5389,
+        "Id": 21665,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -465,8 +465,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21476,
-        "QueryDataSourceId": 5389,
+        "Id": 21666,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -484,8 +484,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21477,
-        "QueryDataSourceId": 5389,
+        "Id": 21667,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -503,8 +503,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21478,
-        "QueryDataSourceId": 5389,
+        "Id": 21668,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -522,8 +522,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21479,
-        "QueryDataSourceId": 5389,
+        "Id": 21669,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -541,8 +541,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21480,
-        "QueryDataSourceId": 5389,
+        "Id": 21670,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -560,8 +560,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21481,
-        "QueryDataSourceId": 5389,
+        "Id": 21671,
+        "QueryDataSourceId": 5420,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -579,31 +579,12 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 21508,
-        "QueryDataSourceId": 5395,
+        "Id": 21672,
+        "QueryDataSourceId": 5422,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
-        "ColumnName": "P_PARTKEY",
-        "AliasColumnName": null,
-        "DataType": "int",
-        "ResultTableName": null,
-        "IsFromSource": true,
-        "IsPrimaryKey": false,
-        "Status": true,
-        "QueryId": 5431,
-        "Description": null,
-        "NewlyAddedColumn": null,
-        "ResultScenario_Id": null,
-        "Scenario_SessionId": null
-      },
-      {
-        "Id": 21509,
-        "QueryDataSourceId": 5395,
-        "DBlendId": null,
-        "ProfileId": null,
-        "TableName": null,
-        "ColumnName": "P_NAME",
+        "ColumnName": "N_NATIONKEY",
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
@@ -617,12 +598,12 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21510,
-        "QueryDataSourceId": 5395,
+        "Id": 21673,
+        "QueryDataSourceId": 5422,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
-        "ColumnName": "P_MFGR",
+        "ColumnName": "N_NAME",
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
@@ -636,12 +617,12 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21511,
-        "QueryDataSourceId": 5395,
+        "Id": 21674,
+        "QueryDataSourceId": 5422,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
-        "ColumnName": "P_BRAND",
+        "ColumnName": "N_REGIONKEY",
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
@@ -655,50 +636,12 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 21512,
-        "QueryDataSourceId": 5395,
+        "Id": 21675,
+        "QueryDataSourceId": 5422,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
-        "ColumnName": "P_TYPE",
-        "AliasColumnName": null,
-        "DataType": "nvarchar",
-        "ResultTableName": null,
-        "IsFromSource": true,
-        "IsPrimaryKey": false,
-        "Status": true,
-        "QueryId": 5431,
-        "Description": null,
-        "NewlyAddedColumn": null,
-        "ResultScenario_Id": null,
-        "Scenario_SessionId": null
-      },
-      {
-        "Id": 21513,
-        "QueryDataSourceId": 5395,
-        "DBlendId": null,
-        "ProfileId": null,
-        "TableName": null,
-        "ColumnName": "P_RETAILPRICE",
-        "AliasColumnName": null,
-        "DataType": "float",
-        "ResultTableName": null,
-        "IsFromSource": true,
-        "IsPrimaryKey": false,
-        "Status": true,
-        "QueryId": 5431,
-        "Description": null,
-        "NewlyAddedColumn": null,
-        "ResultScenario_Id": null,
-        "Scenario_SessionId": null
-      },
-      {
-        "Id": 21514,
-        "QueryDataSourceId": 5395,
-        "DBlendId": null,
-        "ProfileId": null,
-        "TableName": null,
-        "ColumnName": "concat function",
+        "ColumnName": "N_COMMENT",
         "AliasColumnName": null,
         "DataType": "nvarchar",
         "ResultTableName": null,
@@ -715,7 +658,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 39368,
+        "Id": 39472,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -724,8 +667,8 @@
         "TransformationId": 0,
         "Description": "Sarada 8/7/2025 10:14:14 AM",
         "Position": null,
-        "CreatedOn": "2025-08-07T10:14:30.36",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:53.643",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -750,7 +693,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39369,
+        "Id": 39473,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -759,8 +702,8 @@
         "TransformationId": 2,
         "Description": "Read data from \"CData.Access.TPCH1_Part\" for data source \"MS Access\"",
         "Position": "position: absolute; left: 249.521px; top: 167.076px;",
-        "CreatedOn": "2025-08-07T10:14:54.097",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:54.163",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -785,7 +728,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39370,
+        "Id": 39474,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -794,8 +737,8 @@
         "TransformationId": 61,
         "Description": "Read data from customer SQL query of the connection profile  \"MS Access\"",
         "Position": "position: absolute; left: 259.921px; top: 315.076px;",
-        "CreatedOn": "2025-08-07T10:15:41.56",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:55.683",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -820,19 +763,19 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39371,
+        "Id": 39475,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
         "Step": 2,
-        "StepMapping": "2,1-61,3-3,6-78,7",
+        "StepMapping": "2,1-61,3-3,6-78,8",
         "TransformationId": 35,
         "Description": "Join Datasets",
-        "Position": "position: absolute; left: 607.463px; top: 215.058px;",
-        "CreatedOn": "2025-08-07T10:15:47.207",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:46:37.59",
-        "ModifiedBy": "Sarada",
+        "Position": "position: absolute; left: 570.464px; top: 195.06px;",
+        "CreatedOn": "2025-08-07T16:27:57.177",
+        "CreatedBy": "Saikiran",
+        "ModifiedOn": "2025-08-07T16:37:16.497",
+        "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -855,7 +798,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39381,
+        "Id": 39476,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -864,10 +807,10 @@
         "TransformationId": 79,
         "Description": "Sarada#@8/7/2025 10:17:36 AM",
         "Position": null,
-        "CreatedOn": "2025-08-07T10:17:38.507",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:46:47.97",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:57.683",
+        "CreatedBy": "Saikiran",
+        "ModifiedOn": "2025-08-07T16:37:27.36",
+        "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -890,7 +833,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39388,
+        "Id": 39477,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -899,10 +842,10 @@
         "TransformationId": 88,
         "Description": "Offload the File",
         "Position": "position: absolute; left: 795.644px; top: 192.076px;",
-        "CreatedOn": "2025-08-07T10:25:45.21",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:41:10.31",
-        "ModifiedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:58.707",
+        "CreatedBy": "Saikiran",
+        "ModifiedOn": "2025-08-07T16:37:35.09",
+        "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -925,7 +868,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39400,
+        "Id": 39478,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -934,8 +877,8 @@
         "TransformationId": 3,
         "Description": "Read data from Query",
         "Position": "position: absolute; left: 406.722px; top: 368.076px;",
-        "CreatedOn": "2025-08-07T10:40:21.547",
-        "CreatedBy": "Sarada",
+        "CreatedOn": "2025-08-07T16:27:59.213",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -960,17 +903,17 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39409,
+        "Id": 39485,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
-        "Step": 7,
-        "StepMapping": "78,7-[0,0]",
+        "Step": 8,
+        "StepMapping": "78,8-[0,0]",
         "TransformationId": 78,
-        "Description": "Read data from Table",
-        "Position": "position: absolute; left: 540.322px; top: 412.076px;",
-        "CreatedOn": "2025-08-07T10:46:16.737",
-        "CreatedBy": "Sarada",
+        "Description": "Read data from \"Dhanusha 8/7/2025 10:49:33 AM\" for data source \" \"",
+        "Position": "position: absolute; left: 533.381px; top: 387.452px;",
+        "CreatedOn": "2025-08-07T16:35:59.917",
+        "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
         "Status": true,
@@ -1001,186 +944,204 @@
     "SimpleProjections": [],
     "DataBlends": [
       {
-        "Id": 1474,
+        "Id": 1482,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 2,
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"CData.Access.TPCH1_Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":true,\"key\":true},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND_2\",\"included\":true,\"key\":false},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 10px; width: 260px; height: 346.903px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1231\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":true,\"key\":true},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"included\":true,\"key\":false},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"included\":true,\"key\":false},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 370px; width: 278.507px; height: 306.903px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"6\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5433\",\"sourceTableOrQuery\":\"MSaccess_part Qurey\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_3\",\"included\":true,\"key\":true},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"included\":true,\"key\":false},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"included\":false,\"key\":true},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:730px;\"},{\"id\":\"31\",\"dataSourceStepId\":\"7\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"1232\",\"queryId\":\"5417\",\"sourceTableOrQuery\":\"output data #@8/7/2025 9:23:51 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"included\":true,\"key\":false},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR_2\",\"included\":true,\"key\":false},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE_4\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:1090px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"21\",\"joinEndId\":\"31\",\"joinColumnPairs\":[{\"startColumnName\":\"P_RETAILPRICE\",\"srcColumn\":\"P_RETAILPRICE\",\"endColumnName\":\"P_RETAILPRICE\",\"tgtColumn\":\"P_RETAILPRICE\"}]}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"integer|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_PARTKEY_2\",\"alias\":\"P_PARTKEY_2\",\"dataType\":\"integer|11\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|11\",\"oName\":\"P_MFGR\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"string|11\",\"oName\":\"P_BRAND\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"integer|01\",\"oName\":\"P_SIZE\"},{\"name\":\"P_SIZE_2\",\"alias\":\"P_SIZE_2\",\"dataType\":\"integer|11\",\"oName\":\"P_SIZE\"},{\"name\":\"P_BRAND_2\",\"alias\":\"P_BRAND_2\",\"dataType\":\"string|01\",\"oName\":\"P_BRAND\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"string|11\",\"oName\":\"P_CONTAINER\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"float|11\",\"oName\":\"P_RETAILPRICE\"},{\"name\":\"P_PARTKEY_3\",\"alias\":\"P_PARTKEY_3\",\"dataType\":\"integer|21\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"string|21\",\"oName\":\"P_TYPE\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"string|21\",\"oName\":\"P_COMMENT\"},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"string|31\",\"oName\":\"P_NAME\"},{\"name\":\"P_MFGR_2\",\"alias\":\"P_MFGR_2\",\"dataType\":\"string|31\",\"oName\":\"P_MFGR\"},{\"name\":\"P_RETAILPRICE_4\",\"alias\":\"P_RETAILPRICE_4\",\"dataType\":\"float|31\",\"oName\":\"P_RETAILPRICE\"}]}",
-        "CreatedOn": "2025-08-07T10:15:47.177",
-        "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:46:37.52",
-        "ModifiedBy": "Sarada",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"CData.Access.TPCH1_Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":true,\"key\":true},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND_2\",\"included\":true,\"key\":false},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 10px; width: 260px; height: 346.903px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1231\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":true,\"key\":true},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"included\":true,\"key\":false},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"included\":true,\"key\":false},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 370px; width: 278.507px; height: 306.903px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"6\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5433\",\"sourceTableOrQuery\":\"MSaccess_part Qurey\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_3\",\"included\":true,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"included\":false,\"key\":true},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"included\":true,\"key\":false},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:730px;\"},{\"id\":\"31\",\"dataSourceStepId\":\"8\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5436\",\"sourceTableOrQuery\":\"Dhanusha#@8/7/2025 10:57:37 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"N_NAME\",\"alias\":\"N_NAME\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:1090px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"21\",\"joinEndId\":\"31\",\"joinColumnPairs\":[{\"startColumnName\":\"P_NAME\",\"srcColumn\":\"P_NAME\",\"endColumnName\":\"N_NAME\",\"tgtColumn\":\"N_NAME\"}]}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"integer|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_PARTKEY_2\",\"alias\":\"P_PARTKEY_2\",\"dataType\":\"integer|11\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|11\",\"oName\":\"P_MFGR\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"string|11\",\"oName\":\"P_BRAND\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"integer|01\",\"oName\":\"P_SIZE\"},{\"name\":\"P_SIZE_2\",\"alias\":\"P_SIZE_2\",\"dataType\":\"integer|11\",\"oName\":\"P_SIZE\"},{\"name\":\"P_BRAND_2\",\"alias\":\"P_BRAND_2\",\"dataType\":\"string|01\",\"oName\":\"P_BRAND\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"string|11\",\"oName\":\"P_CONTAINER\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"float|11\",\"oName\":\"P_RETAILPRICE\"},{\"name\":\"P_PARTKEY_3\",\"alias\":\"P_PARTKEY_3\",\"dataType\":\"integer|21\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"string|21\",\"oName\":\"P_TYPE\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"string|21\",\"oName\":\"P_COMMENT\"},{\"name\":\"N_NAME\",\"alias\":\"N_NAME\",\"dataType\":\"string|31\",\"oName\":\"N_NAME\"}]}",
+        "CreatedOn": "2025-08-07T16:27:52.847",
+        "CreatedBy": "Saikiran",
+        "ModifiedOn": "2025-08-07T16:37:11.51",
+        "ModifiedBy": "Saikiran",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7931,
-        "DBlendId": 1474,
+        "Id": 8040,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_PARTKEY",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 7932,
-        "DBlendId": 1474,
+        "Id": 8041,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_PARTKEY_2",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 7933,
-        "DBlendId": 1474,
+        "Id": 8042,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_MFGR",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7934,
-        "DBlendId": 1474,
+        "Id": 8043,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_BRAND",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7935,
-        "DBlendId": 1474,
+        "Id": 8044,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_SIZE",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 7936,
-        "DBlendId": 1474,
+        "Id": 8045,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_SIZE_2",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 7937,
-        "DBlendId": 1474,
+        "Id": 8046,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_BRAND_2",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7938,
-        "DBlendId": 1474,
+        "Id": 8047,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_CONTAINER",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7939,
-        "DBlendId": 1474,
+        "Id": 8048,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_RETAILPRICE",
         "DataType": "float",
         "Status": true
       },
       {
-        "Id": 7940,
-        "DBlendId": 1474,
+        "Id": 8049,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_PARTKEY_3",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 7941,
-        "DBlendId": 1474,
+        "Id": 8050,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_TYPE",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7942,
-        "DBlendId": 1474,
+        "Id": 8051,
+        "DBlendId": 1482,
         "TableName": null,
         "ColumnName": "P_COMMENT",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 7943,
-        "DBlendId": 1474,
+        "Id": 8052,
+        "DBlendId": 1482,
         "TableName": null,
-        "ColumnName": "P_NAME",
+        "ColumnName": "N_NAME",
         "DataType": "string",
-        "Status": true
-      },
-      {
-        "Id": 7944,
-        "DBlendId": 1474,
-        "TableName": null,
-        "ColumnName": "P_MFGR_2",
-        "DataType": "string",
-        "Status": true
-      },
-      {
-        "Id": 7945,
-        "DBlendId": 1474,
-        "TableName": null,
-        "ColumnName": "P_RETAILPRICE_4",
-        "DataType": "float",
         "Status": true
       }
     ],
     "ScenarioQCFieldTypes": [],
     "QFTypes": [],
-    "Query": [
-      {
-        "Id": 5417,
-        "Profile_Id": 1232,
-        "Query_Name": "MSACCESS_versioning ",
-        "Query_Type": null,
-        "Query_Text": null,
-        "Query_Modified_Text": null,
-        "Queryfor_Edit": null,
-        "Parallel_Processor_Count": null,
-        "Split_By_Column": null,
-        "IsforVariableBuilder": null,
-        "IsUsedInVariableBuilder": null,
-        "CreatedOn": "2025-08-07T08:12:00.097",
-        "CreatedBy": "134",
-        "ModifiedOn": "2025-08-07T09:43:34.353",
-        "ModifiedBy": "134",
-        "Status": true,
-        "IsHeavyWeightEngine": null,
-        "IsMigrated": null,
-        "MigratedOn": null,
-        "IsDeleted": null,
-        "DegreeOfParallelism": null,
-        "AzurePreViewPath": null,
-        "PacketSize": null,
-        "QueryDescription": "Sarada 8/7/2025 8:11:51 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MSACCESS_versioning changes \",\"position\":\"position: absolute; left: 84.9931px; top: 202.488px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 258.519px; top: 200.074px;  \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.4\",\"UniqueId\":\"65\",\"stepId\":\"4\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 407.711px; top: 203.074px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,4-[2,2]\",\"dsstep\":\"2\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 818.683px; top: 196.06px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,5-[85,8]\",\"dsstep\":\"8\"},{\"widgetId\":\"DataProfiling_dropped.6\",\"UniqueId\":\"80\",\"stepId\":\"6\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: all; position: absolute; left: 989.644px; top: 185.058px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"80,6-[79,5]\"},{\"widgetId\":\"dcSimpleFilters_dropped.7\",\"UniqueId\":\"66\",\"stepId\":\"7\",\"description\":\"filter data\\n\",\"position\":\"pointer-events: all; position: absolute; left: 550.641px; top: 201.067px;\",\"mapping\":\"66,7-[65,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"dcDeduplication_dropped.8\",\"UniqueId\":\"85\",\"stepId\":\"8\",\"description\":\"Remove duplicates from selected columns\",\"position\":\"position: absolute; left: 682.604px; top: 199.076px;\",\"mapping\":\"85,8-[66,7]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
-        "TypeofQuery": "QueryChain",
-        "FId": 2328,
-        "DataRetentionJson": null
-      }
-    ],
     "QuerySap": [],
     "QCExistingQueryCSVProfiles": [],
     "QCExistingQueryCSVProfileDatatypes": [],
     "QCExistingQueryCSV": [],
+    "Query": [
+      [
+        {
+          "Id": 5433,
+          "Profile_Id": 1232,
+          "Query_Name": "MSaccess_part Qurey",
+          "Query_Type": false,
+          "Query_Text": " SELECT * FROM \"CData\".\"Access\".\"TPCH1_Part\"",
+          "Query_Modified_Text": null,
+          "Queryfor_Edit": null,
+          "Parallel_Processor_Count": 1,
+          "Split_By_Column": null,
+          "IsforVariableBuilder": null,
+          "IsUsedInVariableBuilder": null,
+          "CreatedOn": "2025-08-07T10:39:51.92",
+          "CreatedBy": "134",
+          "ModifiedOn": "2025-08-07T16:28:00.217",
+          "ModifiedBy": null,
+          "Status": true,
+          "IsHeavyWeightEngine": null,
+          "IsMigrated": false,
+          "MigratedOn": null,
+          "IsDeleted": null,
+          "DegreeOfParallelism": null,
+          "AzurePreViewPath": null,
+          "PacketSize": 50000.0,
+          "QueryDescription": null,
+          "JSON": "null",
+          "TypeofQuery": null,
+          "FId": 2328,
+          "DataRetentionJson": null
+        }
+      ],
+      [
+        {
+          "Id": 5436,
+          "Profile_Id": null,
+          "Query_Name": "Dhanusha 8/7/2025 10:49:33 AM",
+          "Query_Type": null,
+          "Query_Text": null,
+          "Query_Modified_Text": null,
+          "Queryfor_Edit": null,
+          "Parallel_Processor_Count": null,
+          "Split_By_Column": null,
+          "IsforVariableBuilder": null,
+          "IsUsedInVariableBuilder": null,
+          "CreatedOn": "2025-08-07T10:49:42.45",
+          "CreatedBy": "118",
+          "ModifiedOn": "2025-08-07T10:55:47.397",
+          "ModifiedBy": "118",
+          "Status": true,
+          "IsHeavyWeightEngine": null,
+          "IsMigrated": null,
+          "MigratedOn": null,
+          "IsDeleted": null,
+          "DegreeOfParallelism": null,
+          "AzurePreViewPath": null,
+          "PacketSize": null,
+          "QueryDescription": "Dhanusha 8/7/2025 10:49:33 AM",
+          "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 8/7/2025 10:49:33 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsFileJSON_dropped.1\",\"UniqueId\":\"98\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Nation_2025_08_07_10_49_50.json\\\"\",\"position\":\"position: absolute; left: 281.367px; top: 212.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"98,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 460px; top: 205.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[98,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 744px; top: 82.6406px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"80,3-[79,2]\",\"dsstep\":null},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 744px; top: 260.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,4-[79,2]\",\"dsstep\":null}]",
+          "TypeofQuery": "QueryChain",
+          "FId": 1,
+          "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        }
+      ]
+    ],
     "CSVQCusingQuerySource": false,
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 30646,
+        "Id": 30704,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 1,
@@ -1190,7 +1151,7 @@
         "JobId": null
       },
       {
-        "Id": 30647,
+        "Id": 30705,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 3,
@@ -1200,7 +1161,7 @@
         "JobId": null
       },
       {
-        "Id": 30654,
+        "Id": 30706,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 2,
@@ -1210,7 +1171,7 @@
         "JobId": null
       },
       {
-        "Id": 30664,
+        "Id": 30707,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 6,
@@ -1220,10 +1181,10 @@
         "JobId": null
       },
       {
-        "Id": 30668,
+        "Id": 30710,
         "ScenarioId": null,
         "QueryId": 5431,
-        "StepId": 7,
+        "StepId": 8,
         "Dependency": 0,
         "JobletId": null,
         "Decision": null,
@@ -1242,13 +1203,13 @@
     "PivotFieldType": [],
     "FileOffload": [
       {
-        "Id": 329,
+        "Id": 339,
         "Type": null,
         "IsFileCreated": null,
         "FileName": "QC_5431_offload data",
         "FilePath": null,
         "FileSize": null,
-        "FileCreatedOn": "2025-08-07T10:25:45.227",
+        "FileCreatedOn": "2025-08-07T16:28:01.45",
         "FolderId": 0,
         "ScenarioId": null,
         "JobId": null,
@@ -1259,7 +1220,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5431_offloaddata_20250807104707"
+        "ManipulatedFileName": "QC_5431_offloaddata_20250807165917"
       }
     ]
   }
