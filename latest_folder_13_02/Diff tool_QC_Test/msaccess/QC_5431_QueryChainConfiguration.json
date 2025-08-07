@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T10:14:30.327",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:18:22.123",
+        "ModifiedOn": "2025-08-07T10:18:44.353",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/7/2025 10:14:14 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MS ACCESS_Join datasets \",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 254.514px; top: 151.069px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 459.486px; top: 204.076px;\",\"mapping\":\"2,1-61,3\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 259.921px; top: 315.076px;\",\"mapping\":\"61,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.4\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 639.722px; top: 204.076px;\",\"mapping\":\"79,4-[35,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MS ACCESS_Join datasets \",\"position\":\"position: absolute; left: 63.9977px; top: 219.488px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 254.514px; top: 151.069px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 459.486px; top: 204.076px;\",\"mapping\":\"2,1-61,3\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 259.921px; top: 315.076px;\",\"mapping\":\"61,3-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.4\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 639.722px; top: 204.076px;\",\"mapping\":\"79,4-[35,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2328,
@@ -598,7 +598,7 @@
         "Position": "position: absolute; left: 459.486px; top: 204.076px;",
         "CreatedOn": "2025-08-07T10:15:47.207",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:17:45.103",
+        "ModifiedOn": "2025-08-07T10:18:44.42",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -670,17 +670,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"CData.Access.TPCH1_Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":true,\"key\":true},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND_2\",\"included\":true,\"key\":false},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 10px; width: 260px; height: 346.903px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":true,\"key\":true},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"included\":true,\"key\":false},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE_2\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 370px; width: 278.507px; height: 306.903px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"integer|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_PARTKEY_2\",\"alias\":\"P_PARTKEY_2\",\"dataType\":\"integer|11\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|11\",\"oName\":\"P_MFGR\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"string|11\",\"oName\":\"P_BRAND\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"integer|01\",\"oName\":\"P_SIZE\"},{\"name\":\"P_SIZE_2\",\"alias\":\"P_SIZE_2\",\"dataType\":\"integer|11\",\"oName\":\"P_SIZE\"},{\"name\":\"P_BRAND_2\",\"alias\":\"P_BRAND_2\",\"dataType\":\"string|01\",\"oName\":\"P_BRAND\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"CData.Access.TPCH1_Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":true,\"key\":true},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND_2\",\"included\":true,\"key\":false},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 10px; width: 260px; height: 346.903px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":true,\"key\":true},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"included\":true,\"key\":false},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"included\":true,\"key\":false},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left: 370px; width: 278.507px; height: 306.903px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"integer|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_PARTKEY_2\",\"alias\":\"P_PARTKEY_2\",\"dataType\":\"integer|11\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|11\",\"oName\":\"P_MFGR\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"string|11\",\"oName\":\"P_BRAND\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"integer|01\",\"oName\":\"P_SIZE\"},{\"name\":\"P_SIZE_2\",\"alias\":\"P_SIZE_2\",\"dataType\":\"integer|11\",\"oName\":\"P_SIZE\"},{\"name\":\"P_BRAND_2\",\"alias\":\"P_BRAND_2\",\"dataType\":\"string|01\",\"oName\":\"P_BRAND\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"string|11\",\"oName\":\"P_CONTAINER\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"float|11\",\"oName\":\"P_RETAILPRICE\"}]}",
         "CreatedOn": "2025-08-07T10:15:47.177",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T10:17:45.05",
+        "ModifiedOn": "2025-08-07T10:18:44.357",
         "ModifiedBy": "Sarada",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 7894,
+        "Id": 7901,
         "DBlendId": 1474,
         "TableName": null,
         "ColumnName": "P_PARTKEY",
@@ -688,7 +688,7 @@
         "Status": true
       },
       {
-        "Id": 7895,
+        "Id": 7902,
         "DBlendId": 1474,
         "TableName": null,
         "ColumnName": "P_PARTKEY_2",
@@ -696,7 +696,7 @@
         "Status": true
       },
       {
-        "Id": 7896,
+        "Id": 7903,
         "DBlendId": 1474,
         "TableName": null,
         "ColumnName": "P_MFGR",
@@ -704,7 +704,7 @@
         "Status": true
       },
       {
-        "Id": 7897,
+        "Id": 7904,
         "DBlendId": 1474,
         "TableName": null,
         "ColumnName": "P_BRAND",
@@ -712,7 +712,7 @@
         "Status": true
       },
       {
-        "Id": 7898,
+        "Id": 7905,
         "DBlendId": 1474,
         "TableName": null,
         "ColumnName": "P_SIZE",
@@ -720,7 +720,7 @@
         "Status": true
       },
       {
-        "Id": 7899,
+        "Id": 7906,
         "DBlendId": 1474,
         "TableName": null,
         "ColumnName": "P_SIZE_2",
@@ -728,11 +728,27 @@
         "Status": true
       },
       {
-        "Id": 7900,
+        "Id": 7907,
         "DBlendId": 1474,
         "TableName": null,
         "ColumnName": "P_BRAND_2",
         "DataType": "string",
+        "Status": true
+      },
+      {
+        "Id": 7908,
+        "DBlendId": 1474,
+        "TableName": null,
+        "ColumnName": "P_CONTAINER",
+        "DataType": "string",
+        "Status": true
+      },
+      {
+        "Id": 7909,
+        "DBlendId": 1474,
+        "TableName": null,
+        "ColumnName": "P_RETAILPRICE",
+        "DataType": "float",
         "Status": true
       }
     ],
