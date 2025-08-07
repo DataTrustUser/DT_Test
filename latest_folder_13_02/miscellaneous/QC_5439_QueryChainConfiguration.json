@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T11:45:26.95",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-07T18:24:57.763",
+        "ModifiedOn": "2025-08-07T15:23:39.37",
         "ModifiedBy": "Saikiran",
         "Status": false,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Saikiran 8/7/2025 11:45:10 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 8/7/2025 11:45:10 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 282.619px; top: 64.4405px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 631.762px; top: 147.44px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-61,3-3,6-78,7\",\"dsstep\":\"7\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 279px; top: 220.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,3-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 749.762px; top: 152.429px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":\"2\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 907.762px; top: 145.44px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[79,4]\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"MSSQL_Query\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 290.762px; top: 387.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,6-[0,0]\",\"dsstep\":null},{\"widgetId\":\"undefined_dropped.7\",\"UniqueId\":\"78\",\"stepId\":\"7\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 465.381px; top: 384.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"78,7-[0,0]\",\"dsstep\":null}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Saikiran 8/7/2025 11:45:10 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 282.619px; top: 64.4405px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 631.762px; top: 147.44px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-61,3-3,6-78,7\",\"dsstep\":\"7\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 279px; top: 220.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,3-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 749.762px; top: 152.429px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":\"2\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 907.762px; top: 145.44px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[79,4]\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"MSSQL_Query\\\" for data source \\\"PostgreSQL\\\"\",\"position\":\"position: absolute; left: 290.762px; top: 387.452px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,6-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"undefined_dropped.7\",\"UniqueId\":\"78\",\"stepId\":\"7\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 465.381px; top: 384.452px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"78,7-[0,0]\",\"dsstep\":null}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Saikiran",
         "FId": 1,
@@ -806,14 +806,14 @@
         "QueryId": 5439,
         "Job_Id": null,
         "Step": 2,
-        "StepMapping": "2,1-61,3-3,6-78,7",
+        "StepMapping": "",
         "TransformationId": 35,
         "Description": "Join Datasets",
         "Position": "position: absolute; left: 631.762px; top: 147.44px;",
         "CreatedOn": "2025-08-07T18:24:51.22",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-07T15:23:40.24",
+        "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -992,14 +992,14 @@
         "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"\",\"sourceTableOrQuery\":\"TPCH_1.dbo.CUSTOMER\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY\",\"included\":true,\"key\":true},{\"name\":\"C_NAME\",\"alias\":\"C_NAME\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"122\",\"SAPType\":\"\",\"ProfileTypeId\":\"116\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"c_custkey\",\"alias\":\"c_custkey\",\"included\":true,\"key\":true},{\"name\":\"c_address\",\"alias\":\"c_address\",\"included\":true,\"key\":false},{\"name\":\"c_nationkey\",\"alias\":\"c_nationkey\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"6\",\"profileId\":\"1184\",\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5402\",\"sourceTableOrQuery\":\"MSSQL_Query\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY\",\"included\":false,\"key\":true},{\"name\":\"C_ADDRESS\",\"alias\":\"C_ADDRESS\",\"included\":true,\"key\":false},{\"name\":\"C_NATIONKEY\",\"alias\":\"C_NATIONKEY_2\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:730px;\"},{\"id\":\"31\",\"dataSourceStepId\":\"7\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"1184\",\"queryId\":\"5435\",\"sourceTableOrQuery\":\"Dhanusha#@8/7/2025 10:48:17 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY_3\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:1090px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"C_CUSTKEY\",\"srcColumn\":\"C_CUSTKEY\",\"endColumnName\":\"c_custkey\",\"tgtColumn\":\"c_custkey\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"c_nationkey\",\"srcColumn\":\"c_nationkey\",\"endColumnName\":\"C_NATIONKEY\",\"tgtColumn\":\"C_NATIONKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"21\",\"joinEndId\":\"31\",\"joinColumnPairs\":[{\"startColumnName\":\"C_CUSTKEY\",\"srcColumn\":\"C_CUSTKEY\",\"endColumnName\":\"C_CUSTKEY\",\"tgtColumn\":\"C_CUSTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"C_CUSTKEY\",\"alias\":\"C_CUSTKEY\",\"dataType\":\"integer|01\",\"oName\":\"C_CUSTKEY\"},{\"name\":\"c_custkey\",\"alias\":\"c_custkey1\",\"dataType\":\"integer|11\",\"oName\":\"c_custkey\"},{\"name\":\"C_NAME\",\"alias\":\"C_NAME\",\"dataType\":\"string|01\",\"oName\":\"C_NAME\"},{\"name\":\"c_address\",\"alias\":\"c_address\",\"dataType\":\"string|11\",\"oName\":\"c_address\"},{\"name\":\"c_nationkey\",\"alias\":\"c_nationkey\",\"dataType\":\"integer|11\",\"oName\":\"c_nationkey\"},{\"name\":\"C_ADDRESS\",\"alias\":\"C_ADDRESS1\",\"dataType\":\"string|21\",\"oName\":\"C_ADDRESS\"},{\"name\":\"C_NATIONKEY_2\",\"alias\":\"C_NATIONKEY_2\",\"dataType\":\"integer|21\",\"oName\":\"C_NATIONKEY\"},{\"name\":\"C_CUSTKEY_3\",\"alias\":\"C_CUSTKEY_3\",\"dataType\":\"integer|31\",\"oName\":\"C_CUSTKEY\"}]}",
         "CreatedOn": "2025-08-07T18:24:46.903",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-07T15:23:39.373",
+        "ModifiedBy": "Saikiran",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 8192,
+        "Id": 8200,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "C_CUSTKEY",
@@ -1007,7 +1007,7 @@
         "Status": true
       },
       {
-        "Id": 8193,
+        "Id": 8201,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "c_custkey1",
@@ -1015,7 +1015,7 @@
         "Status": true
       },
       {
-        "Id": 8194,
+        "Id": 8202,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "C_NAME",
@@ -1023,7 +1023,7 @@
         "Status": true
       },
       {
-        "Id": 8195,
+        "Id": 8203,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "c_address",
@@ -1031,7 +1031,7 @@
         "Status": true
       },
       {
-        "Id": 8196,
+        "Id": 8204,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "c_nationkey",
@@ -1039,7 +1039,7 @@
         "Status": true
       },
       {
-        "Id": 8197,
+        "Id": 8205,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "C_ADDRESS1",
@@ -1047,7 +1047,7 @@
         "Status": true
       },
       {
-        "Id": 8198,
+        "Id": 8206,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "C_NATIONKEY_2",
@@ -1055,7 +1055,7 @@
         "Status": true
       },
       {
-        "Id": 8199,
+        "Id": 8207,
         "DBlendId": 1494,
         "TableName": null,
         "ColumnName": "C_CUSTKEY_3",
@@ -1079,12 +1079,12 @@
         "Queryfor_Edit": null,
         "Parallel_Processor_Count": 1,
         "Split_By_Column": null,
-        "IsforVariableBuilder": null,
+        "IsforVariableBuilder": false,
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T04:39:35.827",
         "CreatedBy": "118",
-        "ModifiedOn": "2025-08-07T18:24:54.263",
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": "140",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": false,
@@ -1130,7 +1130,128 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
       }
     ],
-    "QFTypes": [],
+    "QFTypes": [
+      {
+        "Id": 13793,
+        "Query_Id": 5402,
+        "ColumnName": "C_CUSTKEY",
+        "AliasColumnName": null,
+        "DataType": "int",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13794,
+        "Query_Id": 5402,
+        "ColumnName": "C_NAME",
+        "AliasColumnName": null,
+        "DataType": "varchar",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13795,
+        "Query_Id": 5402,
+        "ColumnName": "C_ADDRESS",
+        "AliasColumnName": null,
+        "DataType": "varchar",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13796,
+        "Query_Id": 5402,
+        "ColumnName": "C_NATIONKEY",
+        "AliasColumnName": null,
+        "DataType": "int",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13797,
+        "Query_Id": 5402,
+        "ColumnName": "C_PHONE",
+        "AliasColumnName": null,
+        "DataType": "varchar",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13798,
+        "Query_Id": 5402,
+        "ColumnName": "C_ACCTBAL",
+        "AliasColumnName": null,
+        "DataType": "decimal",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13799,
+        "Query_Id": 5402,
+        "ColumnName": "C_MKTSEGMENT",
+        "AliasColumnName": null,
+        "DataType": "varchar",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13800,
+        "Query_Id": 5402,
+        "ColumnName": "C_COMMENT",
+        "AliasColumnName": null,
+        "DataType": "varchar",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-07T15:21:25.353",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      }
+    ],
     "CSVQCusingQuerySource": false,
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
@@ -1214,7 +1335,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5439_Saikiran_8_7_2025_11_45_10_AM_20250807204737"
+        "ManipulatedFileName": "QC_5439_Saikiran_8_7_2025_11_45_10_AM_20250807205554"
       }
     ]
   }
