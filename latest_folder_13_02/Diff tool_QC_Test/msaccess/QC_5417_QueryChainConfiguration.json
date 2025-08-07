@@ -4,7 +4,7 @@
       {
         "Id": 5417,
         "Profile_Id": 1232,
-        "Query_Name": "MSACCESS_versioning changes ",
+        "Query_Name": "MSACCESS_versioning ",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T08:12:00.097",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T09:13:02.51",
+        "ModifiedOn": "2025-08-07T09:17:39.263",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,11 +26,11 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/7/2025 8:11:51 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MSACCESS_versioning changes \",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 258.519px; top: 200.074px;  \",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.4\",\"UniqueId\":\"65\",\"stepId\":\"4\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 403.722px; top: 199.076px;\",\"mapping\":\"65,4-[2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 570.722px; top: 194.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"},{\"widgetId\":\"DataProfiling_dropped.6\",\"UniqueId\":\"80\",\"stepId\":\"6\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: all; position: absolute; left: 744.683px; top: 190.076px;\",\"mapping\":\"80,6-[79,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MSACCESS_versioning changes \",\"position\":\"position: absolute; left: 84.9931px; top: 202.488px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 258.519px; top: 200.074px;  \",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcSimpleProjection_dropped.4\",\"UniqueId\":\"65\",\"stepId\":\"4\",\"description\":\"Transform the data from Data Source\",\"position\":\"pointer-events: auto; position: absolute; left: 403.722px; top: 199.076px;\",\"mapping\":\"65,4-[2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"5\",\"description\":\"RD Output\",\"position\":\"pointer-events: auto; position: absolute; left: 572.713px; top: 199.074px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"},{\"widgetId\":\"DataProfiling_dropped.6\",\"UniqueId\":\"80\",\"stepId\":\"6\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: all; position: absolute; left: 753.667px; top: 199.063px;\",\"mapping\":\"80,6-[79,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2328,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
@@ -285,7 +285,7 @@
         "Position": "pointer-events: auto; position: absolute; left: 403.722px; top: 199.076px;",
         "CreatedOn": "2025-08-07T08:52:15.21",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T09:12:45.027",
+        "ModifiedOn": "2025-08-07T09:15:50.877",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -384,7 +384,7 @@
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 13372,
+        "Id": 13379,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39268,
@@ -397,7 +397,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-07T09:12:44.94",
+        "CreatedOn": "2025-08-07T09:15:49.05",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -408,7 +408,7 @@
         "QueryId": 5417
       },
       {
-        "Id": 13373,
+        "Id": 13380,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39268,
@@ -421,7 +421,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-07T09:12:44.94",
+        "CreatedOn": "2025-08-07T09:15:49.05",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -432,7 +432,7 @@
         "QueryId": 5417
       },
       {
-        "Id": 13374,
+        "Id": 13381,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39268,
@@ -445,7 +445,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-07T09:12:44.94",
+        "CreatedOn": "2025-08-07T09:15:49.05",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -456,7 +456,7 @@
         "QueryId": 5417
       },
       {
-        "Id": 13375,
+        "Id": 13382,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39268,
@@ -469,7 +469,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-07T09:12:44.94",
+        "CreatedOn": "2025-08-07T09:15:49.05",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -480,7 +480,7 @@
         "QueryId": 5417
       },
       {
-        "Id": 13376,
+        "Id": 13383,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39268,
@@ -493,7 +493,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-07T09:12:44.94",
+        "CreatedOn": "2025-08-07T09:15:49.05",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -504,7 +504,7 @@
         "QueryId": 5417
       },
       {
-        "Id": 13377,
+        "Id": 13384,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39268,
@@ -517,7 +517,7 @@
         "UserDefinedDataType": "Float",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-07T09:12:44.94",
+        "CreatedOn": "2025-08-07T09:15:49.05",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -528,7 +528,7 @@
         "QueryId": 5417
       },
       {
-        "Id": 13378,
+        "Id": 13385,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39268,
@@ -541,13 +541,13 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "Sarada",
-        "CreatedOn": "2025-08-07T09:12:44.94",
+        "CreatedOn": "2025-08-07T09:15:49.05",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
         "Description": null,
         "IsDerived": true,
-        "DerivedFormula": " CONCAT( P_MFGR , P_BRAND  )  ",
+        "DerivedFormula": " CONCAT( P_MFGR , P_BRAND )  ",
         "HTMLDiv": null,
         "QueryId": 5417
       }
