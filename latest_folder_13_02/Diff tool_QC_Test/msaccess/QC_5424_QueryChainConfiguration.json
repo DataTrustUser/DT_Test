@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T09:44:28.4",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T09:47:23.953",
+        "ModifiedOn": "2025-08-07T09:50:03.46",
         "ModifiedBy": "Sarada",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/7/2025 9:44:23 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MsAcess_Pivot_Versioning changes \",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 257.521px; top: 145.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 413.722px; top: 147.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"dcPivot_dropped.3\",\"UniqueId\":\"82\",\"stepId\":\"3\",\"description\":\"pivot Data\",\"position\":\"position: absolute; left: 551.565px; top: 146.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"82,3-[65,2]\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 691.722px; top: 143.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"3\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MsAcess_Pivot_Versioning changes \",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 257.521px; top: 145.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleProjection_dropped.2\",\"UniqueId\":\"65\",\"stepId\":\"2\",\"description\":\"Transform the data from Data Source\",\"position\":\"position: absolute; left: 413.722px; top: 147.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"65,2-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"dcPivot_dropped.3\",\"UniqueId\":\"82\",\"stepId\":\"3\",\"description\":\"pivot Data\",\"position\":\"position: absolute; left: 551.565px; top: 146.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"82,3-[65,2]\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 830.713px; top: 145.067px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,4-[83,5]\",\"dsstep\":\"5\"},{\"widgetId\":\"dcUnPivot_dropped.5\",\"UniqueId\":\"83\",\"stepId\":\"5\",\"description\":\"Unpivot Data\",\"position\":\"position: absolute; left: 694.525px; top: 147.076px;\",\"mapping\":\"83,5-[82,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2328,
@@ -412,7 +412,7 @@
         "Position": null,
         "CreatedOn": "2025-08-07T09:46:39",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-07T09:47:23.95",
+        "ModifiedOn": "2025-08-07T09:50:03.457",
         "ModifiedBy": "Sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -429,6 +429,41 @@
         "Overwritesnapshot": false,
         "JsonValue": null,
         "AppendToExistingData": false,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 39316,
+        "ScenarioId": null,
+        "QueryId": 5424,
+        "Job_Id": null,
+        "Step": 5,
+        "StepMapping": "83,5-[82,3]",
+        "TransformationId": 83,
+        "Description": "Unpivot Data",
+        "Position": "position: absolute; left: 694.525px; top: 147.076px;",
+        "CreatedOn": "2025-08-07T09:49:56.69",
+        "CreatedBy": "Sarada",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -692,6 +727,16 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 30623,
+        "ScenarioId": null,
+        "QueryId": 5424,
+        "StepId": 5,
+        "Dependency": 3,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
     "EmailAlerts": [],
@@ -716,7 +761,19 @@
         "CSV_Id": 0
       }
     ],
-    "UnPivotDetails": [],
+    "UnPivotDetails": [
+      {
+        "Id": 75,
+        "ScenarioId": null,
+        "QueryId": 5424,
+        "DataSourceId": 5373,
+        "UnPivotFor": "p_container",
+        "PivotBy": "p_retailprice",
+        "UnPivotColumns": "P_SIZE,P_CONTAINER,P_RETAILPRICE,P_COMMENT,1234,2345,4567",
+        "DCStepId": 39316,
+        "CSV_Id": 0
+      }
+    ],
     "PivotFieldType": [
       {
         "Id": 2249,
@@ -787,6 +844,26 @@
         "PivotId": 1114,
         "DataType": "Integer",
         "UnPivotId": null
+      },
+      {
+        "Id": 2256,
+        "ScenarioId": null,
+        "QueryId": 5424,
+        "ColumnName": "p_container",
+        "AliasColumnName": "p_container",
+        "PivotId": null,
+        "DataType": "String",
+        "UnPivotId": 75
+      },
+      {
+        "Id": 2257,
+        "ScenarioId": null,
+        "QueryId": 5424,
+        "ColumnName": "p_retailprice",
+        "AliasColumnName": "p_retailprice",
+        "PivotId": null,
+        "DataType": "Integer",
+        "UnPivotId": 75
       }
     ],
     "FileOffload": []
