@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "shrikant 8/7/2025 6:51:28 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"shrikant 8/7/2025 6:51:28 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsCustomSequel_dropped.1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Google Big Query\\\"\",\"position\":\"position: absolute; left: 337.25px; top: 198.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 691px; top: 191.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[66,4]\",\"dsstep\":\"4\"},{\"widgetId\":\"dcSimpleFilters_dropped.4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"Filter data from Data Source\",\"position\":\"position: absolute; left: 497px; top: 202.641px;\",\"mapping\":\"66,4-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"shrikant 8/7/2025 6:51:28 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsCustomSequel_dropped.1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"Google Big Query\\\"\",\"position\":\"position: absolute; left: 337.25px; top: 198.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 691px; top: 191.641px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"79,2-[66,4]\",\"dsstep\":\"4\"},{\"widgetId\":\"dcSimpleFilters_dropped.4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"Filter data from Data Source\",\"position\":\"position: absolute; left: 497px; top: 202.641px;\",\"mapping\":\"66,4-[61,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 873px; top: 190.641px;\",\"mapping\":\"88,5-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "shrikant",
         "FId": 1,
@@ -361,6 +361,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 39217,
+        "ScenarioId": null,
+        "QueryId": 5413,
+        "Job_Id": null,
+        "Step": 5,
+        "StepMapping": "88,5-[79,2]",
+        "TransformationId": 88,
+        "Description": "Offload the File",
+        "Position": "position: absolute; left: 873px; top: 190.641px;",
+        "CreatedOn": "2025-08-07T07:00:25.05",
+        "CreatedBy": "shrikant",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [
@@ -423,6 +458,27 @@
     "PivotDetails": [],
     "UnPivotDetails": [],
     "PivotFieldType": [],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 326,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_5413_shrikant_8_7_2025_6_51_28_AM",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2025-08-07T07:00:25.067",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 5413,
+        "SessionId": null,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true,
+        "ManipulatedFileName": "QC_5413_shrikant_8_7_2025_6_51_28_AM_20250807070039"
+      }
+    ]
   }
 ]
