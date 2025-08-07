@@ -4,7 +4,7 @@
       {
         "Id": 5403,
         "Profile_Id": 1184,
-        "Query_Name": "Saikiran 8/7/2025 4:41:34 AM",
+        "Query_Name": "MSSQL_Cust with offload",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T04:41:40.993",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-08-07T04:43:10.837",
         "ModifiedBy": null,
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -30,7 +30,7 @@
         "TypeofQuery": "QueryChain",
         "UserName": "Saikiran",
         "FId": 1,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
@@ -675,7 +675,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5403_Saikiran_8_7_2025_4_41_34_AM_20250807044229"
+        "ManipulatedFileName": "QC_5403_Saikiran_8_7_2025_4_41_34_AM_20250807044319"
       }
     ]
   }
