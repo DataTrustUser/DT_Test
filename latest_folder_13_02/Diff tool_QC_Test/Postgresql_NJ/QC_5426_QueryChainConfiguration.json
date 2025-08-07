@@ -4,7 +4,7 @@
       {
         "Id": 5426,
         "Profile_Id": 1259,
-        "Query_Name": "QC",
+        "Query_Name": "QC without transformation",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T09:48:14.313",
         "CreatedBy": "shrikant",
-        "ModifiedOn": "2025-08-07T09:54:39.327",
+        "ModifiedOn": "2025-08-07T09:57:48.057",
         "ModifiedBy": "shrikant",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -30,7 +30,7 @@
         "TypeofQuery": "QueryChain",
         "UserName": "shrikant",
         "FId": 2329,
-        "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
+        "DataRetentionJson": null
       }
     ],
     "QcDataSource": [
