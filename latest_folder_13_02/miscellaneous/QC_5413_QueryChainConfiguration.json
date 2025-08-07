@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T06:51:38.507",
         "CreatedBy": "shrikant",
-        "ModifiedOn": "2025-08-07T06:54:57.163",
+        "ModifiedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": "shrikant",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -339,8 +339,8 @@
         "Position": "position: absolute; left: 485px; top: 197.641px;",
         "CreatedOn": "2025-08-07T06:54:52.933",
         "CreatedBy": "shrikant",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-07T06:55:31.893",
+        "ModifiedBy": "shrikant",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -368,7 +368,7 @@
     "AdvancedObjectFilter": [],
     "SimpleProjections": [
       {
-        "Id": 13320,
+        "Id": 13327,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39206,
@@ -381,7 +381,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "shrikant",
-        "CreatedOn": "2025-08-07T06:54:52.84",
+        "CreatedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -392,7 +392,7 @@
         "QueryId": 5413
       },
       {
-        "Id": 13321,
+        "Id": 13328,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39206,
@@ -405,7 +405,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "shrikant",
-        "CreatedOn": "2025-08-07T06:54:52.84",
+        "CreatedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -416,7 +416,7 @@
         "QueryId": 5413
       },
       {
-        "Id": 13322,
+        "Id": 13329,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39206,
@@ -429,7 +429,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "shrikant",
-        "CreatedOn": "2025-08-07T06:54:52.84",
+        "CreatedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -440,7 +440,7 @@
         "QueryId": 5413
       },
       {
-        "Id": 13323,
+        "Id": 13330,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39206,
@@ -453,7 +453,7 @@
         "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "shrikant",
-        "CreatedOn": "2025-08-07T06:54:52.84",
+        "CreatedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -464,7 +464,7 @@
         "QueryId": 5413
       },
       {
-        "Id": 13324,
+        "Id": 13331,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39206,
@@ -474,10 +474,10 @@
         "ColumnName": "S_PHONE",
         "AliasColumnName": "S_PHONE",
         "SystemDefinedDataType": "STRING",
-        "UserDefinedDataType": "String",
+        "UserDefinedDataType": "Integer",
         "IsPrimary": false,
         "CreatedBy": "shrikant",
-        "CreatedOn": "2025-08-07T06:54:52.84",
+        "CreatedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -488,7 +488,7 @@
         "QueryId": 5413
       },
       {
-        "Id": 13325,
+        "Id": 13332,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39206,
@@ -501,7 +501,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "shrikant",
-        "CreatedOn": "2025-08-07T06:54:52.84",
+        "CreatedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -512,7 +512,7 @@
         "QueryId": 5413
       },
       {
-        "Id": 13326,
+        "Id": 13333,
         "ScenarioId": null,
         "CSV_Id": 0,
         "DcStepId": 39206,
@@ -525,7 +525,7 @@
         "UserDefinedDataType": "String",
         "IsPrimary": false,
         "CreatedBy": "shrikant",
-        "CreatedOn": "2025-08-07T06:54:52.84",
+        "CreatedOn": "2025-08-07T06:55:31.77",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
