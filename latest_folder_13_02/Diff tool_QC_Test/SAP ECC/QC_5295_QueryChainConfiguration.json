@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T10:13:28.057",
         "CreatedBy": "Swami",
-        "ModifiedOn": "2025-08-06T05:44:06.89",
+        "ModifiedOn": "2025-08-08T07:20:44.957",
         "ModifiedBy": "Swami",
         "Status": false,
         "IsHeavyWeightEngine": null,
@@ -390,8 +390,8 @@
         "Position": "position: absolute; left: 922.052px; top: 208.059px;",
         "CreatedOn": "2025-08-06T05:44:06.97",
         "CreatedBy": "Swami",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-08T07:20:45.153",
+        "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -802,12 +802,12 @@
     ],
     "UnPivotDetails": [
       {
-        "Id": 67,
+        "Id": 77,
         "ScenarioId": null,
         "QueryId": 5295,
         "DataSourceId": 5227,
-        "UnPivotFor": "COUNTR",
-        "PivotBy": "PLUS",
+        "UnPivotFor": "COUNT",
+        "PivotBy": "PLU",
         "UnPivotColumns": "UK,US",
         "DCStepId": 38382,
         "CSV_Id": 0
@@ -865,54 +865,54 @@
         "UnPivotId": null
       },
       {
-        "Id": 2181,
+        "Id": 2284,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "MANDT",
         "AliasColumnName": "MANDT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 67
+        "UnPivotId": 77
       },
       {
-        "Id": 2182,
+        "Id": 2285,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "CONTINENT",
         "AliasColumnName": "CONTINENT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 67
+        "UnPivotId": 77
       },
       {
-        "Id": 2183,
+        "Id": 2286,
         "ScenarioId": null,
         "QueryId": 5295,
         "ColumnName": "INS",
         "AliasColumnName": "INS",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 67
+        "UnPivotId": 77
       },
       {
-        "Id": 2184,
+        "Id": 2287,
         "ScenarioId": null,
         "QueryId": 5295,
-        "ColumnName": "COUNTR",
-        "AliasColumnName": "COUNTR",
+        "ColumnName": "COUNT",
+        "AliasColumnName": "COUNT",
         "PivotId": null,
         "DataType": "String",
-        "UnPivotId": 67
+        "UnPivotId": 77
       },
       {
-        "Id": 2185,
+        "Id": 2288,
         "ScenarioId": null,
         "QueryId": 5295,
-        "ColumnName": "PLUS",
-        "AliasColumnName": "PLUS",
+        "ColumnName": "PLU",
+        "AliasColumnName": "PLU",
         "PivotId": null,
         "DataType": "Integer",
-        "UnPivotId": 67
+        "UnPivotId": 77
       }
     ],
     "FileOffload": []
