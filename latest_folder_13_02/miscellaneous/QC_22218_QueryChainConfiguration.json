@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-08T06:31:54.917",
         "CreatedBy": "Srinidhi",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-08T06:35:51.127",
+        "ModifiedBy": "Srinidhi",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Srinidhi 8/8/2025 6:31:36 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 8/8/2025 6:31:36 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 268.638px; top: 184.638px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcPivot_dropped.2\",\"UniqueId\":\"82\",\"stepId\":\"2\",\"description\":\"pivot Data\",\"position\":\"position: absolute; left: 426.8px; top: 178.638px;\",\"mapping\":\"82,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 699.8px; top: 175.638px;\",\"mapping\":\"79,3-[82,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Srinidhi 8/8/2025 6:31:36 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 268.638px; top: 184.638px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcPivot_dropped.2\",\"UniqueId\":\"82\",\"stepId\":\"2\",\"description\":\"pivot Data\",\"position\":\"position: absolute; left: 426.8px; top: 178.638px;\",\"mapping\":\"82,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"qcEndItem_dropped.3\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 699.8px; top: 175.638px;\",\"mapping\":\"79,3-[83,4]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"4\"},{\"widgetId\":\"dcUnPivot_dropped.4\",\"UniqueId\":\"83\",\"stepId\":\"4\",\"description\":\"Unpivot Data\",\"position\":\"position: absolute; left: 577.8px; top: 177.638px;\",\"mapping\":\"83,4-[82,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Srinidhi",
         "FId": 1213,
@@ -282,8 +282,8 @@
         "Position": null,
         "CreatedOn": "2025-08-08T06:35:00.41",
         "CreatedBy": "Srinidhi",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-08T06:35:51.123",
+        "ModifiedBy": "Srinidhi",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -299,6 +299,41 @@
         "Overwritesnapshot": false,
         "JsonValue": null,
         "AppendToExistingData": false,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 381332,
+        "ScenarioId": null,
+        "QueryId": 22218,
+        "Job_Id": null,
+        "Step": 4,
+        "StepMapping": "83,4-[82,2]",
+        "TransformationId": 83,
+        "Description": "Unpivot Data",
+        "Position": "position: absolute; left: 577.8px; top: 177.638px;",
+        "CreatedOn": "2025-08-08T06:35:45.283",
+        "CreatedBy": "Srinidhi",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -337,6 +372,16 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 275092,
+        "ScenarioId": null,
+        "QueryId": 22218,
+        "StepId": 4,
+        "Dependency": 2,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
     "EmailAlerts": [],
@@ -361,7 +406,19 @@
         "CSV_Id": 0
       }
     ],
-    "UnPivotDetails": [],
+    "UnPivotDetails": [
+      {
+        "Id": 1261,
+        "ScenarioId": null,
+        "QueryId": 22218,
+        "DataSourceId": 18823,
+        "UnPivotFor": "12334",
+        "PivotBy": "123",
+        "UnPivotColumns": "N_REGIONKEY,N_COMMENT,1,2",
+        "DCStepId": 381332,
+        "CSV_Id": 0
+      }
+    ],
     "PivotFieldType": [
       {
         "Id": 5798,
@@ -402,6 +459,26 @@
         "PivotId": 2362,
         "DataType": "Integer",
         "UnPivotId": null
+      },
+      {
+        "Id": 5802,
+        "ScenarioId": null,
+        "QueryId": 22218,
+        "ColumnName": "12334",
+        "AliasColumnName": "12334",
+        "PivotId": null,
+        "DataType": "String",
+        "UnPivotId": 1261
+      },
+      {
+        "Id": 5803,
+        "ScenarioId": null,
+        "QueryId": 22218,
+        "ColumnName": "123",
+        "AliasColumnName": "123",
+        "PivotId": null,
+        "DataType": "Integer",
+        "UnPivotId": 1261
       }
     ],
     "FileOffload": []
