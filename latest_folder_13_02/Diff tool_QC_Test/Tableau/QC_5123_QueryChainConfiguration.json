@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC-Data Profiling-Tableau",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Data Profiling-Tableau\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsTableauSource_dropped.1\",\"UniqueId\":\"71\",\"stepId\":\"1\",\"description\":\"Read data from \\\"SupplierData\\\" for data source \\\"Tableau-20\\\"\",\"position\":\"position: absolute; left: 312.406px; top: 201.059px;\",\"mapping\":\"71,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 475.104px; top: 201.059px;\",\"mapping\":\"79,2-[71,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"DataProfiling\",\"position\":\"position: absolute; left: 646.094px; top: 202.059px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Data Profiling-Tableau\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsTableauSource_dropped.1\",\"UniqueId\":\"71\",\"stepId\":\"1\",\"description\":\"Read data from \\\"SupplierData\\\" for data source \\\"Tableau-20\\\"\",\"position\":\"position: absolute; left: 312.406px; top: 201.059px;\",\"mapping\":\"71,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 475.104px; top: 201.059px;\",\"mapping\":\"79,2-[71,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"DataProfiling\",\"position\":\"position: absolute; left: 646.094px; top: 202.059px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 677.644px; top: 90.0764px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"Email_dropped.5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 659.722px; top: 316.076px;\",\"mapping\":\"20,5-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2304,
@@ -81,7 +81,8 @@
         "iteration": null,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": null
+        "Scenario_SessionId": null,
+        "QcDatasetName": ""
       }
     ],
     "QCTableFieldTypes": [],
@@ -226,6 +227,76 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 39982,
+        "ScenarioId": null,
+        "QueryId": 5123,
+        "Job_Id": null,
+        "Step": 4,
+        "StepMapping": "88,4-[79,2]",
+        "TransformationId": 88,
+        "Description": "Write  data To File",
+        "Position": "position: absolute; left: 677.644px; top: 90.0764px;",
+        "CreatedOn": "2025-08-08T08:45:49.11",
+        "CreatedBy": "Vinay",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 39983,
+        "ScenarioId": null,
+        "QueryId": 5123,
+        "Job_Id": null,
+        "Step": 5,
+        "StepMapping": "20,5-[79,2]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "position: absolute; left: 659.722px; top: 316.076px;",
+        "CreatedOn": "2025-08-08T08:45:54.14",
+        "CreatedBy": "Vinay",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -235,9 +306,8 @@
     "DataBlends": [],
     "DataBlendFieldType": [],
     "ScenarioQCFieldTypes": [],
-    "Query": null,
-    "QuerySap": null,
-    "QFTypes": null,
+    "Query": [],
+    "QFTypes": [],
     "CSVQCusingQuerySource": false,
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
@@ -260,9 +330,48 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 30977,
+        "ScenarioId": null,
+        "QueryId": 5123,
+        "StepId": 5,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
-    "EmailAlerts": [],
+    "EmailAlerts": [
+      {
+        "Query_Id": 5123,
+        "Job_Id": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": 0,
+        "Scenario_Header_Id": null,
+        "WhenFaild": false,
+        "EmailWhen_F": null,
+        "WhenSuccess": true,
+        "EmailWhen_S": "vinay.pulugujja@getrightdata.com",
+        "CreatedBy": "116",
+        "CreatedOn": "2025-08-08T08:45:54.103",
+        "EmailTemplateId": null,
+        "EmailPriority": "Normal",
+        "EmailFromName": null,
+        "EmailSubject": null,
+        "EnableHyperlinks": true,
+        "SendExtrenalLink": null,
+        "AttachResultSummary": null,
+        "PdfAttachment": false
+      }
+    ],
     "DataProfilings": [
       {
         "Id": 7097,
@@ -285,7 +394,8 @@
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": false,
+        "ColumnDistribution": true
       },
       {
         "Id": 7098,
@@ -308,7 +418,8 @@
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": false,
+        "ColumnDistribution": true
       },
       {
         "Id": 7099,
@@ -331,7 +442,8 @@
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": false,
+        "ColumnDistribution": true
       },
       {
         "Id": 7100,
@@ -354,7 +466,8 @@
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": false,
+        "ColumnDistribution": true
       },
       {
         "Id": 7101,
@@ -377,7 +490,8 @@
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": false,
+        "ColumnDistribution": true
       },
       {
         "Id": 7102,
@@ -400,7 +514,8 @@
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": false,
+        "ColumnDistribution": true
       },
       {
         "Id": 7103,
@@ -423,7 +538,8 @@
         "DBlendId": null,
         "Status": null,
         "Description": null,
-        "SummaryOnly": false
+        "SummaryOnly": false,
+        "ColumnDistribution": true
       }
     ],
     "CSV": [],
@@ -434,6 +550,27 @@
     "PivotDetails": [],
     "UnPivotDetails": [],
     "PivotFieldType": [],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 367,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_5123_QC_Data_Profiling_Tableau",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2025-08-08T08:45:49.12",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 5123,
+        "SessionId": null,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true,
+        "ManipulatedFileName": "QC_5123_QC_Data_Profiling_Tableau_20250808084559"
+      }
+    ]
   }
 ]
