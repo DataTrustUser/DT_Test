@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Vinay 8/4/2025 11:45:56 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 8/4/2025 11:45:56 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"MetaDataCompare_dropped.1\",\"UniqueId\":\"93\",\"stepId\":\"1\",\"description\":\"Read data from Metadata SnapShot\",\"position\":\"position: absolute; left: 269.317px; top: 197.076px;\",\"mapping\":\"93,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 447.722px; top: 189.076px;\",\"mapping\":\"79,2-[93,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 8/4/2025 11:45:56 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"93\",\"stepId\":\"1\",\"description\":\"Read data from Metadata SnapShot\",\"position\":\"position: absolute; left: 270.312px; top: 197.062px;\",\"mapping\":\"93,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 447.722px; top: 189.076px;\",\"mapping\":\"79,2-[93,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 1,
@@ -81,7 +81,8 @@
         "iteration": null,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": null
+        "Scenario_SessionId": null,
+        "QcDatasetName": ""
       }
     ],
     "QCTableFieldTypes": [
@@ -543,9 +544,6 @@
     "DataBlends": [],
     "DataBlendFieldType": [],
     "ScenarioQCFieldTypes": [],
-    "Query": null,
-    "QuerySap": null,
-    "QFTypes": null,
     "CSVQCusingQuerySource": false,
     "CSVQCusingQueryTarget": false,
     "DCDependency": [],
