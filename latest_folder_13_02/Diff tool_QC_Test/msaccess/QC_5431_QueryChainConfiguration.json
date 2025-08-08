@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T10:14:30.327",
         "CreatedBy": "Sarada",
-        "ModifiedOn": "2025-08-08T04:39:39.167",
+        "ModifiedOn": "2025-08-08T06:40:16.44",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Sarada 8/7/2025 10:14:14 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MS ACCESS_Join datasets \",\"position\":\"position: absolute; left: 56.9931px; top: 239.479px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 254.514px; top: 151.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 655.454px; top: 133.058px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-61,3-3,6-78,7\",\"dsstep\":\"7\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 259.921px; top: 315.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,3-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 782.708px; top: 211.06px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 898.627px; top: 191.065px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[79,4]\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"MSaccess_part Qurey\\\" for data source \\\"Cosmos\\\"\",\"position\":\"position: absolute; left: 406.722px; top: 368.076px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,6-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsExistingQuery_7\",\"UniqueId\":\"78\",\"stepId\":\"7\",\"description\":\"Read data from \\\"MSACCESS_versioning \\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 540.322px; top: 412.076px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"78,7-[0,0]\",\"dsstep\":\"null\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"MS ACCESS_Join datasets \",\"position\":\"position: absolute; left: 56.9931px; top: 239.479px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"CData.Access.TPCH1_Part\\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 254.514px; top: 151.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsDataBlening_dropped.2\",\"UniqueId\":\"35\",\"stepId\":\"2\",\"description\":\"Join Datasets\",\"position\":\"position: absolute; left: 655.454px; top: 133.058px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-61,3-3,6-78,7\",\"dsstep\":\"7\"},{\"widgetId\":\"dsCustomSequel_dropped.3\",\"UniqueId\":\"61\",\"stepId\":\"3\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 259.921px; top: 315.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,3-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"4\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 782.708px; top: 211.06px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 898.627px; top: 191.065px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"88,5-[79,4]\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"MSaccess_part Qurey\\\" for data source \\\"Cosmos\\\"\",\"position\":\"position: absolute; left: 406.722px; top: 368.076px;  \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,6-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsExistingQuery_7\",\"UniqueId\":\"78\",\"stepId\":\"7\",\"description\":\"Read data from \\\"MSACCESS_versioning \\\" for data source \\\"MS Access\\\"\",\"position\":\"position: absolute; left: 540.322px; top: 412.076px; \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"78,7-[0,0]\",\"dsstep\":\"null\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Sarada",
         "FId": 2328,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 5506,
+        "Id": 5539,
         "Query_Id": 5431,
         "Profile_Id": 1232,
-        "DCStep_Id": 39748,
+        "DCStep_Id": 39838,
         "BlendStepId": 2,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -47,7 +47,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-08T04:35:24.407",
+        "CreatedOn": "2025-08-08T06:39:20.857",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -85,10 +85,10 @@
         "QcDatasetName": ""
       },
       {
-        "Id": 5507,
+        "Id": 5540,
         "Query_Id": 5431,
         "Profile_Id": 1231,
-        "DCStep_Id": 39749,
+        "DCStep_Id": 39839,
         "BlendStepId": 2,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -97,7 +97,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-08T04:35:24.407",
+        "CreatedOn": "2025-08-08T06:39:20.857",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -135,10 +135,10 @@
         "QcDatasetName": null
       },
       {
-        "Id": 5508,
+        "Id": 5541,
         "Query_Id": 5431,
         "Profile_Id": 1232,
-        "DCStep_Id": 39753,
+        "DCStep_Id": 39843,
         "BlendStepId": 2,
         "Query_Id_Id": 5433,
         "ResultTableName": null,
@@ -147,7 +147,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-08T04:35:24.407",
+        "CreatedOn": "2025-08-08T06:39:20.857",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -185,10 +185,10 @@
         "QcDatasetName": "MSaccess_part Qurey"
       },
       {
-        "Id": 5509,
+        "Id": 5542,
         "Query_Id": 5431,
         "Profile_Id": 1232,
-        "DCStep_Id": 39754,
+        "DCStep_Id": 39844,
         "BlendStepId": 2,
         "Query_Id_Id": 5417,
         "ResultTableName": null,
@@ -197,10 +197,10 @@
         "ObjectCode": null,
         "SessionId": 3,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-08-08T04:35:24.407",
+        "CreatedOn": "2025-08-08T06:39:20.857",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-08T04:37:06.737",
-        "ModifiedBy": "Saikiran",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": false,
         "SAPType": null,
         "DataSourceType": "B",
@@ -237,8 +237,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 22238,
-        "QueryDataSourceId": 5506,
+        "Id": 22469,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -256,8 +256,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22239,
-        "QueryDataSourceId": 5506,
+        "Id": 22470,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -275,8 +275,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22240,
-        "QueryDataSourceId": 5506,
+        "Id": 22471,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -294,8 +294,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22241,
-        "QueryDataSourceId": 5506,
+        "Id": 22472,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -313,8 +313,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22242,
-        "QueryDataSourceId": 5506,
+        "Id": 22473,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -332,8 +332,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22243,
-        "QueryDataSourceId": 5506,
+        "Id": 22474,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -351,8 +351,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22244,
-        "QueryDataSourceId": 5506,
+        "Id": 22475,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -370,8 +370,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22245,
-        "QueryDataSourceId": 5506,
+        "Id": 22476,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -389,8 +389,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22246,
-        "QueryDataSourceId": 5506,
+        "Id": 22477,
+        "QueryDataSourceId": 5539,
         "DBlendId": null,
         "ProfileId": 1232,
         "TableName": "CData.Access.TPCH1_Part",
@@ -408,8 +408,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 22247,
-        "QueryDataSourceId": 5507,
+        "Id": 22478,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -427,8 +427,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22248,
-        "QueryDataSourceId": 5507,
+        "Id": 22479,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -446,8 +446,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22249,
-        "QueryDataSourceId": 5507,
+        "Id": 22480,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -465,8 +465,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22250,
-        "QueryDataSourceId": 5507,
+        "Id": 22481,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -484,8 +484,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22251,
-        "QueryDataSourceId": 5507,
+        "Id": 22482,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -503,8 +503,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22252,
-        "QueryDataSourceId": 5507,
+        "Id": 22483,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -522,8 +522,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22253,
-        "QueryDataSourceId": 5507,
+        "Id": 22484,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -541,8 +541,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22254,
-        "QueryDataSourceId": 5507,
+        "Id": 22485,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -560,8 +560,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22255,
-        "QueryDataSourceId": 5507,
+        "Id": 22486,
+        "QueryDataSourceId": 5540,
         "DBlendId": null,
         "ProfileId": 1231,
         "TableName": null,
@@ -579,8 +579,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22263,
-        "QueryDataSourceId": 5509,
+        "Id": 22487,
+        "QueryDataSourceId": 5542,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -598,8 +598,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22264,
-        "QueryDataSourceId": 5509,
+        "Id": 22488,
+        "QueryDataSourceId": 5542,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -617,8 +617,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22265,
-        "QueryDataSourceId": 5509,
+        "Id": 22489,
+        "QueryDataSourceId": 5542,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -636,8 +636,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22266,
-        "QueryDataSourceId": 5509,
+        "Id": 22490,
+        "QueryDataSourceId": 5542,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -655,8 +655,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22267,
-        "QueryDataSourceId": 5509,
+        "Id": 22491,
+        "QueryDataSourceId": 5542,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -674,8 +674,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22268,
-        "QueryDataSourceId": 5509,
+        "Id": 22492,
+        "QueryDataSourceId": 5542,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -693,8 +693,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 22269,
-        "QueryDataSourceId": 5509,
+        "Id": 22493,
+        "QueryDataSourceId": 5542,
         "DBlendId": null,
         "ProfileId": null,
         "TableName": null,
@@ -715,7 +715,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 39747,
+        "Id": 39837,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -724,7 +724,7 @@
         "TransformationId": 0,
         "Description": "Sarada 8/7/2025 10:14:14 AM",
         "Position": null,
-        "CreatedOn": "2025-08-08T04:35:24.437",
+        "CreatedOn": "2025-08-08T06:39:20.893",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -750,7 +750,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39748,
+        "Id": 39838,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -759,7 +759,7 @@
         "TransformationId": 2,
         "Description": "Read data from \"CData.Access.TPCH1_Part\" for data source \"MS Access\"",
         "Position": "position: absolute; left: 249.521px; top: 167.076px;",
-        "CreatedOn": "2025-08-08T04:35:24.46",
+        "CreatedOn": "2025-08-08T06:39:20.913",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -785,7 +785,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39749,
+        "Id": 39839,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -794,7 +794,7 @@
         "TransformationId": 61,
         "Description": "Read data from customer SQL query of the connection profile  \"MS Access\"",
         "Position": "position: absolute; left: 259.921px; top: 315.076px;",
-        "CreatedOn": "2025-08-08T04:35:24.487",
+        "CreatedOn": "2025-08-08T06:39:20.957",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -820,18 +820,18 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39750,
+        "Id": 39840,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
         "Step": 2,
-        "StepMapping": "2,1-61,3-3,6-78,7",
+        "StepMapping": "",
         "TransformationId": 35,
         "Description": "Join Datasets",
         "Position": "position: absolute; left: 655.454px; top: 133.058px;",
-        "CreatedOn": "2025-08-08T04:35:24.517",
+        "CreatedOn": "2025-08-08T06:39:20.98",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-08T04:39:33.99",
+        "ModifiedOn": "2025-08-08T06:40:13.117",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
@@ -855,7 +855,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39751,
+        "Id": 39841,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -864,9 +864,9 @@
         "TransformationId": 79,
         "Description": "Sarada#@8/7/2025 10:17:36 AM",
         "Position": null,
-        "CreatedOn": "2025-08-08T04:35:24.54",
+        "CreatedOn": "2025-08-08T06:39:21",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-08T04:39:39.163",
+        "ModifiedOn": "2025-08-08T06:40:16.437",
         "ModifiedBy": "Saikiran",
         "Status": true,
         "ErrorCodes": null,
@@ -890,7 +890,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39752,
+        "Id": 39842,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -899,7 +899,7 @@
         "TransformationId": 88,
         "Description": "Offload the File",
         "Position": "position: absolute; left: 795.644px; top: 192.076px;",
-        "CreatedOn": "2025-08-08T04:35:24.587",
+        "CreatedOn": "2025-08-08T06:39:21.037",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -925,7 +925,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39753,
+        "Id": 39843,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -934,7 +934,7 @@
         "TransformationId": 3,
         "Description": "Read data from Query",
         "Position": "position: absolute; left: 406.722px; top: 368.076px;",
-        "CreatedOn": "2025-08-08T04:35:24.607",
+        "CreatedOn": "2025-08-08T06:39:21.053",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -960,7 +960,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 39754,
+        "Id": 39844,
         "ScenarioId": null,
         "QueryId": 5431,
         "Job_Id": null,
@@ -969,7 +969,7 @@
         "TransformationId": 78,
         "Description": "Read data from Table",
         "Position": "position: absolute; left: 540.322px; top: 412.076px;",
-        "CreatedOn": "2025-08-08T04:35:24.657",
+        "CreatedOn": "2025-08-08T06:39:21.09",
         "CreatedBy": "Saikiran",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -1001,73 +1001,73 @@
     "SimpleProjections": [],
     "DataBlends": [
       {
-        "Id": 1503,
+        "Id": 1512,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 2,
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"CData.Access.TPCH1_Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1231\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\" SELECT * FROM \",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_4\",\"included\":true,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"6\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5433\",\"sourceTableOrQuery\":\"MSaccess_part Qurey\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":false,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME_4\",\"included\":true,\"key\":true},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:730px;\"},{\"id\":\"31\",\"dataSourceStepId\":\"7\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5417\",\"sourceTableOrQuery\":\"output data #@8/7/2025 9:23:51 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_3\",\"included\":true,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME_2\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:1090px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"P_NAME\",\"srcColumn\":\"P_NAME\",\"endColumnName\":\"P_NAME\",\"tgtColumn\":\"P_NAME\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"21\",\"joinEndId\":\"31\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"integer|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_PARTKEY_4\",\"alias\":\"P_PARTKEY_4\",\"dataType\":\"string|11\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"string|11\",\"oName\":\"P_NAME\"},{\"name\":\"P_NAME_4\",\"alias\":\"P_NAME_4\",\"dataType\":\"string|21\",\"oName\":\"P_NAME\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|21\",\"oName\":\"P_MFGR\"},{\"name\":\"P_PARTKEY_3\",\"alias\":\"P_PARTKEY_3\",\"dataType\":\"integer|31\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_NAME_2\",\"alias\":\"P_NAME_2\",\"dataType\":\"string|31\",\"oName\":\"P_NAME\"}]}",
-        "CreatedOn": "2025-08-08T04:37:54.417",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"CData.Access.TPCH1_Part\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":\"1231\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"\",\"sourceTableOrQuery\":\"SELECT * FROM \\\"CData\\\".\\\"TPCH\\\".\\\"Part\\\"\",\"sourceParallelism\":\"null\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_4\",\"included\":true,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"},{\"id\":\"21\",\"dataSourceStepId\":\"6\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5433\",\"sourceTableOrQuery\":\"MSaccess_part Qurey\",\"sourceParallelism\":\"1\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":false,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME_4\",\"included\":true,\"key\":true},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:730px;\"},{\"id\":\"31\",\"dataSourceStepId\":\"7\",\"profileId\":\"1232\",\"SAPType\":\"\",\"ProfileTypeId\":\"134\",\"queryId\":\"5417\",\"sourceTableOrQuery\":\"MSACCESS_versioning\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_3\",\"included\":true,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME_2\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:1090px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"11\",\"joinEndId\":\"21\",\"joinColumnPairs\":[{\"startColumnName\":\"P_NAME\",\"srcColumn\":\"P_NAME\",\"endColumnName\":\"P_NAME\",\"tgtColumn\":\"P_NAME\"}]},{\"type\":\"Inner Join\",\"joinStartId\":\"21\",\"joinEndId\":\"31\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"integer|01\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_PARTKEY_4\",\"alias\":\"P_PARTKEY_4\",\"dataType\":\"string|11\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"string|11\",\"oName\":\"P_NAME\"},{\"name\":\"P_NAME_4\",\"alias\":\"P_NAME_4\",\"dataType\":\"string|21\",\"oName\":\"P_NAME\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|21\",\"oName\":\"P_MFGR\"},{\"name\":\"P_PARTKEY_3\",\"alias\":\"P_PARTKEY_3\",\"dataType\":\"integer|31\",\"oName\":\"P_PARTKEY\"},{\"name\":\"P_NAME_2\",\"alias\":\"P_NAME_2\",\"dataType\":\"string|31\",\"oName\":\"P_NAME\"}]}",
+        "CreatedOn": "2025-08-08T06:39:20.857",
         "CreatedBy": "Saikiran",
-        "ModifiedOn": "2025-08-08T04:39:33.927",
+        "ModifiedOn": "2025-08-08T06:40:13.077",
         "ModifiedBy": "Saikiran",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 8280,
-        "DBlendId": 1503,
+        "Id": 8371,
+        "DBlendId": 1512,
         "TableName": null,
         "ColumnName": "P_PARTKEY",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 8281,
-        "DBlendId": 1503,
+        "Id": 8372,
+        "DBlendId": 1512,
         "TableName": null,
         "ColumnName": "P_PARTKEY_4",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 8282,
-        "DBlendId": 1503,
+        "Id": 8373,
+        "DBlendId": 1512,
         "TableName": null,
         "ColumnName": "P_NAME",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 8283,
-        "DBlendId": 1503,
+        "Id": 8374,
+        "DBlendId": 1512,
         "TableName": null,
         "ColumnName": "P_NAME_4",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 8284,
-        "DBlendId": 1503,
+        "Id": 8375,
+        "DBlendId": 1512,
         "TableName": null,
         "ColumnName": "P_MFGR",
         "DataType": "string",
         "Status": true
       },
       {
-        "Id": 8285,
-        "DBlendId": 1503,
+        "Id": 8376,
+        "DBlendId": 1512,
         "TableName": null,
         "ColumnName": "P_PARTKEY_3",
         "DataType": "integer",
         "Status": true
       },
       {
-        "Id": 8286,
-        "DBlendId": 1503,
+        "Id": 8377,
+        "DBlendId": 1512,
         "TableName": null,
         "ColumnName": "P_NAME_2",
         "DataType": "string",
@@ -1075,8 +1075,41 @@
       }
     ],
     "ScenarioQCFieldTypes": [],
-    "QFTypes": [],
+    "QuerySap": [],
+    "QCExistingQueryCSVProfiles": [],
+    "QCExistingQueryCSVProfileDatatypes": [],
+    "QCExistingQueryCSV": [],
     "Query": [
+      {
+        "Id": 5433,
+        "Profile_Id": 1232,
+        "Query_Name": "MSaccess_part Qurey",
+        "Query_Type": false,
+        "Query_Text": " SELECT * FROM \"CData\".\"Access\".\"TPCH1_Part\"",
+        "Query_Modified_Text": null,
+        "Queryfor_Edit": null,
+        "Parallel_Processor_Count": 1,
+        "Split_By_Column": null,
+        "IsforVariableBuilder": false,
+        "IsUsedInVariableBuilder": null,
+        "CreatedOn": "2025-08-07T10:39:51.92",
+        "CreatedBy": "134",
+        "ModifiedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": "140",
+        "Status": true,
+        "IsHeavyWeightEngine": null,
+        "IsMigrated": false,
+        "MigratedOn": null,
+        "IsDeleted": null,
+        "DegreeOfParallelism": null,
+        "AzurePreViewPath": null,
+        "PacketSize": 50000.0,
+        "QueryDescription": null,
+        "JSON": "null",
+        "TypeofQuery": null,
+        "FId": 2328,
+        "DataRetentionJson": null
+      },
       {
         "Id": 5417,
         "Profile_Id": 1232,
@@ -1091,7 +1124,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-07T08:12:00.097",
         "CreatedBy": "134",
-        "ModifiedOn": "2025-08-08T04:35:24.617",
+        "ModifiedOn": "2025-08-08T06:39:21.057",
         "ModifiedBy": "134",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -1108,15 +1141,148 @@
         "DataRetentionJson": null
       }
     ],
-    "QuerySap": [],
-    "QCExistingQueryCSVProfiles": [],
-    "QCExistingQueryCSVProfileDatatypes": [],
-    "QCExistingQueryCSV": [],
+    "QFTypes": [
+      {
+        "Id": 13880,
+        "Query_Id": 5433,
+        "ColumnName": "P_PARTKEY",
+        "AliasColumnName": null,
+        "DataType": "INT",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13881,
+        "Query_Id": 5433,
+        "ColumnName": "P_NAME",
+        "AliasColumnName": null,
+        "DataType": "VARCHAR",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13882,
+        "Query_Id": 5433,
+        "ColumnName": "P_MFGR",
+        "AliasColumnName": null,
+        "DataType": "VARCHAR",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13883,
+        "Query_Id": 5433,
+        "ColumnName": "P_BRAND",
+        "AliasColumnName": null,
+        "DataType": "VARCHAR",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13884,
+        "Query_Id": 5433,
+        "ColumnName": "P_TYPE",
+        "AliasColumnName": null,
+        "DataType": "VARCHAR",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13885,
+        "Query_Id": 5433,
+        "ColumnName": "P_SIZE",
+        "AliasColumnName": null,
+        "DataType": "INT",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13886,
+        "Query_Id": 5433,
+        "ColumnName": "P_CONTAINER",
+        "AliasColumnName": null,
+        "DataType": "VARCHAR",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13887,
+        "Query_Id": 5433,
+        "ColumnName": "P_RETAILPRICE",
+        "AliasColumnName": null,
+        "DataType": "FLOAT",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      },
+      {
+        "Id": 13888,
+        "Query_Id": 5433,
+        "ColumnName": "P_COMMENT",
+        "AliasColumnName": null,
+        "DataType": "VARCHAR",
+        "ResultTableName": null,
+        "SelectedForRecon": null,
+        "CreatedBy": "Saikiran",
+        "CreatedOn": "2025-08-08T06:39:56.533",
+        "ModifiedBy": null,
+        "ModifiedOn": null,
+        "Description": null,
+        "NewlyAddedColumn": true
+      }
+    ],
     "CSVQCusingQuerySource": false,
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 30845,
+        "Id": 30893,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 1,
@@ -1126,7 +1292,7 @@
         "JobId": null
       },
       {
-        "Id": 30846,
+        "Id": 30894,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 3,
@@ -1136,7 +1302,7 @@
         "JobId": null
       },
       {
-        "Id": 30847,
+        "Id": 30895,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 2,
@@ -1146,7 +1312,7 @@
         "JobId": null
       },
       {
-        "Id": 30848,
+        "Id": 30896,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 6,
@@ -1156,7 +1322,7 @@
         "JobId": null
       },
       {
-        "Id": 30849,
+        "Id": 30897,
         "ScenarioId": null,
         "QueryId": 5431,
         "StepId": 7,
@@ -1178,13 +1344,13 @@
     "PivotFieldType": [],
     "FileOffload": [
       {
-        "Id": 352,
+        "Id": 360,
         "Type": null,
         "IsFileCreated": null,
         "FileName": "QC_5431_offload data",
         "FilePath": null,
         "FileSize": null,
-        "FileCreatedOn": "2025-08-08T04:35:24.67",
+        "FileCreatedOn": "2025-08-08T06:39:21.1",
         "FolderId": 1,
         "ScenarioId": null,
         "JobId": null,
@@ -1195,7 +1361,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5431_offloaddata_20250808043951"
+        "ManipulatedFileName": "QC_5431_offloaddata_20250808064021"
       }
     ]
   }
