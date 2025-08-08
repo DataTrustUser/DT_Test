@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-05T09:50:23.843",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-08T08:34:31.723",
+        "ModifiedOn": "2025-08-08T08:35:15.27",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC-Power BI-Union",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Power BI-Union\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.2\",\"UniqueId\":\"3\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 300.722px; top: 85.0764px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,2-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 289.722px; top: 282.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,6-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 641.711px; top: 174.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"8\",\"mapping\":\"79,7-[35,8]\"},{\"widgetId\":\"dsDataBlening_dropped.8\",\"UniqueId\":\"35\",\"stepId\":\"8\",\"description\":\"join Datasets\",\"position\":\"position: absolute; left: 478.486px; top: 179.076px;\",\"mapping\":\"3,2-3,6\",\"warning\":null,\"decision\":null,\"dsstep\":\"6\",\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"QC-Power BI-Union\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.2\",\"UniqueId\":\"3\",\"stepId\":\"2\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 300.722px; top: 85.0764px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,2-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_dropped.6\",\"UniqueId\":\"3\",\"stepId\":\"6\",\"description\":\"Read data from \\\"Power BI-Supp Query\\\" for data source \\\"Power BI\\\"\",\"position\":\"position: absolute; left: 289.722px; top: 282.076px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"3,6-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"7\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 641.711px; top: 174.069px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"8\",\"mapping\":\"79,7-[35,8]\"},{\"widgetId\":\"dsDataBlening_dropped.8\",\"UniqueId\":\"35\",\"stepId\":\"8\",\"description\":\"join Datasets\",\"position\":\"position: absolute; left: 479.484px; top: 179.074px;\",\"mapping\":\"3,2-3,6\",\"warning\":null,\"decision\":null,\"dsstep\":\"6\",\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 2315,
@@ -287,10 +287,10 @@
         "StepMapping": "3,2-3,6",
         "TransformationId": 35,
         "Description": "join Datasets",
-        "Position": "position: absolute; left: 478.486px; top: 179.076px;",
+        "Position": "position: absolute; left: 479.484px; top: 179.074px;",
         "CreatedOn": "2025-08-05T09:50:50.747",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-08T08:34:24.717",
+        "ModifiedOn": "2025-08-08T08:35:15.317",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -327,17 +327,17 @@
         "Title": "",
         "Description": "join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"2\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"124\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"included\":true,\"key\":false},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"included\":true,\"key\":false},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"included\":true,\"key\":false},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":true,\"key\":false},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"included\":true,\"key\":false},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"6\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"124\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY_8\",\"included\":true,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"S_SUPPKEY\",\"srcColumn\":\"S_SUPPKEY\",\"endColumnName\":\"S_SUPPKEY\",\"tgtColumn\":\"S_SUPPKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"dataType\":\"string|01\",\"oName\":\"S_ACCTBAL\"},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"dataType\":\"string|01\",\"oName\":\"S_ADDRESS\"},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"dataType\":\"string|01\",\"oName\":\"S_COMMENT\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"string|01\",\"oName\":\"S_NAME\"},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"dataType\":\"string|01\",\"oName\":\"S_PHONE\"},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"dataType\":\"string|01\",\"oName\":\"S_NATIONKEY\"},{\"name\":\"S_SUPPKEY_8\",\"alias\":\"S_SUPPKEY_8\",\"dataType\":\"string|11\",\"oName\":\"S_SUPPKEY\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"2\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"124\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"included\":true,\"key\":false},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"included\":true,\"key\":false},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"included\":true,\"key\":false},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":true,\"key\":false},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"included\":true,\"key\":false},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"included\":true,\"key\":false},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"included\":true,\"key\":false},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"included\":true,\"key\":false},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":true,\"key\":false},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"included\":true,\"key\":false},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"included\":true,\"key\":false},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"included\":true,\"key\":false},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"included\":true,\"key\":false},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":true,\"key\":false},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"included\":true,\"key\":false},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"included\":true,\"key\":false},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"included\":true,\"key\":false},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"included\":true,\"key\":false},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"included\":true,\"key\":false},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"included\":true,\"key\":false},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"included\":true,\"key\":false},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"6\",\"profileId\":\"114\",\"SAPType\":\"\",\"ProfileTypeId\":\"124\",\"queryId\":\"5287\",\"sourceTableOrQuery\":\"Power BI-Supp Query\",\"sourceParallelism\":\"0\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":true,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"included\":false,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":8,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"S_SUPPKEY\",\"srcColumn\":\"S_SUPPKEY\",\"endColumnName\":\"S_SUPPKEY\",\"tgtColumn\":\"S_SUPPKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"S_ACCTBAL\",\"alias\":\"S_ACCTBAL\",\"dataType\":\"string|01\",\"oName\":\"S_ACCTBAL\"},{\"name\":\"S_ADDRESS\",\"alias\":\"S_ADDRESS\",\"dataType\":\"string|01\",\"oName\":\"S_ADDRESS\"},{\"name\":\"S_COMMENT\",\"alias\":\"S_COMMENT\",\"dataType\":\"string|01\",\"oName\":\"S_COMMENT\"},{\"name\":\"S_NAME\",\"alias\":\"S_NAME\",\"dataType\":\"string|01\",\"oName\":\"S_NAME\"},{\"name\":\"S_PHONE\",\"alias\":\"S_PHONE\",\"dataType\":\"string|01\",\"oName\":\"S_PHONE\"},{\"name\":\"S_NATIONKEY\",\"alias\":\"S_NATIONKEY\",\"dataType\":\"string|01\",\"oName\":\"S_NATIONKEY\"},{\"name\":\"S_SUPPKEY_8\",\"alias\":\"S_SUPPKEY_8\",\"dataType\":\"string|11\",\"oName\":\"S_SUPPKEY\"},{\"name\":\"S_SUPPKEY\",\"alias\":\"S_SUPPKEY\",\"dataType\":\"string|11\",\"oName\":\"S_SUPPKEY\"}]}",
         "CreatedOn": "2025-08-05T09:50:50.723",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-08T08:34:24.65",
+        "ModifiedOn": "2025-08-08T08:35:15.273",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 8429,
+        "Id": 8436,
         "DBlendId": 1432,
         "TableName": null,
         "ColumnName": "S_ACCTBAL",
@@ -345,7 +345,7 @@
         "Status": true
       },
       {
-        "Id": 8430,
+        "Id": 8437,
         "DBlendId": 1432,
         "TableName": null,
         "ColumnName": "S_ADDRESS",
@@ -353,7 +353,7 @@
         "Status": true
       },
       {
-        "Id": 8431,
+        "Id": 8438,
         "DBlendId": 1432,
         "TableName": null,
         "ColumnName": "S_COMMENT",
@@ -361,7 +361,7 @@
         "Status": true
       },
       {
-        "Id": 8432,
+        "Id": 8439,
         "DBlendId": 1432,
         "TableName": null,
         "ColumnName": "S_NAME",
@@ -369,7 +369,7 @@
         "Status": true
       },
       {
-        "Id": 8433,
+        "Id": 8440,
         "DBlendId": 1432,
         "TableName": null,
         "ColumnName": "S_PHONE",
@@ -377,7 +377,7 @@
         "Status": true
       },
       {
-        "Id": 8434,
+        "Id": 8441,
         "DBlendId": 1432,
         "TableName": null,
         "ColumnName": "S_NATIONKEY",
@@ -385,10 +385,18 @@
         "Status": true
       },
       {
-        "Id": 8435,
+        "Id": 8442,
         "DBlendId": 1432,
         "TableName": null,
         "ColumnName": "S_SUPPKEY_8",
+        "DataType": "string",
+        "Status": true
+      },
+      {
+        "Id": 8443,
+        "DBlendId": 1432,
+        "TableName": null,
+        "ColumnName": "S_SUPPKEY",
         "DataType": "string",
         "Status": true
       }
