@@ -81,7 +81,8 @@
         "iteration": false,
         "SelectedSAPVariable": null,
         "Delimeter": null,
-        "Scenario_SessionId": 0
+        "Scenario_SessionId": 0,
+        "QcDatasetName": "Saikiran 7/31/2025 12:19:58 PM"
       }
     ],
     "QCTableFieldTypes": [
@@ -293,7 +294,10 @@
     "DataBlends": [],
     "DataBlendFieldType": [],
     "ScenarioQCFieldTypes": [],
-    "QFTypes": [],
+    "QuerySap": [],
+    "QCExistingQueryCSVProfiles": [],
+    "QCExistingQueryCSVProfileDatatypes": [],
+    "QCExistingQueryCSV": [],
     "Query": [
       {
         "Id": 5133,
@@ -326,10 +330,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}"
       }
     ],
-    "QuerySap": [],
-    "QCExistingQueryCSVProfiles": [],
-    "QCExistingQueryCSVProfileDatatypes": [],
-    "QCExistingQueryCSV": [],
+    "QFTypes": [],
     "CSVQCusingQuerySource": false,
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
