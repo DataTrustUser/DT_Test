@@ -15,8 +15,8 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-08-11T11:58:35.973",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-11T11:58:53.003",
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-11T11:59:55.72",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
         "IsMigrated": null,
@@ -598,7 +598,7 @@
         "Position": "position: absolute; left: 534.486px; top: 180.076px;",
         "CreatedOn": "2025-08-11T11:58:58.873",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-11T11:59:08.817",
+        "ModifiedOn": "2025-08-11T11:59:55.777",
         "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
@@ -670,17 +670,17 @@
         "Title": "",
         "Description": "Join Datasets",
         "JsonUI": null,
-        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5485\",\"sourceTableOrQuery\":\"Sarada 8/11/2025 6:57:27 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":false,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"included\":true,\"key\":false},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"included\":true,\"key\":false},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"included\":true,\"key\":false},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"included\":true,\"key\":false},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"included\":true,\"key\":false},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"included\":true,\"key\":false},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"100\",\"queryId\":\"5485\",\"sourceTableOrQuery\":\"Sarada 8/11/2025 6:57:27 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Inner Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"string|01\",\"oName\":\"P_NAME\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|01\",\"oName\":\"P_MFGR\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"string|01\",\"oName\":\"P_BRAND\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"string|01\",\"oName\":\"P_TYPE\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"string|01\",\"oName\":\"P_SIZE\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"string|01\",\"oName\":\"P_CONTAINER\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"float|01\",\"oName\":\"P_RETAILPRICE\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"string|01\",\"oName\":\"P_COMMENT\"},{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"dataType\":\"string|11\",\"oName\":\"P_PARTKEY\"}]}",
+        "JsonData": "{\"BlendConnections\":[{\"id\":\"01\",\"dataSourceStepId\":\"1\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"1232\",\"queryId\":\"5485\",\"sourceTableOrQuery\":\"Sarada 8/11/2025 6:57:27 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY\",\"included\":false,\"key\":true},{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"included\":true,\"key\":false},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"included\":true,\"key\":false},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"included\":true,\"key\":false},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"included\":true,\"key\":false},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"included\":true,\"key\":false},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"included\":true,\"key\":false},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"included\":true,\"key\":false},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"included\":true,\"key\":false}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:10px;\"},{\"id\":\"11\",\"dataSourceStepId\":\"3\",\"profileId\":0,\"SAPType\":\"\",\"ProfileTypeId\":\"1232\",\"queryId\":\"5485\",\"sourceTableOrQuery\":\"Sarada 8/11/2025 6:57:27 AM\",\"sourceParallelism\":\"\",\"sourceSplitBy\":\"null\",\"connection\":\"\",\"joinColumns\":[{\"name\":\"P_PARTKEY\",\"alias\":\"P_PARTKEY_2\",\"included\":true,\"key\":true}],\"queryText\":\"\",\"snapshot\":false,\"csv\":false,\"csvId\":\"\",\"stepId\":2,\"restapi\":false,\"widStyle\":\"left:370px;\"}],\"Joins\":[{\"type\":\"Left Outer Join\",\"joinStartId\":\"01\",\"joinEndId\":\"11\",\"joinColumnPairs\":[{\"startColumnName\":\"P_PARTKEY\",\"srcColumn\":\"P_PARTKEY\",\"endColumnName\":\"P_PARTKEY\",\"tgtColumn\":\"P_PARTKEY\"}]}],\"blendFinalColumns\":[{\"name\":\"P_NAME\",\"alias\":\"P_NAME\",\"dataType\":\"string|01\",\"oName\":\"P_NAME\"},{\"name\":\"P_MFGR\",\"alias\":\"P_MFGR\",\"dataType\":\"string|01\",\"oName\":\"P_MFGR\"},{\"name\":\"P_BRAND\",\"alias\":\"P_BRAND\",\"dataType\":\"string|01\",\"oName\":\"P_BRAND\"},{\"name\":\"P_TYPE\",\"alias\":\"P_TYPE\",\"dataType\":\"string|01\",\"oName\":\"P_TYPE\"},{\"name\":\"P_SIZE\",\"alias\":\"P_SIZE\",\"dataType\":\"string|01\",\"oName\":\"P_SIZE\"},{\"name\":\"P_CONTAINER\",\"alias\":\"P_CONTAINER\",\"dataType\":\"string|01\",\"oName\":\"P_CONTAINER\"},{\"name\":\"P_RETAILPRICE\",\"alias\":\"P_RETAILPRICE\",\"dataType\":\"float|01\",\"oName\":\"P_RETAILPRICE\"},{\"name\":\"P_COMMENT\",\"alias\":\"P_COMMENT\",\"dataType\":\"string|01\",\"oName\":\"P_COMMENT\"},{\"name\":\"P_PARTKEY\",\"alias\":\"P_PK\",\"dataType\":\"string|11\",\"oName\":\"P_PARTKEY\"}]}",
         "CreatedOn": "2025-08-11T11:58:58.847",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-08-11T11:59:08.733",
+        "ModifiedOn": "2025-08-11T11:59:55.727",
         "ModifiedBy": "Vinay",
         "Status": true
       }
     ],
     "DataBlendFieldType": [
       {
-        "Id": 8473,
+        "Id": 8482,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_NAME",
@@ -688,7 +688,7 @@
         "Status": true
       },
       {
-        "Id": 8474,
+        "Id": 8483,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_MFGR",
@@ -696,7 +696,7 @@
         "Status": true
       },
       {
-        "Id": 8475,
+        "Id": 8484,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_BRAND",
@@ -704,7 +704,7 @@
         "Status": true
       },
       {
-        "Id": 8476,
+        "Id": 8485,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_TYPE",
@@ -712,7 +712,7 @@
         "Status": true
       },
       {
-        "Id": 8477,
+        "Id": 8486,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_SIZE",
@@ -720,7 +720,7 @@
         "Status": true
       },
       {
-        "Id": 8478,
+        "Id": 8487,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_CONTAINER",
@@ -728,7 +728,7 @@
         "Status": true
       },
       {
-        "Id": 8479,
+        "Id": 8488,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_RETAILPRICE",
@@ -736,7 +736,7 @@
         "Status": true
       },
       {
-        "Id": 8480,
+        "Id": 8489,
         "DBlendId": 1526,
         "TableName": null,
         "ColumnName": "P_COMMENT",
@@ -744,10 +744,10 @@
         "Status": true
       },
       {
-        "Id": 8481,
+        "Id": 8490,
         "DBlendId": 1526,
         "TableName": null,
-        "ColumnName": "P_PARTKEY",
+        "ColumnName": "P_PK",
         "DataType": "string",
         "Status": true
       }
