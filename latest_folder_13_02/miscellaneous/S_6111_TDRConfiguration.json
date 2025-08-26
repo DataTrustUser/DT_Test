@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 7/22/2025 6:10:31 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 270px; top: 89.5px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 306px; top: 290.5px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 538px; top: 189.5px;\",\"mapping\":\"27,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 726px; top: 177.5px;\",\"mapping\":\"20,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 7/22/2025 6:10:31 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 270px; top: 89.5px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MySql\",\"position\":\"position: absolute; left: 306px; top: 290.5px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 538px; top: 189.5px;\",\"mapping\":\"27,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcAddOptionItem_5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 726px; top: 177.5px;\",\"mapping\":\"20,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": "Dhanusha",
+        "ModifiedBy": "Saikiran",
         "MigratedOn": null,
-        "ModifiedOn": "2025-07-22T06:12:32.713",
+        "ModifiedOn": "2025-08-26T08:33:25.803",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -40,7 +40,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{\"sourceTable\":\"tpch1.customer\",\"targetTable\":\"tpch1.customer\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]",
-        "DoCompareOnSource": null,
+        "DoCompareOnSource": false,
         "ThreSholdValue": "0|1",
         "FailedThreshold": null,
         "PassThreshold": null,
@@ -50,7 +50,7 @@
         "IsAutoMap": null,
         "UnSelectedColumnsJson": null,
         "EnableExternalLink": null,
-        "EmailTemplateJSON": "{\"TemplateType\":\"Default\",\"TemplatedId\":\"\",\"IncludeQueryChain\":null,\"IncludeFDR\":null,\"IncludeValidation\":null,\"IncludeTDR\":null,\"IncludeBDV\":null,\"HTML\":null}",
+        "EmailTemplateJSON": "{\"TemplateType\":\"Default\",\"TemplatedId\":\"4\",\"IncludeQueryChain\":null,\"IncludeFDR\":null,\"IncludeValidation\":null,\"IncludeTDR\":null,\"IncludeBDV\":null,\"HTML\":null}",
         "UserAssignedDate": null,
         "TDRPullCheckSum": false,
         "TDRPullRecordConcat": false,
@@ -62,6 +62,9 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
+        "ContentPackageId": null,
+        "fdrResultsTabJson": "{\"MatchingKeys\":\"Exception recs with matchng kys\",\"MissingSourceKeys\":\"msng ky in the src\",\"MissingTargetKeys\":\"msng ky in the tgt\"}",
+        "isFdrJsonModified": false,
         "UserName": "Dhanusha",
         "DataBricksProcessor": ""
       }
@@ -94,7 +97,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32489,
@@ -123,7 +127,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32490,
@@ -152,7 +157,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32493,
@@ -181,7 +187,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32494,
@@ -210,7 +217,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       }
     ],
     "ScenarioTDRDataSource": [
@@ -307,11 +315,11 @@
         "RaiseDefect": false,
         "CreatedOn": "2025-07-22T06:12:27.737",
         "CreatedBy": "118",
-        "ModifiedOn": "2025-07-22T06:12:32.247",
-        "ModifiedBy": "118",
+        "ModifiedOn": "2025-08-26T08:33:25.267",
+        "ModifiedBy": "140",
         "Status": null,
         "DependantStepId": null,
-        "EmailTemplateId": null,
+        "EmailTemplateId": 4,
         "SendExtrenalLink": true,
         "PdfAttachment": true,
         "EmailSubject": null,
