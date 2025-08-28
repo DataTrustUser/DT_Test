@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff-Tool_MSSQL_J_TDR_DataCompare\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 310.613px; top: 113.433px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_NJ\",\"position\":\"position: absolute; left: 306.619px; top: 312.431px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 512.623px; top: 218.437px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Diff-Tool_MSSQL_J_TDR_DataCompare\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 310.613px; top: 113.433px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.0\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL_NJ\",\"position\":\"position: absolute; left: 306.619px; top: 312.431px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsTech_3\",\"UniqueId\":\"31\",\"stepId\":\"3\",\"description\":\"Data Compare\",\"position\":\"position: absolute; left: 512.623px; top: 218.437px;\",\"mapping\":\"31,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-08-28T10:38:19.587",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -40,7 +40,7 @@
         "DataRetentionJson": "{\"sinceDate\":null,\"days\":null,\"runs\":\"2\"}",
         "DropSourceData": true,
         "ReportingCharacteristicsJson": "[{\"sourceTable\":\"TPCH_1.dbo.SUPPLIER\",\"targetTable\":\"TPCH_1M.dbo.SUPPLIER\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"sourceTable\":\"TPCH_1.dbo.PART\",\"targetTable\":\"TPCH_1M.dbo.PART\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":16},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]",
-        "DoCompareOnSource": null,
+        "DoCompareOnSource": false,
         "ThreSholdValue": "0|1",
         "FailedThreshold": null,
         "PassThreshold": null,
@@ -56,13 +56,17 @@
         "TDRPullRecordConcat": false,
         "IsFromAutoGen": null,
         "Comments": null,
-        "TDROverrideDatatype": null,
+        "TDROverrideDatatype": "varchar(max)",
         "TDRDynamicObjSelection": false,
         "TDRDynamicObjJSON": null,
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
-        "UserName": "Swami"
+        "ContentPackageId": null,
+        "fdrResultsTabJson": "{\"MatchingKeys\":\"Exception recs with matchng kys\",\"MissingSourceKeys\":\"msng ky in the src\",\"MissingTargetKeys\":\"msng ky in the tgt\"}",
+        "isFdrJsonModified": false,
+        "UserName": "Swami",
+        "DataBricksProcessor": ""
       }
     ],
     "DCSteps": [
@@ -93,7 +97,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32044,
@@ -122,7 +127,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32045,
@@ -151,7 +157,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       },
       {
         "Id": 32047,
@@ -165,8 +172,8 @@
         "Position": "position: absolute; left: 512.623px; top: 218.437px;",
         "CreatedOn": "2025-07-19T09:05:24.737",
         "CreatedBy": "Swami",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-08-28T10:38:18.193",
+        "ModifiedBy": "Swami",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -180,7 +187,8 @@
         "PreviousMetaStructure": null,
         "LATEST_OUTPUT_VIEW_NAME": null,
         "Overwritesnapshot": null,
-        "JsonValue": null
+        "JsonValue": null,
+        "Comments": null
       }
     ],
     "ScenarioTDRDataSource": [
@@ -225,7 +233,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 8426,
+        "Id": 10427,
         "Scenario_Header_Id": 6053,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -235,15 +243,15 @@
         "TargetTable": "dbo.SUPPLIER",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-19T09:05:24.693",
+        "CreatedOn": "2025-08-28T10:38:17.607",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
         "IsRowCompare": true,
         "IsRowLevelCompare": true,
         "IsSelfCompare": null,
-        "SourceCubeOrDso": "",
-        "TargetCubeOrDso": "",
+        "SourceCubeOrDso": null,
+        "TargetCubeOrDso": null,
         "ObjectCode": null,
         "IncludeKDS": null,
         "SAPTypeSource": null,
@@ -255,7 +263,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 8427,
+        "Id": 10428,
         "Scenario_Header_Id": 6053,
         "StepId": null,
         "SourceDatabase": "TPCH_1",
@@ -265,15 +273,15 @@
         "TargetTable": "dbo.PART",
         "TargetView": "",
         "CreatedBy": "117",
-        "CreatedOn": "2025-07-19T09:05:24.693",
+        "CreatedOn": "2025-08-28T10:38:17.607",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
         "IsRowCompare": true,
         "IsRowLevelCompare": true,
         "IsSelfCompare": null,
-        "SourceCubeOrDso": "",
-        "TargetCubeOrDso": "",
+        "SourceCubeOrDso": null,
+        "TargetCubeOrDso": null,
         "ObjectCode": null,
         "IncludeKDS": null,
         "SAPTypeSource": null,
