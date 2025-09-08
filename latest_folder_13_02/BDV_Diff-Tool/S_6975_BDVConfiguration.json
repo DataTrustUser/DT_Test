@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": null,
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Saikiran",
         "MigratedOn": null,
-        "ModifiedOn": "2025-09-08T10:39:23.697",
+        "ModifiedOn": "2025-09-08T10:47:28.623",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -121,8 +121,8 @@
         "ProfileName": "Oracle TPCH",
         "CreatedOnSC": "2025-09-08T09:09:10.33",
         "CreatedBySC": "Swami",
-        "ModifiedOnSC": "2025-09-08T10:39:23.703",
-        "ModifiedBySC": "Swami"
+        "ModifiedOnSC": "2025-09-08T10:47:28.63",
+        "ModifiedBySC": "Saikiran"
       }
     ],
     "QFTypes": null,
