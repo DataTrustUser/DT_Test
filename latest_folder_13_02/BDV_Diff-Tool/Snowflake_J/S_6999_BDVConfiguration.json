@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
-        "ModifiedOn": "2025-09-09T09:38:40.897",
+        "ModifiedOn": "2025-09-09T09:39:15.217",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -121,7 +121,7 @@
         "ProfileName": "Snowflake_J",
         "CreatedOnSC": "2025-09-09T09:37:56.697",
         "CreatedBySC": "Swami",
-        "ModifiedOnSC": "2025-09-09T09:38:40.907",
+        "ModifiedOnSC": "2025-09-09T09:39:15.227",
         "ModifiedBySC": "Swami"
       }
     ],
