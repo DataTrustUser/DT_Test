@@ -26,8 +26,8 @@
         "JsonUI": null,
         "Priority": null,
         "ModifiedBy": "Afroze",
-        "MigratedOn": "2025-09-10T06:03:26.923",
-        "ModifiedOn": "2025-09-10T06:04:18.3",
+        "MigratedOn": "2025-09-10T06:05:56.107",
+        "ModifiedOn": "2025-09-10T06:06:20.697",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -73,7 +73,7 @@
       {
         "Id": 60269,
         "Scenario_Header_Id": 48541,
-        "Profile_Id": 278,
+        "Profile_Id": 2078,
         "Query_Id": null,
         "DCStep_Id": null,
         "BlendStepId": null,
@@ -118,10 +118,10 @@
         "DSTableName": null,
         "QCDataSource": [],
         "SourceName_Id": 100,
-        "ProfileName": "MSSQL_NJ",
+        "ProfileName": "MSSQL_J",
         "CreatedOnSC": "2025-09-10T05:57:39.577",
         "CreatedBySC": "Afroze",
-        "ModifiedOnSC": "2025-09-10T06:04:18.313",
+        "ModifiedOnSC": "2025-09-10T06:06:20.713",
         "ModifiedBySC": "Afroze"
       }
     ],
