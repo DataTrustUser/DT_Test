@@ -27,14 +27,14 @@
         "Priority": null,
         "ModifiedBy": "Sarada",
         "MigratedOn": "2025-09-11T12:23:35.327",
-        "ModifiedOn": "2025-09-11T12:25:27.91",
+        "ModifiedOn": "2025-09-11T12:28:19.433",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
         "Id": 7088,
         "SendFullData": null,
         "Status": true,
-        "Title": "BDV_MSSQL_Profile Sitch changes",
+        "Title": "BDV_MSSQL_Profile  changes",
         "Type": "Bulk Validation",
         "FId": 2367,
         "DataRetentionJson": null,
@@ -71,7 +71,7 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 5928,
+        "Id": 5930,
         "Scenario_Header_Id": 7088,
         "Profile_Id": 1258,
         "Query_Id": null,
@@ -119,10 +119,10 @@
         "QCDataSource": [],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_NJ",
-        "CreatedOnSC": "2025-09-11T12:19:14.677",
+        "CreatedOnSC": "2025-09-11T12:27:40.337",
         "CreatedBySC": "Sarada",
-        "ModifiedOnSC": "2025-09-11T12:23:35.363",
-        "ModifiedBySC": "Sarada"
+        "ModifiedOnSC": null,
+        "ModifiedBySC": null
       }
     ],
     "QFTypes": null,
