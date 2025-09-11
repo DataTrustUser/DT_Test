@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": null,
         "Priority": null,
-        "ModifiedBy": null,
-        "MigratedOn": null,
-        "ModifiedOn": "2025-09-11T12:19:50.573",
+        "ModifiedBy": "Sarada",
+        "MigratedOn": "2025-09-11T12:23:35.327",
+        "ModifiedOn": "2025-09-11T12:25:27.91",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -73,7 +73,7 @@
       {
         "Id": 5928,
         "Scenario_Header_Id": 7088,
-        "Profile_Id": 1184,
+        "Profile_Id": 1258,
         "Query_Id": null,
         "DCStep_Id": null,
         "BlendStepId": null,
@@ -118,11 +118,11 @@
         "DSTableName": null,
         "QCDataSource": [],
         "SourceName_Id": 100,
-        "ProfileName": "MSSQL_J",
+        "ProfileName": "MSSQL_NJ",
         "CreatedOnSC": "2025-09-11T12:19:14.677",
         "CreatedBySC": "Sarada",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2025-09-11T12:23:35.363",
+        "ModifiedBySC": "Sarada"
       }
     ],
     "QFTypes": null,
