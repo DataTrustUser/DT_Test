@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-09-17T11:38:59.437",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-09-17T11:49:37.947",
+        "ModifiedOn": "2025-09-17T11:51:32.577",
         "ModifiedBy": "Vinay",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Vinay 9/17/2025 11:38:48 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 9/17/2025 11:38:48 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 257.354px; top: 203.635px; \",\"mapping\":\"61,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 419.667px; top: 203.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Vinay 9/17/2025 11:38:48 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"61\",\"stepId\":\"1\",\"description\":\"Read data from custom SQL query of the connection profile \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 257.354px; top: 203.635px;  \",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"61,1-[0,0]\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 419.667px; top: 203.635px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":\"1\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Vinay",
         "FId": 1,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 3905,
+        "Id": 3907,
         "Query_Id": 4206,
         "Profile_Id": 1184,
-        "DCStep_Id": 22667,
+        "DCStep_Id": 22673,
         "BlendStepId": null,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -47,9 +47,9 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2025-09-17T11:39:27.17",
+        "CreatedOn": "2025-09-17T11:50:42.763",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-09-17T11:49:33.733",
+        "ModifiedOn": "2025-09-17T11:51:32.57",
         "ModifiedBy": "Vinay",
         "Status": false,
         "SAPType": "SQL",
@@ -64,7 +64,7 @@
         "SF_Client_Secrect": null,
         "SF_Username": null,
         "SF_Password": null,
-        "SQL_Text": " SELECT * FROM \"TPCH_1\".\"dbo\".\"NATION\"",
+        "SQL_Text": " SELECT * FROM \"TPCH_1\".\"dbo\".\"NATION\" WHERE N_NATIONKEY > 11",
         "TableVizName": null,
         "ExtraColumn": null,
         "DefaultfParallelism": 1.0,
@@ -87,8 +87,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 14886,
-        "QueryDataSourceId": 3905,
+        "Id": 14901,
+        "QueryDataSourceId": 3907,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": null,
@@ -106,8 +106,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 14887,
-        "QueryDataSourceId": 3905,
+        "Id": 14902,
+        "QueryDataSourceId": 3907,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": null,
@@ -125,8 +125,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 14888,
-        "QueryDataSourceId": 3905,
+        "Id": 14903,
+        "QueryDataSourceId": 3907,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": null,
@@ -144,8 +144,8 @@
         "Scenario_SessionId": 0
       },
       {
-        "Id": 14889,
-        "QueryDataSourceId": 3905,
+        "Id": 14904,
+        "QueryDataSourceId": 3907,
         "DBlendId": null,
         "ProfileId": 1184,
         "TableName": null,
@@ -166,7 +166,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 22666,
+        "Id": 22672,
         "ScenarioId": null,
         "QueryId": 4206,
         "Job_Id": null,
@@ -175,7 +175,7 @@
         "TransformationId": 0,
         "Description": "Vinay 9/17/2025 11:38:48 AM",
         "Position": null,
-        "CreatedOn": "2025-09-17T11:38:59.61",
+        "CreatedOn": "2025-09-17T11:50:42.78",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -201,7 +201,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 22667,
+        "Id": 22673,
         "ScenarioId": null,
         "QueryId": 4206,
         "Job_Id": null,
@@ -210,7 +210,7 @@
         "TransformationId": 61,
         "Description": "Read data from customer SQL query of the connection profile  \"MSSQL_J\"",
         "Position": "position: absolute; left: 257.354px; top: 203.635px;",
-        "CreatedOn": "2025-09-17T11:39:27.113",
+        "CreatedOn": "2025-09-17T11:50:42.797",
         "CreatedBy": "Vinay",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -236,7 +236,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 22668,
+        "Id": 22674,
         "ScenarioId": null,
         "QueryId": 4206,
         "Job_Id": null,
@@ -245,10 +245,10 @@
         "TransformationId": 79,
         "Description": "Vinay#@9/17/2025 11:39:34 AM",
         "Position": null,
-        "CreatedOn": "2025-09-17T11:39:36.34",
+        "CreatedOn": "2025-09-17T11:50:42.823",
         "CreatedBy": "Vinay",
-        "ModifiedOn": "2025-09-17T11:49:37.943",
-        "ModifiedBy": "Vinay",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -263,7 +263,7 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_4206_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null,
-        "AppendToExistingData": false,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -284,7 +284,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 19399,
+        "Id": 19401,
         "ScenarioId": null,
         "QueryId": 4206,
         "StepId": 1,
