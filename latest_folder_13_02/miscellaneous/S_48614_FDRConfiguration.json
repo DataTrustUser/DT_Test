@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": false,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 9/18/2025 6:28:35 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 263.667px; top: 100.635px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 263.667px; top: 293.635px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 490.667px; top: 137.635px;\",\"mapping\":\"15,3-[2,1-2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsJira_dropped_4\",\"UniqueId\":\"64\",\"stepId\":\"4\",\"description\":\"Jira\",\"position\":\"position: absolute; left: 741.667px; top: 105.635px;\",\"mapping\":\"64,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Afroze 9/18/2025 6:28:35 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 263.667px; top: 100.635px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.NATION\\\" for data source \\\"MSSQL_J\\\"\",\"position\":\"position: absolute; left: 263.667px; top: 293.635px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_3\",\"UniqueId\":\"15\",\"stepId\":\"3\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 490.667px; top: 137.635px;\",\"mapping\":\"15,3-[2,1-2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsJira_dropped_4\",\"UniqueId\":\"64\",\"stepId\":\"4\",\"description\":\"Jira\",\"position\":\"position: absolute; left: 742.667px; top: 105.635px;\",\"mapping\":\"64,4-[15,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Afroze",
         "MigratedOn": null,
-        "ModifiedOn": null,
+        "ModifiedOn": "2025-09-18T06:30:47.277",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -340,11 +340,11 @@
         "StepMapping": "64,4-[15,3]",
         "TransformationId": 64,
         "Description": "Jira",
-        "Position": "position: absolute; left: 741.667px; top: 105.635px;",
+        "Position": "position: absolute; left: 742.667px; top: 105.635px;",
         "CreatedOn": "2025-09-18T06:30:24.043",
         "CreatedBy": "Afroze",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-09-18T06:30:46.69",
+        "ModifiedBy": "Afroze",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -695,7 +695,7 @@
     ],
     "ThirdPartyAPIParams": [
       {
-        "Id": 32496,
+        "Id": 32508,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Instance Name\",\"type\":\"\"}",
@@ -707,7 +707,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32497,
+        "Id": 32509,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Project\",\"type\":\"\"}",
@@ -719,7 +719,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32498,
+        "Id": 32510,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"issuetype\",\"type\":\"\"}",
@@ -731,11 +731,11 @@
         "ProjectName": null
       },
       {
-        "Id": 32499,
+        "Id": 32511,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"reporter\",\"type\":\"\"}",
-        "ParamterValue": "a",
+        "ParamterValue": "aa",
         "ScenarioId": 48614,
         "DependantStepId": 4,
         "SessionId": null,
@@ -743,11 +743,11 @@
         "ProjectName": null
       },
       {
-        "Id": 32500,
+        "Id": 32512,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"summary\",\"type\":\"\"}",
-        "ParamterValue": "a",
+        "ParamterValue": "aa",
         "ScenarioId": 48614,
         "DependantStepId": 4,
         "SessionId": null,
@@ -755,7 +755,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32501,
+        "Id": 32513,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"EnableScenarioExceptionsLink\",\"type\":\"\"}",
@@ -767,7 +767,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32502,
+        "Id": 32514,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"separateBugs\",\"type\":\"\"}",
@@ -779,7 +779,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32503,
+        "Id": 32515,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"sourcerecord\",\"type\":\"\"}",
@@ -791,7 +791,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32504,
+        "Id": 32516,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"targetrecord\",\"type\":\"\"}",
@@ -803,7 +803,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32505,
+        "Id": 32517,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"bothrecord\",\"type\":\"\"}",
@@ -815,7 +815,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32506,
+        "Id": 32518,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Isattached\",\"type\":\"\"}",
@@ -827,7 +827,7 @@
         "ProjectName": null
       },
       {
-        "Id": 32507,
+        "Id": 32519,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Attchrecodrs\",\"type\":\"\"}",
