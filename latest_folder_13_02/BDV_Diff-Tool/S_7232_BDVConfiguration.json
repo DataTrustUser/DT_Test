@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": null,
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Vinay",
         "MigratedOn": null,
-        "ModifiedOn": "2025-09-24T02:39:38.62",
+        "ModifiedOn": "2025-09-24T02:44:09.363",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -86,7 +86,7 @@
         "StatusSc": null,
         "SAPType": null,
         "DataSourceType": null,
-        "REST_Api_JSON_UI": "[{\"id\":\"1\",\"isQueries\":true,\"tableOrQuery\":\"5031\",\"databaseName\":null,\"queryName\":\"PostgreSQL_Supplier Query\",\"columnRules\":{\"numericTypeCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.1.4\",\"column\":\"s_suppkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.4.4\",\"column\":\"s_nationkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.6.4\",\"column\":\"s_acctbal\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"nullCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.3.1\",\"column\":\"s_address\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.5.1\",\"column\":\"s_phone\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.7.1\",\"column\":\"s_comment\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"duplicateCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.4.2\",\"column\":\"s_nationkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.6.2\",\"column\":\"s_acctbal\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"conditionCheck\":{\"columns\":[{\"id\":\"1.4.5\",\"column\":\"s_nationkey\",\"dataType\":\"int4\",\"value\":\"s_nationkey < 21\",\"mlrecommended\":false,\"fieldFilter\":\"COLUMN~s_nationkey|OPERATOR~Equals to|INPUT~21|\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"zeroValueCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.6.3\",\"column\":\"s_acctbal\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"regexCheck\":{\"columns\":[{\"id\":\"1.7.10\",\"column\":\"s_comment\",\"dataType\":\"varchar\",\"value\":\"LIKE 'V%'\",\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]}},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"COUNT(*) = 5000\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"3\",\"isQueries\":true,\"tableOrQuery\":\"4787\",\"databaseName\":null,\"queryName\":\"Postgres_900_chars\",\"columnRules\":{\"nullCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"3.2.1\",\"column\":\"ID\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"duplicateCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"3.2.2\",\"column\":\"ID\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"numericTypeCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"3.2.4\",\"column\":\"ID\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"listValueCheck\":{\"columns\":[{\"id\":\"3.2.11\",\"column\":\"ID\",\"dataType\":\"int4\",\"value\":[\"1\",\"2\"],\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]}},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":null,\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[]},{\"id\":\"4\",\"isQueries\":true,\"tableOrQuery\":\"4159\",\"databaseName\":null,\"queryName\":\"PostgreSQL_Part_Query\",\"columnRules\":{\"duplicateCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.1.2\",\"column\":\"p_partkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"4.2.2\",\"column\":\"p_name\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"4.6.2\",\"column\":\"p_size\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"4.8.2\",\"column\":\"p_retailprice\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"numericTypeCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.1.4\",\"column\":\"p_partkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"minValueCheck\":{\"columns\":[{\"id\":\"4.1.12\",\"column\":\"p_partkey\",\"dataType\":\"int4\",\"value\":\"1\",\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"maxValueCheck\":{\"columns\":[{\"id\":\"4.6.13\",\"column\":\"p_size\",\"dataType\":\"int4\",\"value\":\"100\",\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"nullCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.8.1\",\"column\":\"p_retailprice\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"zeroValueCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.8.3\",\"column\":\"p_retailprice\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]}},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":null,\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[]}]",
+        "REST_Api_JSON_UI": "[{\"id\":\"1\",\"isQueries\":true,\"tableOrQuery\":\"5031\",\"databaseName\":null,\"queryName\":\"PostgreSQL_Supplier Query\",\"columnRules\":{\"numericTypeCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.1.4\",\"column\":\"s_suppkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.4.4\",\"column\":\"s_nationkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.6.4\",\"column\":\"s_acctbal\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"nullCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.3.1\",\"column\":\"s_address\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.5.1\",\"column\":\"s_phone\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.7.1\",\"column\":\"s_comment\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"duplicateCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.4.2\",\"column\":\"s_nationkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"1.6.2\",\"column\":\"s_acctbal\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"conditionCheck\":{\"columns\":[{\"id\":\"1.4.5\",\"column\":\"s_nationkey\",\"dataType\":\"int4\",\"value\":\"s_nationkey < 21\",\"mlrecommended\":false,\"fieldFilter\":\"COLUMN~s_nationkey|OPERATOR~Equals to|INPUT~21|\",\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"zeroValueCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"1.6.3\",\"column\":\"s_acctbal\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"regexCheck\":{\"columns\":[{\"id\":\"1.7.10\",\"column\":\"s_comment\",\"dataType\":\"varchar\",\"value\":\"LIKE 'V%'\",\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]}},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"COUNT(*) = 5000\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"4\",\"isQueries\":true,\"tableOrQuery\":\"4159\",\"databaseName\":null,\"queryName\":\"PostgreSQL_Part_Query\",\"columnRules\":{\"duplicateCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.1.2\",\"column\":\"p_partkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"4.2.2\",\"column\":\"p_name\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"4.6.2\",\"column\":\"p_size\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]},{\"id\":\"4.8.2\",\"column\":\"p_retailprice\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"numericTypeCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.1.4\",\"column\":\"p_partkey\",\"dataType\":\"int4\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"minValueCheck\":{\"columns\":[{\"id\":\"4.1.12\",\"column\":\"p_partkey\",\"dataType\":\"int4\",\"value\":\"1\",\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"maxValueCheck\":{\"columns\":[{\"id\":\"4.6.13\",\"column\":\"p_size\",\"dataType\":\"int4\",\"value\":\"100\",\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":91},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"nullCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.8.1\",\"column\":\"p_retailprice\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]},\"zeroValueCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"4.8.3\",\"column\":\"p_retailprice\",\"dataType\":\"numeric\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]}]}},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":null,\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[]}]",
         "BucketName": null,
         "AccessKey": null,
         "SecretKey": null,
@@ -121,7 +121,7 @@
         "ProfileName": "PostgreSQL",
         "CreatedOnSC": "2025-09-23T23:32:38.757",
         "CreatedBySC": "Vinay",
-        "ModifiedOnSC": "2025-09-24T02:39:38.63",
+        "ModifiedOnSC": "2025-09-24T02:44:09.377",
         "ModifiedBySC": "Vinay"
       }
     ],
@@ -141,8 +141,8 @@
         "Position": null,
         "CreatedOn": "2025-09-24T02:39:24.623",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-09-24T02:43:49.647",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -202,7 +202,7 @@
     "DCDependency": [],
     "ThirdPartyAPIParams": [
       {
-        "Id": 12544,
+        "Id": 12552,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Instance Name",
@@ -214,11 +214,11 @@
         "ProjectName": null
       },
       {
-        "Id": 12545,
+        "Id": 12553,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Caller",
-        "ParamterValue": "Melinda Carleton",
+        "ParamterValue": "Jewel Agresta",
         "ScenarioId": 7232,
         "DependantStepId": 0,
         "SessionId": null,
@@ -226,11 +226,11 @@
         "ProjectName": null
       },
       {
-        "Id": 12546,
+        "Id": 12554,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Category",
-        "ParamterValue": "network",
+        "ParamterValue": "database",
         "ScenarioId": 7232,
         "DependantStepId": 0,
         "SessionId": null,
@@ -238,22 +238,10 @@
         "ProjectName": null
       },
       {
-        "Id": 12547,
+        "Id": 12555,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Impact",
-        "ParamterValue": "3",
-        "ScenarioId": 7232,
-        "DependantStepId": 0,
-        "SessionId": null,
-        "RuleId": null,
-        "ProjectName": null
-      },
-      {
-        "Id": 12548,
-        "APIInte_ID": 109,
-        "APIParamLookupTypeId": 2,
-        "ParamName": "Urgency",
         "ParamterValue": "2",
         "ScenarioId": 7232,
         "DependantStepId": 0,
@@ -262,7 +250,19 @@
         "ProjectName": null
       },
       {
-        "Id": 12549,
+        "Id": 12556,
+        "APIInte_ID": 109,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "Urgency",
+        "ParamterValue": "1",
+        "ScenarioId": 7232,
+        "DependantStepId": 0,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 12557,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assignment group",
@@ -274,7 +274,7 @@
         "ProjectName": null
       },
       {
-        "Id": 12550,
+        "Id": 12558,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Assigned to",
@@ -286,11 +286,11 @@
         "ProjectName": null
       },
       {
-        "Id": 12551,
+        "Id": 12559,
         "APIInte_ID": 109,
         "APIParamLookupTypeId": 2,
         "ParamName": "Short description",
-        "ParamterValue": "BDV",
+        "ParamterValue": "BDV-Test",
         "ScenarioId": 7232,
         "DependantStepId": 0,
         "SessionId": null,
@@ -308,10 +308,10 @@
         "EmailWhen_F": "vinay.pulugujja@getrightdata.com",
         "WhenSuccess": true,
         "EmailWhen_S": "vinay.pulugujja@getrightdata.com",
-        "EmailWhen_E": "vinay.pulugujja@getrightdata.com",
+        "EmailWhen_E": null,
         "FailRDjobWhenRecon_F": null,
         "DelayedTargetCompare": null,
-        "AttachResultsInEmail": true,
+        "AttachResultsInEmail": false,
         "ExportType": null,
         "RaiseDefect": null,
         "CreatedOn": "2025-09-24T02:38:55.773",
@@ -323,10 +323,10 @@
         "EmailTemplateId": null,
         "SendExtrenalLink": null,
         "PdfAttachment": null,
-        "EmailSubject": null,
-        "EmailPriority": "Normal",
-        "EnableHyperlinks": true,
-        "EmailFromName": null,
+        "EmailSubject": "24",
+        "EmailPriority": "Low",
+        "EnableHyperlinks": false,
+        "EmailFromName": "BDV",
         "AttachCustomValidationReport": null,
         "AttachCSV": null,
         "AttachResultSummary": null
