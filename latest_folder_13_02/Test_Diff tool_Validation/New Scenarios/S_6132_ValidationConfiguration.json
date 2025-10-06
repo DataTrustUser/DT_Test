@@ -62,6 +62,9 @@
         "IterationJson": null,
         "ClientDetailsId": null,
         "DataObservabilityJson": null,
+        "ContentPackageId": null,
+        "fdrResultsTabJson": "{\"MatchingKeys\":\"Exception recs with matchng kys\",\"MissingSourceKeys\":\"msng ky in the src\",\"MissingTargetKeys\":\"msng ky in the tgt\"}",
+        "isFdrJsonModified": false,
         "UserName": "Swami",
         "DataBricksProcessor": ""
       }
