@@ -4,7 +4,7 @@
       {
         "Id": 1800,
         "Profile_Id": 100,
-        "Query_Name": "dhanusha 11/14/2025 6:33:58 AM",
+        "Query_Name": "QC",
         "Query_Type": null,
         "Query_Text": null,
         "Query_Modified_Text": null,
@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2025-11-14T06:34:09.947",
         "CreatedBy": "dhanusha",
-        "ModifiedOn": "2025-11-14T06:38:01.57",
+        "ModifiedOn": "2025-11-14T06:39:45.903",
         "ModifiedBy": null,
         "Status": true,
         "IsHeavyWeightEngine": null,
