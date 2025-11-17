@@ -25,9 +25,9 @@
         "JsonIMDB": null,
         "JsonUI": null,
         "Priority": null,
-        "ModifiedBy": null,
+        "ModifiedBy": "Vinay",
         "MigratedOn": null,
-        "ModifiedOn": "2025-11-17T11:32:01.167",
+        "ModifiedOn": "2025-11-17T11:35:42.377",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -141,8 +141,8 @@
         "Position": null,
         "CreatedOn": "2025-11-17T11:13:54.34",
         "CreatedBy": "Vinay",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
+        "ModifiedOn": "2025-11-17T11:35:31.05",
+        "ModifiedBy": "Vinay",
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -202,7 +202,7 @@
     "DCDependency": [],
     "ThirdPartyAPIParams": [
       {
-        "Id": 13441,
+        "Id": 13457,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Instance Name\",\"type\":\"\"}",
@@ -214,7 +214,7 @@
         "ProjectName": null
       },
       {
-        "Id": 13442,
+        "Id": 13458,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Project\",\"type\":\"\"}",
@@ -226,22 +226,10 @@
         "ProjectName": null
       },
       {
-        "Id": 13443,
+        "Id": 13459,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"customfield_10164\",\"type\":\"com.atlassian.jira.plugin.system.customfieldtypes:textfield\"}",
-        "ParamterValue": "2024.07",
-        "ScenarioId": 7466,
-        "DependantStepId": 0,
-        "SessionId": null,
-        "RuleId": null,
-        "ProjectName": null
-      },
-      {
-        "Id": 13444,
-        "APIInte_ID": 102,
-        "APIParamLookupTypeId": 2,
-        "ParamName": "{\"name\":\"customfield_10165\",\"type\":\"com.atlassian.jira.plugin.system.customfieldtypes:textfield\"}",
         "ParamterValue": "2024.06",
         "ScenarioId": 7466,
         "DependantStepId": 0,
@@ -250,7 +238,19 @@
         "ProjectName": null
       },
       {
-        "Id": 13445,
+        "Id": 13460,
+        "APIInte_ID": 102,
+        "APIParamLookupTypeId": 2,
+        "ParamName": "{\"name\":\"customfield_10165\",\"type\":\"com.atlassian.jira.plugin.system.customfieldtypes:textfield\"}",
+        "ParamterValue": "7.5",
+        "ScenarioId": 7466,
+        "DependantStepId": 0,
+        "SessionId": null,
+        "RuleId": null,
+        "ProjectName": null
+      },
+      {
+        "Id": 13461,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"customfield_10166\",\"type\":\"com.atlassian.jira.plugin.system.customfieldtypes:textfield\"}",
@@ -262,7 +262,7 @@
         "ProjectName": null
       },
       {
-        "Id": 13446,
+        "Id": 13462,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"issuetype\",\"type\":\"\"}",
@@ -274,11 +274,11 @@
         "ProjectName": null
       },
       {
-        "Id": 13447,
+        "Id": 13463,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"reporter\",\"type\":\"\"}",
-        "ParamterValue": "vinay.pulugujja@getrightdata.com",
+        "ParamterValue": "vikas.narayan@getrightdata.com",
         "ScenarioId": 7466,
         "DependantStepId": 0,
         "SessionId": null,
@@ -286,11 +286,11 @@
         "ProjectName": null
       },
       {
-        "Id": 13448,
+        "Id": 13464,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"summary\",\"type\":\"\"}",
-        "ParamterValue": "BDV",
+        "ParamterValue": "BDV scenario",
         "ScenarioId": 7466,
         "DependantStepId": 0,
         "SessionId": null,
@@ -298,11 +298,11 @@
         "ProjectName": null
       },
       {
-        "Id": 13449,
+        "Id": 13465,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"test\",\"type\":\"\"}",
-        "ParamterValue": "TCT-532||zvgb",
+        "ParamterValue": "TCT-535||sdfgf",
         "ScenarioId": 7466,
         "DependantStepId": 0,
         "SessionId": null,
@@ -310,11 +310,11 @@
         "ProjectName": null
       },
       {
-        "Id": 13450,
+        "Id": 13466,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"linkType\",\"type\":\"\"}",
-        "ParamterValue": "10006||Problem/Incident",
+        "ParamterValue": "10002||Duplicate",
         "ScenarioId": 7466,
         "DependantStepId": 0,
         "SessionId": null,
@@ -322,11 +322,11 @@
         "ProjectName": null
       },
       {
-        "Id": 13451,
+        "Id": 13467,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"EnableScenarioExceptionsLink\",\"type\":\"\"}",
-        "ParamterValue": "true",
+        "ParamterValue": "false",
         "ScenarioId": 7466,
         "DependantStepId": 0,
         "SessionId": null,
@@ -334,7 +334,7 @@
         "ProjectName": null
       },
       {
-        "Id": 13452,
+        "Id": 13468,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"sourcerecord\",\"type\":\"\"}",
@@ -346,7 +346,7 @@
         "ProjectName": null
       },
       {
-        "Id": 13453,
+        "Id": 13469,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"targetrecord\",\"type\":\"\"}",
@@ -358,7 +358,7 @@
         "ProjectName": null
       },
       {
-        "Id": 13454,
+        "Id": 13470,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"bothrecord\",\"type\":\"\"}",
@@ -370,11 +370,11 @@
         "ProjectName": null
       },
       {
-        "Id": 13455,
+        "Id": 13471,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Isattached\",\"type\":\"\"}",
-        "ParamterValue": "true",
+        "ParamterValue": "false",
         "ScenarioId": 7466,
         "DependantStepId": 0,
         "SessionId": null,
@@ -382,7 +382,7 @@
         "ProjectName": null
       },
       {
-        "Id": 13456,
+        "Id": 13472,
         "APIInte_ID": 102,
         "APIParamLookupTypeId": 2,
         "ParamName": "{\"name\":\"Attchrecodrs\",\"type\":\"\"}",
@@ -402,12 +402,12 @@
         "Job_Id": null,
         "WhenFaild": true,
         "EmailWhen_F": "vinay.pulugujja@getrightdata.com",
-        "WhenSuccess": true,
-        "EmailWhen_S": "vinay.pulugujja@getrightdata.com",
-        "EmailWhen_E": null,
+        "WhenSuccess": false,
+        "EmailWhen_S": null,
+        "EmailWhen_E": "vinay.pulugujja@getrightdata.com",
         "FailRDjobWhenRecon_F": null,
         "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
+        "AttachResultsInEmail": true,
         "ExportType": null,
         "RaiseDefect": null,
         "CreatedOn": "2025-11-17T10:35:18.663",
@@ -419,10 +419,10 @@
         "EmailTemplateId": null,
         "SendExtrenalLink": null,
         "PdfAttachment": null,
-        "EmailSubject": "$$RD_CURRENT_DAY$$",
-        "EmailPriority": "High",
-        "EnableHyperlinks": false,
-        "EmailFromName": "BDV Scenario",
+        "EmailSubject": "$$RD_CURRENT_MONTH$$",
+        "EmailPriority": "Low",
+        "EnableHyperlinks": true,
+        "EmailFromName": "BDV",
         "AttachCustomValidationReport": null,
         "AttachCSV": null,
         "AttachResultSummary": null
