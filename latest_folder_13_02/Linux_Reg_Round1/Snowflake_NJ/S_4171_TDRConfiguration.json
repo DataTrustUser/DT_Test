@@ -172,7 +172,7 @@
         "Position": "position: absolute; left: 475.889px; top: 190.083px;",
         "CreatedOn": "2025-11-13T10:57:18.837",
         "CreatedBy": "sarada",
-        "ModifiedOn": "2025-11-17T09:30:06.773",
+        "ModifiedOn": "2025-11-17T10:55:59.337",
         "ModifiedBy": "sarada",
         "Status": true,
         "ErrorCodes": null,
@@ -207,7 +207,7 @@
         "DefaultfParallelism": 1.0,
         "DefaultPacketSize": 50000.0,
         "ExcludedColumns": "C_COMMENT",
-        "TableCriteria": "{\"ColumnFilter\":\"\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
+        "TableCriteria": "{\"ColumnFilter\":\"C_NATIONKEY > 12\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
         "OrderByValue": null,
         "Delimeter": null
       },
@@ -226,14 +226,14 @@
         "DefaultfParallelism": 1.0,
         "DefaultPacketSize": 50000.0,
         "ExcludedColumns": "C_NATIONKEY",
-        "TableCriteria": "{\"ColumnFilter\":\"\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
+        "TableCriteria": "{\"ColumnFilter\":\"C_NATIONKEY > 12\",\"ConvertFrom\":\"Date\",\"ConvertTo\":\"\"}",
         "OrderByValue": null,
         "Delimeter": null
       }
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 13052,
+        "Id": 13059,
         "Scenario_Header_Id": 4171,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -243,7 +243,7 @@
         "TargetTable": "PUBLIC.CUSTOMER",
         "TargetView": "",
         "CreatedBy": "3c471f5e-1663-4432-860e-96267fe75bb0",
-        "CreatedOn": "2025-11-17T09:30:06.737",
+        "CreatedOn": "2025-11-17T10:55:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -263,7 +263,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 13053,
+        "Id": 13060,
         "Scenario_Header_Id": 4171,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -273,7 +273,7 @@
         "TargetTable": "PUBLIC.NATION",
         "TargetView": "",
         "CreatedBy": "3c471f5e-1663-4432-860e-96267fe75bb0",
-        "CreatedOn": "2025-11-17T09:30:06.737",
+        "CreatedOn": "2025-11-17T10:55:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -293,7 +293,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 13054,
+        "Id": 13061,
         "Scenario_Header_Id": 4171,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -303,7 +303,7 @@
         "TargetTable": "PUBLIC.ORDERS",
         "TargetView": "",
         "CreatedBy": "3c471f5e-1663-4432-860e-96267fe75bb0",
-        "CreatedOn": "2025-11-17T09:30:06.737",
+        "CreatedOn": "2025-11-17T10:55:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -323,7 +323,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 13055,
+        "Id": 13062,
         "Scenario_Header_Id": 4171,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -333,7 +333,7 @@
         "TargetTable": "PUBLIC.PART",
         "TargetView": "",
         "CreatedBy": "3c471f5e-1663-4432-860e-96267fe75bb0",
-        "CreatedOn": "2025-11-17T09:30:06.737",
+        "CreatedOn": "2025-11-17T10:55:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -353,7 +353,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 13056,
+        "Id": 13063,
         "Scenario_Header_Id": 4171,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -363,7 +363,7 @@
         "TargetTable": "PUBLIC.PARTSUPP",
         "TargetView": "",
         "CreatedBy": "3c471f5e-1663-4432-860e-96267fe75bb0",
-        "CreatedOn": "2025-11-17T09:30:06.737",
+        "CreatedOn": "2025-11-17T10:55:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -383,7 +383,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 13057,
+        "Id": 13064,
         "Scenario_Header_Id": 4171,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -393,7 +393,7 @@
         "TargetTable": "PUBLIC.REGION",
         "TargetView": "",
         "CreatedBy": "3c471f5e-1663-4432-860e-96267fe75bb0",
-        "CreatedOn": "2025-11-17T09:30:06.737",
+        "CreatedOn": "2025-11-17T10:55:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
@@ -413,7 +413,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 13058,
+        "Id": 13065,
         "Scenario_Header_Id": 4171,
         "StepId": null,
         "SourceDatabase": "TPCH1",
@@ -423,7 +423,7 @@
         "TargetTable": "PUBLIC.SUPPLIER",
         "TargetView": "",
         "CreatedBy": "3c471f5e-1663-4432-860e-96267fe75bb0",
-        "CreatedOn": "2025-11-17T09:30:06.737",
+        "CreatedOn": "2025-11-17T10:55:59.307",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "Status": null,
