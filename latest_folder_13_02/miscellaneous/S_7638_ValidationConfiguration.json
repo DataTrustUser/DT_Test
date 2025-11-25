@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": "Swami",
         "MigratedOn": null,
-        "ModifiedOn": "2025-11-25T06:39:52.92",
+        "ModifiedOn": "2025-11-25T06:47:15.16",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -481,7 +481,7 @@
         "ReportingCharacteristicsJson": "[{\"reportingCharacteristicsId\":1,\"value\":1},{\"reportingCharacteristicsId\":2,\"value\":9},{\"reportingCharacteristicsId\":3,\"value\":20},{\"reportingCharacteristicsId\":5,\"value\":99},{\"reportingCharacteristicsId\":6,\"value\":101},{\"reportingCharacteristicsId\":7,\"value\":104},{\"reportingCharacteristicsId\":8,\"value\":107}]",
         "InfoThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
         "WarningThreshold": "{\"thresholdValue\":null,\"thresholdPercentage\":null}",
-        "PassThreshold": "{\"thresholdValue\":\"10\",\"thresholdPercentage\":null}"
+        "PassThreshold": "{\"thresholdValue\":\"100\",\"thresholdPercentage\":null}"
       }
     ],
     "ScenarioValidationReference": [],
