@@ -23,7 +23,7 @@
         "IsfromValidation": false,
         "Iswait": false,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 12/22/2025 12:53:04 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"mapping\":\"\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 334px; top: 39px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 373px; top: 203px;\",\"mapping\":\"2,2-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dcSimpleFilters_dropped_4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_CUSTKEY > 10 \",\"position\":\"position: absolute; left: 653px; top: 56px;\",\"mapping\":\"66,4-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\",\"commented\":\"false\"},{\"widgetId\":\"dsRecon_dropped_5\",\"UniqueId\":\"15\",\"stepId\":\"5\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 908px; top: 147px;\",\"mapping\":\"15,5-[66,4-2,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 12/22/2025 12:53:04 PM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_JDBC_1765468344223\\\"\",\"position\":\"position: absolute; left: 334px; top: 39px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,1-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dsRelTable_dropped_2\",\"UniqueId\":\"2\",\"stepId\":\"2\",\"description\":\"Read data from \\\"TPCH_1.dbo.CUSTOMER\\\" for data source \\\"MSSQL_JDBC_1765468344223\\\"\",\"position\":\"position: absolute; left: 373px; top: 203px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,2-[0,0]\",\"dsstep\":null},{\"widgetId\":\"dcSimpleFilters_dropped_4\",\"UniqueId\":\"66\",\"stepId\":\"4\",\"description\":\"C_CUSTKEY > 10 \",\"position\":\"position: absolute; left: 653px; top: 56px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"66,4-[2,1]\",\"dsstep\":\"1\"},{\"widgetId\":\"dsRecon_5\",\"UniqueId\":\"15\",\"stepId\":\"5\",\"description\":\"Map source & target fields\",\"position\":\"position: absolute; left: 909px; top: 147px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"15,5-[66,4-2,2]\",\"commented\":\"false\"}]",
         "Priority": null,
         "ModifiedBy": "Dhanusha",
         "MigratedOn": null,
@@ -71,11 +71,11 @@
     ],
     "ScenarioDataSource": [
       {
-        "Id": 240,
+        "Id": 242,
         "Scenario_Header_Id": 219,
         "Profile_Id": 1253,
         "Query_Id": null,
-        "DCStep_Id": 2983,
+        "DCStep_Id": 2992,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.CUSTOMER",
@@ -83,7 +83,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -119,17 +119,17 @@
         "QCDataSource": [],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_JDBC_1765468344223",
-        "CreatedOnSC": "2025-12-22T12:54:25.383",
+        "CreatedOnSC": "2025-12-22T14:18:27.68",
         "CreatedBySC": "Dhanusha",
         "ModifiedOnSC": null,
         "ModifiedBySC": null
       },
       {
-        "Id": 241,
+        "Id": 243,
         "Scenario_Header_Id": 219,
         "Profile_Id": 1253,
         "Query_Id": null,
-        "DCStep_Id": 2984,
+        "DCStep_Id": 2993,
         "BlendStepId": null,
         "ResultTableName": null,
         "TableOrViewName": "TPCH_1.dbo.CUSTOMER",
@@ -137,7 +137,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "StatusSc": false,
+        "StatusSc": null,
         "SAPType": null,
         "DataSourceType": "DS",
         "REST_Api_JSON_UI": null,
@@ -173,7 +173,7 @@
         "QCDataSource": [],
         "SourceName_Id": 100,
         "ProfileName": "MSSQL_JDBC_1765468344223",
-        "CreatedOnSC": "2025-12-22T12:54:54.607",
+        "CreatedOnSC": "2025-12-22T14:18:27.797",
         "CreatedBySC": "Dhanusha",
         "ModifiedOnSC": null,
         "ModifiedBySC": null
@@ -184,7 +184,7 @@
     "Query": null,
     "DCSteps": [
       {
-        "Id": 2982,
+        "Id": 2991,
         "ScenarioId": 219,
         "QueryId": null,
         "Job_Id": null,
@@ -193,7 +193,7 @@
         "TransformationId": 0,
         "Description": "Dhanusha 12/22/2025 12:53:04 PM",
         "Position": null,
-        "CreatedOn": "2025-12-22T12:53:14.637",
+        "CreatedOn": "2025-12-22T14:18:27.627",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -221,7 +221,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 2983,
+        "Id": 2992,
         "ScenarioId": 219,
         "QueryId": null,
         "Job_Id": null,
@@ -230,7 +230,7 @@
         "TransformationId": 2,
         "Description": "Read data from Table",
         "Position": "position: absolute; left: 334px; top: 39px;",
-        "CreatedOn": "2025-12-22T12:54:25.373",
+        "CreatedOn": "2025-12-22T14:18:27.677",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -258,7 +258,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 2984,
+        "Id": 2993,
         "ScenarioId": 219,
         "QueryId": null,
         "Job_Id": null,
@@ -267,7 +267,7 @@
         "TransformationId": 2,
         "Description": "Read data from Table",
         "Position": "position: absolute; left: 373px; top: 203px;",
-        "CreatedOn": "2025-12-22T12:54:54.597",
+        "CreatedOn": "2025-12-22T14:18:27.787",
         "CreatedBy": "Dhanusha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -295,7 +295,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 2986,
+        "Id": 2994,
         "ScenarioId": 219,
         "QueryId": null,
         "Job_Id": null,
@@ -304,10 +304,10 @@
         "TransformationId": 66,
         "Description": "Filter data from < Data Source >",
         "Position": "position: absolute; left: 653px; top: 56px;",
-        "CreatedOn": "2025-12-22T12:59:07.83",
-        "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
-        "ModifiedOn": "2025-12-22T12:59:24.023",
-        "ModifiedBy": "Dhanusha",
+        "CreatedOn": "2025-12-22T14:18:27.873",
+        "CreatedBy": "Dhanusha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -332,7 +332,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 2987,
+        "Id": 2995,
         "ScenarioId": 219,
         "QueryId": null,
         "Job_Id": null,
@@ -340,11 +340,11 @@
         "StepMapping": "15,5-[66,4-2,2]",
         "TransformationId": 15,
         "Description": "Map source & target fields",
-        "Position": "position: absolute; left: 908px; top: 147px;",
-        "CreatedOn": "2025-12-22T12:59:27.443",
-        "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
-        "ModifiedOn": "2025-12-22T12:59:42.72",
-        "ModifiedBy": "Dhanusha",
+        "Position": "position: absolute; left: 909px; top: 147px;",
+        "CreatedOn": "2025-12-22T14:18:27.9",
+        "CreatedBy": "Dhanusha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -387,7 +387,7 @@
     "DCStepsQC": [],
     "MapNRecon": [
       {
-        "Id": 253,
+        "Id": 261,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_CUSTKEY",
         "SourceAliasColumnName": null,
@@ -405,7 +405,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.907",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -415,7 +415,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 254,
+        "Id": 262,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_NAME",
         "SourceAliasColumnName": null,
@@ -433,7 +433,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.917",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -443,7 +443,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 255,
+        "Id": 263,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_ADDRESS",
         "SourceAliasColumnName": null,
@@ -461,7 +461,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.923",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -471,7 +471,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 256,
+        "Id": 264,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_NATIONKEY",
         "SourceAliasColumnName": null,
@@ -489,7 +489,7 @@
         "IncludeTarget": null,
         "VariantThreshold": 0.0,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.93",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -499,7 +499,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 257,
+        "Id": 265,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_PHONE",
         "SourceAliasColumnName": null,
@@ -517,7 +517,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.937",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -527,7 +527,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 258,
+        "Id": 266,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_ACCTBAL",
         "SourceAliasColumnName": null,
@@ -545,7 +545,7 @@
         "IncludeTarget": null,
         "VariantThreshold": 0.0,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.947",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -555,7 +555,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 259,
+        "Id": 267,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_MKTSEGMENT",
         "SourceAliasColumnName": null,
@@ -573,7 +573,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.953",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -583,7 +583,7 @@
         "RiskCategoryId": null
       },
       {
-        "Id": 260,
+        "Id": 268,
         "Scenario_Header_Id": 219,
         "SourceColumnName": "C_COMMENT",
         "SourceAliasColumnName": null,
@@ -601,7 +601,7 @@
         "IncludeTarget": null,
         "VariantThreshold": null,
         "IsVerifiedManually": true,
-        "CreatedOn": "2025-12-22T12:59:42.637",
+        "CreatedOn": "2025-12-22T14:18:27.96",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -614,8 +614,8 @@
     "ScenarioQCFieldTypes": [],
     "ScenarioTableFieldTypes": [
       {
-        "Id": 506,
-        "ScenarioDataSourceId": 240,
+        "Id": 522,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -631,8 +631,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 507,
-        "ScenarioDataSourceId": 240,
+        "Id": 523,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -648,8 +648,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 508,
-        "ScenarioDataSourceId": 240,
+        "Id": 524,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -665,8 +665,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 509,
-        "ScenarioDataSourceId": 240,
+        "Id": 525,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -682,8 +682,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 510,
-        "ScenarioDataSourceId": 240,
+        "Id": 526,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -699,8 +699,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 511,
-        "ScenarioDataSourceId": 240,
+        "Id": 527,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -716,8 +716,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 512,
-        "ScenarioDataSourceId": 240,
+        "Id": 528,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -733,8 +733,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 513,
-        "ScenarioDataSourceId": 240,
+        "Id": 529,
+        "ScenarioDataSourceId": 242,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -750,8 +750,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 514,
-        "ScenarioDataSourceId": 241,
+        "Id": 530,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -767,8 +767,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 515,
-        "ScenarioDataSourceId": 241,
+        "Id": 531,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -784,8 +784,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 516,
-        "ScenarioDataSourceId": 241,
+        "Id": 532,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -801,8 +801,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 517,
-        "ScenarioDataSourceId": 241,
+        "Id": 533,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -818,8 +818,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 518,
-        "ScenarioDataSourceId": 241,
+        "Id": 534,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -835,8 +835,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 519,
-        "ScenarioDataSourceId": 241,
+        "Id": 535,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -852,8 +852,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 520,
-        "ScenarioDataSourceId": 241,
+        "Id": 536,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -869,8 +869,8 @@
         "NewlyAddedColumn": null
       },
       {
-        "Id": 521,
-        "ScenarioDataSourceId": 241,
+        "Id": 537,
+        "ScenarioDataSourceId": 243,
         "DBlendId": null,
         "ProfileId": 1253,
         "TableName": "TPCH_1.dbo.CUSTOMER",
@@ -888,13 +888,13 @@
     ],
     "SimpleFilters": [
       {
-        "Id": 14,
+        "Id": 15,
         "ScenarioId": 219,
         "CSV_Id": 0,
-        "DcStepId": 2986,
+        "DcStepId": 2994,
         "DCTypeId": null,
         "StepId": 4,
-        "DataSourceId": 240,
+        "DataSourceId": 242,
         "GlobalFilter": "C_CUSTKEY > 10 ",
         "HtmlDiv": "\n            <div class=\"form-horizontal float-start\" style=\"height:50%; width:100%;\">\n                <div class=\"OparatorsBlock col-md-12 p-0 d-flex flex-column\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar mb-0 px-3\" style=\"width: 100%; display:flow-root; padding:6px;\">\n                        Filter\n                    </div>\n                    <div class=\"col-md-12 p-0 availableColumns divLengthOptions border-end-0 d-flex flex-column flex-grow-1\">\n                        <ul class=\"ruleOptions float-start\">\n                            <li id=\"Column_Names\" style=\"width: 142px;padding: 2px 10px 2px 4px;justify-content: space-between;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleFilCreate(this)\" class=\"tagList ncId TableFields\">\n                                <span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-lucide=\"grip-vertical\" class=\"lucide lucide-grip-vertical lucide-icon-designer\"><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"5\" r=\"1\"></circle><circle cx=\"9\" cy=\"19\" r=\"1\"></circle><circle cx=\"15\" cy=\"12\" r=\"1\"></circle><circle cx=\"15\" cy=\"5\" r=\"1\"></circle><circle cx=\"15\" cy=\"19\" r=\"1\"></circle></svg></span>Available Fields\n                            </li>\n                            <li style=\"width: 173px;padding: 2px 10px 2px 4px;justify-content: space-between;\" draggable=\"true\" onclick=\"addInput('dynamicInput');\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"AvailableOparatosLabel\">\n                                <span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-lucide=\"grip-vertical\" class=\"lucide lucide-grip-vertical lucide-icon-designer\"><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"5\" r=\"1\"></circle><circle cx=\"9\" cy=\"19\" r=\"1\"></circle><circle cx=\"15\" cy=\"12\" r=\"1\"></circle><circle cx=\"15\" cy=\"5\" r=\"1\"></circle><circle cx=\"15\" cy=\"19\" r=\"1\"></circle></svg></span>Available Operators\n                            </li>\n                            <li style=\"width: 120px;padding: 2px 10px 2px 4px;justify-content: start;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"Input-Textbox\"><span style=\"margin-right: 19px;\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-lucide=\"grip-vertical\" class=\"lucide lucide-grip-vertical lucide-icon-designer\"><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"5\" r=\"1\"></circle><circle cx=\"9\" cy=\"19\" r=\"1\"></circle><circle cx=\"15\" cy=\"12\" r=\"1\"></circle><circle cx=\"15\" cy=\"5\" r=\"1\"></circle><circle cx=\"15\" cy=\"19\" r=\"1\"></circle></svg></span>input</li>\n\n                            <li style=\"width: 45px;padding: 2px 10px 2px 4px;justify-content: space-between;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\"><span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-lucide=\"grip-vertical\" class=\"lucide lucide-grip-vertical lucide-icon-designer\"><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"5\" r=\"1\"></circle><circle cx=\"9\" cy=\"19\" r=\"1\"></circle><circle cx=\"15\" cy=\"12\" r=\"1\"></circle><circle cx=\"15\" cy=\"5\" r=\"1\"></circle><circle cx=\"15\" cy=\"19\" r=\"1\"></circle></svg></span><span style=\"margin-top: 2px;\">(</span></li>\n                            <li style=\"width: 45px;padding: 2px 10px 2px 4px;justify-content: space-between;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" class=\"operatorbrackts\"><span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-lucide=\"grip-vertical\" class=\"lucide lucide-grip-vertical lucide-icon-designer\"><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"5\" r=\"1\"></circle><circle cx=\"9\" cy=\"19\" r=\"1\"></circle><circle cx=\"15\" cy=\"12\" r=\"1\"></circle><circle cx=\"15\" cy=\"5\" r=\"1\"></circle><circle cx=\"15\" cy=\"19\" r=\"1\"></circle></svg></span><span style=\"margin-top: 2px;\">)</span></li>\n                            <li style=\"width: 55px;padding: 2px 10px 2px 4px;justify-content: space-between;\" draggable=\"true\" ondragstart=\"dragTagsOptionsSimpleF(this)\" title=\"variable\" class=\"operatorVariable\"><span><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-lucide=\"grip-vertical\" class=\"lucide lucide-grip-vertical lucide-icon-designer\"><circle cx=\"9\" cy=\"12\" r=\"1\"></circle><circle cx=\"9\" cy=\"5\" r=\"1\"></circle><circle cx=\"9\" cy=\"19\" r=\"1\"></circle><circle cx=\"15\" cy=\"12\" r=\"1\"></circle><circle cx=\"15\" cy=\"5\" r=\"1\"></circle><circle cx=\"15\" cy=\"19\" r=\"1\"></circle></svg></span><img src=\"/Images/VBuilder.svg\" width=\"16\" alt=\"Placeholder Description\"></li>\n                        </ul>\n                        <div class=\"FilterDragPart float-start flex-grow-1\" style=\"overflow-y:auto\">\n                            <div class=\"col-md-12 p-0 h-100 divLengthForm\">\n                                <div id=\"dynamicInput_SimpleFilter\" style=\"display:block;\" class=\"divtxtOptions h-100 ui-sortable\" ondragover=\"allowDrop(event)\">\n                                <span data-background-icon=\"?\" class=\"EveryElement\"><span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span><select class=\"FieldsSelect\" onchange=\"enteredValuecheckSimpleF()\"><option>Select</option><option value=\"C_CUSTKEY\" selected=\"selected\">C_CUSTKEY</option><option value=\"C_NAME\">C_NAME</option><option value=\"C_ADDRESS\">C_ADDRESS</option><option value=\"C_NATIONKEY\">C_NATIONKEY</option><option value=\"C_PHONE\">C_PHONE</option><option value=\"C_ACCTBAL\">C_ACCTBAL</option><option value=\"C_MKTSEGMENT\">C_MKTSEGMENT</option><option value=\"C_COMMENT\">C_COMMENT</option></select><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i></span><span data-background-icon=\"?\" class=\"EveryElement\">                         <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                            <select class=\"OparatorSelect\" onchange=\"enteredValuecheckSimpleF()\">                                <option value=\"Select\">Select</option>                                <option value=\"Equals to\">Equals to</option>                                <option value=\"Not equals to\">Not equals to</option>                                <option value=\"Greater than\" selected=\"selected\">Greater than</option>                                <option value=\"Greater than or equals to\">Greater than or equals to</option>                                <option value=\"Less than\">Less than</option>                                <option value=\"Less than or equals to\">Less than or equals to</option>                                <option value=\"Like\">Like</option>                                <option value=\"Between\">Between</option>                                <option value=\"Not between\">Not between</option>                                <option value=\"AND\">AND</option>                                <option value=\"OR\">OR</option>                                <option value=\"Is null\">Is null</option>                                <option value=\"Is not null\">Is not null</option>                        <option value=\"IN\">IN</option>                            </select>                            <i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                        </span><span data-background-icon=\"?\" class=\"EveryElement\">                                                <span class=\"spnSortHandle\"><i class=\"fa fa-ellipsis-v\"></i></span>                                                <input type=\"text\" placeholder=\"name\" oninput=\"enteredValuecheckSimpleFBefore(this)\" class=\"FieldsTextSimpleF\" autofocus=\"\" value=\"10\" size=\"3\">                                                <span class=\"InputTextboxSimpleF\" style=\"display: none;\">10</span><i onclick=\"removeElement(this);\" class=\"ElementClose fa fa-times\" aria-hidden=\"true\"></i>                                            </span></div>\n                            </div>\n                            <div class=\"col-md-12 p-0 divLengthDesc text-center\" style=\"display:none\">\n                                <span class=\"lengthDec\">Please Select Fields from above</span>\n                            </div>\n                        </div>\n                    </div>\n                </div>\n            </div>\n            <div class=\"form-horizontal float-start\" style=\"height:41%;margin-top: 1%; width:100%;\">\n                <div class=\"FormalaBlock col-md-12 p-0\" style=\"height:100%;\">\n                    <div class=\"TableHeaderbar mb-0 px-3\" style=\"width: 100%; display:flow-root;\">\n                        Expression\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons float-end\" id=\"btnEditExpression\" style=\"\" title=\"Edit Expression\" onclick=\"EditExpressionWF(this);\"><svg xmlns=\"http://www.w3.org/2000/svg\" width=\"24\" height=\"24\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" data-lucide=\"square-pen\" class=\"lucide lucide-square-pen lucide-icon-designer\"><path d=\"M12 3H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2v-7\"></path><path d=\"M18.375 2.625a1 1 0 0 1 3 3l-9.013 9.014a2 2 0 0 1-.853.505l-2.873.84a.5.5 0 0 1-.62-.62l.84-2.873a2 2 0 0 1 .506-.852z\"></path></svg></button>\n                        <button type=\"button\" class=\"btn btn-default Query-push-buttons float-end\" id=\"btnResetExpression\" style=\"display:none\" title=\"Reset Expression\" onclick=\"resetExpressionWF(this);\"><img src=\"/Images/refresh-cw.svg\" class=\"lucide-icon-designer\" alt=\"Refresh icon\"></button>\n                    </div>\n                    <div class=\"divFormulaBuilder\">\n                        <textarea style=\"width:100%; height:100%;padding: 1rem;\" id=\"SQLFormation_SimpleFilter\" class=\"SQLFormation_SimpleFilter border-0\" disabled=\"true\"></textarea>\n                    </div>\n                </div>\n            </div>\n        ",
         "CreatedBy": "bd73a12f-458b-4f63-b8b8-3e9e0a46a408",
@@ -920,7 +920,7 @@
     "CSVFDR": [],
     "DCDependency": [
       {
-        "Id": 492,
+        "Id": 500,
         "ScenarioId": 219,
         "QueryId": null,
         "StepId": 0,
@@ -930,7 +930,7 @@
         "JobId": null
       },
       {
-        "Id": 493,
+        "Id": 501,
         "ScenarioId": 219,
         "QueryId": null,
         "StepId": 1,
@@ -940,7 +940,7 @@
         "JobId": null
       },
       {
-        "Id": 494,
+        "Id": 502,
         "ScenarioId": 219,
         "QueryId": null,
         "StepId": 2,
@@ -950,7 +950,7 @@
         "JobId": null
       },
       {
-        "Id": 495,
+        "Id": 503,
         "ScenarioId": 219,
         "QueryId": null,
         "StepId": 3,
@@ -960,7 +960,7 @@
         "JobId": null
       },
       {
-        "Id": 496,
+        "Id": 504,
         "ScenarioId": 219,
         "QueryId": null,
         "StepId": 4,
@@ -970,7 +970,7 @@
         "JobId": null
       },
       {
-        "Id": 497,
+        "Id": 505,
         "ScenarioId": 219,
         "QueryId": null,
         "StepId": 5,
