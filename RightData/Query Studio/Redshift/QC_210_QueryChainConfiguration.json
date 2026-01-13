@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Swami 1/13/2026 10:39:26 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Redshift_Pivot_QC\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.nation\\\" for data source \\\"Redshift_J\\\"\",\"position\":\"position: absolute; left: 310px; top: 202px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcPivot_dropped.7\",\"UniqueId\":\"82\",\"stepId\":\"7\",\"description\":\"pivot Data\",\"position\":\"position: absolute; left: 500px; top: 201px;\",\"mapping\":\"82,7-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"8\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 700px; top: 201px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"7\"},{\"widgetId\":\"DataProfiling_dropped.9\",\"UniqueId\":\"80\",\"stepId\":\"9\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: all; position: absolute; left: 935px; top: 107px;\",\"mapping\":\"80,9-[79,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.10\",\"UniqueId\":\"88\",\"stepId\":\"10\",\"description\":\"Offload the File\",\"position\":\"pointer-events: all; position: absolute; left: 948px; top: 293px;\",\"mapping\":\"88,10-[79,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Redshift_Pivot_QC\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"tpch1.nation\\\" for data source \\\"Redshift_J\\\"\",\"position\":\"position: absolute; left: 310px; top: 202px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"undefined\"},{\"widgetId\":\"dcPivot_dropped.7\",\"UniqueId\":\"82\",\"stepId\":\"7\",\"description\":\"pivot Data\",\"position\":\"position: absolute; left: 500px; top: 201px;\",\"mapping\":\"82,7-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"8\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 700px; top: 201px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"7\"},{\"widgetId\":\"DataProfiling_dropped.9\",\"UniqueId\":\"80\",\"stepId\":\"9\",\"description\":\"Data Profiling\",\"position\":\"pointer-events: all; position: absolute; left: 935px; top: 107px;\",\"mapping\":\"80,9-[79,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.10\",\"UniqueId\":\"88\",\"stepId\":\"10\",\"description\":\"Offload the File\",\"position\":\"pointer-events: all; position: absolute; left: 948px; top: 293px;\",\"mapping\":\"88,10-[79,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.11\",\"UniqueId\":\"20\",\"stepId\":\"11\",\"description\":\"Email\",\"position\":\"pointer-events: all; position: absolute; left: 1132px; top: 192px;\",\"mapping\":\"20,11-[79,8]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Swami",
         "FId": 7,
@@ -374,6 +374,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 284,
+        "ScenarioId": null,
+        "QueryId": 210,
+        "Job_Id": null,
+        "Step": 11,
+        "StepMapping": "20,11-[79,8]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "pointer-events: all; position: absolute; left: 1132px; top: 192px;",
+        "CreatedOn": "2026-01-13T16:07:57.7",
+        "CreatedBy": "Swami",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -427,9 +462,48 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 144,
+        "ScenarioId": null,
+        "QueryId": 210,
+        "StepId": 11,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
-    "EmailAlerts": [],
+    "EmailAlerts": [
+      {
+        "Query_Id": 210,
+        "Job_Id": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": 0,
+        "Scenario_Header_Id": null,
+        "WhenFaild": false,
+        "EmailWhen_F": null,
+        "WhenSuccess": true,
+        "EmailWhen_S": "annepu.appalaswami@getrightdata.com",
+        "CreatedBy": "55d08bd3-9eab-44ac-8eb8-784920d82b7a",
+        "CreatedOn": "2026-01-13T16:07:57.2",
+        "EmailTemplateId": null,
+        "EmailPriority": "Normal",
+        "EmailFromName": null,
+        "EmailSubject": null,
+        "EnableHyperlinks": true,
+        "SendExtrenalLink": null,
+        "AttachResultSummary": null,
+        "PdfAttachment": false
+      }
+    ],
     "DataProfilings": [
       {
         "Id": 31,
@@ -678,7 +752,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_210_Redshift_Pivot_QC_20260113160729"
+        "ManipulatedFileName": "QC_210_Redshift_Pivot_QC_20260113160804"
       }
     ]
   }
