@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
-        "ModifiedOn": "2026-03-23T11:04:55.343",
+        "ModifiedOn": "2026-03-23T11:06:53.463",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -86,7 +86,7 @@
         "StatusSc": null,
         "SAPType": null,
         "DataSourceType": null,
-        "REST_Api_JSON_UI": "[{\"id\":\"1\",\"isQueries\":false,\"tableOrQuery\":\"tpch1.nation\",\"databaseName\":\"postgres\",\"queryName\":null,\"columnRules\":{},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"25\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]",
+        "REST_Api_JSON_UI": "[{\"id\":\"2\",\"isQueries\":false,\"tableOrQuery\":\"tpch1.region\",\"databaseName\":\"postgres\",\"queryName\":null,\"columnRules\":{},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"25\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]",
         "BucketName": null,
         "AccessKey": null,
         "SecretKey": null,
@@ -121,8 +121,8 @@
         "ProfileName": "PostgreSQL",
         "CreatedOnSC": "2026-03-23T11:03:35.807",
         "CreatedBySC": "Kishore",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2026-03-23T11:06:53.47",
+        "ModifiedBySC": "Kishore"
       }
     ],
     "QFTypes": null,
