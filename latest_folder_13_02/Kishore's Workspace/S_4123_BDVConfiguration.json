@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
-        "ModifiedOn": "2026-03-23T13:14:05.86",
+        "ModifiedOn": "2026-03-23T13:14:32.543",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -86,7 +86,7 @@
         "StatusSc": null,
         "SAPType": null,
         "DataSourceType": null,
-        "REST_Api_JSON_UI": "[{\"id\":\"45\",\"isQueries\":false,\"tableOrQuery\":\"tpch1_nation\",\"databaseName\":\"AwsDataCatalog\",\"queryName\":null,\"columnRules\":{},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"25\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]",
+        "REST_Api_JSON_UI": "[{\"id\":\"45\",\"isQueries\":false,\"tableOrQuery\":\"tpch1_nation\",\"databaseName\":\"AwsDataCatalog\",\"queryName\":null,\"columnRules\":{},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"22\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]",
         "BucketName": null,
         "AccessKey": null,
         "SecretKey": null,
@@ -121,8 +121,8 @@
         "ProfileName": "Athena_J",
         "CreatedOnSC": "2026-03-23T12:56:47.857",
         "CreatedBySC": "Kishore",
-        "ModifiedOnSC": null,
-        "ModifiedBySC": null
+        "ModifiedOnSC": "2026-03-23T13:14:32.553",
+        "ModifiedBySC": "Kishore"
       }
     ],
     "QFTypes": null,
