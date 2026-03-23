@@ -27,7 +27,7 @@
         "Priority": null,
         "ModifiedBy": null,
         "MigratedOn": null,
-        "ModifiedOn": "2026-03-23T11:07:50.937",
+        "ModifiedOn": "2026-03-23T11:11:21.83",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -86,7 +86,7 @@
         "StatusSc": null,
         "SAPType": null,
         "DataSourceType": null,
-        "REST_Api_JSON_UI": "[{\"id\":\"2\",\"isQueries\":false,\"tableOrQuery\":\"tpch1.region\",\"databaseName\":\"postgres\",\"queryName\":null,\"columnRules\":{},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"29\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]",
+        "REST_Api_JSON_UI": "[{\"id\":\"2\",\"isQueries\":false,\"tableOrQuery\":\"tpch1.region\",\"databaseName\":\"postgres\",\"queryName\":null,\"columnRules\":{\"nullCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"2.2.1\",\"column\":\"r_name\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]},{\"id\":\"2.3.1\",\"column\":\"r_comment\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]},\"duplicateCheck\":{\"combination\":false,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"columns\":[{\"id\":\"2.2.2\",\"column\":\"r_name\",\"dataType\":\"varchar\",\"value\":null,\"thresholdPercentage\":\"0\",\"thresholdValue\":null,\"mlrecommended\":false,\"reportingCharacteristics\":[{\"reportingCharacteristicsId\":1,\"value\":92},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]}},\"conditionCheck\":null,\"conditionCheckFilter\":\"\",\"conditionCheck_mlrecommended\":false,\"rowCountcheck\":\"29\",\"rowCountcheck_mlrecommended\":false,\"outputColumns\":[{\"id\":\"2.3\",\"column\":\"r_comment\",\"dataType\":\"varchar\"}],\"rowCountcheck_repochars\":[{\"reportingCharacteristicsId\":1,\"value\":90},{\"reportingCharacteristicsId\":2,\"value\":10},{\"reportingCharacteristicsId\":3,\"value\":14}]}]",
         "BucketName": null,
         "AccessKey": null,
         "SecretKey": null,
@@ -121,7 +121,7 @@
         "ProfileName": "PostgreSQL",
         "CreatedOnSC": "2026-03-23T11:03:35.807",
         "CreatedBySC": "Kishore",
-        "ModifiedOnSC": "2026-03-23T11:07:50.943",
+        "ModifiedOnSC": "2026-03-23T11:11:08.133",
         "ModifiedBySC": "Kishore"
       }
     ],
