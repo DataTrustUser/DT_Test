@@ -23,11 +23,11 @@
         "IsfromValidation": false,
         "Iswait": null,
         "JsonIMDB": null,
-        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR-MSSQL\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"commented\":\"false\"},{\"widgetId\":\"dsRDBMSTable_dropped.1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 285px; top: 106px;\",\"mapping\":\"0,0-[33,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRDBMSTable_dropped.2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL-J_RS\",\"position\":\"position: absolute; left: 279px; top: 283px;\",\"mapping\":\"0,0-[33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 554px; top: 172px;\",\"mapping\":\"27,3-[33,1-33,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.1\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 725px; top: 169px;\",\"mapping\":\"20,5-[27,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JsonUI": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"TDR-MSSQL\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.1\",\"UniqueId\":\"33\",\"stepId\":\"1\",\"description\":\"MSSQL_J\",\"position\":\"position: absolute; left: 285px; top: 106px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,1]\",\"dsstep\":null},{\"widgetId\":\"dsRDBMSTable_dropped.2\",\"UniqueId\":\"33\",\"stepId\":\"2\",\"description\":\"MSSQL-J_RS\",\"position\":\"position: absolute; left: 279px; top: 283px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"0,0-[33,2]\",\"dsstep\":null},{\"widgetId\":\"dsCountCompare_dropped.0\",\"UniqueId\":\"27\",\"stepId\":\"3\",\"description\":\"Count Compare\",\"position\":\"position: absolute; left: 554px; top: 172px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"27,3-[33,1-33,2]\",\"dsstep\":null}]",
         "Priority": null,
         "ModifiedBy": "likitha",
         "MigratedOn": null,
-        "ModifiedOn": "2026-03-25T07:28:39.23",
+        "ModifiedOn": "2026-03-25T07:30:01.087",
         "QualityDimension": null,
         "RiskCategoryId": null,
         "RiskProfile": null,
@@ -71,7 +71,7 @@
     ],
     "DCSteps": [
       {
-        "Id": 768,
+        "Id": 791,
         "ScenarioId": 173,
         "QueryId": null,
         "Job_Id": null,
@@ -80,7 +80,7 @@
         "TransformationId": 0,
         "Description": "TDR-MSSQL",
         "Position": null,
-        "CreatedOn": "2026-03-25T05:37:12.177",
+        "CreatedOn": "2026-03-25T07:29:45.47",
         "CreatedBy": "likitha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -101,7 +101,7 @@
         "Comments": null
       },
       {
-        "Id": 769,
+        "Id": 792,
         "ScenarioId": 173,
         "QueryId": null,
         "Job_Id": null,
@@ -110,10 +110,10 @@
         "TransformationId": 33,
         "Description": "Relational Table",
         "Position": "position: absolute; left: 285px; top: 106px;",
-        "CreatedOn": "2026-03-25T05:37:19.583",
-        "CreatedBy": "3dec0d08-43c4-4377-9c8a-e70414710a2b",
-        "ModifiedOn": "2026-03-25T05:37:35.197",
-        "ModifiedBy": "likitha",
+        "CreatedOn": "2026-03-25T07:29:45.477",
+        "CreatedBy": "likitha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": true,
@@ -131,7 +131,7 @@
         "Comments": null
       },
       {
-        "Id": 770,
+        "Id": 793,
         "ScenarioId": 173,
         "QueryId": null,
         "Job_Id": null,
@@ -140,10 +140,10 @@
         "TransformationId": 33,
         "Description": "Relational Table",
         "Position": "position: absolute; left: 279px; top: 283px;",
-        "CreatedOn": "2026-03-25T05:37:55.8",
-        "CreatedBy": "3dec0d08-43c4-4377-9c8a-e70414710a2b",
-        "ModifiedOn": "2026-03-25T05:38:15.563",
-        "ModifiedBy": "likitha",
+        "CreatedOn": "2026-03-25T07:29:45.49",
+        "CreatedBy": "likitha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": false,
@@ -161,7 +161,7 @@
         "Comments": null
       },
       {
-        "Id": 772,
+        "Id": 794,
         "ScenarioId": 173,
         "QueryId": null,
         "Job_Id": null,
@@ -170,7 +170,7 @@
         "TransformationId": 27,
         "Description": "Count Compare",
         "Position": "position: absolute; left: 554px; top: 172px;",
-        "CreatedOn": "2026-03-25T05:40:12.943",
+        "CreatedOn": "2026-03-25T07:29:45.507",
         "CreatedBy": "likitha",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -178,7 +178,7 @@
         "ErrorCodes": null,
         "SourceOrTarget": null,
         "DataSourcePK_Id": null,
-        "Warning": true,
+        "Warning": false,
         "JobletId": null,
         "Decision": null,
         "MaxPacketSize": null,
@@ -193,13 +193,13 @@
     ],
     "ScenarioTDRDataSource": [
       {
-        "Id": 29,
+        "Id": 35,
         "Scenario_Header_Id": 173,
-        "DCStep_Id": 769,
+        "DCStep_Id": 792,
         "Profile_Id": 100,
         "SAPType": null,
         "FiltersJson": null,
-        "CreatedOn": "2026-03-25T05:37:35.19",
+        "CreatedOn": "2026-03-25T07:29:45.48",
         "CreatedBy": "3dec0d08-43c4-4377-9c8a-e70414710a2b",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -212,13 +212,13 @@
         "Delimeter": null
       },
       {
-        "Id": 30,
+        "Id": 36,
         "Scenario_Header_Id": 173,
-        "DCStep_Id": 770,
+        "DCStep_Id": 793,
         "Profile_Id": 104,
         "SAPType": null,
         "FiltersJson": null,
-        "CreatedOn": "2026-03-25T05:38:15.56",
+        "CreatedOn": "2026-03-25T07:29:45.493",
         "CreatedBy": "3dec0d08-43c4-4377-9c8a-e70414710a2b",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -233,7 +233,7 @@
     ],
     "ScenarioKDSMapping": [
       {
-        "Id": 98,
+        "Id": 203,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
@@ -263,7 +263,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 99,
+        "Id": 204,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
@@ -293,7 +293,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 100,
+        "Id": 205,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
@@ -323,7 +323,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 101,
+        "Id": 206,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
@@ -353,7 +353,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 102,
+        "Id": 207,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
@@ -383,7 +383,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 103,
+        "Id": 208,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
@@ -413,7 +413,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 104,
+        "Id": 209,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
@@ -443,7 +443,7 @@
         "Tgt_BOBJ_Prompts": null
       },
       {
-        "Id": 105,
+        "Id": 210,
         "Scenario_Header_Id": 173,
         "StepId": null,
         "SourceDatabase": "Airline_Data",
