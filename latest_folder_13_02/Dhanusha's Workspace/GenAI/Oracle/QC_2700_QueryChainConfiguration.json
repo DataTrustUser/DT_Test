@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2026-03-27T06:58:43.093",
         "CreatedBy": "Dhanusha",
-        "ModifiedOn": "2026-03-27T07:24:39.56",
+        "ModifiedOn": "2026-03-27T07:26:46.353",
         "ModifiedBy": "Dhanusha",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Dhanusha 3/27/2026 6:52:54 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 3/27/2026 6:52:54 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH1.ORDERS\\\" for data source \\\"Oracle\\\"\",\"position\":\"position: absolute; left: 282.982px; top: 196.99px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcGenAI_dropped.2\",\"UniqueId\":\"161\",\"stepId\":\"2\",\"description\":\"Gen AI Transform Configuration\",\"position\":\"position: absolute; left: 506.99px; top: 205.99px;\",\"mapping\":\"161,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 747.99px; top: 199.99px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 926.99px; top: 68.9896px;\",\"mapping\":\"80,4-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 898.99px; top: 319.99px;\",\"mapping\":\"88,5-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.6\",\"UniqueId\":\"20\",\"stepId\":\"6\",\"description\":\"Email\",\"position\":\"position: absolute; left: 1058.9791679382324px; top: 187.9817657470703px;\",\"mapping\":\"20,6-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 3/27/2026 6:52:54 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.1\",\"UniqueId\":\"2\",\"stepId\":\"1\",\"description\":\"Read data from \\\"TPCH1.ORDERS\\\" for data source \\\"Oracle\\\"\",\"position\":\"position: absolute; left: 282.982px; top: 196.99px;\",\"mapping\":\"2,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dcGenAI_dropped.2\",\"UniqueId\":\"161\",\"stepId\":\"2\",\"description\":\"Gen AI Transform Configuration\",\"position\":\"position: absolute; left: 506.99px; top: 205.99px;\",\"mapping\":\"161,2-[2,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"3\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 747.99px; top: 199.99px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"2\"},{\"widgetId\":\"DataProfiling_dropped.4\",\"UniqueId\":\"80\",\"stepId\":\"4\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 926.99px; top: 68.9896px;\",\"mapping\":\"80,4-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.5\",\"UniqueId\":\"88\",\"stepId\":\"5\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 898.99px; top: 319.99px;\",\"mapping\":\"88,5-[79,3]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 326,
@@ -469,41 +469,6 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
-      },
-      {
-        "Id": 23560,
-        "ScenarioId": null,
-        "QueryId": 2700,
-        "Job_Id": null,
-        "Step": 6,
-        "StepMapping": "20,6-[79,3]",
-        "TransformationId": 20,
-        "Description": "Email",
-        "Position": "position: absolute; left: 1056.99px; top: 187.99px;",
-        "CreatedOn": "2026-03-27T07:06:49.017",
-        "CreatedBy": "Dhanusha",
-        "ModifiedOn": null,
-        "ModifiedBy": null,
-        "Status": true,
-        "ErrorCodes": null,
-        "SourceOrTarget": null,
-        "DataSourcePK_Id": null,
-        "Warning": false,
-        "JobletId": null,
-        "Decision": null,
-        "MaxPacketSize": null,
-        "MaxParallelism": null,
-        "IsLastStep": null,
-        "PreviousMetaStructure": null,
-        "LATEST_OUTPUT_VIEW_NAME": null,
-        "Overwritesnapshot": false,
-        "JsonValue": null,
-        "AppendToExistingData": null,
-        "IsActive": null,
-        "Comments": null,
-        "RunTimeJSON": null,
-        "IsMLRecommended": null,
-        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -559,36 +524,7 @@
         "JobId": null
       }
     ],
-    "EmailAlerts": [
-      {
-        "Query_Id": 2700,
-        "Job_Id": null,
-        "FailRDjobWhenRecon_F": null,
-        "DelayedTargetCompare": null,
-        "AttachResultsInEmail": false,
-        "ExportType": null,
-        "RaiseDefect": null,
-        "ModifiedOn": null,
-        "ModifiedBy": null,
-        "Status": null,
-        "DependantStepId": 0,
-        "Scenario_Header_Id": null,
-        "WhenFaild": false,
-        "EmailWhen_F": null,
-        "WhenSuccess": true,
-        "EmailWhen_S": "kotari.dhanusha@getrightdata.com",
-        "CreatedBy": "b8b7a942-0f0d-4a40-927a-0a4ea1f5029d",
-        "CreatedOn": "2026-03-27T07:06:48.957",
-        "EmailTemplateId": null,
-        "EmailPriority": "Normal",
-        "EmailFromName": null,
-        "EmailSubject": null,
-        "EnableHyperlinks": true,
-        "SendExtrenalLink": null,
-        "AttachResultSummary": null,
-        "PdfAttachment": false
-      }
-    ],
+    "EmailAlerts": [],
     "DataProfilings": [
       {
         "Id": 1877,
@@ -1098,7 +1034,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_2700_Using_RDBMS_for_Oracle_profile_20260327072636"
+        "ManipulatedFileName": "QC_2700_Using_RDBMS_for_Oracle_profile_20260327072651"
       }
     ]
   }
