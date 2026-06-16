@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "QC using https without Transformations",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 6/16/2026 7:06:52 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Https for XML\\\" for data source \\\"Supplier for https\\\"\",\"position\":\"position: absolute; left: 287.99px; top: 194.99px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 569.99px; top: 202.99px;\",\"mapping\":\"79,2-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 822.99px; top: 113.99px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 830.99px; top: 309.99px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Dhanusha 6/16/2026 7:06:52 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsExistingQuery_dropped.1\",\"UniqueId\":\"3\",\"stepId\":\"1\",\"description\":\"Read data from \\\"Https for XML\\\" for data source \\\"Supplier for https\\\"\",\"position\":\"position: absolute; left: 287.99px; top: 194.99px;\",\"mapping\":\"3,1-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"qcEndItem_dropped.2\",\"UniqueId\":\"79\",\"stepId\":\"2\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 569.99px; top: 202.99px;\",\"mapping\":\"79,2-[3,1]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"1\"},{\"widgetId\":\"DataProfiling_dropped.3\",\"UniqueId\":\"80\",\"stepId\":\"3\",\"description\":\"Data Profiling\",\"position\":\"position: absolute; left: 822.99px; top: 113.99px;\",\"mapping\":\"80,3-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"File_dropped.4\",\"UniqueId\":\"88\",\"stepId\":\"4\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 830.99px; top: 309.99px;\",\"mapping\":\"88,4-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEmail_dropped.5\",\"UniqueId\":\"20\",\"stepId\":\"5\",\"description\":\"Email\",\"position\":\"position: absolute; left: 979.99px; top: 203.99px;\",\"mapping\":\"20,5-[79,2]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Dhanusha",
         "FId": 450,
@@ -262,6 +262,41 @@
         "RunTimeJSON": null,
         "IsMLRecommended": null,
         "QueryTimeOut": null
+      },
+      {
+        "Id": 54284,
+        "ScenarioId": null,
+        "QueryId": 5648,
+        "Job_Id": null,
+        "Step": 5,
+        "StepMapping": "20,5-[79,2]",
+        "TransformationId": 20,
+        "Description": "Email",
+        "Position": "position: absolute; left: 979.99px; top: 203.99px;",
+        "CreatedOn": "2026-06-16T07:29:49.201329",
+        "CreatedBy": "Dhanusha",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
       }
     ],
     "SimpleFilters": [],
@@ -436,9 +471,48 @@
         "JobletId": null,
         "Decision": null,
         "JobId": null
+      },
+      {
+        "Id": 41819,
+        "ScenarioId": null,
+        "QueryId": 5648,
+        "StepId": 5,
+        "Dependency": 20,
+        "JobletId": null,
+        "Decision": null,
+        "JobId": null
       }
     ],
-    "EmailAlerts": [],
+    "EmailAlerts": [
+      {
+        "Query_Id": 5648,
+        "Job_Id": null,
+        "FailRDjobWhenRecon_F": null,
+        "DelayedTargetCompare": null,
+        "AttachResultsInEmail": false,
+        "ExportType": null,
+        "RaiseDefect": null,
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": null,
+        "DependantStepId": 0,
+        "Scenario_Header_Id": null,
+        "WhenFaild": false,
+        "EmailWhen_F": null,
+        "WhenSuccess": true,
+        "EmailWhen_S": "kotari.dhanusha@getrightdata.com",
+        "CreatedBy": "b8b7a942-0f0d-4a40-927a-0a4ea1f5029d",
+        "CreatedOn": "2026-06-16T07:29:49.179512",
+        "EmailTemplateId": null,
+        "EmailPriority": "Normal",
+        "EmailFromName": null,
+        "EmailSubject": null,
+        "EnableHyperlinks": true,
+        "SendExtrenalLink": null,
+        "AttachResultSummary": null,
+        "PdfAttachment": false
+      }
+    ],
     "DataProfilings": [
       {
         "Id": 9295,
@@ -636,7 +710,7 @@
         "TextQualifier": "\"",
         "OverrideFile": false,
         "Header": true,
-        "ManipulatedFileName": "QC_5648_QC_using_https_without_Transformations_20260616072927"
+        "ManipulatedFileName": "QC_5648_QC_using_https_without_Transformations_20260616072954"
       }
     ]
   }
