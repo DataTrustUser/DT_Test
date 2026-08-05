@@ -15,7 +15,7 @@
         "IsUsedInVariableBuilder": null,
         "CreatedOn": "2026-08-05T10:25:54.08",
         "CreatedBy": "Kishore",
-        "ModifiedOn": "2026-08-05T12:22:37.553",
+        "ModifiedOn": "2026-08-05T12:26:36.363",
         "ModifiedBy": "Kishore",
         "Status": true,
         "IsHeavyWeightEngine": null,
@@ -26,7 +26,7 @@
         "AzurePreViewPath": null,
         "PacketSize": null,
         "QueryDescription": "Kishore 8/5/2026 10:25:44 AM",
-        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Kishore 8/5/2026 10:25:44 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsRelTable_dropped.5\",\"UniqueId\":\"2\",\"stepId\":\"5\",\"description\":\"Read data from Table\",\"position\":\"position: absolute; left: 294px; top: 139px;\",\"mapping\":\"2,5-[0,0]\",\"warning\":null,\"decision\":null,\"status\":\"true\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"15\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 653px; top: 170px;\",\"mapping\":\"79,15-[67,19]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"19\"},{\"widgetId\":\"dcAggregation_dropped.19\",\"UniqueId\":\"67\",\"stepId\":\"19\",\"description\":\"Aggregate data from Data Source\",\"position\":\"position: absolute; left: 464px; top: 174px;\",\"mapping\":\"67,19-[2,5]\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"5\"}]",
+        "JSON": "[{\"widgetId\":\"dsStart_dropped\",\"UniqueId\":\"0\",\"stepId\":\"0\",\"description\":\"Kishore 8/5/2026 10:25:44 AM\",\"position\":\"position: absolute; left: 83px; top: 202.5px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":null,\"dsstep\":null},{\"widgetId\":\"dsExistingQuery_5\",\"UniqueId\":\"2\",\"stepId\":\"5\",\"description\":\"Read data from \\\"IndianBFSI.dbo.account_balance\\\" for data source \\\"BFSI DEMO\\\"\",\"position\":\"position: absolute; left: 347px; top: 168px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"2,5-[0,0]\",\"dsstep\":\"null\"},{\"widgetId\":\"dsEnd_dropped_end\",\"UniqueId\":\"79\",\"stepId\":\"15\",\"description\":\"RD Output\",\"position\":\"position: absolute; left: 799px; top: 175px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"dsstep\":\"19\"},{\"widgetId\":\"dcAggregation_dropped.19\",\"UniqueId\":\"67\",\"stepId\":\"19\",\"description\":\"Aggregate data from Data Source\",\"position\":\"position: absolute; left: 576px; top: 188px;\",\"warning\":null,\"decision\":null,\"status\":\"true\",\"mapping\":\"67,19-[2,5]\",\"dsstep\":\"5\"},{\"widgetId\":\"File_dropped.20\",\"UniqueId\":\"88\",\"stepId\":\"20\",\"description\":\"Offload the File\",\"position\":\"position: absolute; left: 974px; top: 169.987px;\",\"mapping\":\"88,20-[79,15]\",\"warning\":null,\"decision\":null,\"status\":\"true\"}]",
         "TypeofQuery": "QueryChain",
         "UserName": "Kishore",
         "FId": 114,
@@ -35,10 +35,10 @@
     ],
     "QcDataSource": [
       {
-        "Id": 3698,
+        "Id": 3704,
         "Query_Id": 4060,
         "Profile_Id": 1217,
-        "DCStep_Id": 15297,
+        "DCStep_Id": 15329,
         "BlendStepId": null,
         "Query_Id_Id": null,
         "ResultTableName": null,
@@ -47,7 +47,7 @@
         "ObjectCode": null,
         "SessionId": null,
         "SnapshotOffset": null,
-        "CreatedOn": "2026-08-05T05:02:37.583",
+        "CreatedOn": "2026-08-05T12:26:36.337",
         "CreatedBy": "Kishore",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -87,8 +87,8 @@
     ],
     "QCTableFieldTypes": [
       {
-        "Id": 7735,
-        "QueryDataSourceId": 3698,
+        "Id": 7764,
+        "QueryDataSourceId": 3704,
         "DBlendId": null,
         "ProfileId": 1217,
         "TableName": "IndianBFSI.dbo.account_balance",
@@ -106,8 +106,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 7736,
-        "QueryDataSourceId": 3698,
+        "Id": 7765,
+        "QueryDataSourceId": 3704,
         "DBlendId": null,
         "ProfileId": 1217,
         "TableName": "IndianBFSI.dbo.account_balance",
@@ -125,8 +125,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 7737,
-        "QueryDataSourceId": 3698,
+        "Id": 7766,
+        "QueryDataSourceId": 3704,
         "DBlendId": null,
         "ProfileId": 1217,
         "TableName": "IndianBFSI.dbo.account_balance",
@@ -144,8 +144,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 7738,
-        "QueryDataSourceId": 3698,
+        "Id": 7767,
+        "QueryDataSourceId": 3704,
         "DBlendId": null,
         "ProfileId": 1217,
         "TableName": "IndianBFSI.dbo.account_balance",
@@ -163,8 +163,8 @@
         "Scenario_SessionId": null
       },
       {
-        "Id": 7739,
-        "QueryDataSourceId": 3698,
+        "Id": 7768,
+        "QueryDataSourceId": 3704,
         "DBlendId": null,
         "ProfileId": 1217,
         "TableName": "IndianBFSI.dbo.account_balance",
@@ -185,7 +185,7 @@
     "ObjectFilters": [],
     "DCSteps": [
       {
-        "Id": 15292,
+        "Id": 15328,
         "ScenarioId": null,
         "QueryId": 4060,
         "Job_Id": null,
@@ -194,7 +194,7 @@
         "TransformationId": 0,
         "Description": "Kishore 8/5/2026 10:25:44 AM",
         "Position": null,
-        "CreatedOn": "2026-08-05T04:55:54.167",
+        "CreatedOn": "2026-08-05T06:56:36.343",
         "CreatedBy": "Kishore",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -220,7 +220,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 15297,
+        "Id": 15329,
         "ScenarioId": null,
         "QueryId": 4060,
         "Job_Id": null,
@@ -229,7 +229,7 @@
         "TransformationId": 2,
         "Description": "Read data from Table",
         "Position": "position: absolute; left: 294px; top: 139px;",
-        "CreatedOn": "2026-08-05T05:02:37.553",
+        "CreatedOn": "2026-08-05T06:56:36.357",
         "CreatedBy": "Kishore",
         "ModifiedOn": null,
         "ModifiedBy": null,
@@ -255,7 +255,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 15302,
+        "Id": 15330,
         "ScenarioId": null,
         "QueryId": 4060,
         "Job_Id": null,
@@ -264,10 +264,10 @@
         "TransformationId": 79,
         "Description": "Kishore#@8/5/2026 11:05:51 AM",
         "Position": null,
-        "CreatedOn": "2026-08-05T11:05:53.677",
+        "CreatedOn": "2026-08-05T06:56:36.373",
         "CreatedBy": "Kishore",
-        "ModifiedOn": "2026-08-05T11:52:16.84",
-        "ModifiedBy": "Kishore",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -282,7 +282,7 @@
         "LATEST_OUTPUT_VIEW_NAME": "QC_4060_CUR",
         "Overwritesnapshot": false,
         "JsonValue": null,
-        "AppendToExistingData": false,
+        "AppendToExistingData": null,
         "IsActive": null,
         "Comments": null,
         "RunTimeJSON": null,
@@ -290,7 +290,7 @@
         "QueryTimeOut": null
       },
       {
-        "Id": 15305,
+        "Id": 15331,
         "ScenarioId": null,
         "QueryId": 4060,
         "Job_Id": null,
@@ -299,10 +299,45 @@
         "TransformationId": 67,
         "Description": "Aggregate data from Data Source",
         "Position": "position: absolute; left: 464px; top: 174px;",
-        "CreatedOn": "2026-08-05T06:22:10.623",
+        "CreatedOn": "2026-08-05T06:56:36.393",
         "CreatedBy": "Kishore",
-        "ModifiedOn": "2026-08-05T06:52:37.607",
-        "ModifiedBy": "Kishore",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
+        "Status": true,
+        "ErrorCodes": null,
+        "SourceOrTarget": null,
+        "DataSourcePK_Id": null,
+        "Warning": false,
+        "JobletId": null,
+        "Decision": null,
+        "MaxPacketSize": null,
+        "MaxParallelism": null,
+        "IsLastStep": null,
+        "PreviousMetaStructure": null,
+        "LATEST_OUTPUT_VIEW_NAME": null,
+        "Overwritesnapshot": false,
+        "JsonValue": null,
+        "AppendToExistingData": null,
+        "IsActive": null,
+        "Comments": null,
+        "RunTimeJSON": null,
+        "IsMLRecommended": null,
+        "QueryTimeOut": null
+      },
+      {
+        "Id": 15332,
+        "ScenarioId": null,
+        "QueryId": 4060,
+        "Job_Id": null,
+        "Step": 20,
+        "StepMapping": "88,20-[79,15]",
+        "TransformationId": 88,
+        "Description": "Offload the File",
+        "Position": "position: absolute; left: 974px; top: 169.987px;",
+        "CreatedOn": "2026-08-05T06:57:03.477",
+        "CreatedBy": "Kishore",
+        "ModifiedOn": null,
+        "ModifiedBy": null,
         "Status": true,
         "ErrorCodes": null,
         "SourceOrTarget": null,
@@ -328,18 +363,18 @@
     "SimpleFilters": [],
     "SimpleAggregations": [
       {
-        "Id": 644,
+        "Id": 649,
         "ScenarioId": null,
         "CSV_Id": 0,
-        "DCStepId": 15305,
+        "DCStepId": 15331,
         "DCTypeId": null,
         "StepId": 19,
-        "DataSourceId": 3698,
+        "DataSourceId": 3704,
         "ColumnName": "BalanceId",
         "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "Kishore",
-        "CreatedOn": "2026-08-05T12:22:37.553",
+        "CreatedOn": "2026-08-05T12:26:36.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -350,18 +385,18 @@
         "QueryId": 4060
       },
       {
-        "Id": 645,
+        "Id": 650,
         "ScenarioId": null,
         "CSV_Id": 0,
-        "DCStepId": 15305,
+        "DCStepId": 15331,
         "DCTypeId": null,
         "StepId": 19,
-        "DataSourceId": 3698,
+        "DataSourceId": 3704,
         "ColumnName": "AccountId",
         "AggregationType": "Count",
         "IsPrimary": false,
         "CreatedBy": "Kishore",
-        "CreatedOn": "2026-08-05T12:22:37.553",
+        "CreatedOn": "2026-08-05T12:26:36.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -372,18 +407,18 @@
         "QueryId": 4060
       },
       {
-        "Id": 646,
+        "Id": 651,
         "ScenarioId": null,
         "CSV_Id": 0,
-        "DCStepId": 15305,
+        "DCStepId": 15331,
         "DCTypeId": null,
         "StepId": 19,
-        "DataSourceId": 3698,
+        "DataSourceId": 3704,
         "ColumnName": "BalanceDate",
         "AggregationType": "Max",
         "IsPrimary": false,
         "CreatedBy": "Kishore",
-        "CreatedOn": "2026-08-05T12:22:37.553",
+        "CreatedOn": "2026-08-05T12:26:36.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -394,18 +429,18 @@
         "QueryId": 4060
       },
       {
-        "Id": 647,
+        "Id": 652,
         "ScenarioId": null,
         "CSV_Id": 0,
-        "DCStepId": 15305,
+        "DCStepId": 15331,
         "DCTypeId": null,
         "StepId": 19,
-        "DataSourceId": 3698,
+        "DataSourceId": 3704,
         "ColumnName": "DayEndBalance",
         "AggregationType": "Avg",
         "IsPrimary": false,
         "CreatedBy": "Kishore",
-        "CreatedOn": "2026-08-05T12:22:37.553",
+        "CreatedOn": "2026-08-05T12:26:36.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -416,18 +451,18 @@
         "QueryId": 4060
       },
       {
-        "Id": 648,
+        "Id": 653,
         "ScenarioId": null,
         "CSV_Id": 0,
-        "DCStepId": 15305,
+        "DCStepId": 15331,
         "DCTypeId": null,
         "StepId": 19,
-        "DataSourceId": 3698,
+        "DataSourceId": 3704,
         "ColumnName": "AvgMonthlyBalance",
         "AggregationType": "Avg",
         "IsPrimary": false,
         "CreatedBy": "Kishore",
-        "CreatedOn": "2026-08-05T12:22:37.553",
+        "CreatedOn": "2026-08-05T12:26:36.337",
         "ModifiedBy": null,
         "ModifiedOn": null,
         "JSON": null,
@@ -449,7 +484,7 @@
     "CSVQCusingQueryTarget": false,
     "DCDependency": [
       {
-        "Id": 11073,
+        "Id": 11109,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 1,
@@ -459,7 +494,7 @@
         "JobId": null
       },
       {
-        "Id": 11074,
+        "Id": 11110,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 2,
@@ -469,7 +504,7 @@
         "JobId": null
       },
       {
-        "Id": 11075,
+        "Id": 11111,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 4,
@@ -479,7 +514,7 @@
         "JobId": null
       },
       {
-        "Id": 11076,
+        "Id": 11112,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 5,
@@ -489,7 +524,7 @@
         "JobId": null
       },
       {
-        "Id": 11077,
+        "Id": 11113,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 6,
@@ -499,7 +534,7 @@
         "JobId": null
       },
       {
-        "Id": 11078,
+        "Id": 11114,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 7,
@@ -509,7 +544,7 @@
         "JobId": null
       },
       {
-        "Id": 11079,
+        "Id": 11115,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 8,
@@ -519,7 +554,7 @@
         "JobId": null
       },
       {
-        "Id": 11080,
+        "Id": 11116,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 14,
@@ -529,7 +564,7 @@
         "JobId": null
       },
       {
-        "Id": 11081,
+        "Id": 11117,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 18,
@@ -539,7 +574,7 @@
         "JobId": null
       },
       {
-        "Id": 11082,
+        "Id": 11118,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 16,
@@ -549,7 +584,7 @@
         "JobId": null
       },
       {
-        "Id": 11083,
+        "Id": 11119,
         "ScenarioId": null,
         "QueryId": 4060,
         "StepId": 19,
@@ -569,6 +604,27 @@
     "PivotDetails": [],
     "UnPivotDetails": [],
     "PivotFieldType": [],
-    "FileOffload": []
+    "FileOffload": [
+      {
+        "Id": 40,
+        "Type": null,
+        "IsFileCreated": null,
+        "FileName": "QC_4060_5_8_2026",
+        "FilePath": null,
+        "FileSize": null,
+        "FileCreatedOn": "2026-08-05T12:27:03.5",
+        "FolderId": 0,
+        "ScenarioId": null,
+        "JobId": null,
+        "QueryId": 4060,
+        "SessionId": 21,
+        "Row_Count": null,
+        "Delimiter": ",",
+        "TextQualifier": "\"",
+        "OverrideFile": false,
+        "Header": true,
+        "ManipulatedFileName": "QC_4060_5_8_2026_20260805122755"
+      }
+    ]
   }
 ]
